@@ -2,6 +2,12 @@
 <html>
 <head>
 <style>
+table {
+	border-collapse: collapse
+}
+table, th, td {
+	border: 1px solid black
+}
 body {
 	max-width:1000px;
 	margin: auto;
@@ -20,9 +26,24 @@ img {
 <ul>
 <li><a href="#hazard-curves">Hazard Curves</a>
 <ul>
-<li><a href="#sbsm-hazard-curves">SBSM Hazard Curves</a></li>
-<li><a href="#mrsd-hazard-curves">MRSD Hazard Curves</a></li>
-<li><a href="#stni-hazard-curves">STNI Hazard Curves</a></li>
+<li><a href="#sbsm-hazard-curves">SBSM Hazard Curves</a>
+<ul>
+<li><a href="#cybershake-sbsm-hazard-curves">CyberShake SBSM Hazard Curves</a></li>
+<li><a href="#gmpe-sbsm-hazard-curves">GMPE SBSM Hazard Curves</a></li>
+</ul>
+</li>
+<li><a href="#mrsd-hazard-curves">MRSD Hazard Curves</a>
+<ul>
+<li><a href="#cybershake-mrsd-hazard-curves">CyberShake MRSD Hazard Curves</a></li>
+<li><a href="#gmpe-mrsd-hazard-curves">GMPE MRSD Hazard Curves</a></li>
+</ul>
+</li>
+<li><a href="#stni-hazard-curves">STNI Hazard Curves</a>
+<ul>
+<li><a href="#cybershake-stni-hazard-curves">CyberShake STNI Hazard Curves</a></li>
+<li><a href="#gmpe-stni-hazard-curves">GMPE STNI Hazard Curves</a></li>
+</ul>
+</li>
 </ul>
 </li>
 </ul>
@@ -38,14 +59,28 @@ img {
 <tr><td><img src="resources/SBSM_location_map.png" alt="site map" /></td></tr>
 </tbody>
 </table>
+<h4 id="cybershake-sbsm-hazard-curves">CyberShake SBSM Hazard Curves</h4>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
 <table>
 <thead>
-<tr><th>Time San</th><th>3s</th><th>5s</th><th>10s</th></tr>
+<tr><th>Time Span</th><th>3s</th><th>5s</th><th>10s</th></tr>
 </thead>
 <tbody>
-<tr><td>One Day</td><td><img src="resources/hazard_curves_SBSM_3s_one_day.png" alt="plot" /></td><td><img src="resources/hazard_curves_SBSM_5s_one_day.png" alt="plot" /></td><td><img src="resources/hazard_curves_SBSM_10s_one_day.png" alt="plot" /></td></tr>
-<tr><td>One Week</td><td><img src="resources/hazard_curves_SBSM_3s_one_week.png" alt="plot" /></td><td><img src="resources/hazard_curves_SBSM_5s_one_week.png" alt="plot" /></td><td><img src="resources/hazard_curves_SBSM_10s_one_week.png" alt="plot" /></td></tr>
-<tr><td>One Year</td><td><img src="resources/hazard_curves_SBSM_3s_one_year.png" alt="plot" /></td><td><img src="resources/hazard_curves_SBSM_5s_one_year.png" alt="plot" /></td><td><img src="resources/hazard_curves_SBSM_10s_one_year.png" alt="plot" /></td></tr>
+<tr><td>One Day</td><td><img src="resources/hazard_curves_cs_SBSM_3s_one_day.png" alt="plot" /></td><td><img src="resources/hazard_curves_cs_SBSM_5s_one_day.png" alt="plot" /></td><td><img src="resources/hazard_curves_cs_SBSM_10s_one_day.png" alt="plot" /></td></tr>
+<tr><td>One Week</td><td><img src="resources/hazard_curves_cs_SBSM_3s_one_week.png" alt="plot" /></td><td><img src="resources/hazard_curves_cs_SBSM_5s_one_week.png" alt="plot" /></td><td><img src="resources/hazard_curves_cs_SBSM_10s_one_week.png" alt="plot" /></td></tr>
+<tr><td>One Year</td><td><img src="resources/hazard_curves_cs_SBSM_3s_one_year.png" alt="plot" /></td><td><img src="resources/hazard_curves_cs_SBSM_5s_one_year.png" alt="plot" /></td><td><img src="resources/hazard_curves_cs_SBSM_10s_one_year.png" alt="plot" /></td></tr>
+</tbody>
+</table>
+<h4 id="gmpe-sbsm-hazard-curves">GMPE SBSM Hazard Curves</h4>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<table>
+<thead>
+<tr><th>Time Span</th><th>3s</th><th>5s</th><th>10s</th></tr>
+</thead>
+<tbody>
+<tr><td>One Day</td><td><img src="resources/hazard_curves_gmpe_SBSM_3s_one_day.png" alt="plot" /></td><td><img src="resources/hazard_curves_gmpe_SBSM_5s_one_day.png" alt="plot" /></td><td><img src="resources/hazard_curves_gmpe_SBSM_10s_one_day.png" alt="plot" /></td></tr>
+<tr><td>One Week</td><td><img src="resources/hazard_curves_gmpe_SBSM_3s_one_week.png" alt="plot" /></td><td><img src="resources/hazard_curves_gmpe_SBSM_5s_one_week.png" alt="plot" /></td><td><img src="resources/hazard_curves_gmpe_SBSM_10s_one_week.png" alt="plot" /></td></tr>
+<tr><td>One Year</td><td><img src="resources/hazard_curves_gmpe_SBSM_3s_one_year.png" alt="plot" /></td><td><img src="resources/hazard_curves_gmpe_SBSM_5s_one_year.png" alt="plot" /></td><td><img src="resources/hazard_curves_gmpe_SBSM_10s_one_year.png" alt="plot" /></td></tr>
 </tbody>
 </table>
 <h3 id="mrsd-hazard-curves">MRSD Hazard Curves</h3>
@@ -58,14 +93,28 @@ img {
 <tr><td><img src="resources/MRSD_location_map.png" alt="site map" /></td></tr>
 </tbody>
 </table>
+<h4 id="cybershake-mrsd-hazard-curves">CyberShake MRSD Hazard Curves</h4>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
 <table>
 <thead>
-<tr><th>Time San</th><th>3s</th><th>5s</th><th>10s</th></tr>
+<tr><th>Time Span</th><th>3s</th><th>5s</th><th>10s</th></tr>
 </thead>
 <tbody>
-<tr><td>One Day</td><td><img src="resources/hazard_curves_MRSD_3s_one_day.png" alt="plot" /></td><td><img src="resources/hazard_curves_MRSD_5s_one_day.png" alt="plot" /></td><td><img src="resources/hazard_curves_MRSD_10s_one_day.png" alt="plot" /></td></tr>
-<tr><td>One Week</td><td><img src="resources/hazard_curves_MRSD_3s_one_week.png" alt="plot" /></td><td><img src="resources/hazard_curves_MRSD_5s_one_week.png" alt="plot" /></td><td><img src="resources/hazard_curves_MRSD_10s_one_week.png" alt="plot" /></td></tr>
-<tr><td>One Year</td><td><img src="resources/hazard_curves_MRSD_3s_one_year.png" alt="plot" /></td><td><img src="resources/hazard_curves_MRSD_5s_one_year.png" alt="plot" /></td><td><img src="resources/hazard_curves_MRSD_10s_one_year.png" alt="plot" /></td></tr>
+<tr><td>One Day</td><td><img src="resources/hazard_curves_cs_MRSD_3s_one_day.png" alt="plot" /></td><td><img src="resources/hazard_curves_cs_MRSD_5s_one_day.png" alt="plot" /></td><td><img src="resources/hazard_curves_cs_MRSD_10s_one_day.png" alt="plot" /></td></tr>
+<tr><td>One Week</td><td><img src="resources/hazard_curves_cs_MRSD_3s_one_week.png" alt="plot" /></td><td><img src="resources/hazard_curves_cs_MRSD_5s_one_week.png" alt="plot" /></td><td><img src="resources/hazard_curves_cs_MRSD_10s_one_week.png" alt="plot" /></td></tr>
+<tr><td>One Year</td><td><img src="resources/hazard_curves_cs_MRSD_3s_one_year.png" alt="plot" /></td><td><img src="resources/hazard_curves_cs_MRSD_5s_one_year.png" alt="plot" /></td><td><img src="resources/hazard_curves_cs_MRSD_10s_one_year.png" alt="plot" /></td></tr>
+</tbody>
+</table>
+<h4 id="gmpe-mrsd-hazard-curves">GMPE MRSD Hazard Curves</h4>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<table>
+<thead>
+<tr><th>Time Span</th><th>3s</th><th>5s</th><th>10s</th></tr>
+</thead>
+<tbody>
+<tr><td>One Day</td><td><img src="resources/hazard_curves_gmpe_MRSD_3s_one_day.png" alt="plot" /></td><td><img src="resources/hazard_curves_gmpe_MRSD_5s_one_day.png" alt="plot" /></td><td><img src="resources/hazard_curves_gmpe_MRSD_10s_one_day.png" alt="plot" /></td></tr>
+<tr><td>One Week</td><td><img src="resources/hazard_curves_gmpe_MRSD_3s_one_week.png" alt="plot" /></td><td><img src="resources/hazard_curves_gmpe_MRSD_5s_one_week.png" alt="plot" /></td><td><img src="resources/hazard_curves_gmpe_MRSD_10s_one_week.png" alt="plot" /></td></tr>
+<tr><td>One Year</td><td><img src="resources/hazard_curves_gmpe_MRSD_3s_one_year.png" alt="plot" /></td><td><img src="resources/hazard_curves_gmpe_MRSD_5s_one_year.png" alt="plot" /></td><td><img src="resources/hazard_curves_gmpe_MRSD_10s_one_year.png" alt="plot" /></td></tr>
 </tbody>
 </table>
 <h3 id="stni-hazard-curves">STNI Hazard Curves</h3>
@@ -78,14 +127,28 @@ img {
 <tr><td><img src="resources/STNI_location_map.png" alt="site map" /></td></tr>
 </tbody>
 </table>
+<h4 id="cybershake-stni-hazard-curves">CyberShake STNI Hazard Curves</h4>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
 <table>
 <thead>
-<tr><th>Time San</th><th>3s</th><th>5s</th><th>10s</th></tr>
+<tr><th>Time Span</th><th>3s</th><th>5s</th><th>10s</th></tr>
 </thead>
 <tbody>
-<tr><td>One Day</td><td><img src="resources/hazard_curves_STNI_3s_one_day.png" alt="plot" /></td><td><img src="resources/hazard_curves_STNI_5s_one_day.png" alt="plot" /></td><td><img src="resources/hazard_curves_STNI_10s_one_day.png" alt="plot" /></td></tr>
-<tr><td>One Week</td><td><img src="resources/hazard_curves_STNI_3s_one_week.png" alt="plot" /></td><td><img src="resources/hazard_curves_STNI_5s_one_week.png" alt="plot" /></td><td><img src="resources/hazard_curves_STNI_10s_one_week.png" alt="plot" /></td></tr>
-<tr><td>One Year</td><td><img src="resources/hazard_curves_STNI_3s_one_year.png" alt="plot" /></td><td><img src="resources/hazard_curves_STNI_5s_one_year.png" alt="plot" /></td><td><img src="resources/hazard_curves_STNI_10s_one_year.png" alt="plot" /></td></tr>
+<tr><td>One Day</td><td><img src="resources/hazard_curves_cs_STNI_3s_one_day.png" alt="plot" /></td><td><img src="resources/hazard_curves_cs_STNI_5s_one_day.png" alt="plot" /></td><td><img src="resources/hazard_curves_cs_STNI_10s_one_day.png" alt="plot" /></td></tr>
+<tr><td>One Week</td><td><img src="resources/hazard_curves_cs_STNI_3s_one_week.png" alt="plot" /></td><td><img src="resources/hazard_curves_cs_STNI_5s_one_week.png" alt="plot" /></td><td><img src="resources/hazard_curves_cs_STNI_10s_one_week.png" alt="plot" /></td></tr>
+<tr><td>One Year</td><td><img src="resources/hazard_curves_cs_STNI_3s_one_year.png" alt="plot" /></td><td><img src="resources/hazard_curves_cs_STNI_5s_one_year.png" alt="plot" /></td><td><img src="resources/hazard_curves_cs_STNI_10s_one_year.png" alt="plot" /></td></tr>
+</tbody>
+</table>
+<h4 id="gmpe-stni-hazard-curves">GMPE STNI Hazard Curves</h4>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<table>
+<thead>
+<tr><th>Time Span</th><th>3s</th><th>5s</th><th>10s</th></tr>
+</thead>
+<tbody>
+<tr><td>One Day</td><td><img src="resources/hazard_curves_gmpe_STNI_3s_one_day.png" alt="plot" /></td><td><img src="resources/hazard_curves_gmpe_STNI_5s_one_day.png" alt="plot" /></td><td><img src="resources/hazard_curves_gmpe_STNI_10s_one_day.png" alt="plot" /></td></tr>
+<tr><td>One Week</td><td><img src="resources/hazard_curves_gmpe_STNI_3s_one_week.png" alt="plot" /></td><td><img src="resources/hazard_curves_gmpe_STNI_5s_one_week.png" alt="plot" /></td><td><img src="resources/hazard_curves_gmpe_STNI_10s_one_week.png" alt="plot" /></td></tr>
+<tr><td>One Year</td><td><img src="resources/hazard_curves_gmpe_STNI_3s_one_year.png" alt="plot" /></td><td><img src="resources/hazard_curves_gmpe_STNI_5s_one_year.png" alt="plot" /></td><td><img src="resources/hazard_curves_gmpe_STNI_10s_one_year.png" alt="plot" /></td></tr>
 </tbody>
 </table>
 </body>
