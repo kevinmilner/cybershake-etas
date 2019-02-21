@@ -17,17 +17,143 @@ CyberShake Study: Study 15.4 with 336 sites
     * [GMPE STNI Hazard Curves](#gmpe-stni-hazard-curves)
 * [Hazard Maps](#hazard-maps)
   * [One Day Hazard Maps](#one-day-hazard-maps)
-    * [3 One Day Hazard Maps](#3-one-day-hazard-maps)
-    * [5 One Day Hazard Maps](#5-one-day-hazard-maps)
-    * [10 One Day Hazard Maps](#10-one-day-hazard-maps)
+    * [3s One Day Hazard Maps](#3s-one-day-hazard-maps)
+      * [One Day 3s Sa (g) with POE=1.0E-4, CyberShake Maps](#one-day-3s-sa-g-with-poe10e-4-cybershake-maps)
+      * [One Day 3s Sa (g) with POE=1.0E-4, GMPE Maps](#one-day-3s-sa-g-with-poe10e-4-gmpe-maps)
+      * [One Day 3s Sa (g) with POE=0.001, CyberShake Maps](#one-day-3s-sa-g-with-poe0001-cybershake-maps)
+      * [One Day 3s Sa (g) with POE=0.001, GMPE Maps](#one-day-3s-sa-g-with-poe0001-gmpe-maps)
+      * [One Day 3s Sa (g) with POE=0.01, CyberShake Maps](#one-day-3s-sa-g-with-poe001-cybershake-maps)
+      * [One Day 3s Sa (g) with POE=0.01, GMPE Maps](#one-day-3s-sa-g-with-poe001-gmpe-maps)
+      * [One Day 3s Sa (g) with POE=0.1, CyberShake Maps](#one-day-3s-sa-g-with-poe01-cybershake-maps)
+      * [One Day 3s Sa (g) with POE=0.1, GMPE Maps](#one-day-3s-sa-g-with-poe01-gmpe-maps)
+      * [One Day POE 0.01 (g) 3s SA, CyberShake Maps](#one-day-poe-001-g-3s-sa-cybershake-maps)
+      * [One Day POE 0.01 (g) 3s SA, GMPE Maps](#one-day-poe-001-g-3s-sa-gmpe-maps)
+      * [One Day POE 0.1 (g) 3s SA, CyberShake Maps](#one-day-poe-01-g-3s-sa-cybershake-maps)
+      * [One Day POE 0.1 (g) 3s SA, GMPE Maps](#one-day-poe-01-g-3s-sa-gmpe-maps)
+      * [One Day POE 0.2 (g) 3s SA, CyberShake Maps](#one-day-poe-02-g-3s-sa-cybershake-maps)
+      * [One Day POE 0.2 (g) 3s SA, GMPE Maps](#one-day-poe-02-g-3s-sa-gmpe-maps)
+    * [5s One Day Hazard Maps](#5s-one-day-hazard-maps)
+      * [One Day 5s Sa (g) with POE=1.0E-4, CyberShake Maps](#one-day-5s-sa-g-with-poe10e-4-cybershake-maps)
+      * [One Day 5s Sa (g) with POE=1.0E-4, GMPE Maps](#one-day-5s-sa-g-with-poe10e-4-gmpe-maps)
+      * [One Day 5s Sa (g) with POE=0.001, CyberShake Maps](#one-day-5s-sa-g-with-poe0001-cybershake-maps)
+      * [One Day 5s Sa (g) with POE=0.001, GMPE Maps](#one-day-5s-sa-g-with-poe0001-gmpe-maps)
+      * [One Day 5s Sa (g) with POE=0.01, CyberShake Maps](#one-day-5s-sa-g-with-poe001-cybershake-maps)
+      * [One Day 5s Sa (g) with POE=0.01, GMPE Maps](#one-day-5s-sa-g-with-poe001-gmpe-maps)
+      * [One Day 5s Sa (g) with POE=0.1, CyberShake Maps](#one-day-5s-sa-g-with-poe01-cybershake-maps)
+      * [One Day 5s Sa (g) with POE=0.1, GMPE Maps](#one-day-5s-sa-g-with-poe01-gmpe-maps)
+      * [One Day POE 0.01 (g) 5s SA, CyberShake Maps](#one-day-poe-001-g-5s-sa-cybershake-maps)
+      * [One Day POE 0.01 (g) 5s SA, GMPE Maps](#one-day-poe-001-g-5s-sa-gmpe-maps)
+      * [One Day POE 0.1 (g) 5s SA, CyberShake Maps](#one-day-poe-01-g-5s-sa-cybershake-maps)
+      * [One Day POE 0.1 (g) 5s SA, GMPE Maps](#one-day-poe-01-g-5s-sa-gmpe-maps)
+      * [One Day POE 0.2 (g) 5s SA, CyberShake Maps](#one-day-poe-02-g-5s-sa-cybershake-maps)
+      * [One Day POE 0.2 (g) 5s SA, GMPE Maps](#one-day-poe-02-g-5s-sa-gmpe-maps)
+    * [10s One Day Hazard Maps](#10s-one-day-hazard-maps)
+      * [One Day 10s Sa (g) with POE=1.0E-4, CyberShake Maps](#one-day-10s-sa-g-with-poe10e-4-cybershake-maps)
+      * [One Day 10s Sa (g) with POE=1.0E-4, GMPE Maps](#one-day-10s-sa-g-with-poe10e-4-gmpe-maps)
+      * [One Day 10s Sa (g) with POE=0.001, CyberShake Maps](#one-day-10s-sa-g-with-poe0001-cybershake-maps)
+      * [One Day 10s Sa (g) with POE=0.001, GMPE Maps](#one-day-10s-sa-g-with-poe0001-gmpe-maps)
+      * [One Day 10s Sa (g) with POE=0.01, CyberShake Maps](#one-day-10s-sa-g-with-poe001-cybershake-maps)
+      * [One Day 10s Sa (g) with POE=0.01, GMPE Maps](#one-day-10s-sa-g-with-poe001-gmpe-maps)
+      * [One Day 10s Sa (g) with POE=0.1, CyberShake Maps](#one-day-10s-sa-g-with-poe01-cybershake-maps)
+      * [One Day 10s Sa (g) with POE=0.1, GMPE Maps](#one-day-10s-sa-g-with-poe01-gmpe-maps)
+      * [One Day POE 0.01 (g) 10s SA, CyberShake Maps](#one-day-poe-001-g-10s-sa-cybershake-maps)
+      * [One Day POE 0.01 (g) 10s SA, GMPE Maps](#one-day-poe-001-g-10s-sa-gmpe-maps)
+      * [One Day POE 0.1 (g) 10s SA, CyberShake Maps](#one-day-poe-01-g-10s-sa-cybershake-maps)
+      * [One Day POE 0.1 (g) 10s SA, GMPE Maps](#one-day-poe-01-g-10s-sa-gmpe-maps)
+      * [One Day POE 0.2 (g) 10s SA, CyberShake Maps](#one-day-poe-02-g-10s-sa-cybershake-maps)
+      * [One Day POE 0.2 (g) 10s SA, GMPE Maps](#one-day-poe-02-g-10s-sa-gmpe-maps)
   * [One Week Hazard Maps](#one-week-hazard-maps)
-    * [3 One Week Hazard Maps](#3-one-week-hazard-maps)
-    * [5 One Week Hazard Maps](#5-one-week-hazard-maps)
-    * [10 One Week Hazard Maps](#10-one-week-hazard-maps)
+    * [3s One Week Hazard Maps](#3s-one-week-hazard-maps)
+      * [One Week 3s Sa (g) with POE=1.0E-4, CyberShake Maps](#one-week-3s-sa-g-with-poe10e-4-cybershake-maps)
+      * [One Week 3s Sa (g) with POE=1.0E-4, GMPE Maps](#one-week-3s-sa-g-with-poe10e-4-gmpe-maps)
+      * [One Week 3s Sa (g) with POE=0.001, CyberShake Maps](#one-week-3s-sa-g-with-poe0001-cybershake-maps)
+      * [One Week 3s Sa (g) with POE=0.001, GMPE Maps](#one-week-3s-sa-g-with-poe0001-gmpe-maps)
+      * [One Week 3s Sa (g) with POE=0.01, CyberShake Maps](#one-week-3s-sa-g-with-poe001-cybershake-maps)
+      * [One Week 3s Sa (g) with POE=0.01, GMPE Maps](#one-week-3s-sa-g-with-poe001-gmpe-maps)
+      * [One Week 3s Sa (g) with POE=0.1, CyberShake Maps](#one-week-3s-sa-g-with-poe01-cybershake-maps)
+      * [One Week 3s Sa (g) with POE=0.1, GMPE Maps](#one-week-3s-sa-g-with-poe01-gmpe-maps)
+      * [One Week POE 0.01 (g) 3s SA, CyberShake Maps](#one-week-poe-001-g-3s-sa-cybershake-maps)
+      * [One Week POE 0.01 (g) 3s SA, GMPE Maps](#one-week-poe-001-g-3s-sa-gmpe-maps)
+      * [One Week POE 0.1 (g) 3s SA, CyberShake Maps](#one-week-poe-01-g-3s-sa-cybershake-maps)
+      * [One Week POE 0.1 (g) 3s SA, GMPE Maps](#one-week-poe-01-g-3s-sa-gmpe-maps)
+      * [One Week POE 0.2 (g) 3s SA, CyberShake Maps](#one-week-poe-02-g-3s-sa-cybershake-maps)
+      * [One Week POE 0.2 (g) 3s SA, GMPE Maps](#one-week-poe-02-g-3s-sa-gmpe-maps)
+    * [5s One Week Hazard Maps](#5s-one-week-hazard-maps)
+      * [One Week 5s Sa (g) with POE=1.0E-4, CyberShake Maps](#one-week-5s-sa-g-with-poe10e-4-cybershake-maps)
+      * [One Week 5s Sa (g) with POE=1.0E-4, GMPE Maps](#one-week-5s-sa-g-with-poe10e-4-gmpe-maps)
+      * [One Week 5s Sa (g) with POE=0.001, CyberShake Maps](#one-week-5s-sa-g-with-poe0001-cybershake-maps)
+      * [One Week 5s Sa (g) with POE=0.001, GMPE Maps](#one-week-5s-sa-g-with-poe0001-gmpe-maps)
+      * [One Week 5s Sa (g) with POE=0.01, CyberShake Maps](#one-week-5s-sa-g-with-poe001-cybershake-maps)
+      * [One Week 5s Sa (g) with POE=0.01, GMPE Maps](#one-week-5s-sa-g-with-poe001-gmpe-maps)
+      * [One Week 5s Sa (g) with POE=0.1, CyberShake Maps](#one-week-5s-sa-g-with-poe01-cybershake-maps)
+      * [One Week 5s Sa (g) with POE=0.1, GMPE Maps](#one-week-5s-sa-g-with-poe01-gmpe-maps)
+      * [One Week POE 0.01 (g) 5s SA, CyberShake Maps](#one-week-poe-001-g-5s-sa-cybershake-maps)
+      * [One Week POE 0.01 (g) 5s SA, GMPE Maps](#one-week-poe-001-g-5s-sa-gmpe-maps)
+      * [One Week POE 0.1 (g) 5s SA, CyberShake Maps](#one-week-poe-01-g-5s-sa-cybershake-maps)
+      * [One Week POE 0.1 (g) 5s SA, GMPE Maps](#one-week-poe-01-g-5s-sa-gmpe-maps)
+      * [One Week POE 0.2 (g) 5s SA, CyberShake Maps](#one-week-poe-02-g-5s-sa-cybershake-maps)
+      * [One Week POE 0.2 (g) 5s SA, GMPE Maps](#one-week-poe-02-g-5s-sa-gmpe-maps)
+    * [10s One Week Hazard Maps](#10s-one-week-hazard-maps)
+      * [One Week 10s Sa (g) with POE=1.0E-4, CyberShake Maps](#one-week-10s-sa-g-with-poe10e-4-cybershake-maps)
+      * [One Week 10s Sa (g) with POE=1.0E-4, GMPE Maps](#one-week-10s-sa-g-with-poe10e-4-gmpe-maps)
+      * [One Week 10s Sa (g) with POE=0.001, CyberShake Maps](#one-week-10s-sa-g-with-poe0001-cybershake-maps)
+      * [One Week 10s Sa (g) with POE=0.001, GMPE Maps](#one-week-10s-sa-g-with-poe0001-gmpe-maps)
+      * [One Week 10s Sa (g) with POE=0.01, CyberShake Maps](#one-week-10s-sa-g-with-poe001-cybershake-maps)
+      * [One Week 10s Sa (g) with POE=0.01, GMPE Maps](#one-week-10s-sa-g-with-poe001-gmpe-maps)
+      * [One Week 10s Sa (g) with POE=0.1, CyberShake Maps](#one-week-10s-sa-g-with-poe01-cybershake-maps)
+      * [One Week 10s Sa (g) with POE=0.1, GMPE Maps](#one-week-10s-sa-g-with-poe01-gmpe-maps)
+      * [One Week POE 0.01 (g) 10s SA, CyberShake Maps](#one-week-poe-001-g-10s-sa-cybershake-maps)
+      * [One Week POE 0.01 (g) 10s SA, GMPE Maps](#one-week-poe-001-g-10s-sa-gmpe-maps)
+      * [One Week POE 0.1 (g) 10s SA, CyberShake Maps](#one-week-poe-01-g-10s-sa-cybershake-maps)
+      * [One Week POE 0.1 (g) 10s SA, GMPE Maps](#one-week-poe-01-g-10s-sa-gmpe-maps)
+      * [One Week POE 0.2 (g) 10s SA, CyberShake Maps](#one-week-poe-02-g-10s-sa-cybershake-maps)
+      * [One Week POE 0.2 (g) 10s SA, GMPE Maps](#one-week-poe-02-g-10s-sa-gmpe-maps)
   * [One Year Hazard Maps](#one-year-hazard-maps)
-    * [3 One Year Hazard Maps](#3-one-year-hazard-maps)
-    * [5 One Year Hazard Maps](#5-one-year-hazard-maps)
-    * [10 One Year Hazard Maps](#10-one-year-hazard-maps)
+    * [3s One Year Hazard Maps](#3s-one-year-hazard-maps)
+      * [One Year 3s Sa (g) with POE=1.0E-4, CyberShake Maps](#one-year-3s-sa-g-with-poe10e-4-cybershake-maps)
+      * [One Year 3s Sa (g) with POE=1.0E-4, GMPE Maps](#one-year-3s-sa-g-with-poe10e-4-gmpe-maps)
+      * [One Year 3s Sa (g) with POE=0.001, CyberShake Maps](#one-year-3s-sa-g-with-poe0001-cybershake-maps)
+      * [One Year 3s Sa (g) with POE=0.001, GMPE Maps](#one-year-3s-sa-g-with-poe0001-gmpe-maps)
+      * [One Year 3s Sa (g) with POE=0.01, CyberShake Maps](#one-year-3s-sa-g-with-poe001-cybershake-maps)
+      * [One Year 3s Sa (g) with POE=0.01, GMPE Maps](#one-year-3s-sa-g-with-poe001-gmpe-maps)
+      * [One Year 3s Sa (g) with POE=0.1, CyberShake Maps](#one-year-3s-sa-g-with-poe01-cybershake-maps)
+      * [One Year 3s Sa (g) with POE=0.1, GMPE Maps](#one-year-3s-sa-g-with-poe01-gmpe-maps)
+      * [One Year POE 0.01 (g) 3s SA, CyberShake Maps](#one-year-poe-001-g-3s-sa-cybershake-maps)
+      * [One Year POE 0.01 (g) 3s SA, GMPE Maps](#one-year-poe-001-g-3s-sa-gmpe-maps)
+      * [One Year POE 0.1 (g) 3s SA, CyberShake Maps](#one-year-poe-01-g-3s-sa-cybershake-maps)
+      * [One Year POE 0.1 (g) 3s SA, GMPE Maps](#one-year-poe-01-g-3s-sa-gmpe-maps)
+      * [One Year POE 0.2 (g) 3s SA, CyberShake Maps](#one-year-poe-02-g-3s-sa-cybershake-maps)
+      * [One Year POE 0.2 (g) 3s SA, GMPE Maps](#one-year-poe-02-g-3s-sa-gmpe-maps)
+    * [5s One Year Hazard Maps](#5s-one-year-hazard-maps)
+      * [One Year 5s Sa (g) with POE=1.0E-4, CyberShake Maps](#one-year-5s-sa-g-with-poe10e-4-cybershake-maps)
+      * [One Year 5s Sa (g) with POE=1.0E-4, GMPE Maps](#one-year-5s-sa-g-with-poe10e-4-gmpe-maps)
+      * [One Year 5s Sa (g) with POE=0.001, CyberShake Maps](#one-year-5s-sa-g-with-poe0001-cybershake-maps)
+      * [One Year 5s Sa (g) with POE=0.001, GMPE Maps](#one-year-5s-sa-g-with-poe0001-gmpe-maps)
+      * [One Year 5s Sa (g) with POE=0.01, CyberShake Maps](#one-year-5s-sa-g-with-poe001-cybershake-maps)
+      * [One Year 5s Sa (g) with POE=0.01, GMPE Maps](#one-year-5s-sa-g-with-poe001-gmpe-maps)
+      * [One Year 5s Sa (g) with POE=0.1, CyberShake Maps](#one-year-5s-sa-g-with-poe01-cybershake-maps)
+      * [One Year 5s Sa (g) with POE=0.1, GMPE Maps](#one-year-5s-sa-g-with-poe01-gmpe-maps)
+      * [One Year POE 0.01 (g) 5s SA, CyberShake Maps](#one-year-poe-001-g-5s-sa-cybershake-maps)
+      * [One Year POE 0.01 (g) 5s SA, GMPE Maps](#one-year-poe-001-g-5s-sa-gmpe-maps)
+      * [One Year POE 0.1 (g) 5s SA, CyberShake Maps](#one-year-poe-01-g-5s-sa-cybershake-maps)
+      * [One Year POE 0.1 (g) 5s SA, GMPE Maps](#one-year-poe-01-g-5s-sa-gmpe-maps)
+      * [One Year POE 0.2 (g) 5s SA, CyberShake Maps](#one-year-poe-02-g-5s-sa-cybershake-maps)
+      * [One Year POE 0.2 (g) 5s SA, GMPE Maps](#one-year-poe-02-g-5s-sa-gmpe-maps)
+    * [10s One Year Hazard Maps](#10s-one-year-hazard-maps)
+      * [One Year 10s Sa (g) with POE=1.0E-4, CyberShake Maps](#one-year-10s-sa-g-with-poe10e-4-cybershake-maps)
+      * [One Year 10s Sa (g) with POE=1.0E-4, GMPE Maps](#one-year-10s-sa-g-with-poe10e-4-gmpe-maps)
+      * [One Year 10s Sa (g) with POE=0.001, CyberShake Maps](#one-year-10s-sa-g-with-poe0001-cybershake-maps)
+      * [One Year 10s Sa (g) with POE=0.001, GMPE Maps](#one-year-10s-sa-g-with-poe0001-gmpe-maps)
+      * [One Year 10s Sa (g) with POE=0.01, CyberShake Maps](#one-year-10s-sa-g-with-poe001-cybershake-maps)
+      * [One Year 10s Sa (g) with POE=0.01, GMPE Maps](#one-year-10s-sa-g-with-poe001-gmpe-maps)
+      * [One Year 10s Sa (g) with POE=0.1, CyberShake Maps](#one-year-10s-sa-g-with-poe01-cybershake-maps)
+      * [One Year 10s Sa (g) with POE=0.1, GMPE Maps](#one-year-10s-sa-g-with-poe01-gmpe-maps)
+      * [One Year POE 0.01 (g) 10s SA, CyberShake Maps](#one-year-poe-001-g-10s-sa-cybershake-maps)
+      * [One Year POE 0.01 (g) 10s SA, GMPE Maps](#one-year-poe-001-g-10s-sa-gmpe-maps)
+      * [One Year POE 0.1 (g) 10s SA, CyberShake Maps](#one-year-poe-01-g-10s-sa-cybershake-maps)
+      * [One Year POE 0.1 (g) 10s SA, GMPE Maps](#one-year-poe-01-g-10s-sa-gmpe-maps)
+      * [One Year POE 0.2 (g) 10s SA, CyberShake Maps](#one-year-poe-02-g-10s-sa-cybershake-maps)
+      * [One Year POE 0.2 (g) 10s SA, GMPE Maps](#one-year-poe-02-g-10s-sa-gmpe-maps)
 ## Hazard Curves
 *[(top)](#table-of-contents)*
 
@@ -112,1296 +238,1296 @@ CyberShake Study: Study 15.4 with 336 sites
 ### One Day Hazard Maps
 *[(top)](#table-of-contents)*
 
-#### 3 One Day Hazard Maps
+#### 3s One Day Hazard Maps
 *[(top)](#table-of-contents)*
 
-##### One Day 3 Sa (g) with POE=1.0E-4, CyberShake Maps
-*[(top)](#table-of-contents)*
-
-|  | CS-TI | CS-TD | CS-ETAS-Uniform | CS-ETAS |
-|-----|-----|-----|-----|-----|
-| **CS-TI** | ![Plot](resources/one_day_iml_with_poe_1.0E-4_cs_ti.png) | ![Plot](resources/one_day_iml_with_poe_1.0E-4_cs_td_ti_diff.png) | ![Plot](resources/one_day_iml_with_poe_1.0E-4_cs_etas_uni_ti_diff.png) | ![Plot](resources/one_day_iml_with_poe_1.0E-4_cs_etas_ti_diff.png) |
-| **CS-TD** | ![Plot](resources/one_day_iml_with_poe_1.0E-4_cs_td_ti_gain.png) | ![Plot](resources/one_day_iml_with_poe_1.0E-4_cs_td.png) | ![Plot](resources/one_day_iml_with_poe_1.0E-4_cs_etas_uni_td_diff.png) | ![Plot](resources/one_day_iml_with_poe_1.0E-4_cs_etas_td_diff.png) |
-| **CS-ETAS (Uniform)** | ![Plot](resources/one_day_iml_with_poe_1.0E-4_cs_etas_uni_ti_gain.png) | ![Plot](resources/one_day_iml_with_poe_1.0E-4_cs_etas_uni_td_tain.png) | ![Plot](resources/one_day_iml_with_poe_1.0E-4_cs_etas_uni.png) | ![Plot](resources/one_day_iml_with_poe_1.0E-4_cs_etas_uni_diff.png) |
-| **CS-ETAS** | ![Plot](resources/one_day_iml_with_poe_1.0E-4_cs_etas_ti_gain.png) | ![Plot](resources/one_day_iml_with_poe_1.0E-4_cs_etas_td_tain.png) | ![Plot](resources/one_day_iml_with_poe_1.0E-4_cs_etas_uni_gain.png) | ![Plot](resources/one_day_iml_with_poe_1.0E-4_cs_etas.png) |
-
-##### One Day 3 Sa (g) with POE=1.0E-4, GMPE Maps
-*[(top)](#table-of-contents)*
-
-|  | GMPE-TI | GMPE-TD | GMPE-ETAS-Uniform | GMPE-ETAS |
-|-----|-----|-----|-----|-----|
-| **GMPE-TI** | ![Plot](resources/one_day_iml_with_poe_1.0E-4_gmpe_ti.png) | ![Plot](resources/one_day_iml_with_poe_1.0E-4_gmpe_td_ti_diff.png) | ![Plot](resources/one_day_iml_with_poe_1.0E-4_gmpe_etas_uni_ti_diff.png) | ![Plot](resources/one_day_iml_with_poe_1.0E-4_gmpe_etas_ti_diff.png) |
-| **GMPE-TD** | ![Plot](resources/one_day_iml_with_poe_1.0E-4_gmpe_td_ti_gain.png) | ![Plot](resources/one_day_iml_with_poe_1.0E-4_gmpe_td.png) | ![Plot](resources/one_day_iml_with_poe_1.0E-4_gmpe_etas_uni_td_diff.png) | ![Plot](resources/one_day_iml_with_poe_1.0E-4_gmpe_etas_td_diff.png) |
-| **GMPE-ETAS (Uniform)** | ![Plot](resources/one_day_iml_with_poe_1.0E-4_gmpe_etas_uni_ti_gain.png) | ![Plot](resources/one_day_iml_with_poe_1.0E-4_gmpe_etas_uni_td_tain.png) | ![Plot](resources/one_day_iml_with_poe_1.0E-4_gmpe_etas_uni.png) | ![Plot](resources/one_day_iml_with_poe_1.0E-4_gmpe_etas_uni_diff.png) |
-| **GMPE-ETAS** | ![Plot](resources/one_day_iml_with_poe_1.0E-4_gmpe_etas_ti_gain.png) | ![Plot](resources/one_day_iml_with_poe_1.0E-4_gmpe_etas_td_tain.png) | ![Plot](resources/one_day_iml_with_poe_1.0E-4_gmpe_etas_uni_gain.png) | ![Plot](resources/one_day_iml_with_poe_1.0E-4_gmpe_etas.png) |
-
-##### One Day 3 Sa (g) with POE=0.001, CyberShake Maps
-*[(top)](#table-of-contents)*
-
-|  | CS-TI | CS-TD | CS-ETAS-Uniform | CS-ETAS |
-|-----|-----|-----|-----|-----|
-| **CS-TI** | ![Plot](resources/one_day_iml_with_poe_0.001_cs_ti.png) | ![Plot](resources/one_day_iml_with_poe_0.001_cs_td_ti_diff.png) | ![Plot](resources/one_day_iml_with_poe_0.001_cs_etas_uni_ti_diff.png) | ![Plot](resources/one_day_iml_with_poe_0.001_cs_etas_ti_diff.png) |
-| **CS-TD** | ![Plot](resources/one_day_iml_with_poe_0.001_cs_td_ti_gain.png) | ![Plot](resources/one_day_iml_with_poe_0.001_cs_td.png) | ![Plot](resources/one_day_iml_with_poe_0.001_cs_etas_uni_td_diff.png) | ![Plot](resources/one_day_iml_with_poe_0.001_cs_etas_td_diff.png) |
-| **CS-ETAS (Uniform)** | ![Plot](resources/one_day_iml_with_poe_0.001_cs_etas_uni_ti_gain.png) | ![Plot](resources/one_day_iml_with_poe_0.001_cs_etas_uni_td_tain.png) | ![Plot](resources/one_day_iml_with_poe_0.001_cs_etas_uni.png) | ![Plot](resources/one_day_iml_with_poe_0.001_cs_etas_uni_diff.png) |
-| **CS-ETAS** | ![Plot](resources/one_day_iml_with_poe_0.001_cs_etas_ti_gain.png) | ![Plot](resources/one_day_iml_with_poe_0.001_cs_etas_td_tain.png) | ![Plot](resources/one_day_iml_with_poe_0.001_cs_etas_uni_gain.png) | ![Plot](resources/one_day_iml_with_poe_0.001_cs_etas.png) |
-
-##### One Day 3 Sa (g) with POE=0.001, GMPE Maps
-*[(top)](#table-of-contents)*
-
-|  | GMPE-TI | GMPE-TD | GMPE-ETAS-Uniform | GMPE-ETAS |
-|-----|-----|-----|-----|-----|
-| **GMPE-TI** | ![Plot](resources/one_day_iml_with_poe_0.001_gmpe_ti.png) | ![Plot](resources/one_day_iml_with_poe_0.001_gmpe_td_ti_diff.png) | ![Plot](resources/one_day_iml_with_poe_0.001_gmpe_etas_uni_ti_diff.png) | ![Plot](resources/one_day_iml_with_poe_0.001_gmpe_etas_ti_diff.png) |
-| **GMPE-TD** | ![Plot](resources/one_day_iml_with_poe_0.001_gmpe_td_ti_gain.png) | ![Plot](resources/one_day_iml_with_poe_0.001_gmpe_td.png) | ![Plot](resources/one_day_iml_with_poe_0.001_gmpe_etas_uni_td_diff.png) | ![Plot](resources/one_day_iml_with_poe_0.001_gmpe_etas_td_diff.png) |
-| **GMPE-ETAS (Uniform)** | ![Plot](resources/one_day_iml_with_poe_0.001_gmpe_etas_uni_ti_gain.png) | ![Plot](resources/one_day_iml_with_poe_0.001_gmpe_etas_uni_td_tain.png) | ![Plot](resources/one_day_iml_with_poe_0.001_gmpe_etas_uni.png) | ![Plot](resources/one_day_iml_with_poe_0.001_gmpe_etas_uni_diff.png) |
-| **GMPE-ETAS** | ![Plot](resources/one_day_iml_with_poe_0.001_gmpe_etas_ti_gain.png) | ![Plot](resources/one_day_iml_with_poe_0.001_gmpe_etas_td_tain.png) | ![Plot](resources/one_day_iml_with_poe_0.001_gmpe_etas_uni_gain.png) | ![Plot](resources/one_day_iml_with_poe_0.001_gmpe_etas.png) |
-
-##### One Day 3 Sa (g) with POE=0.01, CyberShake Maps
-*[(top)](#table-of-contents)*
-
-|  | CS-TI | CS-TD | CS-ETAS-Uniform | CS-ETAS |
-|-----|-----|-----|-----|-----|
-| **CS-TI** | ![Plot](resources/one_day_iml_with_poe_0.01_cs_ti.png) | ![Plot](resources/one_day_iml_with_poe_0.01_cs_td_ti_diff.png) | ![Plot](resources/one_day_iml_with_poe_0.01_cs_etas_uni_ti_diff.png) | ![Plot](resources/one_day_iml_with_poe_0.01_cs_etas_ti_diff.png) |
-| **CS-TD** | ![Plot](resources/one_day_iml_with_poe_0.01_cs_td_ti_gain.png) | ![Plot](resources/one_day_iml_with_poe_0.01_cs_td.png) | ![Plot](resources/one_day_iml_with_poe_0.01_cs_etas_uni_td_diff.png) | ![Plot](resources/one_day_iml_with_poe_0.01_cs_etas_td_diff.png) |
-| **CS-ETAS (Uniform)** | ![Plot](resources/one_day_iml_with_poe_0.01_cs_etas_uni_ti_gain.png) | ![Plot](resources/one_day_iml_with_poe_0.01_cs_etas_uni_td_tain.png) | ![Plot](resources/one_day_iml_with_poe_0.01_cs_etas_uni.png) | ![Plot](resources/one_day_iml_with_poe_0.01_cs_etas_uni_diff.png) |
-| **CS-ETAS** | ![Plot](resources/one_day_iml_with_poe_0.01_cs_etas_ti_gain.png) | ![Plot](resources/one_day_iml_with_poe_0.01_cs_etas_td_tain.png) | ![Plot](resources/one_day_iml_with_poe_0.01_cs_etas_uni_gain.png) | ![Plot](resources/one_day_iml_with_poe_0.01_cs_etas.png) |
-
-##### One Day 3 Sa (g) with POE=0.01, GMPE Maps
-*[(top)](#table-of-contents)*
-
-|  | GMPE-TI | GMPE-TD | GMPE-ETAS-Uniform | GMPE-ETAS |
-|-----|-----|-----|-----|-----|
-| **GMPE-TI** | ![Plot](resources/one_day_iml_with_poe_0.01_gmpe_ti.png) | ![Plot](resources/one_day_iml_with_poe_0.01_gmpe_td_ti_diff.png) | ![Plot](resources/one_day_iml_with_poe_0.01_gmpe_etas_uni_ti_diff.png) | ![Plot](resources/one_day_iml_with_poe_0.01_gmpe_etas_ti_diff.png) |
-| **GMPE-TD** | ![Plot](resources/one_day_iml_with_poe_0.01_gmpe_td_ti_gain.png) | ![Plot](resources/one_day_iml_with_poe_0.01_gmpe_td.png) | ![Plot](resources/one_day_iml_with_poe_0.01_gmpe_etas_uni_td_diff.png) | ![Plot](resources/one_day_iml_with_poe_0.01_gmpe_etas_td_diff.png) |
-| **GMPE-ETAS (Uniform)** | ![Plot](resources/one_day_iml_with_poe_0.01_gmpe_etas_uni_ti_gain.png) | ![Plot](resources/one_day_iml_with_poe_0.01_gmpe_etas_uni_td_tain.png) | ![Plot](resources/one_day_iml_with_poe_0.01_gmpe_etas_uni.png) | ![Plot](resources/one_day_iml_with_poe_0.01_gmpe_etas_uni_diff.png) |
-| **GMPE-ETAS** | ![Plot](resources/one_day_iml_with_poe_0.01_gmpe_etas_ti_gain.png) | ![Plot](resources/one_day_iml_with_poe_0.01_gmpe_etas_td_tain.png) | ![Plot](resources/one_day_iml_with_poe_0.01_gmpe_etas_uni_gain.png) | ![Plot](resources/one_day_iml_with_poe_0.01_gmpe_etas.png) |
-
-##### One Day 3 Sa (g) with POE=0.1, CyberShake Maps
-*[(top)](#table-of-contents)*
-
-|  | CS-TI | CS-TD | CS-ETAS-Uniform | CS-ETAS |
-|-----|-----|-----|-----|-----|
-| **CS-TI** | ![Plot](resources/one_day_iml_with_poe_0.1_cs_ti.png) | ![Plot](resources/one_day_iml_with_poe_0.1_cs_td_ti_diff.png) | ![Plot](resources/one_day_iml_with_poe_0.1_cs_etas_uni_ti_diff.png) | ![Plot](resources/one_day_iml_with_poe_0.1_cs_etas_ti_diff.png) |
-| **CS-TD** | ![Plot](resources/one_day_iml_with_poe_0.1_cs_td_ti_gain.png) | ![Plot](resources/one_day_iml_with_poe_0.1_cs_td.png) | ![Plot](resources/one_day_iml_with_poe_0.1_cs_etas_uni_td_diff.png) | ![Plot](resources/one_day_iml_with_poe_0.1_cs_etas_td_diff.png) |
-| **CS-ETAS (Uniform)** | ![Plot](resources/one_day_iml_with_poe_0.1_cs_etas_uni_ti_gain.png) | ![Plot](resources/one_day_iml_with_poe_0.1_cs_etas_uni_td_tain.png) | ![Plot](resources/one_day_iml_with_poe_0.1_cs_etas_uni.png) | ![Plot](resources/one_day_iml_with_poe_0.1_cs_etas_uni_diff.png) |
-| **CS-ETAS** | ![Plot](resources/one_day_iml_with_poe_0.1_cs_etas_ti_gain.png) | ![Plot](resources/one_day_iml_with_poe_0.1_cs_etas_td_tain.png) | ![Plot](resources/one_day_iml_with_poe_0.1_cs_etas_uni_gain.png) | ![Plot](resources/one_day_iml_with_poe_0.1_cs_etas.png) |
-
-##### One Day 3 Sa (g) with POE=0.1, GMPE Maps
-*[(top)](#table-of-contents)*
-
-|  | GMPE-TI | GMPE-TD | GMPE-ETAS-Uniform | GMPE-ETAS |
-|-----|-----|-----|-----|-----|
-| **GMPE-TI** | ![Plot](resources/one_day_iml_with_poe_0.1_gmpe_ti.png) | ![Plot](resources/one_day_iml_with_poe_0.1_gmpe_td_ti_diff.png) | ![Plot](resources/one_day_iml_with_poe_0.1_gmpe_etas_uni_ti_diff.png) | ![Plot](resources/one_day_iml_with_poe_0.1_gmpe_etas_ti_diff.png) |
-| **GMPE-TD** | ![Plot](resources/one_day_iml_with_poe_0.1_gmpe_td_ti_gain.png) | ![Plot](resources/one_day_iml_with_poe_0.1_gmpe_td.png) | ![Plot](resources/one_day_iml_with_poe_0.1_gmpe_etas_uni_td_diff.png) | ![Plot](resources/one_day_iml_with_poe_0.1_gmpe_etas_td_diff.png) |
-| **GMPE-ETAS (Uniform)** | ![Plot](resources/one_day_iml_with_poe_0.1_gmpe_etas_uni_ti_gain.png) | ![Plot](resources/one_day_iml_with_poe_0.1_gmpe_etas_uni_td_tain.png) | ![Plot](resources/one_day_iml_with_poe_0.1_gmpe_etas_uni.png) | ![Plot](resources/one_day_iml_with_poe_0.1_gmpe_etas_uni_diff.png) |
-| **GMPE-ETAS** | ![Plot](resources/one_day_iml_with_poe_0.1_gmpe_etas_ti_gain.png) | ![Plot](resources/one_day_iml_with_poe_0.1_gmpe_etas_td_tain.png) | ![Plot](resources/one_day_iml_with_poe_0.1_gmpe_etas_uni_gain.png) | ![Plot](resources/one_day_iml_with_poe_0.1_gmpe_etas.png) |
-
-##### One Day POE 0.01 (g) 3 SA, CyberShake Maps
-*[(top)](#table-of-contents)*
-
-|  | CS-TI | CS-TD | CS-ETAS-Uniform | CS-ETAS |
-|-----|-----|-----|-----|-----|
-| **CS-TI** | ![Plot](resources/one_day_poe_0.01g_cs_ti.png) | ![Plot](resources/one_day_poe_0.01g_cs_td_ti_diff.png) | ![Plot](resources/one_day_poe_0.01g_cs_etas_uni_ti_diff.png) | ![Plot](resources/one_day_poe_0.01g_cs_etas_ti_diff.png) |
-| **CS-TD** | ![Plot](resources/one_day_poe_0.01g_cs_td_ti_gain.png) | ![Plot](resources/one_day_poe_0.01g_cs_td.png) | ![Plot](resources/one_day_poe_0.01g_cs_etas_uni_td_diff.png) | ![Plot](resources/one_day_poe_0.01g_cs_etas_td_diff.png) |
-| **CS-ETAS (Uniform)** | ![Plot](resources/one_day_poe_0.01g_cs_etas_uni_ti_gain.png) | ![Plot](resources/one_day_poe_0.01g_cs_etas_uni_td_tain.png) | ![Plot](resources/one_day_poe_0.01g_cs_etas_uni.png) | ![Plot](resources/one_day_poe_0.01g_cs_etas_uni_diff.png) |
-| **CS-ETAS** | ![Plot](resources/one_day_poe_0.01g_cs_etas_ti_gain.png) | ![Plot](resources/one_day_poe_0.01g_cs_etas_td_tain.png) | ![Plot](resources/one_day_poe_0.01g_cs_etas_uni_gain.png) | ![Plot](resources/one_day_poe_0.01g_cs_etas.png) |
-
-##### One Day POE 0.01 (g) 3 SA, GMPE Maps
-*[(top)](#table-of-contents)*
-
-|  | GMPE-TI | GMPE-TD | GMPE-ETAS-Uniform | GMPE-ETAS |
-|-----|-----|-----|-----|-----|
-| **GMPE-TI** | ![Plot](resources/one_day_poe_0.01g_gmpe_ti.png) | ![Plot](resources/one_day_poe_0.01g_gmpe_td_ti_diff.png) | ![Plot](resources/one_day_poe_0.01g_gmpe_etas_uni_ti_diff.png) | ![Plot](resources/one_day_poe_0.01g_gmpe_etas_ti_diff.png) |
-| **GMPE-TD** | ![Plot](resources/one_day_poe_0.01g_gmpe_td_ti_gain.png) | ![Plot](resources/one_day_poe_0.01g_gmpe_td.png) | ![Plot](resources/one_day_poe_0.01g_gmpe_etas_uni_td_diff.png) | ![Plot](resources/one_day_poe_0.01g_gmpe_etas_td_diff.png) |
-| **GMPE-ETAS (Uniform)** | ![Plot](resources/one_day_poe_0.01g_gmpe_etas_uni_ti_gain.png) | ![Plot](resources/one_day_poe_0.01g_gmpe_etas_uni_td_tain.png) | ![Plot](resources/one_day_poe_0.01g_gmpe_etas_uni.png) | ![Plot](resources/one_day_poe_0.01g_gmpe_etas_uni_diff.png) |
-| **GMPE-ETAS** | ![Plot](resources/one_day_poe_0.01g_gmpe_etas_ti_gain.png) | ![Plot](resources/one_day_poe_0.01g_gmpe_etas_td_tain.png) | ![Plot](resources/one_day_poe_0.01g_gmpe_etas_uni_gain.png) | ![Plot](resources/one_day_poe_0.01g_gmpe_etas.png) |
-
-##### One Day POE 0.1 (g) 3 SA, CyberShake Maps
-*[(top)](#table-of-contents)*
-
-|  | CS-TI | CS-TD | CS-ETAS-Uniform | CS-ETAS |
-|-----|-----|-----|-----|-----|
-| **CS-TI** | ![Plot](resources/one_day_poe_0.1g_cs_ti.png) | ![Plot](resources/one_day_poe_0.1g_cs_td_ti_diff.png) | ![Plot](resources/one_day_poe_0.1g_cs_etas_uni_ti_diff.png) | ![Plot](resources/one_day_poe_0.1g_cs_etas_ti_diff.png) |
-| **CS-TD** | ![Plot](resources/one_day_poe_0.1g_cs_td_ti_gain.png) | ![Plot](resources/one_day_poe_0.1g_cs_td.png) | ![Plot](resources/one_day_poe_0.1g_cs_etas_uni_td_diff.png) | ![Plot](resources/one_day_poe_0.1g_cs_etas_td_diff.png) |
-| **CS-ETAS (Uniform)** | ![Plot](resources/one_day_poe_0.1g_cs_etas_uni_ti_gain.png) | ![Plot](resources/one_day_poe_0.1g_cs_etas_uni_td_tain.png) | ![Plot](resources/one_day_poe_0.1g_cs_etas_uni.png) | ![Plot](resources/one_day_poe_0.1g_cs_etas_uni_diff.png) |
-| **CS-ETAS** | ![Plot](resources/one_day_poe_0.1g_cs_etas_ti_gain.png) | ![Plot](resources/one_day_poe_0.1g_cs_etas_td_tain.png) | ![Plot](resources/one_day_poe_0.1g_cs_etas_uni_gain.png) | ![Plot](resources/one_day_poe_0.1g_cs_etas.png) |
-
-##### One Day POE 0.1 (g) 3 SA, GMPE Maps
-*[(top)](#table-of-contents)*
-
-|  | GMPE-TI | GMPE-TD | GMPE-ETAS-Uniform | GMPE-ETAS |
-|-----|-----|-----|-----|-----|
-| **GMPE-TI** | ![Plot](resources/one_day_poe_0.1g_gmpe_ti.png) | ![Plot](resources/one_day_poe_0.1g_gmpe_td_ti_diff.png) | ![Plot](resources/one_day_poe_0.1g_gmpe_etas_uni_ti_diff.png) | ![Plot](resources/one_day_poe_0.1g_gmpe_etas_ti_diff.png) |
-| **GMPE-TD** | ![Plot](resources/one_day_poe_0.1g_gmpe_td_ti_gain.png) | ![Plot](resources/one_day_poe_0.1g_gmpe_td.png) | ![Plot](resources/one_day_poe_0.1g_gmpe_etas_uni_td_diff.png) | ![Plot](resources/one_day_poe_0.1g_gmpe_etas_td_diff.png) |
-| **GMPE-ETAS (Uniform)** | ![Plot](resources/one_day_poe_0.1g_gmpe_etas_uni_ti_gain.png) | ![Plot](resources/one_day_poe_0.1g_gmpe_etas_uni_td_tain.png) | ![Plot](resources/one_day_poe_0.1g_gmpe_etas_uni.png) | ![Plot](resources/one_day_poe_0.1g_gmpe_etas_uni_diff.png) |
-| **GMPE-ETAS** | ![Plot](resources/one_day_poe_0.1g_gmpe_etas_ti_gain.png) | ![Plot](resources/one_day_poe_0.1g_gmpe_etas_td_tain.png) | ![Plot](resources/one_day_poe_0.1g_gmpe_etas_uni_gain.png) | ![Plot](resources/one_day_poe_0.1g_gmpe_etas.png) |
-
-##### One Day POE 0.2 (g) 3 SA, CyberShake Maps
-*[(top)](#table-of-contents)*
-
-|  | CS-TI | CS-TD | CS-ETAS-Uniform | CS-ETAS |
-|-----|-----|-----|-----|-----|
-| **CS-TI** | ![Plot](resources/one_day_poe_0.2g_cs_ti.png) | ![Plot](resources/one_day_poe_0.2g_cs_td_ti_diff.png) | ![Plot](resources/one_day_poe_0.2g_cs_etas_uni_ti_diff.png) | ![Plot](resources/one_day_poe_0.2g_cs_etas_ti_diff.png) |
-| **CS-TD** | ![Plot](resources/one_day_poe_0.2g_cs_td_ti_gain.png) | ![Plot](resources/one_day_poe_0.2g_cs_td.png) | ![Plot](resources/one_day_poe_0.2g_cs_etas_uni_td_diff.png) | ![Plot](resources/one_day_poe_0.2g_cs_etas_td_diff.png) |
-| **CS-ETAS (Uniform)** | ![Plot](resources/one_day_poe_0.2g_cs_etas_uni_ti_gain.png) | ![Plot](resources/one_day_poe_0.2g_cs_etas_uni_td_tain.png) | ![Plot](resources/one_day_poe_0.2g_cs_etas_uni.png) | ![Plot](resources/one_day_poe_0.2g_cs_etas_uni_diff.png) |
-| **CS-ETAS** | ![Plot](resources/one_day_poe_0.2g_cs_etas_ti_gain.png) | ![Plot](resources/one_day_poe_0.2g_cs_etas_td_tain.png) | ![Plot](resources/one_day_poe_0.2g_cs_etas_uni_gain.png) | ![Plot](resources/one_day_poe_0.2g_cs_etas.png) |
-
-##### One Day POE 0.2 (g) 3 SA, GMPE Maps
-*[(top)](#table-of-contents)*
-
-|  | GMPE-TI | GMPE-TD | GMPE-ETAS-Uniform | GMPE-ETAS |
-|-----|-----|-----|-----|-----|
-| **GMPE-TI** | ![Plot](resources/one_day_poe_0.2g_gmpe_ti.png) | ![Plot](resources/one_day_poe_0.2g_gmpe_td_ti_diff.png) | ![Plot](resources/one_day_poe_0.2g_gmpe_etas_uni_ti_diff.png) | ![Plot](resources/one_day_poe_0.2g_gmpe_etas_ti_diff.png) |
-| **GMPE-TD** | ![Plot](resources/one_day_poe_0.2g_gmpe_td_ti_gain.png) | ![Plot](resources/one_day_poe_0.2g_gmpe_td.png) | ![Plot](resources/one_day_poe_0.2g_gmpe_etas_uni_td_diff.png) | ![Plot](resources/one_day_poe_0.2g_gmpe_etas_td_diff.png) |
-| **GMPE-ETAS (Uniform)** | ![Plot](resources/one_day_poe_0.2g_gmpe_etas_uni_ti_gain.png) | ![Plot](resources/one_day_poe_0.2g_gmpe_etas_uni_td_tain.png) | ![Plot](resources/one_day_poe_0.2g_gmpe_etas_uni.png) | ![Plot](resources/one_day_poe_0.2g_gmpe_etas_uni_diff.png) |
-| **GMPE-ETAS** | ![Plot](resources/one_day_poe_0.2g_gmpe_etas_ti_gain.png) | ![Plot](resources/one_day_poe_0.2g_gmpe_etas_td_tain.png) | ![Plot](resources/one_day_poe_0.2g_gmpe_etas_uni_gain.png) | ![Plot](resources/one_day_poe_0.2g_gmpe_etas.png) |
-
-#### 5 One Day Hazard Maps
-*[(top)](#table-of-contents)*
-
-##### One Day 5 Sa (g) with POE=1.0E-4, CyberShake Maps
+##### One Day 3s Sa (g) with POE=1.0E-4, CyberShake Maps
 *[(top)](#table-of-contents)*
 
 |  | CS-TI | CS-TD | CS-ETAS-Uniform | CS-ETAS |
 |-----|-----|-----|-----|-----|
 | **CS-TI** | ![Plot](resources/one_day_iml_with_poe_1.0E-4_cs_ti.png) | ![Plot](resources/one_day_iml_with_poe_1.0E-4_cs_td_ti_diff.png) | ![Plot](resources/one_day_iml_with_poe_1.0E-4_cs_etas_uni_ti_diff.png) | ![Plot](resources/one_day_iml_with_poe_1.0E-4_cs_etas_ti_diff.png) |
 | **CS-TD** | ![Plot](resources/one_day_iml_with_poe_1.0E-4_cs_td_ti_gain.png) | ![Plot](resources/one_day_iml_with_poe_1.0E-4_cs_td.png) | ![Plot](resources/one_day_iml_with_poe_1.0E-4_cs_etas_uni_td_diff.png) | ![Plot](resources/one_day_iml_with_poe_1.0E-4_cs_etas_td_diff.png) |
-| **CS-ETAS (Uniform)** | ![Plot](resources/one_day_iml_with_poe_1.0E-4_cs_etas_uni_ti_gain.png) | ![Plot](resources/one_day_iml_with_poe_1.0E-4_cs_etas_uni_td_tain.png) | ![Plot](resources/one_day_iml_with_poe_1.0E-4_cs_etas_uni.png) | ![Plot](resources/one_day_iml_with_poe_1.0E-4_cs_etas_uni_diff.png) |
-| **CS-ETAS** | ![Plot](resources/one_day_iml_with_poe_1.0E-4_cs_etas_ti_gain.png) | ![Plot](resources/one_day_iml_with_poe_1.0E-4_cs_etas_td_tain.png) | ![Plot](resources/one_day_iml_with_poe_1.0E-4_cs_etas_uni_gain.png) | ![Plot](resources/one_day_iml_with_poe_1.0E-4_cs_etas.png) |
+| **CS-ETAS (Uniform)** | ![Plot](resources/one_day_iml_with_poe_1.0E-4_cs_etas_uni_ti_gain.png) | ![Plot](resources/one_day_iml_with_poe_1.0E-4_cs_etas_uni_td_gain.png) | ![Plot](resources/one_day_iml_with_poe_1.0E-4_cs_etas_uni.png) | ![Plot](resources/one_day_iml_with_poe_1.0E-4_cs_etas_uni_diff.png) |
+| **CS-ETAS** | ![Plot](resources/one_day_iml_with_poe_1.0E-4_cs_etas_ti_gain.png) | ![Plot](resources/one_day_iml_with_poe_1.0E-4_cs_etas_td_gain.png) | ![Plot](resources/one_day_iml_with_poe_1.0E-4_cs_etas_uni_gain.png) | ![Plot](resources/one_day_iml_with_poe_1.0E-4_cs_etas.png) |
 
-##### One Day 5 Sa (g) with POE=1.0E-4, GMPE Maps
+##### One Day 3s Sa (g) with POE=1.0E-4, GMPE Maps
 *[(top)](#table-of-contents)*
 
 |  | GMPE-TI | GMPE-TD | GMPE-ETAS-Uniform | GMPE-ETAS |
 |-----|-----|-----|-----|-----|
 | **GMPE-TI** | ![Plot](resources/one_day_iml_with_poe_1.0E-4_gmpe_ti.png) | ![Plot](resources/one_day_iml_with_poe_1.0E-4_gmpe_td_ti_diff.png) | ![Plot](resources/one_day_iml_with_poe_1.0E-4_gmpe_etas_uni_ti_diff.png) | ![Plot](resources/one_day_iml_with_poe_1.0E-4_gmpe_etas_ti_diff.png) |
 | **GMPE-TD** | ![Plot](resources/one_day_iml_with_poe_1.0E-4_gmpe_td_ti_gain.png) | ![Plot](resources/one_day_iml_with_poe_1.0E-4_gmpe_td.png) | ![Plot](resources/one_day_iml_with_poe_1.0E-4_gmpe_etas_uni_td_diff.png) | ![Plot](resources/one_day_iml_with_poe_1.0E-4_gmpe_etas_td_diff.png) |
-| **GMPE-ETAS (Uniform)** | ![Plot](resources/one_day_iml_with_poe_1.0E-4_gmpe_etas_uni_ti_gain.png) | ![Plot](resources/one_day_iml_with_poe_1.0E-4_gmpe_etas_uni_td_tain.png) | ![Plot](resources/one_day_iml_with_poe_1.0E-4_gmpe_etas_uni.png) | ![Plot](resources/one_day_iml_with_poe_1.0E-4_gmpe_etas_uni_diff.png) |
-| **GMPE-ETAS** | ![Plot](resources/one_day_iml_with_poe_1.0E-4_gmpe_etas_ti_gain.png) | ![Plot](resources/one_day_iml_with_poe_1.0E-4_gmpe_etas_td_tain.png) | ![Plot](resources/one_day_iml_with_poe_1.0E-4_gmpe_etas_uni_gain.png) | ![Plot](resources/one_day_iml_with_poe_1.0E-4_gmpe_etas.png) |
+| **GMPE-ETAS (Uniform)** | ![Plot](resources/one_day_iml_with_poe_1.0E-4_gmpe_etas_uni_ti_gain.png) | ![Plot](resources/one_day_iml_with_poe_1.0E-4_gmpe_etas_uni_td_gain.png) | ![Plot](resources/one_day_iml_with_poe_1.0E-4_gmpe_etas_uni.png) | ![Plot](resources/one_day_iml_with_poe_1.0E-4_gmpe_etas_uni_diff.png) |
+| **GMPE-ETAS** | ![Plot](resources/one_day_iml_with_poe_1.0E-4_gmpe_etas_ti_gain.png) | ![Plot](resources/one_day_iml_with_poe_1.0E-4_gmpe_etas_td_gain.png) | ![Plot](resources/one_day_iml_with_poe_1.0E-4_gmpe_etas_uni_gain.png) | ![Plot](resources/one_day_iml_with_poe_1.0E-4_gmpe_etas.png) |
 
-##### One Day 5 Sa (g) with POE=0.001, CyberShake Maps
+##### One Day 3s Sa (g) with POE=0.001, CyberShake Maps
 *[(top)](#table-of-contents)*
 
 |  | CS-TI | CS-TD | CS-ETAS-Uniform | CS-ETAS |
 |-----|-----|-----|-----|-----|
 | **CS-TI** | ![Plot](resources/one_day_iml_with_poe_0.001_cs_ti.png) | ![Plot](resources/one_day_iml_with_poe_0.001_cs_td_ti_diff.png) | ![Plot](resources/one_day_iml_with_poe_0.001_cs_etas_uni_ti_diff.png) | ![Plot](resources/one_day_iml_with_poe_0.001_cs_etas_ti_diff.png) |
 | **CS-TD** | ![Plot](resources/one_day_iml_with_poe_0.001_cs_td_ti_gain.png) | ![Plot](resources/one_day_iml_with_poe_0.001_cs_td.png) | ![Plot](resources/one_day_iml_with_poe_0.001_cs_etas_uni_td_diff.png) | ![Plot](resources/one_day_iml_with_poe_0.001_cs_etas_td_diff.png) |
-| **CS-ETAS (Uniform)** | ![Plot](resources/one_day_iml_with_poe_0.001_cs_etas_uni_ti_gain.png) | ![Plot](resources/one_day_iml_with_poe_0.001_cs_etas_uni_td_tain.png) | ![Plot](resources/one_day_iml_with_poe_0.001_cs_etas_uni.png) | ![Plot](resources/one_day_iml_with_poe_0.001_cs_etas_uni_diff.png) |
-| **CS-ETAS** | ![Plot](resources/one_day_iml_with_poe_0.001_cs_etas_ti_gain.png) | ![Plot](resources/one_day_iml_with_poe_0.001_cs_etas_td_tain.png) | ![Plot](resources/one_day_iml_with_poe_0.001_cs_etas_uni_gain.png) | ![Plot](resources/one_day_iml_with_poe_0.001_cs_etas.png) |
+| **CS-ETAS (Uniform)** | ![Plot](resources/one_day_iml_with_poe_0.001_cs_etas_uni_ti_gain.png) | ![Plot](resources/one_day_iml_with_poe_0.001_cs_etas_uni_td_gain.png) | ![Plot](resources/one_day_iml_with_poe_0.001_cs_etas_uni.png) | ![Plot](resources/one_day_iml_with_poe_0.001_cs_etas_uni_diff.png) |
+| **CS-ETAS** | ![Plot](resources/one_day_iml_with_poe_0.001_cs_etas_ti_gain.png) | ![Plot](resources/one_day_iml_with_poe_0.001_cs_etas_td_gain.png) | ![Plot](resources/one_day_iml_with_poe_0.001_cs_etas_uni_gain.png) | ![Plot](resources/one_day_iml_with_poe_0.001_cs_etas.png) |
 
-##### One Day 5 Sa (g) with POE=0.001, GMPE Maps
+##### One Day 3s Sa (g) with POE=0.001, GMPE Maps
 *[(top)](#table-of-contents)*
 
 |  | GMPE-TI | GMPE-TD | GMPE-ETAS-Uniform | GMPE-ETAS |
 |-----|-----|-----|-----|-----|
 | **GMPE-TI** | ![Plot](resources/one_day_iml_with_poe_0.001_gmpe_ti.png) | ![Plot](resources/one_day_iml_with_poe_0.001_gmpe_td_ti_diff.png) | ![Plot](resources/one_day_iml_with_poe_0.001_gmpe_etas_uni_ti_diff.png) | ![Plot](resources/one_day_iml_with_poe_0.001_gmpe_etas_ti_diff.png) |
 | **GMPE-TD** | ![Plot](resources/one_day_iml_with_poe_0.001_gmpe_td_ti_gain.png) | ![Plot](resources/one_day_iml_with_poe_0.001_gmpe_td.png) | ![Plot](resources/one_day_iml_with_poe_0.001_gmpe_etas_uni_td_diff.png) | ![Plot](resources/one_day_iml_with_poe_0.001_gmpe_etas_td_diff.png) |
-| **GMPE-ETAS (Uniform)** | ![Plot](resources/one_day_iml_with_poe_0.001_gmpe_etas_uni_ti_gain.png) | ![Plot](resources/one_day_iml_with_poe_0.001_gmpe_etas_uni_td_tain.png) | ![Plot](resources/one_day_iml_with_poe_0.001_gmpe_etas_uni.png) | ![Plot](resources/one_day_iml_with_poe_0.001_gmpe_etas_uni_diff.png) |
-| **GMPE-ETAS** | ![Plot](resources/one_day_iml_with_poe_0.001_gmpe_etas_ti_gain.png) | ![Plot](resources/one_day_iml_with_poe_0.001_gmpe_etas_td_tain.png) | ![Plot](resources/one_day_iml_with_poe_0.001_gmpe_etas_uni_gain.png) | ![Plot](resources/one_day_iml_with_poe_0.001_gmpe_etas.png) |
+| **GMPE-ETAS (Uniform)** | ![Plot](resources/one_day_iml_with_poe_0.001_gmpe_etas_uni_ti_gain.png) | ![Plot](resources/one_day_iml_with_poe_0.001_gmpe_etas_uni_td_gain.png) | ![Plot](resources/one_day_iml_with_poe_0.001_gmpe_etas_uni.png) | ![Plot](resources/one_day_iml_with_poe_0.001_gmpe_etas_uni_diff.png) |
+| **GMPE-ETAS** | ![Plot](resources/one_day_iml_with_poe_0.001_gmpe_etas_ti_gain.png) | ![Plot](resources/one_day_iml_with_poe_0.001_gmpe_etas_td_gain.png) | ![Plot](resources/one_day_iml_with_poe_0.001_gmpe_etas_uni_gain.png) | ![Plot](resources/one_day_iml_with_poe_0.001_gmpe_etas.png) |
 
-##### One Day 5 Sa (g) with POE=0.01, CyberShake Maps
+##### One Day 3s Sa (g) with POE=0.01, CyberShake Maps
 *[(top)](#table-of-contents)*
 
 |  | CS-TI | CS-TD | CS-ETAS-Uniform | CS-ETAS |
 |-----|-----|-----|-----|-----|
 | **CS-TI** | ![Plot](resources/one_day_iml_with_poe_0.01_cs_ti.png) | ![Plot](resources/one_day_iml_with_poe_0.01_cs_td_ti_diff.png) | ![Plot](resources/one_day_iml_with_poe_0.01_cs_etas_uni_ti_diff.png) | ![Plot](resources/one_day_iml_with_poe_0.01_cs_etas_ti_diff.png) |
 | **CS-TD** | ![Plot](resources/one_day_iml_with_poe_0.01_cs_td_ti_gain.png) | ![Plot](resources/one_day_iml_with_poe_0.01_cs_td.png) | ![Plot](resources/one_day_iml_with_poe_0.01_cs_etas_uni_td_diff.png) | ![Plot](resources/one_day_iml_with_poe_0.01_cs_etas_td_diff.png) |
-| **CS-ETAS (Uniform)** | ![Plot](resources/one_day_iml_with_poe_0.01_cs_etas_uni_ti_gain.png) | ![Plot](resources/one_day_iml_with_poe_0.01_cs_etas_uni_td_tain.png) | ![Plot](resources/one_day_iml_with_poe_0.01_cs_etas_uni.png) | ![Plot](resources/one_day_iml_with_poe_0.01_cs_etas_uni_diff.png) |
-| **CS-ETAS** | ![Plot](resources/one_day_iml_with_poe_0.01_cs_etas_ti_gain.png) | ![Plot](resources/one_day_iml_with_poe_0.01_cs_etas_td_tain.png) | ![Plot](resources/one_day_iml_with_poe_0.01_cs_etas_uni_gain.png) | ![Plot](resources/one_day_iml_with_poe_0.01_cs_etas.png) |
+| **CS-ETAS (Uniform)** | ![Plot](resources/one_day_iml_with_poe_0.01_cs_etas_uni_ti_gain.png) | ![Plot](resources/one_day_iml_with_poe_0.01_cs_etas_uni_td_gain.png) | ![Plot](resources/one_day_iml_with_poe_0.01_cs_etas_uni.png) | ![Plot](resources/one_day_iml_with_poe_0.01_cs_etas_uni_diff.png) |
+| **CS-ETAS** | ![Plot](resources/one_day_iml_with_poe_0.01_cs_etas_ti_gain.png) | ![Plot](resources/one_day_iml_with_poe_0.01_cs_etas_td_gain.png) | ![Plot](resources/one_day_iml_with_poe_0.01_cs_etas_uni_gain.png) | ![Plot](resources/one_day_iml_with_poe_0.01_cs_etas.png) |
 
-##### One Day 5 Sa (g) with POE=0.01, GMPE Maps
+##### One Day 3s Sa (g) with POE=0.01, GMPE Maps
 *[(top)](#table-of-contents)*
 
 |  | GMPE-TI | GMPE-TD | GMPE-ETAS-Uniform | GMPE-ETAS |
 |-----|-----|-----|-----|-----|
 | **GMPE-TI** | ![Plot](resources/one_day_iml_with_poe_0.01_gmpe_ti.png) | ![Plot](resources/one_day_iml_with_poe_0.01_gmpe_td_ti_diff.png) | ![Plot](resources/one_day_iml_with_poe_0.01_gmpe_etas_uni_ti_diff.png) | ![Plot](resources/one_day_iml_with_poe_0.01_gmpe_etas_ti_diff.png) |
 | **GMPE-TD** | ![Plot](resources/one_day_iml_with_poe_0.01_gmpe_td_ti_gain.png) | ![Plot](resources/one_day_iml_with_poe_0.01_gmpe_td.png) | ![Plot](resources/one_day_iml_with_poe_0.01_gmpe_etas_uni_td_diff.png) | ![Plot](resources/one_day_iml_with_poe_0.01_gmpe_etas_td_diff.png) |
-| **GMPE-ETAS (Uniform)** | ![Plot](resources/one_day_iml_with_poe_0.01_gmpe_etas_uni_ti_gain.png) | ![Plot](resources/one_day_iml_with_poe_0.01_gmpe_etas_uni_td_tain.png) | ![Plot](resources/one_day_iml_with_poe_0.01_gmpe_etas_uni.png) | ![Plot](resources/one_day_iml_with_poe_0.01_gmpe_etas_uni_diff.png) |
-| **GMPE-ETAS** | ![Plot](resources/one_day_iml_with_poe_0.01_gmpe_etas_ti_gain.png) | ![Plot](resources/one_day_iml_with_poe_0.01_gmpe_etas_td_tain.png) | ![Plot](resources/one_day_iml_with_poe_0.01_gmpe_etas_uni_gain.png) | ![Plot](resources/one_day_iml_with_poe_0.01_gmpe_etas.png) |
+| **GMPE-ETAS (Uniform)** | ![Plot](resources/one_day_iml_with_poe_0.01_gmpe_etas_uni_ti_gain.png) | ![Plot](resources/one_day_iml_with_poe_0.01_gmpe_etas_uni_td_gain.png) | ![Plot](resources/one_day_iml_with_poe_0.01_gmpe_etas_uni.png) | ![Plot](resources/one_day_iml_with_poe_0.01_gmpe_etas_uni_diff.png) |
+| **GMPE-ETAS** | ![Plot](resources/one_day_iml_with_poe_0.01_gmpe_etas_ti_gain.png) | ![Plot](resources/one_day_iml_with_poe_0.01_gmpe_etas_td_gain.png) | ![Plot](resources/one_day_iml_with_poe_0.01_gmpe_etas_uni_gain.png) | ![Plot](resources/one_day_iml_with_poe_0.01_gmpe_etas.png) |
 
-##### One Day 5 Sa (g) with POE=0.1, CyberShake Maps
+##### One Day 3s Sa (g) with POE=0.1, CyberShake Maps
 *[(top)](#table-of-contents)*
 
 |  | CS-TI | CS-TD | CS-ETAS-Uniform | CS-ETAS |
 |-----|-----|-----|-----|-----|
 | **CS-TI** | ![Plot](resources/one_day_iml_with_poe_0.1_cs_ti.png) | ![Plot](resources/one_day_iml_with_poe_0.1_cs_td_ti_diff.png) | ![Plot](resources/one_day_iml_with_poe_0.1_cs_etas_uni_ti_diff.png) | ![Plot](resources/one_day_iml_with_poe_0.1_cs_etas_ti_diff.png) |
 | **CS-TD** | ![Plot](resources/one_day_iml_with_poe_0.1_cs_td_ti_gain.png) | ![Plot](resources/one_day_iml_with_poe_0.1_cs_td.png) | ![Plot](resources/one_day_iml_with_poe_0.1_cs_etas_uni_td_diff.png) | ![Plot](resources/one_day_iml_with_poe_0.1_cs_etas_td_diff.png) |
-| **CS-ETAS (Uniform)** | ![Plot](resources/one_day_iml_with_poe_0.1_cs_etas_uni_ti_gain.png) | ![Plot](resources/one_day_iml_with_poe_0.1_cs_etas_uni_td_tain.png) | ![Plot](resources/one_day_iml_with_poe_0.1_cs_etas_uni.png) | ![Plot](resources/one_day_iml_with_poe_0.1_cs_etas_uni_diff.png) |
-| **CS-ETAS** | ![Plot](resources/one_day_iml_with_poe_0.1_cs_etas_ti_gain.png) | ![Plot](resources/one_day_iml_with_poe_0.1_cs_etas_td_tain.png) | ![Plot](resources/one_day_iml_with_poe_0.1_cs_etas_uni_gain.png) | ![Plot](resources/one_day_iml_with_poe_0.1_cs_etas.png) |
+| **CS-ETAS (Uniform)** | ![Plot](resources/one_day_iml_with_poe_0.1_cs_etas_uni_ti_gain.png) | ![Plot](resources/one_day_iml_with_poe_0.1_cs_etas_uni_td_gain.png) | ![Plot](resources/one_day_iml_with_poe_0.1_cs_etas_uni.png) | ![Plot](resources/one_day_iml_with_poe_0.1_cs_etas_uni_diff.png) |
+| **CS-ETAS** | ![Plot](resources/one_day_iml_with_poe_0.1_cs_etas_ti_gain.png) | ![Plot](resources/one_day_iml_with_poe_0.1_cs_etas_td_gain.png) | ![Plot](resources/one_day_iml_with_poe_0.1_cs_etas_uni_gain.png) | ![Plot](resources/one_day_iml_with_poe_0.1_cs_etas.png) |
 
-##### One Day 5 Sa (g) with POE=0.1, GMPE Maps
+##### One Day 3s Sa (g) with POE=0.1, GMPE Maps
 *[(top)](#table-of-contents)*
 
 |  | GMPE-TI | GMPE-TD | GMPE-ETAS-Uniform | GMPE-ETAS |
 |-----|-----|-----|-----|-----|
 | **GMPE-TI** | ![Plot](resources/one_day_iml_with_poe_0.1_gmpe_ti.png) | ![Plot](resources/one_day_iml_with_poe_0.1_gmpe_td_ti_diff.png) | ![Plot](resources/one_day_iml_with_poe_0.1_gmpe_etas_uni_ti_diff.png) | ![Plot](resources/one_day_iml_with_poe_0.1_gmpe_etas_ti_diff.png) |
 | **GMPE-TD** | ![Plot](resources/one_day_iml_with_poe_0.1_gmpe_td_ti_gain.png) | ![Plot](resources/one_day_iml_with_poe_0.1_gmpe_td.png) | ![Plot](resources/one_day_iml_with_poe_0.1_gmpe_etas_uni_td_diff.png) | ![Plot](resources/one_day_iml_with_poe_0.1_gmpe_etas_td_diff.png) |
-| **GMPE-ETAS (Uniform)** | ![Plot](resources/one_day_iml_with_poe_0.1_gmpe_etas_uni_ti_gain.png) | ![Plot](resources/one_day_iml_with_poe_0.1_gmpe_etas_uni_td_tain.png) | ![Plot](resources/one_day_iml_with_poe_0.1_gmpe_etas_uni.png) | ![Plot](resources/one_day_iml_with_poe_0.1_gmpe_etas_uni_diff.png) |
-| **GMPE-ETAS** | ![Plot](resources/one_day_iml_with_poe_0.1_gmpe_etas_ti_gain.png) | ![Plot](resources/one_day_iml_with_poe_0.1_gmpe_etas_td_tain.png) | ![Plot](resources/one_day_iml_with_poe_0.1_gmpe_etas_uni_gain.png) | ![Plot](resources/one_day_iml_with_poe_0.1_gmpe_etas.png) |
+| **GMPE-ETAS (Uniform)** | ![Plot](resources/one_day_iml_with_poe_0.1_gmpe_etas_uni_ti_gain.png) | ![Plot](resources/one_day_iml_with_poe_0.1_gmpe_etas_uni_td_gain.png) | ![Plot](resources/one_day_iml_with_poe_0.1_gmpe_etas_uni.png) | ![Plot](resources/one_day_iml_with_poe_0.1_gmpe_etas_uni_diff.png) |
+| **GMPE-ETAS** | ![Plot](resources/one_day_iml_with_poe_0.1_gmpe_etas_ti_gain.png) | ![Plot](resources/one_day_iml_with_poe_0.1_gmpe_etas_td_gain.png) | ![Plot](resources/one_day_iml_with_poe_0.1_gmpe_etas_uni_gain.png) | ![Plot](resources/one_day_iml_with_poe_0.1_gmpe_etas.png) |
 
-##### One Day POE 0.01 (g) 5 SA, CyberShake Maps
+##### One Day POE 0.01 (g) 3s SA, CyberShake Maps
 *[(top)](#table-of-contents)*
 
 |  | CS-TI | CS-TD | CS-ETAS-Uniform | CS-ETAS |
 |-----|-----|-----|-----|-----|
 | **CS-TI** | ![Plot](resources/one_day_poe_0.01g_cs_ti.png) | ![Plot](resources/one_day_poe_0.01g_cs_td_ti_diff.png) | ![Plot](resources/one_day_poe_0.01g_cs_etas_uni_ti_diff.png) | ![Plot](resources/one_day_poe_0.01g_cs_etas_ti_diff.png) |
 | **CS-TD** | ![Plot](resources/one_day_poe_0.01g_cs_td_ti_gain.png) | ![Plot](resources/one_day_poe_0.01g_cs_td.png) | ![Plot](resources/one_day_poe_0.01g_cs_etas_uni_td_diff.png) | ![Plot](resources/one_day_poe_0.01g_cs_etas_td_diff.png) |
-| **CS-ETAS (Uniform)** | ![Plot](resources/one_day_poe_0.01g_cs_etas_uni_ti_gain.png) | ![Plot](resources/one_day_poe_0.01g_cs_etas_uni_td_tain.png) | ![Plot](resources/one_day_poe_0.01g_cs_etas_uni.png) | ![Plot](resources/one_day_poe_0.01g_cs_etas_uni_diff.png) |
-| **CS-ETAS** | ![Plot](resources/one_day_poe_0.01g_cs_etas_ti_gain.png) | ![Plot](resources/one_day_poe_0.01g_cs_etas_td_tain.png) | ![Plot](resources/one_day_poe_0.01g_cs_etas_uni_gain.png) | ![Plot](resources/one_day_poe_0.01g_cs_etas.png) |
+| **CS-ETAS (Uniform)** | ![Plot](resources/one_day_poe_0.01g_cs_etas_uni_ti_gain.png) | ![Plot](resources/one_day_poe_0.01g_cs_etas_uni_td_gain.png) | ![Plot](resources/one_day_poe_0.01g_cs_etas_uni.png) | ![Plot](resources/one_day_poe_0.01g_cs_etas_uni_diff.png) |
+| **CS-ETAS** | ![Plot](resources/one_day_poe_0.01g_cs_etas_ti_gain.png) | ![Plot](resources/one_day_poe_0.01g_cs_etas_td_gain.png) | ![Plot](resources/one_day_poe_0.01g_cs_etas_uni_gain.png) | ![Plot](resources/one_day_poe_0.01g_cs_etas.png) |
 
-##### One Day POE 0.01 (g) 5 SA, GMPE Maps
+##### One Day POE 0.01 (g) 3s SA, GMPE Maps
 *[(top)](#table-of-contents)*
 
 |  | GMPE-TI | GMPE-TD | GMPE-ETAS-Uniform | GMPE-ETAS |
 |-----|-----|-----|-----|-----|
 | **GMPE-TI** | ![Plot](resources/one_day_poe_0.01g_gmpe_ti.png) | ![Plot](resources/one_day_poe_0.01g_gmpe_td_ti_diff.png) | ![Plot](resources/one_day_poe_0.01g_gmpe_etas_uni_ti_diff.png) | ![Plot](resources/one_day_poe_0.01g_gmpe_etas_ti_diff.png) |
 | **GMPE-TD** | ![Plot](resources/one_day_poe_0.01g_gmpe_td_ti_gain.png) | ![Plot](resources/one_day_poe_0.01g_gmpe_td.png) | ![Plot](resources/one_day_poe_0.01g_gmpe_etas_uni_td_diff.png) | ![Plot](resources/one_day_poe_0.01g_gmpe_etas_td_diff.png) |
-| **GMPE-ETAS (Uniform)** | ![Plot](resources/one_day_poe_0.01g_gmpe_etas_uni_ti_gain.png) | ![Plot](resources/one_day_poe_0.01g_gmpe_etas_uni_td_tain.png) | ![Plot](resources/one_day_poe_0.01g_gmpe_etas_uni.png) | ![Plot](resources/one_day_poe_0.01g_gmpe_etas_uni_diff.png) |
-| **GMPE-ETAS** | ![Plot](resources/one_day_poe_0.01g_gmpe_etas_ti_gain.png) | ![Plot](resources/one_day_poe_0.01g_gmpe_etas_td_tain.png) | ![Plot](resources/one_day_poe_0.01g_gmpe_etas_uni_gain.png) | ![Plot](resources/one_day_poe_0.01g_gmpe_etas.png) |
+| **GMPE-ETAS (Uniform)** | ![Plot](resources/one_day_poe_0.01g_gmpe_etas_uni_ti_gain.png) | ![Plot](resources/one_day_poe_0.01g_gmpe_etas_uni_td_gain.png) | ![Plot](resources/one_day_poe_0.01g_gmpe_etas_uni.png) | ![Plot](resources/one_day_poe_0.01g_gmpe_etas_uni_diff.png) |
+| **GMPE-ETAS** | ![Plot](resources/one_day_poe_0.01g_gmpe_etas_ti_gain.png) | ![Plot](resources/one_day_poe_0.01g_gmpe_etas_td_gain.png) | ![Plot](resources/one_day_poe_0.01g_gmpe_etas_uni_gain.png) | ![Plot](resources/one_day_poe_0.01g_gmpe_etas.png) |
 
-##### One Day POE 0.1 (g) 5 SA, CyberShake Maps
+##### One Day POE 0.1 (g) 3s SA, CyberShake Maps
 *[(top)](#table-of-contents)*
 
 |  | CS-TI | CS-TD | CS-ETAS-Uniform | CS-ETAS |
 |-----|-----|-----|-----|-----|
 | **CS-TI** | ![Plot](resources/one_day_poe_0.1g_cs_ti.png) | ![Plot](resources/one_day_poe_0.1g_cs_td_ti_diff.png) | ![Plot](resources/one_day_poe_0.1g_cs_etas_uni_ti_diff.png) | ![Plot](resources/one_day_poe_0.1g_cs_etas_ti_diff.png) |
 | **CS-TD** | ![Plot](resources/one_day_poe_0.1g_cs_td_ti_gain.png) | ![Plot](resources/one_day_poe_0.1g_cs_td.png) | ![Plot](resources/one_day_poe_0.1g_cs_etas_uni_td_diff.png) | ![Plot](resources/one_day_poe_0.1g_cs_etas_td_diff.png) |
-| **CS-ETAS (Uniform)** | ![Plot](resources/one_day_poe_0.1g_cs_etas_uni_ti_gain.png) | ![Plot](resources/one_day_poe_0.1g_cs_etas_uni_td_tain.png) | ![Plot](resources/one_day_poe_0.1g_cs_etas_uni.png) | ![Plot](resources/one_day_poe_0.1g_cs_etas_uni_diff.png) |
-| **CS-ETAS** | ![Plot](resources/one_day_poe_0.1g_cs_etas_ti_gain.png) | ![Plot](resources/one_day_poe_0.1g_cs_etas_td_tain.png) | ![Plot](resources/one_day_poe_0.1g_cs_etas_uni_gain.png) | ![Plot](resources/one_day_poe_0.1g_cs_etas.png) |
+| **CS-ETAS (Uniform)** | ![Plot](resources/one_day_poe_0.1g_cs_etas_uni_ti_gain.png) | ![Plot](resources/one_day_poe_0.1g_cs_etas_uni_td_gain.png) | ![Plot](resources/one_day_poe_0.1g_cs_etas_uni.png) | ![Plot](resources/one_day_poe_0.1g_cs_etas_uni_diff.png) |
+| **CS-ETAS** | ![Plot](resources/one_day_poe_0.1g_cs_etas_ti_gain.png) | ![Plot](resources/one_day_poe_0.1g_cs_etas_td_gain.png) | ![Plot](resources/one_day_poe_0.1g_cs_etas_uni_gain.png) | ![Plot](resources/one_day_poe_0.1g_cs_etas.png) |
 
-##### One Day POE 0.1 (g) 5 SA, GMPE Maps
+##### One Day POE 0.1 (g) 3s SA, GMPE Maps
 *[(top)](#table-of-contents)*
 
 |  | GMPE-TI | GMPE-TD | GMPE-ETAS-Uniform | GMPE-ETAS |
 |-----|-----|-----|-----|-----|
 | **GMPE-TI** | ![Plot](resources/one_day_poe_0.1g_gmpe_ti.png) | ![Plot](resources/one_day_poe_0.1g_gmpe_td_ti_diff.png) | ![Plot](resources/one_day_poe_0.1g_gmpe_etas_uni_ti_diff.png) | ![Plot](resources/one_day_poe_0.1g_gmpe_etas_ti_diff.png) |
 | **GMPE-TD** | ![Plot](resources/one_day_poe_0.1g_gmpe_td_ti_gain.png) | ![Plot](resources/one_day_poe_0.1g_gmpe_td.png) | ![Plot](resources/one_day_poe_0.1g_gmpe_etas_uni_td_diff.png) | ![Plot](resources/one_day_poe_0.1g_gmpe_etas_td_diff.png) |
-| **GMPE-ETAS (Uniform)** | ![Plot](resources/one_day_poe_0.1g_gmpe_etas_uni_ti_gain.png) | ![Plot](resources/one_day_poe_0.1g_gmpe_etas_uni_td_tain.png) | ![Plot](resources/one_day_poe_0.1g_gmpe_etas_uni.png) | ![Plot](resources/one_day_poe_0.1g_gmpe_etas_uni_diff.png) |
-| **GMPE-ETAS** | ![Plot](resources/one_day_poe_0.1g_gmpe_etas_ti_gain.png) | ![Plot](resources/one_day_poe_0.1g_gmpe_etas_td_tain.png) | ![Plot](resources/one_day_poe_0.1g_gmpe_etas_uni_gain.png) | ![Plot](resources/one_day_poe_0.1g_gmpe_etas.png) |
+| **GMPE-ETAS (Uniform)** | ![Plot](resources/one_day_poe_0.1g_gmpe_etas_uni_ti_gain.png) | ![Plot](resources/one_day_poe_0.1g_gmpe_etas_uni_td_gain.png) | ![Plot](resources/one_day_poe_0.1g_gmpe_etas_uni.png) | ![Plot](resources/one_day_poe_0.1g_gmpe_etas_uni_diff.png) |
+| **GMPE-ETAS** | ![Plot](resources/one_day_poe_0.1g_gmpe_etas_ti_gain.png) | ![Plot](resources/one_day_poe_0.1g_gmpe_etas_td_gain.png) | ![Plot](resources/one_day_poe_0.1g_gmpe_etas_uni_gain.png) | ![Plot](resources/one_day_poe_0.1g_gmpe_etas.png) |
 
-##### One Day POE 0.2 (g) 5 SA, CyberShake Maps
+##### One Day POE 0.2 (g) 3s SA, CyberShake Maps
 *[(top)](#table-of-contents)*
 
 |  | CS-TI | CS-TD | CS-ETAS-Uniform | CS-ETAS |
 |-----|-----|-----|-----|-----|
 | **CS-TI** | ![Plot](resources/one_day_poe_0.2g_cs_ti.png) | ![Plot](resources/one_day_poe_0.2g_cs_td_ti_diff.png) | ![Plot](resources/one_day_poe_0.2g_cs_etas_uni_ti_diff.png) | ![Plot](resources/one_day_poe_0.2g_cs_etas_ti_diff.png) |
 | **CS-TD** | ![Plot](resources/one_day_poe_0.2g_cs_td_ti_gain.png) | ![Plot](resources/one_day_poe_0.2g_cs_td.png) | ![Plot](resources/one_day_poe_0.2g_cs_etas_uni_td_diff.png) | ![Plot](resources/one_day_poe_0.2g_cs_etas_td_diff.png) |
-| **CS-ETAS (Uniform)** | ![Plot](resources/one_day_poe_0.2g_cs_etas_uni_ti_gain.png) | ![Plot](resources/one_day_poe_0.2g_cs_etas_uni_td_tain.png) | ![Plot](resources/one_day_poe_0.2g_cs_etas_uni.png) | ![Plot](resources/one_day_poe_0.2g_cs_etas_uni_diff.png) |
-| **CS-ETAS** | ![Plot](resources/one_day_poe_0.2g_cs_etas_ti_gain.png) | ![Plot](resources/one_day_poe_0.2g_cs_etas_td_tain.png) | ![Plot](resources/one_day_poe_0.2g_cs_etas_uni_gain.png) | ![Plot](resources/one_day_poe_0.2g_cs_etas.png) |
+| **CS-ETAS (Uniform)** | ![Plot](resources/one_day_poe_0.2g_cs_etas_uni_ti_gain.png) | ![Plot](resources/one_day_poe_0.2g_cs_etas_uni_td_gain.png) | ![Plot](resources/one_day_poe_0.2g_cs_etas_uni.png) | ![Plot](resources/one_day_poe_0.2g_cs_etas_uni_diff.png) |
+| **CS-ETAS** | ![Plot](resources/one_day_poe_0.2g_cs_etas_ti_gain.png) | ![Plot](resources/one_day_poe_0.2g_cs_etas_td_gain.png) | ![Plot](resources/one_day_poe_0.2g_cs_etas_uni_gain.png) | ![Plot](resources/one_day_poe_0.2g_cs_etas.png) |
 
-##### One Day POE 0.2 (g) 5 SA, GMPE Maps
+##### One Day POE 0.2 (g) 3s SA, GMPE Maps
 *[(top)](#table-of-contents)*
 
 |  | GMPE-TI | GMPE-TD | GMPE-ETAS-Uniform | GMPE-ETAS |
 |-----|-----|-----|-----|-----|
 | **GMPE-TI** | ![Plot](resources/one_day_poe_0.2g_gmpe_ti.png) | ![Plot](resources/one_day_poe_0.2g_gmpe_td_ti_diff.png) | ![Plot](resources/one_day_poe_0.2g_gmpe_etas_uni_ti_diff.png) | ![Plot](resources/one_day_poe_0.2g_gmpe_etas_ti_diff.png) |
 | **GMPE-TD** | ![Plot](resources/one_day_poe_0.2g_gmpe_td_ti_gain.png) | ![Plot](resources/one_day_poe_0.2g_gmpe_td.png) | ![Plot](resources/one_day_poe_0.2g_gmpe_etas_uni_td_diff.png) | ![Plot](resources/one_day_poe_0.2g_gmpe_etas_td_diff.png) |
-| **GMPE-ETAS (Uniform)** | ![Plot](resources/one_day_poe_0.2g_gmpe_etas_uni_ti_gain.png) | ![Plot](resources/one_day_poe_0.2g_gmpe_etas_uni_td_tain.png) | ![Plot](resources/one_day_poe_0.2g_gmpe_etas_uni.png) | ![Plot](resources/one_day_poe_0.2g_gmpe_etas_uni_diff.png) |
-| **GMPE-ETAS** | ![Plot](resources/one_day_poe_0.2g_gmpe_etas_ti_gain.png) | ![Plot](resources/one_day_poe_0.2g_gmpe_etas_td_tain.png) | ![Plot](resources/one_day_poe_0.2g_gmpe_etas_uni_gain.png) | ![Plot](resources/one_day_poe_0.2g_gmpe_etas.png) |
+| **GMPE-ETAS (Uniform)** | ![Plot](resources/one_day_poe_0.2g_gmpe_etas_uni_ti_gain.png) | ![Plot](resources/one_day_poe_0.2g_gmpe_etas_uni_td_gain.png) | ![Plot](resources/one_day_poe_0.2g_gmpe_etas_uni.png) | ![Plot](resources/one_day_poe_0.2g_gmpe_etas_uni_diff.png) |
+| **GMPE-ETAS** | ![Plot](resources/one_day_poe_0.2g_gmpe_etas_ti_gain.png) | ![Plot](resources/one_day_poe_0.2g_gmpe_etas_td_gain.png) | ![Plot](resources/one_day_poe_0.2g_gmpe_etas_uni_gain.png) | ![Plot](resources/one_day_poe_0.2g_gmpe_etas.png) |
 
-#### 10 One Day Hazard Maps
+#### 5s One Day Hazard Maps
 *[(top)](#table-of-contents)*
 
-##### One Day 10 Sa (g) with POE=1.0E-4, CyberShake Maps
+##### One Day 5s Sa (g) with POE=1.0E-4, CyberShake Maps
 *[(top)](#table-of-contents)*
 
 |  | CS-TI | CS-TD | CS-ETAS-Uniform | CS-ETAS |
 |-----|-----|-----|-----|-----|
 | **CS-TI** | ![Plot](resources/one_day_iml_with_poe_1.0E-4_cs_ti.png) | ![Plot](resources/one_day_iml_with_poe_1.0E-4_cs_td_ti_diff.png) | ![Plot](resources/one_day_iml_with_poe_1.0E-4_cs_etas_uni_ti_diff.png) | ![Plot](resources/one_day_iml_with_poe_1.0E-4_cs_etas_ti_diff.png) |
 | **CS-TD** | ![Plot](resources/one_day_iml_with_poe_1.0E-4_cs_td_ti_gain.png) | ![Plot](resources/one_day_iml_with_poe_1.0E-4_cs_td.png) | ![Plot](resources/one_day_iml_with_poe_1.0E-4_cs_etas_uni_td_diff.png) | ![Plot](resources/one_day_iml_with_poe_1.0E-4_cs_etas_td_diff.png) |
-| **CS-ETAS (Uniform)** | ![Plot](resources/one_day_iml_with_poe_1.0E-4_cs_etas_uni_ti_gain.png) | ![Plot](resources/one_day_iml_with_poe_1.0E-4_cs_etas_uni_td_tain.png) | ![Plot](resources/one_day_iml_with_poe_1.0E-4_cs_etas_uni.png) | ![Plot](resources/one_day_iml_with_poe_1.0E-4_cs_etas_uni_diff.png) |
-| **CS-ETAS** | ![Plot](resources/one_day_iml_with_poe_1.0E-4_cs_etas_ti_gain.png) | ![Plot](resources/one_day_iml_with_poe_1.0E-4_cs_etas_td_tain.png) | ![Plot](resources/one_day_iml_with_poe_1.0E-4_cs_etas_uni_gain.png) | ![Plot](resources/one_day_iml_with_poe_1.0E-4_cs_etas.png) |
+| **CS-ETAS (Uniform)** | ![Plot](resources/one_day_iml_with_poe_1.0E-4_cs_etas_uni_ti_gain.png) | ![Plot](resources/one_day_iml_with_poe_1.0E-4_cs_etas_uni_td_gain.png) | ![Plot](resources/one_day_iml_with_poe_1.0E-4_cs_etas_uni.png) | ![Plot](resources/one_day_iml_with_poe_1.0E-4_cs_etas_uni_diff.png) |
+| **CS-ETAS** | ![Plot](resources/one_day_iml_with_poe_1.0E-4_cs_etas_ti_gain.png) | ![Plot](resources/one_day_iml_with_poe_1.0E-4_cs_etas_td_gain.png) | ![Plot](resources/one_day_iml_with_poe_1.0E-4_cs_etas_uni_gain.png) | ![Plot](resources/one_day_iml_with_poe_1.0E-4_cs_etas.png) |
 
-##### One Day 10 Sa (g) with POE=1.0E-4, GMPE Maps
+##### One Day 5s Sa (g) with POE=1.0E-4, GMPE Maps
 *[(top)](#table-of-contents)*
 
 |  | GMPE-TI | GMPE-TD | GMPE-ETAS-Uniform | GMPE-ETAS |
 |-----|-----|-----|-----|-----|
 | **GMPE-TI** | ![Plot](resources/one_day_iml_with_poe_1.0E-4_gmpe_ti.png) | ![Plot](resources/one_day_iml_with_poe_1.0E-4_gmpe_td_ti_diff.png) | ![Plot](resources/one_day_iml_with_poe_1.0E-4_gmpe_etas_uni_ti_diff.png) | ![Plot](resources/one_day_iml_with_poe_1.0E-4_gmpe_etas_ti_diff.png) |
 | **GMPE-TD** | ![Plot](resources/one_day_iml_with_poe_1.0E-4_gmpe_td_ti_gain.png) | ![Plot](resources/one_day_iml_with_poe_1.0E-4_gmpe_td.png) | ![Plot](resources/one_day_iml_with_poe_1.0E-4_gmpe_etas_uni_td_diff.png) | ![Plot](resources/one_day_iml_with_poe_1.0E-4_gmpe_etas_td_diff.png) |
-| **GMPE-ETAS (Uniform)** | ![Plot](resources/one_day_iml_with_poe_1.0E-4_gmpe_etas_uni_ti_gain.png) | ![Plot](resources/one_day_iml_with_poe_1.0E-4_gmpe_etas_uni_td_tain.png) | ![Plot](resources/one_day_iml_with_poe_1.0E-4_gmpe_etas_uni.png) | ![Plot](resources/one_day_iml_with_poe_1.0E-4_gmpe_etas_uni_diff.png) |
-| **GMPE-ETAS** | ![Plot](resources/one_day_iml_with_poe_1.0E-4_gmpe_etas_ti_gain.png) | ![Plot](resources/one_day_iml_with_poe_1.0E-4_gmpe_etas_td_tain.png) | ![Plot](resources/one_day_iml_with_poe_1.0E-4_gmpe_etas_uni_gain.png) | ![Plot](resources/one_day_iml_with_poe_1.0E-4_gmpe_etas.png) |
+| **GMPE-ETAS (Uniform)** | ![Plot](resources/one_day_iml_with_poe_1.0E-4_gmpe_etas_uni_ti_gain.png) | ![Plot](resources/one_day_iml_with_poe_1.0E-4_gmpe_etas_uni_td_gain.png) | ![Plot](resources/one_day_iml_with_poe_1.0E-4_gmpe_etas_uni.png) | ![Plot](resources/one_day_iml_with_poe_1.0E-4_gmpe_etas_uni_diff.png) |
+| **GMPE-ETAS** | ![Plot](resources/one_day_iml_with_poe_1.0E-4_gmpe_etas_ti_gain.png) | ![Plot](resources/one_day_iml_with_poe_1.0E-4_gmpe_etas_td_gain.png) | ![Plot](resources/one_day_iml_with_poe_1.0E-4_gmpe_etas_uni_gain.png) | ![Plot](resources/one_day_iml_with_poe_1.0E-4_gmpe_etas.png) |
 
-##### One Day 10 Sa (g) with POE=0.001, CyberShake Maps
+##### One Day 5s Sa (g) with POE=0.001, CyberShake Maps
 *[(top)](#table-of-contents)*
 
 |  | CS-TI | CS-TD | CS-ETAS-Uniform | CS-ETAS |
 |-----|-----|-----|-----|-----|
 | **CS-TI** | ![Plot](resources/one_day_iml_with_poe_0.001_cs_ti.png) | ![Plot](resources/one_day_iml_with_poe_0.001_cs_td_ti_diff.png) | ![Plot](resources/one_day_iml_with_poe_0.001_cs_etas_uni_ti_diff.png) | ![Plot](resources/one_day_iml_with_poe_0.001_cs_etas_ti_diff.png) |
 | **CS-TD** | ![Plot](resources/one_day_iml_with_poe_0.001_cs_td_ti_gain.png) | ![Plot](resources/one_day_iml_with_poe_0.001_cs_td.png) | ![Plot](resources/one_day_iml_with_poe_0.001_cs_etas_uni_td_diff.png) | ![Plot](resources/one_day_iml_with_poe_0.001_cs_etas_td_diff.png) |
-| **CS-ETAS (Uniform)** | ![Plot](resources/one_day_iml_with_poe_0.001_cs_etas_uni_ti_gain.png) | ![Plot](resources/one_day_iml_with_poe_0.001_cs_etas_uni_td_tain.png) | ![Plot](resources/one_day_iml_with_poe_0.001_cs_etas_uni.png) | ![Plot](resources/one_day_iml_with_poe_0.001_cs_etas_uni_diff.png) |
-| **CS-ETAS** | ![Plot](resources/one_day_iml_with_poe_0.001_cs_etas_ti_gain.png) | ![Plot](resources/one_day_iml_with_poe_0.001_cs_etas_td_tain.png) | ![Plot](resources/one_day_iml_with_poe_0.001_cs_etas_uni_gain.png) | ![Plot](resources/one_day_iml_with_poe_0.001_cs_etas.png) |
+| **CS-ETAS (Uniform)** | ![Plot](resources/one_day_iml_with_poe_0.001_cs_etas_uni_ti_gain.png) | ![Plot](resources/one_day_iml_with_poe_0.001_cs_etas_uni_td_gain.png) | ![Plot](resources/one_day_iml_with_poe_0.001_cs_etas_uni.png) | ![Plot](resources/one_day_iml_with_poe_0.001_cs_etas_uni_diff.png) |
+| **CS-ETAS** | ![Plot](resources/one_day_iml_with_poe_0.001_cs_etas_ti_gain.png) | ![Plot](resources/one_day_iml_with_poe_0.001_cs_etas_td_gain.png) | ![Plot](resources/one_day_iml_with_poe_0.001_cs_etas_uni_gain.png) | ![Plot](resources/one_day_iml_with_poe_0.001_cs_etas.png) |
 
-##### One Day 10 Sa (g) with POE=0.001, GMPE Maps
+##### One Day 5s Sa (g) with POE=0.001, GMPE Maps
 *[(top)](#table-of-contents)*
 
 |  | GMPE-TI | GMPE-TD | GMPE-ETAS-Uniform | GMPE-ETAS |
 |-----|-----|-----|-----|-----|
 | **GMPE-TI** | ![Plot](resources/one_day_iml_with_poe_0.001_gmpe_ti.png) | ![Plot](resources/one_day_iml_with_poe_0.001_gmpe_td_ti_diff.png) | ![Plot](resources/one_day_iml_with_poe_0.001_gmpe_etas_uni_ti_diff.png) | ![Plot](resources/one_day_iml_with_poe_0.001_gmpe_etas_ti_diff.png) |
 | **GMPE-TD** | ![Plot](resources/one_day_iml_with_poe_0.001_gmpe_td_ti_gain.png) | ![Plot](resources/one_day_iml_with_poe_0.001_gmpe_td.png) | ![Plot](resources/one_day_iml_with_poe_0.001_gmpe_etas_uni_td_diff.png) | ![Plot](resources/one_day_iml_with_poe_0.001_gmpe_etas_td_diff.png) |
-| **GMPE-ETAS (Uniform)** | ![Plot](resources/one_day_iml_with_poe_0.001_gmpe_etas_uni_ti_gain.png) | ![Plot](resources/one_day_iml_with_poe_0.001_gmpe_etas_uni_td_tain.png) | ![Plot](resources/one_day_iml_with_poe_0.001_gmpe_etas_uni.png) | ![Plot](resources/one_day_iml_with_poe_0.001_gmpe_etas_uni_diff.png) |
-| **GMPE-ETAS** | ![Plot](resources/one_day_iml_with_poe_0.001_gmpe_etas_ti_gain.png) | ![Plot](resources/one_day_iml_with_poe_0.001_gmpe_etas_td_tain.png) | ![Plot](resources/one_day_iml_with_poe_0.001_gmpe_etas_uni_gain.png) | ![Plot](resources/one_day_iml_with_poe_0.001_gmpe_etas.png) |
+| **GMPE-ETAS (Uniform)** | ![Plot](resources/one_day_iml_with_poe_0.001_gmpe_etas_uni_ti_gain.png) | ![Plot](resources/one_day_iml_with_poe_0.001_gmpe_etas_uni_td_gain.png) | ![Plot](resources/one_day_iml_with_poe_0.001_gmpe_etas_uni.png) | ![Plot](resources/one_day_iml_with_poe_0.001_gmpe_etas_uni_diff.png) |
+| **GMPE-ETAS** | ![Plot](resources/one_day_iml_with_poe_0.001_gmpe_etas_ti_gain.png) | ![Plot](resources/one_day_iml_with_poe_0.001_gmpe_etas_td_gain.png) | ![Plot](resources/one_day_iml_with_poe_0.001_gmpe_etas_uni_gain.png) | ![Plot](resources/one_day_iml_with_poe_0.001_gmpe_etas.png) |
 
-##### One Day 10 Sa (g) with POE=0.01, CyberShake Maps
+##### One Day 5s Sa (g) with POE=0.01, CyberShake Maps
 *[(top)](#table-of-contents)*
 
 |  | CS-TI | CS-TD | CS-ETAS-Uniform | CS-ETAS |
 |-----|-----|-----|-----|-----|
 | **CS-TI** | ![Plot](resources/one_day_iml_with_poe_0.01_cs_ti.png) | ![Plot](resources/one_day_iml_with_poe_0.01_cs_td_ti_diff.png) | ![Plot](resources/one_day_iml_with_poe_0.01_cs_etas_uni_ti_diff.png) | ![Plot](resources/one_day_iml_with_poe_0.01_cs_etas_ti_diff.png) |
 | **CS-TD** | ![Plot](resources/one_day_iml_with_poe_0.01_cs_td_ti_gain.png) | ![Plot](resources/one_day_iml_with_poe_0.01_cs_td.png) | ![Plot](resources/one_day_iml_with_poe_0.01_cs_etas_uni_td_diff.png) | ![Plot](resources/one_day_iml_with_poe_0.01_cs_etas_td_diff.png) |
-| **CS-ETAS (Uniform)** | ![Plot](resources/one_day_iml_with_poe_0.01_cs_etas_uni_ti_gain.png) | ![Plot](resources/one_day_iml_with_poe_0.01_cs_etas_uni_td_tain.png) | ![Plot](resources/one_day_iml_with_poe_0.01_cs_etas_uni.png) | ![Plot](resources/one_day_iml_with_poe_0.01_cs_etas_uni_diff.png) |
-| **CS-ETAS** | ![Plot](resources/one_day_iml_with_poe_0.01_cs_etas_ti_gain.png) | ![Plot](resources/one_day_iml_with_poe_0.01_cs_etas_td_tain.png) | ![Plot](resources/one_day_iml_with_poe_0.01_cs_etas_uni_gain.png) | ![Plot](resources/one_day_iml_with_poe_0.01_cs_etas.png) |
+| **CS-ETAS (Uniform)** | ![Plot](resources/one_day_iml_with_poe_0.01_cs_etas_uni_ti_gain.png) | ![Plot](resources/one_day_iml_with_poe_0.01_cs_etas_uni_td_gain.png) | ![Plot](resources/one_day_iml_with_poe_0.01_cs_etas_uni.png) | ![Plot](resources/one_day_iml_with_poe_0.01_cs_etas_uni_diff.png) |
+| **CS-ETAS** | ![Plot](resources/one_day_iml_with_poe_0.01_cs_etas_ti_gain.png) | ![Plot](resources/one_day_iml_with_poe_0.01_cs_etas_td_gain.png) | ![Plot](resources/one_day_iml_with_poe_0.01_cs_etas_uni_gain.png) | ![Plot](resources/one_day_iml_with_poe_0.01_cs_etas.png) |
 
-##### One Day 10 Sa (g) with POE=0.01, GMPE Maps
+##### One Day 5s Sa (g) with POE=0.01, GMPE Maps
 *[(top)](#table-of-contents)*
 
 |  | GMPE-TI | GMPE-TD | GMPE-ETAS-Uniform | GMPE-ETAS |
 |-----|-----|-----|-----|-----|
 | **GMPE-TI** | ![Plot](resources/one_day_iml_with_poe_0.01_gmpe_ti.png) | ![Plot](resources/one_day_iml_with_poe_0.01_gmpe_td_ti_diff.png) | ![Plot](resources/one_day_iml_with_poe_0.01_gmpe_etas_uni_ti_diff.png) | ![Plot](resources/one_day_iml_with_poe_0.01_gmpe_etas_ti_diff.png) |
 | **GMPE-TD** | ![Plot](resources/one_day_iml_with_poe_0.01_gmpe_td_ti_gain.png) | ![Plot](resources/one_day_iml_with_poe_0.01_gmpe_td.png) | ![Plot](resources/one_day_iml_with_poe_0.01_gmpe_etas_uni_td_diff.png) | ![Plot](resources/one_day_iml_with_poe_0.01_gmpe_etas_td_diff.png) |
-| **GMPE-ETAS (Uniform)** | ![Plot](resources/one_day_iml_with_poe_0.01_gmpe_etas_uni_ti_gain.png) | ![Plot](resources/one_day_iml_with_poe_0.01_gmpe_etas_uni_td_tain.png) | ![Plot](resources/one_day_iml_with_poe_0.01_gmpe_etas_uni.png) | ![Plot](resources/one_day_iml_with_poe_0.01_gmpe_etas_uni_diff.png) |
-| **GMPE-ETAS** | ![Plot](resources/one_day_iml_with_poe_0.01_gmpe_etas_ti_gain.png) | ![Plot](resources/one_day_iml_with_poe_0.01_gmpe_etas_td_tain.png) | ![Plot](resources/one_day_iml_with_poe_0.01_gmpe_etas_uni_gain.png) | ![Plot](resources/one_day_iml_with_poe_0.01_gmpe_etas.png) |
+| **GMPE-ETAS (Uniform)** | ![Plot](resources/one_day_iml_with_poe_0.01_gmpe_etas_uni_ti_gain.png) | ![Plot](resources/one_day_iml_with_poe_0.01_gmpe_etas_uni_td_gain.png) | ![Plot](resources/one_day_iml_with_poe_0.01_gmpe_etas_uni.png) | ![Plot](resources/one_day_iml_with_poe_0.01_gmpe_etas_uni_diff.png) |
+| **GMPE-ETAS** | ![Plot](resources/one_day_iml_with_poe_0.01_gmpe_etas_ti_gain.png) | ![Plot](resources/one_day_iml_with_poe_0.01_gmpe_etas_td_gain.png) | ![Plot](resources/one_day_iml_with_poe_0.01_gmpe_etas_uni_gain.png) | ![Plot](resources/one_day_iml_with_poe_0.01_gmpe_etas.png) |
 
-##### One Day 10 Sa (g) with POE=0.1, CyberShake Maps
+##### One Day 5s Sa (g) with POE=0.1, CyberShake Maps
 *[(top)](#table-of-contents)*
 
 |  | CS-TI | CS-TD | CS-ETAS-Uniform | CS-ETAS |
 |-----|-----|-----|-----|-----|
 | **CS-TI** | ![Plot](resources/one_day_iml_with_poe_0.1_cs_ti.png) | ![Plot](resources/one_day_iml_with_poe_0.1_cs_td_ti_diff.png) | ![Plot](resources/one_day_iml_with_poe_0.1_cs_etas_uni_ti_diff.png) | ![Plot](resources/one_day_iml_with_poe_0.1_cs_etas_ti_diff.png) |
 | **CS-TD** | ![Plot](resources/one_day_iml_with_poe_0.1_cs_td_ti_gain.png) | ![Plot](resources/one_day_iml_with_poe_0.1_cs_td.png) | ![Plot](resources/one_day_iml_with_poe_0.1_cs_etas_uni_td_diff.png) | ![Plot](resources/one_day_iml_with_poe_0.1_cs_etas_td_diff.png) |
-| **CS-ETAS (Uniform)** | ![Plot](resources/one_day_iml_with_poe_0.1_cs_etas_uni_ti_gain.png) | ![Plot](resources/one_day_iml_with_poe_0.1_cs_etas_uni_td_tain.png) | ![Plot](resources/one_day_iml_with_poe_0.1_cs_etas_uni.png) | ![Plot](resources/one_day_iml_with_poe_0.1_cs_etas_uni_diff.png) |
-| **CS-ETAS** | ![Plot](resources/one_day_iml_with_poe_0.1_cs_etas_ti_gain.png) | ![Plot](resources/one_day_iml_with_poe_0.1_cs_etas_td_tain.png) | ![Plot](resources/one_day_iml_with_poe_0.1_cs_etas_uni_gain.png) | ![Plot](resources/one_day_iml_with_poe_0.1_cs_etas.png) |
+| **CS-ETAS (Uniform)** | ![Plot](resources/one_day_iml_with_poe_0.1_cs_etas_uni_ti_gain.png) | ![Plot](resources/one_day_iml_with_poe_0.1_cs_etas_uni_td_gain.png) | ![Plot](resources/one_day_iml_with_poe_0.1_cs_etas_uni.png) | ![Plot](resources/one_day_iml_with_poe_0.1_cs_etas_uni_diff.png) |
+| **CS-ETAS** | ![Plot](resources/one_day_iml_with_poe_0.1_cs_etas_ti_gain.png) | ![Plot](resources/one_day_iml_with_poe_0.1_cs_etas_td_gain.png) | ![Plot](resources/one_day_iml_with_poe_0.1_cs_etas_uni_gain.png) | ![Plot](resources/one_day_iml_with_poe_0.1_cs_etas.png) |
 
-##### One Day 10 Sa (g) with POE=0.1, GMPE Maps
+##### One Day 5s Sa (g) with POE=0.1, GMPE Maps
 *[(top)](#table-of-contents)*
 
 |  | GMPE-TI | GMPE-TD | GMPE-ETAS-Uniform | GMPE-ETAS |
 |-----|-----|-----|-----|-----|
 | **GMPE-TI** | ![Plot](resources/one_day_iml_with_poe_0.1_gmpe_ti.png) | ![Plot](resources/one_day_iml_with_poe_0.1_gmpe_td_ti_diff.png) | ![Plot](resources/one_day_iml_with_poe_0.1_gmpe_etas_uni_ti_diff.png) | ![Plot](resources/one_day_iml_with_poe_0.1_gmpe_etas_ti_diff.png) |
 | **GMPE-TD** | ![Plot](resources/one_day_iml_with_poe_0.1_gmpe_td_ti_gain.png) | ![Plot](resources/one_day_iml_with_poe_0.1_gmpe_td.png) | ![Plot](resources/one_day_iml_with_poe_0.1_gmpe_etas_uni_td_diff.png) | ![Plot](resources/one_day_iml_with_poe_0.1_gmpe_etas_td_diff.png) |
-| **GMPE-ETAS (Uniform)** | ![Plot](resources/one_day_iml_with_poe_0.1_gmpe_etas_uni_ti_gain.png) | ![Plot](resources/one_day_iml_with_poe_0.1_gmpe_etas_uni_td_tain.png) | ![Plot](resources/one_day_iml_with_poe_0.1_gmpe_etas_uni.png) | ![Plot](resources/one_day_iml_with_poe_0.1_gmpe_etas_uni_diff.png) |
-| **GMPE-ETAS** | ![Plot](resources/one_day_iml_with_poe_0.1_gmpe_etas_ti_gain.png) | ![Plot](resources/one_day_iml_with_poe_0.1_gmpe_etas_td_tain.png) | ![Plot](resources/one_day_iml_with_poe_0.1_gmpe_etas_uni_gain.png) | ![Plot](resources/one_day_iml_with_poe_0.1_gmpe_etas.png) |
+| **GMPE-ETAS (Uniform)** | ![Plot](resources/one_day_iml_with_poe_0.1_gmpe_etas_uni_ti_gain.png) | ![Plot](resources/one_day_iml_with_poe_0.1_gmpe_etas_uni_td_gain.png) | ![Plot](resources/one_day_iml_with_poe_0.1_gmpe_etas_uni.png) | ![Plot](resources/one_day_iml_with_poe_0.1_gmpe_etas_uni_diff.png) |
+| **GMPE-ETAS** | ![Plot](resources/one_day_iml_with_poe_0.1_gmpe_etas_ti_gain.png) | ![Plot](resources/one_day_iml_with_poe_0.1_gmpe_etas_td_gain.png) | ![Plot](resources/one_day_iml_with_poe_0.1_gmpe_etas_uni_gain.png) | ![Plot](resources/one_day_iml_with_poe_0.1_gmpe_etas.png) |
 
-##### One Day POE 0.01 (g) 10 SA, CyberShake Maps
+##### One Day POE 0.01 (g) 5s SA, CyberShake Maps
 *[(top)](#table-of-contents)*
 
 |  | CS-TI | CS-TD | CS-ETAS-Uniform | CS-ETAS |
 |-----|-----|-----|-----|-----|
 | **CS-TI** | ![Plot](resources/one_day_poe_0.01g_cs_ti.png) | ![Plot](resources/one_day_poe_0.01g_cs_td_ti_diff.png) | ![Plot](resources/one_day_poe_0.01g_cs_etas_uni_ti_diff.png) | ![Plot](resources/one_day_poe_0.01g_cs_etas_ti_diff.png) |
 | **CS-TD** | ![Plot](resources/one_day_poe_0.01g_cs_td_ti_gain.png) | ![Plot](resources/one_day_poe_0.01g_cs_td.png) | ![Plot](resources/one_day_poe_0.01g_cs_etas_uni_td_diff.png) | ![Plot](resources/one_day_poe_0.01g_cs_etas_td_diff.png) |
-| **CS-ETAS (Uniform)** | ![Plot](resources/one_day_poe_0.01g_cs_etas_uni_ti_gain.png) | ![Plot](resources/one_day_poe_0.01g_cs_etas_uni_td_tain.png) | ![Plot](resources/one_day_poe_0.01g_cs_etas_uni.png) | ![Plot](resources/one_day_poe_0.01g_cs_etas_uni_diff.png) |
-| **CS-ETAS** | ![Plot](resources/one_day_poe_0.01g_cs_etas_ti_gain.png) | ![Plot](resources/one_day_poe_0.01g_cs_etas_td_tain.png) | ![Plot](resources/one_day_poe_0.01g_cs_etas_uni_gain.png) | ![Plot](resources/one_day_poe_0.01g_cs_etas.png) |
+| **CS-ETAS (Uniform)** | ![Plot](resources/one_day_poe_0.01g_cs_etas_uni_ti_gain.png) | ![Plot](resources/one_day_poe_0.01g_cs_etas_uni_td_gain.png) | ![Plot](resources/one_day_poe_0.01g_cs_etas_uni.png) | ![Plot](resources/one_day_poe_0.01g_cs_etas_uni_diff.png) |
+| **CS-ETAS** | ![Plot](resources/one_day_poe_0.01g_cs_etas_ti_gain.png) | ![Plot](resources/one_day_poe_0.01g_cs_etas_td_gain.png) | ![Plot](resources/one_day_poe_0.01g_cs_etas_uni_gain.png) | ![Plot](resources/one_day_poe_0.01g_cs_etas.png) |
 
-##### One Day POE 0.01 (g) 10 SA, GMPE Maps
+##### One Day POE 0.01 (g) 5s SA, GMPE Maps
 *[(top)](#table-of-contents)*
 
 |  | GMPE-TI | GMPE-TD | GMPE-ETAS-Uniform | GMPE-ETAS |
 |-----|-----|-----|-----|-----|
 | **GMPE-TI** | ![Plot](resources/one_day_poe_0.01g_gmpe_ti.png) | ![Plot](resources/one_day_poe_0.01g_gmpe_td_ti_diff.png) | ![Plot](resources/one_day_poe_0.01g_gmpe_etas_uni_ti_diff.png) | ![Plot](resources/one_day_poe_0.01g_gmpe_etas_ti_diff.png) |
 | **GMPE-TD** | ![Plot](resources/one_day_poe_0.01g_gmpe_td_ti_gain.png) | ![Plot](resources/one_day_poe_0.01g_gmpe_td.png) | ![Plot](resources/one_day_poe_0.01g_gmpe_etas_uni_td_diff.png) | ![Plot](resources/one_day_poe_0.01g_gmpe_etas_td_diff.png) |
-| **GMPE-ETAS (Uniform)** | ![Plot](resources/one_day_poe_0.01g_gmpe_etas_uni_ti_gain.png) | ![Plot](resources/one_day_poe_0.01g_gmpe_etas_uni_td_tain.png) | ![Plot](resources/one_day_poe_0.01g_gmpe_etas_uni.png) | ![Plot](resources/one_day_poe_0.01g_gmpe_etas_uni_diff.png) |
-| **GMPE-ETAS** | ![Plot](resources/one_day_poe_0.01g_gmpe_etas_ti_gain.png) | ![Plot](resources/one_day_poe_0.01g_gmpe_etas_td_tain.png) | ![Plot](resources/one_day_poe_0.01g_gmpe_etas_uni_gain.png) | ![Plot](resources/one_day_poe_0.01g_gmpe_etas.png) |
+| **GMPE-ETAS (Uniform)** | ![Plot](resources/one_day_poe_0.01g_gmpe_etas_uni_ti_gain.png) | ![Plot](resources/one_day_poe_0.01g_gmpe_etas_uni_td_gain.png) | ![Plot](resources/one_day_poe_0.01g_gmpe_etas_uni.png) | ![Plot](resources/one_day_poe_0.01g_gmpe_etas_uni_diff.png) |
+| **GMPE-ETAS** | ![Plot](resources/one_day_poe_0.01g_gmpe_etas_ti_gain.png) | ![Plot](resources/one_day_poe_0.01g_gmpe_etas_td_gain.png) | ![Plot](resources/one_day_poe_0.01g_gmpe_etas_uni_gain.png) | ![Plot](resources/one_day_poe_0.01g_gmpe_etas.png) |
 
-##### One Day POE 0.1 (g) 10 SA, CyberShake Maps
+##### One Day POE 0.1 (g) 5s SA, CyberShake Maps
 *[(top)](#table-of-contents)*
 
 |  | CS-TI | CS-TD | CS-ETAS-Uniform | CS-ETAS |
 |-----|-----|-----|-----|-----|
 | **CS-TI** | ![Plot](resources/one_day_poe_0.1g_cs_ti.png) | ![Plot](resources/one_day_poe_0.1g_cs_td_ti_diff.png) | ![Plot](resources/one_day_poe_0.1g_cs_etas_uni_ti_diff.png) | ![Plot](resources/one_day_poe_0.1g_cs_etas_ti_diff.png) |
 | **CS-TD** | ![Plot](resources/one_day_poe_0.1g_cs_td_ti_gain.png) | ![Plot](resources/one_day_poe_0.1g_cs_td.png) | ![Plot](resources/one_day_poe_0.1g_cs_etas_uni_td_diff.png) | ![Plot](resources/one_day_poe_0.1g_cs_etas_td_diff.png) |
-| **CS-ETAS (Uniform)** | ![Plot](resources/one_day_poe_0.1g_cs_etas_uni_ti_gain.png) | ![Plot](resources/one_day_poe_0.1g_cs_etas_uni_td_tain.png) | ![Plot](resources/one_day_poe_0.1g_cs_etas_uni.png) | ![Plot](resources/one_day_poe_0.1g_cs_etas_uni_diff.png) |
-| **CS-ETAS** | ![Plot](resources/one_day_poe_0.1g_cs_etas_ti_gain.png) | ![Plot](resources/one_day_poe_0.1g_cs_etas_td_tain.png) | ![Plot](resources/one_day_poe_0.1g_cs_etas_uni_gain.png) | ![Plot](resources/one_day_poe_0.1g_cs_etas.png) |
+| **CS-ETAS (Uniform)** | ![Plot](resources/one_day_poe_0.1g_cs_etas_uni_ti_gain.png) | ![Plot](resources/one_day_poe_0.1g_cs_etas_uni_td_gain.png) | ![Plot](resources/one_day_poe_0.1g_cs_etas_uni.png) | ![Plot](resources/one_day_poe_0.1g_cs_etas_uni_diff.png) |
+| **CS-ETAS** | ![Plot](resources/one_day_poe_0.1g_cs_etas_ti_gain.png) | ![Plot](resources/one_day_poe_0.1g_cs_etas_td_gain.png) | ![Plot](resources/one_day_poe_0.1g_cs_etas_uni_gain.png) | ![Plot](resources/one_day_poe_0.1g_cs_etas.png) |
 
-##### One Day POE 0.1 (g) 10 SA, GMPE Maps
+##### One Day POE 0.1 (g) 5s SA, GMPE Maps
 *[(top)](#table-of-contents)*
 
 |  | GMPE-TI | GMPE-TD | GMPE-ETAS-Uniform | GMPE-ETAS |
 |-----|-----|-----|-----|-----|
 | **GMPE-TI** | ![Plot](resources/one_day_poe_0.1g_gmpe_ti.png) | ![Plot](resources/one_day_poe_0.1g_gmpe_td_ti_diff.png) | ![Plot](resources/one_day_poe_0.1g_gmpe_etas_uni_ti_diff.png) | ![Plot](resources/one_day_poe_0.1g_gmpe_etas_ti_diff.png) |
 | **GMPE-TD** | ![Plot](resources/one_day_poe_0.1g_gmpe_td_ti_gain.png) | ![Plot](resources/one_day_poe_0.1g_gmpe_td.png) | ![Plot](resources/one_day_poe_0.1g_gmpe_etas_uni_td_diff.png) | ![Plot](resources/one_day_poe_0.1g_gmpe_etas_td_diff.png) |
-| **GMPE-ETAS (Uniform)** | ![Plot](resources/one_day_poe_0.1g_gmpe_etas_uni_ti_gain.png) | ![Plot](resources/one_day_poe_0.1g_gmpe_etas_uni_td_tain.png) | ![Plot](resources/one_day_poe_0.1g_gmpe_etas_uni.png) | ![Plot](resources/one_day_poe_0.1g_gmpe_etas_uni_diff.png) |
-| **GMPE-ETAS** | ![Plot](resources/one_day_poe_0.1g_gmpe_etas_ti_gain.png) | ![Plot](resources/one_day_poe_0.1g_gmpe_etas_td_tain.png) | ![Plot](resources/one_day_poe_0.1g_gmpe_etas_uni_gain.png) | ![Plot](resources/one_day_poe_0.1g_gmpe_etas.png) |
+| **GMPE-ETAS (Uniform)** | ![Plot](resources/one_day_poe_0.1g_gmpe_etas_uni_ti_gain.png) | ![Plot](resources/one_day_poe_0.1g_gmpe_etas_uni_td_gain.png) | ![Plot](resources/one_day_poe_0.1g_gmpe_etas_uni.png) | ![Plot](resources/one_day_poe_0.1g_gmpe_etas_uni_diff.png) |
+| **GMPE-ETAS** | ![Plot](resources/one_day_poe_0.1g_gmpe_etas_ti_gain.png) | ![Plot](resources/one_day_poe_0.1g_gmpe_etas_td_gain.png) | ![Plot](resources/one_day_poe_0.1g_gmpe_etas_uni_gain.png) | ![Plot](resources/one_day_poe_0.1g_gmpe_etas.png) |
 
-##### One Day POE 0.2 (g) 10 SA, CyberShake Maps
+##### One Day POE 0.2 (g) 5s SA, CyberShake Maps
 *[(top)](#table-of-contents)*
 
 |  | CS-TI | CS-TD | CS-ETAS-Uniform | CS-ETAS |
 |-----|-----|-----|-----|-----|
 | **CS-TI** | ![Plot](resources/one_day_poe_0.2g_cs_ti.png) | ![Plot](resources/one_day_poe_0.2g_cs_td_ti_diff.png) | ![Plot](resources/one_day_poe_0.2g_cs_etas_uni_ti_diff.png) | ![Plot](resources/one_day_poe_0.2g_cs_etas_ti_diff.png) |
 | **CS-TD** | ![Plot](resources/one_day_poe_0.2g_cs_td_ti_gain.png) | ![Plot](resources/one_day_poe_0.2g_cs_td.png) | ![Plot](resources/one_day_poe_0.2g_cs_etas_uni_td_diff.png) | ![Plot](resources/one_day_poe_0.2g_cs_etas_td_diff.png) |
-| **CS-ETAS (Uniform)** | ![Plot](resources/one_day_poe_0.2g_cs_etas_uni_ti_gain.png) | ![Plot](resources/one_day_poe_0.2g_cs_etas_uni_td_tain.png) | ![Plot](resources/one_day_poe_0.2g_cs_etas_uni.png) | ![Plot](resources/one_day_poe_0.2g_cs_etas_uni_diff.png) |
-| **CS-ETAS** | ![Plot](resources/one_day_poe_0.2g_cs_etas_ti_gain.png) | ![Plot](resources/one_day_poe_0.2g_cs_etas_td_tain.png) | ![Plot](resources/one_day_poe_0.2g_cs_etas_uni_gain.png) | ![Plot](resources/one_day_poe_0.2g_cs_etas.png) |
+| **CS-ETAS (Uniform)** | ![Plot](resources/one_day_poe_0.2g_cs_etas_uni_ti_gain.png) | ![Plot](resources/one_day_poe_0.2g_cs_etas_uni_td_gain.png) | ![Plot](resources/one_day_poe_0.2g_cs_etas_uni.png) | ![Plot](resources/one_day_poe_0.2g_cs_etas_uni_diff.png) |
+| **CS-ETAS** | ![Plot](resources/one_day_poe_0.2g_cs_etas_ti_gain.png) | ![Plot](resources/one_day_poe_0.2g_cs_etas_td_gain.png) | ![Plot](resources/one_day_poe_0.2g_cs_etas_uni_gain.png) | ![Plot](resources/one_day_poe_0.2g_cs_etas.png) |
 
-##### One Day POE 0.2 (g) 10 SA, GMPE Maps
+##### One Day POE 0.2 (g) 5s SA, GMPE Maps
 *[(top)](#table-of-contents)*
 
 |  | GMPE-TI | GMPE-TD | GMPE-ETAS-Uniform | GMPE-ETAS |
 |-----|-----|-----|-----|-----|
 | **GMPE-TI** | ![Plot](resources/one_day_poe_0.2g_gmpe_ti.png) | ![Plot](resources/one_day_poe_0.2g_gmpe_td_ti_diff.png) | ![Plot](resources/one_day_poe_0.2g_gmpe_etas_uni_ti_diff.png) | ![Plot](resources/one_day_poe_0.2g_gmpe_etas_ti_diff.png) |
 | **GMPE-TD** | ![Plot](resources/one_day_poe_0.2g_gmpe_td_ti_gain.png) | ![Plot](resources/one_day_poe_0.2g_gmpe_td.png) | ![Plot](resources/one_day_poe_0.2g_gmpe_etas_uni_td_diff.png) | ![Plot](resources/one_day_poe_0.2g_gmpe_etas_td_diff.png) |
-| **GMPE-ETAS (Uniform)** | ![Plot](resources/one_day_poe_0.2g_gmpe_etas_uni_ti_gain.png) | ![Plot](resources/one_day_poe_0.2g_gmpe_etas_uni_td_tain.png) | ![Plot](resources/one_day_poe_0.2g_gmpe_etas_uni.png) | ![Plot](resources/one_day_poe_0.2g_gmpe_etas_uni_diff.png) |
-| **GMPE-ETAS** | ![Plot](resources/one_day_poe_0.2g_gmpe_etas_ti_gain.png) | ![Plot](resources/one_day_poe_0.2g_gmpe_etas_td_tain.png) | ![Plot](resources/one_day_poe_0.2g_gmpe_etas_uni_gain.png) | ![Plot](resources/one_day_poe_0.2g_gmpe_etas.png) |
+| **GMPE-ETAS (Uniform)** | ![Plot](resources/one_day_poe_0.2g_gmpe_etas_uni_ti_gain.png) | ![Plot](resources/one_day_poe_0.2g_gmpe_etas_uni_td_gain.png) | ![Plot](resources/one_day_poe_0.2g_gmpe_etas_uni.png) | ![Plot](resources/one_day_poe_0.2g_gmpe_etas_uni_diff.png) |
+| **GMPE-ETAS** | ![Plot](resources/one_day_poe_0.2g_gmpe_etas_ti_gain.png) | ![Plot](resources/one_day_poe_0.2g_gmpe_etas_td_gain.png) | ![Plot](resources/one_day_poe_0.2g_gmpe_etas_uni_gain.png) | ![Plot](resources/one_day_poe_0.2g_gmpe_etas.png) |
+
+#### 10s One Day Hazard Maps
+*[(top)](#table-of-contents)*
+
+##### One Day 10s Sa (g) with POE=1.0E-4, CyberShake Maps
+*[(top)](#table-of-contents)*
+
+|  | CS-TI | CS-TD | CS-ETAS-Uniform | CS-ETAS |
+|-----|-----|-----|-----|-----|
+| **CS-TI** | ![Plot](resources/one_day_iml_with_poe_1.0E-4_cs_ti.png) | ![Plot](resources/one_day_iml_with_poe_1.0E-4_cs_td_ti_diff.png) | ![Plot](resources/one_day_iml_with_poe_1.0E-4_cs_etas_uni_ti_diff.png) | ![Plot](resources/one_day_iml_with_poe_1.0E-4_cs_etas_ti_diff.png) |
+| **CS-TD** | ![Plot](resources/one_day_iml_with_poe_1.0E-4_cs_td_ti_gain.png) | ![Plot](resources/one_day_iml_with_poe_1.0E-4_cs_td.png) | ![Plot](resources/one_day_iml_with_poe_1.0E-4_cs_etas_uni_td_diff.png) | ![Plot](resources/one_day_iml_with_poe_1.0E-4_cs_etas_td_diff.png) |
+| **CS-ETAS (Uniform)** | ![Plot](resources/one_day_iml_with_poe_1.0E-4_cs_etas_uni_ti_gain.png) | ![Plot](resources/one_day_iml_with_poe_1.0E-4_cs_etas_uni_td_gain.png) | ![Plot](resources/one_day_iml_with_poe_1.0E-4_cs_etas_uni.png) | ![Plot](resources/one_day_iml_with_poe_1.0E-4_cs_etas_uni_diff.png) |
+| **CS-ETAS** | ![Plot](resources/one_day_iml_with_poe_1.0E-4_cs_etas_ti_gain.png) | ![Plot](resources/one_day_iml_with_poe_1.0E-4_cs_etas_td_gain.png) | ![Plot](resources/one_day_iml_with_poe_1.0E-4_cs_etas_uni_gain.png) | ![Plot](resources/one_day_iml_with_poe_1.0E-4_cs_etas.png) |
+
+##### One Day 10s Sa (g) with POE=1.0E-4, GMPE Maps
+*[(top)](#table-of-contents)*
+
+|  | GMPE-TI | GMPE-TD | GMPE-ETAS-Uniform | GMPE-ETAS |
+|-----|-----|-----|-----|-----|
+| **GMPE-TI** | ![Plot](resources/one_day_iml_with_poe_1.0E-4_gmpe_ti.png) | ![Plot](resources/one_day_iml_with_poe_1.0E-4_gmpe_td_ti_diff.png) | ![Plot](resources/one_day_iml_with_poe_1.0E-4_gmpe_etas_uni_ti_diff.png) | ![Plot](resources/one_day_iml_with_poe_1.0E-4_gmpe_etas_ti_diff.png) |
+| **GMPE-TD** | ![Plot](resources/one_day_iml_with_poe_1.0E-4_gmpe_td_ti_gain.png) | ![Plot](resources/one_day_iml_with_poe_1.0E-4_gmpe_td.png) | ![Plot](resources/one_day_iml_with_poe_1.0E-4_gmpe_etas_uni_td_diff.png) | ![Plot](resources/one_day_iml_with_poe_1.0E-4_gmpe_etas_td_diff.png) |
+| **GMPE-ETAS (Uniform)** | ![Plot](resources/one_day_iml_with_poe_1.0E-4_gmpe_etas_uni_ti_gain.png) | ![Plot](resources/one_day_iml_with_poe_1.0E-4_gmpe_etas_uni_td_gain.png) | ![Plot](resources/one_day_iml_with_poe_1.0E-4_gmpe_etas_uni.png) | ![Plot](resources/one_day_iml_with_poe_1.0E-4_gmpe_etas_uni_diff.png) |
+| **GMPE-ETAS** | ![Plot](resources/one_day_iml_with_poe_1.0E-4_gmpe_etas_ti_gain.png) | ![Plot](resources/one_day_iml_with_poe_1.0E-4_gmpe_etas_td_gain.png) | ![Plot](resources/one_day_iml_with_poe_1.0E-4_gmpe_etas_uni_gain.png) | ![Plot](resources/one_day_iml_with_poe_1.0E-4_gmpe_etas.png) |
+
+##### One Day 10s Sa (g) with POE=0.001, CyberShake Maps
+*[(top)](#table-of-contents)*
+
+|  | CS-TI | CS-TD | CS-ETAS-Uniform | CS-ETAS |
+|-----|-----|-----|-----|-----|
+| **CS-TI** | ![Plot](resources/one_day_iml_with_poe_0.001_cs_ti.png) | ![Plot](resources/one_day_iml_with_poe_0.001_cs_td_ti_diff.png) | ![Plot](resources/one_day_iml_with_poe_0.001_cs_etas_uni_ti_diff.png) | ![Plot](resources/one_day_iml_with_poe_0.001_cs_etas_ti_diff.png) |
+| **CS-TD** | ![Plot](resources/one_day_iml_with_poe_0.001_cs_td_ti_gain.png) | ![Plot](resources/one_day_iml_with_poe_0.001_cs_td.png) | ![Plot](resources/one_day_iml_with_poe_0.001_cs_etas_uni_td_diff.png) | ![Plot](resources/one_day_iml_with_poe_0.001_cs_etas_td_diff.png) |
+| **CS-ETAS (Uniform)** | ![Plot](resources/one_day_iml_with_poe_0.001_cs_etas_uni_ti_gain.png) | ![Plot](resources/one_day_iml_with_poe_0.001_cs_etas_uni_td_gain.png) | ![Plot](resources/one_day_iml_with_poe_0.001_cs_etas_uni.png) | ![Plot](resources/one_day_iml_with_poe_0.001_cs_etas_uni_diff.png) |
+| **CS-ETAS** | ![Plot](resources/one_day_iml_with_poe_0.001_cs_etas_ti_gain.png) | ![Plot](resources/one_day_iml_with_poe_0.001_cs_etas_td_gain.png) | ![Plot](resources/one_day_iml_with_poe_0.001_cs_etas_uni_gain.png) | ![Plot](resources/one_day_iml_with_poe_0.001_cs_etas.png) |
+
+##### One Day 10s Sa (g) with POE=0.001, GMPE Maps
+*[(top)](#table-of-contents)*
+
+|  | GMPE-TI | GMPE-TD | GMPE-ETAS-Uniform | GMPE-ETAS |
+|-----|-----|-----|-----|-----|
+| **GMPE-TI** | ![Plot](resources/one_day_iml_with_poe_0.001_gmpe_ti.png) | ![Plot](resources/one_day_iml_with_poe_0.001_gmpe_td_ti_diff.png) | ![Plot](resources/one_day_iml_with_poe_0.001_gmpe_etas_uni_ti_diff.png) | ![Plot](resources/one_day_iml_with_poe_0.001_gmpe_etas_ti_diff.png) |
+| **GMPE-TD** | ![Plot](resources/one_day_iml_with_poe_0.001_gmpe_td_ti_gain.png) | ![Plot](resources/one_day_iml_with_poe_0.001_gmpe_td.png) | ![Plot](resources/one_day_iml_with_poe_0.001_gmpe_etas_uni_td_diff.png) | ![Plot](resources/one_day_iml_with_poe_0.001_gmpe_etas_td_diff.png) |
+| **GMPE-ETAS (Uniform)** | ![Plot](resources/one_day_iml_with_poe_0.001_gmpe_etas_uni_ti_gain.png) | ![Plot](resources/one_day_iml_with_poe_0.001_gmpe_etas_uni_td_gain.png) | ![Plot](resources/one_day_iml_with_poe_0.001_gmpe_etas_uni.png) | ![Plot](resources/one_day_iml_with_poe_0.001_gmpe_etas_uni_diff.png) |
+| **GMPE-ETAS** | ![Plot](resources/one_day_iml_with_poe_0.001_gmpe_etas_ti_gain.png) | ![Plot](resources/one_day_iml_with_poe_0.001_gmpe_etas_td_gain.png) | ![Plot](resources/one_day_iml_with_poe_0.001_gmpe_etas_uni_gain.png) | ![Plot](resources/one_day_iml_with_poe_0.001_gmpe_etas.png) |
+
+##### One Day 10s Sa (g) with POE=0.01, CyberShake Maps
+*[(top)](#table-of-contents)*
+
+|  | CS-TI | CS-TD | CS-ETAS-Uniform | CS-ETAS |
+|-----|-----|-----|-----|-----|
+| **CS-TI** | ![Plot](resources/one_day_iml_with_poe_0.01_cs_ti.png) | ![Plot](resources/one_day_iml_with_poe_0.01_cs_td_ti_diff.png) | ![Plot](resources/one_day_iml_with_poe_0.01_cs_etas_uni_ti_diff.png) | ![Plot](resources/one_day_iml_with_poe_0.01_cs_etas_ti_diff.png) |
+| **CS-TD** | ![Plot](resources/one_day_iml_with_poe_0.01_cs_td_ti_gain.png) | ![Plot](resources/one_day_iml_with_poe_0.01_cs_td.png) | ![Plot](resources/one_day_iml_with_poe_0.01_cs_etas_uni_td_diff.png) | ![Plot](resources/one_day_iml_with_poe_0.01_cs_etas_td_diff.png) |
+| **CS-ETAS (Uniform)** | ![Plot](resources/one_day_iml_with_poe_0.01_cs_etas_uni_ti_gain.png) | ![Plot](resources/one_day_iml_with_poe_0.01_cs_etas_uni_td_gain.png) | ![Plot](resources/one_day_iml_with_poe_0.01_cs_etas_uni.png) | ![Plot](resources/one_day_iml_with_poe_0.01_cs_etas_uni_diff.png) |
+| **CS-ETAS** | ![Plot](resources/one_day_iml_with_poe_0.01_cs_etas_ti_gain.png) | ![Plot](resources/one_day_iml_with_poe_0.01_cs_etas_td_gain.png) | ![Plot](resources/one_day_iml_with_poe_0.01_cs_etas_uni_gain.png) | ![Plot](resources/one_day_iml_with_poe_0.01_cs_etas.png) |
+
+##### One Day 10s Sa (g) with POE=0.01, GMPE Maps
+*[(top)](#table-of-contents)*
+
+|  | GMPE-TI | GMPE-TD | GMPE-ETAS-Uniform | GMPE-ETAS |
+|-----|-----|-----|-----|-----|
+| **GMPE-TI** | ![Plot](resources/one_day_iml_with_poe_0.01_gmpe_ti.png) | ![Plot](resources/one_day_iml_with_poe_0.01_gmpe_td_ti_diff.png) | ![Plot](resources/one_day_iml_with_poe_0.01_gmpe_etas_uni_ti_diff.png) | ![Plot](resources/one_day_iml_with_poe_0.01_gmpe_etas_ti_diff.png) |
+| **GMPE-TD** | ![Plot](resources/one_day_iml_with_poe_0.01_gmpe_td_ti_gain.png) | ![Plot](resources/one_day_iml_with_poe_0.01_gmpe_td.png) | ![Plot](resources/one_day_iml_with_poe_0.01_gmpe_etas_uni_td_diff.png) | ![Plot](resources/one_day_iml_with_poe_0.01_gmpe_etas_td_diff.png) |
+| **GMPE-ETAS (Uniform)** | ![Plot](resources/one_day_iml_with_poe_0.01_gmpe_etas_uni_ti_gain.png) | ![Plot](resources/one_day_iml_with_poe_0.01_gmpe_etas_uni_td_gain.png) | ![Plot](resources/one_day_iml_with_poe_0.01_gmpe_etas_uni.png) | ![Plot](resources/one_day_iml_with_poe_0.01_gmpe_etas_uni_diff.png) |
+| **GMPE-ETAS** | ![Plot](resources/one_day_iml_with_poe_0.01_gmpe_etas_ti_gain.png) | ![Plot](resources/one_day_iml_with_poe_0.01_gmpe_etas_td_gain.png) | ![Plot](resources/one_day_iml_with_poe_0.01_gmpe_etas_uni_gain.png) | ![Plot](resources/one_day_iml_with_poe_0.01_gmpe_etas.png) |
+
+##### One Day 10s Sa (g) with POE=0.1, CyberShake Maps
+*[(top)](#table-of-contents)*
+
+|  | CS-TI | CS-TD | CS-ETAS-Uniform | CS-ETAS |
+|-----|-----|-----|-----|-----|
+| **CS-TI** | ![Plot](resources/one_day_iml_with_poe_0.1_cs_ti.png) | ![Plot](resources/one_day_iml_with_poe_0.1_cs_td_ti_diff.png) | ![Plot](resources/one_day_iml_with_poe_0.1_cs_etas_uni_ti_diff.png) | ![Plot](resources/one_day_iml_with_poe_0.1_cs_etas_ti_diff.png) |
+| **CS-TD** | ![Plot](resources/one_day_iml_with_poe_0.1_cs_td_ti_gain.png) | ![Plot](resources/one_day_iml_with_poe_0.1_cs_td.png) | ![Plot](resources/one_day_iml_with_poe_0.1_cs_etas_uni_td_diff.png) | ![Plot](resources/one_day_iml_with_poe_0.1_cs_etas_td_diff.png) |
+| **CS-ETAS (Uniform)** | ![Plot](resources/one_day_iml_with_poe_0.1_cs_etas_uni_ti_gain.png) | ![Plot](resources/one_day_iml_with_poe_0.1_cs_etas_uni_td_gain.png) | ![Plot](resources/one_day_iml_with_poe_0.1_cs_etas_uni.png) | ![Plot](resources/one_day_iml_with_poe_0.1_cs_etas_uni_diff.png) |
+| **CS-ETAS** | ![Plot](resources/one_day_iml_with_poe_0.1_cs_etas_ti_gain.png) | ![Plot](resources/one_day_iml_with_poe_0.1_cs_etas_td_gain.png) | ![Plot](resources/one_day_iml_with_poe_0.1_cs_etas_uni_gain.png) | ![Plot](resources/one_day_iml_with_poe_0.1_cs_etas.png) |
+
+##### One Day 10s Sa (g) with POE=0.1, GMPE Maps
+*[(top)](#table-of-contents)*
+
+|  | GMPE-TI | GMPE-TD | GMPE-ETAS-Uniform | GMPE-ETAS |
+|-----|-----|-----|-----|-----|
+| **GMPE-TI** | ![Plot](resources/one_day_iml_with_poe_0.1_gmpe_ti.png) | ![Plot](resources/one_day_iml_with_poe_0.1_gmpe_td_ti_diff.png) | ![Plot](resources/one_day_iml_with_poe_0.1_gmpe_etas_uni_ti_diff.png) | ![Plot](resources/one_day_iml_with_poe_0.1_gmpe_etas_ti_diff.png) |
+| **GMPE-TD** | ![Plot](resources/one_day_iml_with_poe_0.1_gmpe_td_ti_gain.png) | ![Plot](resources/one_day_iml_with_poe_0.1_gmpe_td.png) | ![Plot](resources/one_day_iml_with_poe_0.1_gmpe_etas_uni_td_diff.png) | ![Plot](resources/one_day_iml_with_poe_0.1_gmpe_etas_td_diff.png) |
+| **GMPE-ETAS (Uniform)** | ![Plot](resources/one_day_iml_with_poe_0.1_gmpe_etas_uni_ti_gain.png) | ![Plot](resources/one_day_iml_with_poe_0.1_gmpe_etas_uni_td_gain.png) | ![Plot](resources/one_day_iml_with_poe_0.1_gmpe_etas_uni.png) | ![Plot](resources/one_day_iml_with_poe_0.1_gmpe_etas_uni_diff.png) |
+| **GMPE-ETAS** | ![Plot](resources/one_day_iml_with_poe_0.1_gmpe_etas_ti_gain.png) | ![Plot](resources/one_day_iml_with_poe_0.1_gmpe_etas_td_gain.png) | ![Plot](resources/one_day_iml_with_poe_0.1_gmpe_etas_uni_gain.png) | ![Plot](resources/one_day_iml_with_poe_0.1_gmpe_etas.png) |
+
+##### One Day POE 0.01 (g) 10s SA, CyberShake Maps
+*[(top)](#table-of-contents)*
+
+|  | CS-TI | CS-TD | CS-ETAS-Uniform | CS-ETAS |
+|-----|-----|-----|-----|-----|
+| **CS-TI** | ![Plot](resources/one_day_poe_0.01g_cs_ti.png) | ![Plot](resources/one_day_poe_0.01g_cs_td_ti_diff.png) | ![Plot](resources/one_day_poe_0.01g_cs_etas_uni_ti_diff.png) | ![Plot](resources/one_day_poe_0.01g_cs_etas_ti_diff.png) |
+| **CS-TD** | ![Plot](resources/one_day_poe_0.01g_cs_td_ti_gain.png) | ![Plot](resources/one_day_poe_0.01g_cs_td.png) | ![Plot](resources/one_day_poe_0.01g_cs_etas_uni_td_diff.png) | ![Plot](resources/one_day_poe_0.01g_cs_etas_td_diff.png) |
+| **CS-ETAS (Uniform)** | ![Plot](resources/one_day_poe_0.01g_cs_etas_uni_ti_gain.png) | ![Plot](resources/one_day_poe_0.01g_cs_etas_uni_td_gain.png) | ![Plot](resources/one_day_poe_0.01g_cs_etas_uni.png) | ![Plot](resources/one_day_poe_0.01g_cs_etas_uni_diff.png) |
+| **CS-ETAS** | ![Plot](resources/one_day_poe_0.01g_cs_etas_ti_gain.png) | ![Plot](resources/one_day_poe_0.01g_cs_etas_td_gain.png) | ![Plot](resources/one_day_poe_0.01g_cs_etas_uni_gain.png) | ![Plot](resources/one_day_poe_0.01g_cs_etas.png) |
+
+##### One Day POE 0.01 (g) 10s SA, GMPE Maps
+*[(top)](#table-of-contents)*
+
+|  | GMPE-TI | GMPE-TD | GMPE-ETAS-Uniform | GMPE-ETAS |
+|-----|-----|-----|-----|-----|
+| **GMPE-TI** | ![Plot](resources/one_day_poe_0.01g_gmpe_ti.png) | ![Plot](resources/one_day_poe_0.01g_gmpe_td_ti_diff.png) | ![Plot](resources/one_day_poe_0.01g_gmpe_etas_uni_ti_diff.png) | ![Plot](resources/one_day_poe_0.01g_gmpe_etas_ti_diff.png) |
+| **GMPE-TD** | ![Plot](resources/one_day_poe_0.01g_gmpe_td_ti_gain.png) | ![Plot](resources/one_day_poe_0.01g_gmpe_td.png) | ![Plot](resources/one_day_poe_0.01g_gmpe_etas_uni_td_diff.png) | ![Plot](resources/one_day_poe_0.01g_gmpe_etas_td_diff.png) |
+| **GMPE-ETAS (Uniform)** | ![Plot](resources/one_day_poe_0.01g_gmpe_etas_uni_ti_gain.png) | ![Plot](resources/one_day_poe_0.01g_gmpe_etas_uni_td_gain.png) | ![Plot](resources/one_day_poe_0.01g_gmpe_etas_uni.png) | ![Plot](resources/one_day_poe_0.01g_gmpe_etas_uni_diff.png) |
+| **GMPE-ETAS** | ![Plot](resources/one_day_poe_0.01g_gmpe_etas_ti_gain.png) | ![Plot](resources/one_day_poe_0.01g_gmpe_etas_td_gain.png) | ![Plot](resources/one_day_poe_0.01g_gmpe_etas_uni_gain.png) | ![Plot](resources/one_day_poe_0.01g_gmpe_etas.png) |
+
+##### One Day POE 0.1 (g) 10s SA, CyberShake Maps
+*[(top)](#table-of-contents)*
+
+|  | CS-TI | CS-TD | CS-ETAS-Uniform | CS-ETAS |
+|-----|-----|-----|-----|-----|
+| **CS-TI** | ![Plot](resources/one_day_poe_0.1g_cs_ti.png) | ![Plot](resources/one_day_poe_0.1g_cs_td_ti_diff.png) | ![Plot](resources/one_day_poe_0.1g_cs_etas_uni_ti_diff.png) | ![Plot](resources/one_day_poe_0.1g_cs_etas_ti_diff.png) |
+| **CS-TD** | ![Plot](resources/one_day_poe_0.1g_cs_td_ti_gain.png) | ![Plot](resources/one_day_poe_0.1g_cs_td.png) | ![Plot](resources/one_day_poe_0.1g_cs_etas_uni_td_diff.png) | ![Plot](resources/one_day_poe_0.1g_cs_etas_td_diff.png) |
+| **CS-ETAS (Uniform)** | ![Plot](resources/one_day_poe_0.1g_cs_etas_uni_ti_gain.png) | ![Plot](resources/one_day_poe_0.1g_cs_etas_uni_td_gain.png) | ![Plot](resources/one_day_poe_0.1g_cs_etas_uni.png) | ![Plot](resources/one_day_poe_0.1g_cs_etas_uni_diff.png) |
+| **CS-ETAS** | ![Plot](resources/one_day_poe_0.1g_cs_etas_ti_gain.png) | ![Plot](resources/one_day_poe_0.1g_cs_etas_td_gain.png) | ![Plot](resources/one_day_poe_0.1g_cs_etas_uni_gain.png) | ![Plot](resources/one_day_poe_0.1g_cs_etas.png) |
+
+##### One Day POE 0.1 (g) 10s SA, GMPE Maps
+*[(top)](#table-of-contents)*
+
+|  | GMPE-TI | GMPE-TD | GMPE-ETAS-Uniform | GMPE-ETAS |
+|-----|-----|-----|-----|-----|
+| **GMPE-TI** | ![Plot](resources/one_day_poe_0.1g_gmpe_ti.png) | ![Plot](resources/one_day_poe_0.1g_gmpe_td_ti_diff.png) | ![Plot](resources/one_day_poe_0.1g_gmpe_etas_uni_ti_diff.png) | ![Plot](resources/one_day_poe_0.1g_gmpe_etas_ti_diff.png) |
+| **GMPE-TD** | ![Plot](resources/one_day_poe_0.1g_gmpe_td_ti_gain.png) | ![Plot](resources/one_day_poe_0.1g_gmpe_td.png) | ![Plot](resources/one_day_poe_0.1g_gmpe_etas_uni_td_diff.png) | ![Plot](resources/one_day_poe_0.1g_gmpe_etas_td_diff.png) |
+| **GMPE-ETAS (Uniform)** | ![Plot](resources/one_day_poe_0.1g_gmpe_etas_uni_ti_gain.png) | ![Plot](resources/one_day_poe_0.1g_gmpe_etas_uni_td_gain.png) | ![Plot](resources/one_day_poe_0.1g_gmpe_etas_uni.png) | ![Plot](resources/one_day_poe_0.1g_gmpe_etas_uni_diff.png) |
+| **GMPE-ETAS** | ![Plot](resources/one_day_poe_0.1g_gmpe_etas_ti_gain.png) | ![Plot](resources/one_day_poe_0.1g_gmpe_etas_td_gain.png) | ![Plot](resources/one_day_poe_0.1g_gmpe_etas_uni_gain.png) | ![Plot](resources/one_day_poe_0.1g_gmpe_etas.png) |
+
+##### One Day POE 0.2 (g) 10s SA, CyberShake Maps
+*[(top)](#table-of-contents)*
+
+|  | CS-TI | CS-TD | CS-ETAS-Uniform | CS-ETAS |
+|-----|-----|-----|-----|-----|
+| **CS-TI** | ![Plot](resources/one_day_poe_0.2g_cs_ti.png) | ![Plot](resources/one_day_poe_0.2g_cs_td_ti_diff.png) | ![Plot](resources/one_day_poe_0.2g_cs_etas_uni_ti_diff.png) | ![Plot](resources/one_day_poe_0.2g_cs_etas_ti_diff.png) |
+| **CS-TD** | ![Plot](resources/one_day_poe_0.2g_cs_td_ti_gain.png) | ![Plot](resources/one_day_poe_0.2g_cs_td.png) | ![Plot](resources/one_day_poe_0.2g_cs_etas_uni_td_diff.png) | ![Plot](resources/one_day_poe_0.2g_cs_etas_td_diff.png) |
+| **CS-ETAS (Uniform)** | ![Plot](resources/one_day_poe_0.2g_cs_etas_uni_ti_gain.png) | ![Plot](resources/one_day_poe_0.2g_cs_etas_uni_td_gain.png) | ![Plot](resources/one_day_poe_0.2g_cs_etas_uni.png) | ![Plot](resources/one_day_poe_0.2g_cs_etas_uni_diff.png) |
+| **CS-ETAS** | ![Plot](resources/one_day_poe_0.2g_cs_etas_ti_gain.png) | ![Plot](resources/one_day_poe_0.2g_cs_etas_td_gain.png) | ![Plot](resources/one_day_poe_0.2g_cs_etas_uni_gain.png) | ![Plot](resources/one_day_poe_0.2g_cs_etas.png) |
+
+##### One Day POE 0.2 (g) 10s SA, GMPE Maps
+*[(top)](#table-of-contents)*
+
+|  | GMPE-TI | GMPE-TD | GMPE-ETAS-Uniform | GMPE-ETAS |
+|-----|-----|-----|-----|-----|
+| **GMPE-TI** | ![Plot](resources/one_day_poe_0.2g_gmpe_ti.png) | ![Plot](resources/one_day_poe_0.2g_gmpe_td_ti_diff.png) | ![Plot](resources/one_day_poe_0.2g_gmpe_etas_uni_ti_diff.png) | ![Plot](resources/one_day_poe_0.2g_gmpe_etas_ti_diff.png) |
+| **GMPE-TD** | ![Plot](resources/one_day_poe_0.2g_gmpe_td_ti_gain.png) | ![Plot](resources/one_day_poe_0.2g_gmpe_td.png) | ![Plot](resources/one_day_poe_0.2g_gmpe_etas_uni_td_diff.png) | ![Plot](resources/one_day_poe_0.2g_gmpe_etas_td_diff.png) |
+| **GMPE-ETAS (Uniform)** | ![Plot](resources/one_day_poe_0.2g_gmpe_etas_uni_ti_gain.png) | ![Plot](resources/one_day_poe_0.2g_gmpe_etas_uni_td_gain.png) | ![Plot](resources/one_day_poe_0.2g_gmpe_etas_uni.png) | ![Plot](resources/one_day_poe_0.2g_gmpe_etas_uni_diff.png) |
+| **GMPE-ETAS** | ![Plot](resources/one_day_poe_0.2g_gmpe_etas_ti_gain.png) | ![Plot](resources/one_day_poe_0.2g_gmpe_etas_td_gain.png) | ![Plot](resources/one_day_poe_0.2g_gmpe_etas_uni_gain.png) | ![Plot](resources/one_day_poe_0.2g_gmpe_etas.png) |
 
 ### One Week Hazard Maps
 *[(top)](#table-of-contents)*
 
-#### 3 One Week Hazard Maps
+#### 3s One Week Hazard Maps
 *[(top)](#table-of-contents)*
 
-##### One Week 3 Sa (g) with POE=1.0E-4, CyberShake Maps
-*[(top)](#table-of-contents)*
-
-|  | CS-TI | CS-TD | CS-ETAS-Uniform | CS-ETAS |
-|-----|-----|-----|-----|-----|
-| **CS-TI** | ![Plot](resources/one_week_iml_with_poe_1.0E-4_cs_ti.png) | ![Plot](resources/one_week_iml_with_poe_1.0E-4_cs_td_ti_diff.png) | ![Plot](resources/one_week_iml_with_poe_1.0E-4_cs_etas_uni_ti_diff.png) | ![Plot](resources/one_week_iml_with_poe_1.0E-4_cs_etas_ti_diff.png) |
-| **CS-TD** | ![Plot](resources/one_week_iml_with_poe_1.0E-4_cs_td_ti_gain.png) | ![Plot](resources/one_week_iml_with_poe_1.0E-4_cs_td.png) | ![Plot](resources/one_week_iml_with_poe_1.0E-4_cs_etas_uni_td_diff.png) | ![Plot](resources/one_week_iml_with_poe_1.0E-4_cs_etas_td_diff.png) |
-| **CS-ETAS (Uniform)** | ![Plot](resources/one_week_iml_with_poe_1.0E-4_cs_etas_uni_ti_gain.png) | ![Plot](resources/one_week_iml_with_poe_1.0E-4_cs_etas_uni_td_tain.png) | ![Plot](resources/one_week_iml_with_poe_1.0E-4_cs_etas_uni.png) | ![Plot](resources/one_week_iml_with_poe_1.0E-4_cs_etas_uni_diff.png) |
-| **CS-ETAS** | ![Plot](resources/one_week_iml_with_poe_1.0E-4_cs_etas_ti_gain.png) | ![Plot](resources/one_week_iml_with_poe_1.0E-4_cs_etas_td_tain.png) | ![Plot](resources/one_week_iml_with_poe_1.0E-4_cs_etas_uni_gain.png) | ![Plot](resources/one_week_iml_with_poe_1.0E-4_cs_etas.png) |
-
-##### One Week 3 Sa (g) with POE=1.0E-4, GMPE Maps
-*[(top)](#table-of-contents)*
-
-|  | GMPE-TI | GMPE-TD | GMPE-ETAS-Uniform | GMPE-ETAS |
-|-----|-----|-----|-----|-----|
-| **GMPE-TI** | ![Plot](resources/one_week_iml_with_poe_1.0E-4_gmpe_ti.png) | ![Plot](resources/one_week_iml_with_poe_1.0E-4_gmpe_td_ti_diff.png) | ![Plot](resources/one_week_iml_with_poe_1.0E-4_gmpe_etas_uni_ti_diff.png) | ![Plot](resources/one_week_iml_with_poe_1.0E-4_gmpe_etas_ti_diff.png) |
-| **GMPE-TD** | ![Plot](resources/one_week_iml_with_poe_1.0E-4_gmpe_td_ti_gain.png) | ![Plot](resources/one_week_iml_with_poe_1.0E-4_gmpe_td.png) | ![Plot](resources/one_week_iml_with_poe_1.0E-4_gmpe_etas_uni_td_diff.png) | ![Plot](resources/one_week_iml_with_poe_1.0E-4_gmpe_etas_td_diff.png) |
-| **GMPE-ETAS (Uniform)** | ![Plot](resources/one_week_iml_with_poe_1.0E-4_gmpe_etas_uni_ti_gain.png) | ![Plot](resources/one_week_iml_with_poe_1.0E-4_gmpe_etas_uni_td_tain.png) | ![Plot](resources/one_week_iml_with_poe_1.0E-4_gmpe_etas_uni.png) | ![Plot](resources/one_week_iml_with_poe_1.0E-4_gmpe_etas_uni_diff.png) |
-| **GMPE-ETAS** | ![Plot](resources/one_week_iml_with_poe_1.0E-4_gmpe_etas_ti_gain.png) | ![Plot](resources/one_week_iml_with_poe_1.0E-4_gmpe_etas_td_tain.png) | ![Plot](resources/one_week_iml_with_poe_1.0E-4_gmpe_etas_uni_gain.png) | ![Plot](resources/one_week_iml_with_poe_1.0E-4_gmpe_etas.png) |
-
-##### One Week 3 Sa (g) with POE=0.001, CyberShake Maps
-*[(top)](#table-of-contents)*
-
-|  | CS-TI | CS-TD | CS-ETAS-Uniform | CS-ETAS |
-|-----|-----|-----|-----|-----|
-| **CS-TI** | ![Plot](resources/one_week_iml_with_poe_0.001_cs_ti.png) | ![Plot](resources/one_week_iml_with_poe_0.001_cs_td_ti_diff.png) | ![Plot](resources/one_week_iml_with_poe_0.001_cs_etas_uni_ti_diff.png) | ![Plot](resources/one_week_iml_with_poe_0.001_cs_etas_ti_diff.png) |
-| **CS-TD** | ![Plot](resources/one_week_iml_with_poe_0.001_cs_td_ti_gain.png) | ![Plot](resources/one_week_iml_with_poe_0.001_cs_td.png) | ![Plot](resources/one_week_iml_with_poe_0.001_cs_etas_uni_td_diff.png) | ![Plot](resources/one_week_iml_with_poe_0.001_cs_etas_td_diff.png) |
-| **CS-ETAS (Uniform)** | ![Plot](resources/one_week_iml_with_poe_0.001_cs_etas_uni_ti_gain.png) | ![Plot](resources/one_week_iml_with_poe_0.001_cs_etas_uni_td_tain.png) | ![Plot](resources/one_week_iml_with_poe_0.001_cs_etas_uni.png) | ![Plot](resources/one_week_iml_with_poe_0.001_cs_etas_uni_diff.png) |
-| **CS-ETAS** | ![Plot](resources/one_week_iml_with_poe_0.001_cs_etas_ti_gain.png) | ![Plot](resources/one_week_iml_with_poe_0.001_cs_etas_td_tain.png) | ![Plot](resources/one_week_iml_with_poe_0.001_cs_etas_uni_gain.png) | ![Plot](resources/one_week_iml_with_poe_0.001_cs_etas.png) |
-
-##### One Week 3 Sa (g) with POE=0.001, GMPE Maps
-*[(top)](#table-of-contents)*
-
-|  | GMPE-TI | GMPE-TD | GMPE-ETAS-Uniform | GMPE-ETAS |
-|-----|-----|-----|-----|-----|
-| **GMPE-TI** | ![Plot](resources/one_week_iml_with_poe_0.001_gmpe_ti.png) | ![Plot](resources/one_week_iml_with_poe_0.001_gmpe_td_ti_diff.png) | ![Plot](resources/one_week_iml_with_poe_0.001_gmpe_etas_uni_ti_diff.png) | ![Plot](resources/one_week_iml_with_poe_0.001_gmpe_etas_ti_diff.png) |
-| **GMPE-TD** | ![Plot](resources/one_week_iml_with_poe_0.001_gmpe_td_ti_gain.png) | ![Plot](resources/one_week_iml_with_poe_0.001_gmpe_td.png) | ![Plot](resources/one_week_iml_with_poe_0.001_gmpe_etas_uni_td_diff.png) | ![Plot](resources/one_week_iml_with_poe_0.001_gmpe_etas_td_diff.png) |
-| **GMPE-ETAS (Uniform)** | ![Plot](resources/one_week_iml_with_poe_0.001_gmpe_etas_uni_ti_gain.png) | ![Plot](resources/one_week_iml_with_poe_0.001_gmpe_etas_uni_td_tain.png) | ![Plot](resources/one_week_iml_with_poe_0.001_gmpe_etas_uni.png) | ![Plot](resources/one_week_iml_with_poe_0.001_gmpe_etas_uni_diff.png) |
-| **GMPE-ETAS** | ![Plot](resources/one_week_iml_with_poe_0.001_gmpe_etas_ti_gain.png) | ![Plot](resources/one_week_iml_with_poe_0.001_gmpe_etas_td_tain.png) | ![Plot](resources/one_week_iml_with_poe_0.001_gmpe_etas_uni_gain.png) | ![Plot](resources/one_week_iml_with_poe_0.001_gmpe_etas.png) |
-
-##### One Week 3 Sa (g) with POE=0.01, CyberShake Maps
-*[(top)](#table-of-contents)*
-
-|  | CS-TI | CS-TD | CS-ETAS-Uniform | CS-ETAS |
-|-----|-----|-----|-----|-----|
-| **CS-TI** | ![Plot](resources/one_week_iml_with_poe_0.01_cs_ti.png) | ![Plot](resources/one_week_iml_with_poe_0.01_cs_td_ti_diff.png) | ![Plot](resources/one_week_iml_with_poe_0.01_cs_etas_uni_ti_diff.png) | ![Plot](resources/one_week_iml_with_poe_0.01_cs_etas_ti_diff.png) |
-| **CS-TD** | ![Plot](resources/one_week_iml_with_poe_0.01_cs_td_ti_gain.png) | ![Plot](resources/one_week_iml_with_poe_0.01_cs_td.png) | ![Plot](resources/one_week_iml_with_poe_0.01_cs_etas_uni_td_diff.png) | ![Plot](resources/one_week_iml_with_poe_0.01_cs_etas_td_diff.png) |
-| **CS-ETAS (Uniform)** | ![Plot](resources/one_week_iml_with_poe_0.01_cs_etas_uni_ti_gain.png) | ![Plot](resources/one_week_iml_with_poe_0.01_cs_etas_uni_td_tain.png) | ![Plot](resources/one_week_iml_with_poe_0.01_cs_etas_uni.png) | ![Plot](resources/one_week_iml_with_poe_0.01_cs_etas_uni_diff.png) |
-| **CS-ETAS** | ![Plot](resources/one_week_iml_with_poe_0.01_cs_etas_ti_gain.png) | ![Plot](resources/one_week_iml_with_poe_0.01_cs_etas_td_tain.png) | ![Plot](resources/one_week_iml_with_poe_0.01_cs_etas_uni_gain.png) | ![Plot](resources/one_week_iml_with_poe_0.01_cs_etas.png) |
-
-##### One Week 3 Sa (g) with POE=0.01, GMPE Maps
-*[(top)](#table-of-contents)*
-
-|  | GMPE-TI | GMPE-TD | GMPE-ETAS-Uniform | GMPE-ETAS |
-|-----|-----|-----|-----|-----|
-| **GMPE-TI** | ![Plot](resources/one_week_iml_with_poe_0.01_gmpe_ti.png) | ![Plot](resources/one_week_iml_with_poe_0.01_gmpe_td_ti_diff.png) | ![Plot](resources/one_week_iml_with_poe_0.01_gmpe_etas_uni_ti_diff.png) | ![Plot](resources/one_week_iml_with_poe_0.01_gmpe_etas_ti_diff.png) |
-| **GMPE-TD** | ![Plot](resources/one_week_iml_with_poe_0.01_gmpe_td_ti_gain.png) | ![Plot](resources/one_week_iml_with_poe_0.01_gmpe_td.png) | ![Plot](resources/one_week_iml_with_poe_0.01_gmpe_etas_uni_td_diff.png) | ![Plot](resources/one_week_iml_with_poe_0.01_gmpe_etas_td_diff.png) |
-| **GMPE-ETAS (Uniform)** | ![Plot](resources/one_week_iml_with_poe_0.01_gmpe_etas_uni_ti_gain.png) | ![Plot](resources/one_week_iml_with_poe_0.01_gmpe_etas_uni_td_tain.png) | ![Plot](resources/one_week_iml_with_poe_0.01_gmpe_etas_uni.png) | ![Plot](resources/one_week_iml_with_poe_0.01_gmpe_etas_uni_diff.png) |
-| **GMPE-ETAS** | ![Plot](resources/one_week_iml_with_poe_0.01_gmpe_etas_ti_gain.png) | ![Plot](resources/one_week_iml_with_poe_0.01_gmpe_etas_td_tain.png) | ![Plot](resources/one_week_iml_with_poe_0.01_gmpe_etas_uni_gain.png) | ![Plot](resources/one_week_iml_with_poe_0.01_gmpe_etas.png) |
-
-##### One Week 3 Sa (g) with POE=0.1, CyberShake Maps
-*[(top)](#table-of-contents)*
-
-|  | CS-TI | CS-TD | CS-ETAS-Uniform | CS-ETAS |
-|-----|-----|-----|-----|-----|
-| **CS-TI** | ![Plot](resources/one_week_iml_with_poe_0.1_cs_ti.png) | ![Plot](resources/one_week_iml_with_poe_0.1_cs_td_ti_diff.png) | ![Plot](resources/one_week_iml_with_poe_0.1_cs_etas_uni_ti_diff.png) | ![Plot](resources/one_week_iml_with_poe_0.1_cs_etas_ti_diff.png) |
-| **CS-TD** | ![Plot](resources/one_week_iml_with_poe_0.1_cs_td_ti_gain.png) | ![Plot](resources/one_week_iml_with_poe_0.1_cs_td.png) | ![Plot](resources/one_week_iml_with_poe_0.1_cs_etas_uni_td_diff.png) | ![Plot](resources/one_week_iml_with_poe_0.1_cs_etas_td_diff.png) |
-| **CS-ETAS (Uniform)** | ![Plot](resources/one_week_iml_with_poe_0.1_cs_etas_uni_ti_gain.png) | ![Plot](resources/one_week_iml_with_poe_0.1_cs_etas_uni_td_tain.png) | ![Plot](resources/one_week_iml_with_poe_0.1_cs_etas_uni.png) | ![Plot](resources/one_week_iml_with_poe_0.1_cs_etas_uni_diff.png) |
-| **CS-ETAS** | ![Plot](resources/one_week_iml_with_poe_0.1_cs_etas_ti_gain.png) | ![Plot](resources/one_week_iml_with_poe_0.1_cs_etas_td_tain.png) | ![Plot](resources/one_week_iml_with_poe_0.1_cs_etas_uni_gain.png) | ![Plot](resources/one_week_iml_with_poe_0.1_cs_etas.png) |
-
-##### One Week 3 Sa (g) with POE=0.1, GMPE Maps
-*[(top)](#table-of-contents)*
-
-|  | GMPE-TI | GMPE-TD | GMPE-ETAS-Uniform | GMPE-ETAS |
-|-----|-----|-----|-----|-----|
-| **GMPE-TI** | ![Plot](resources/one_week_iml_with_poe_0.1_gmpe_ti.png) | ![Plot](resources/one_week_iml_with_poe_0.1_gmpe_td_ti_diff.png) | ![Plot](resources/one_week_iml_with_poe_0.1_gmpe_etas_uni_ti_diff.png) | ![Plot](resources/one_week_iml_with_poe_0.1_gmpe_etas_ti_diff.png) |
-| **GMPE-TD** | ![Plot](resources/one_week_iml_with_poe_0.1_gmpe_td_ti_gain.png) | ![Plot](resources/one_week_iml_with_poe_0.1_gmpe_td.png) | ![Plot](resources/one_week_iml_with_poe_0.1_gmpe_etas_uni_td_diff.png) | ![Plot](resources/one_week_iml_with_poe_0.1_gmpe_etas_td_diff.png) |
-| **GMPE-ETAS (Uniform)** | ![Plot](resources/one_week_iml_with_poe_0.1_gmpe_etas_uni_ti_gain.png) | ![Plot](resources/one_week_iml_with_poe_0.1_gmpe_etas_uni_td_tain.png) | ![Plot](resources/one_week_iml_with_poe_0.1_gmpe_etas_uni.png) | ![Plot](resources/one_week_iml_with_poe_0.1_gmpe_etas_uni_diff.png) |
-| **GMPE-ETAS** | ![Plot](resources/one_week_iml_with_poe_0.1_gmpe_etas_ti_gain.png) | ![Plot](resources/one_week_iml_with_poe_0.1_gmpe_etas_td_tain.png) | ![Plot](resources/one_week_iml_with_poe_0.1_gmpe_etas_uni_gain.png) | ![Plot](resources/one_week_iml_with_poe_0.1_gmpe_etas.png) |
-
-##### One Week POE 0.01 (g) 3 SA, CyberShake Maps
-*[(top)](#table-of-contents)*
-
-|  | CS-TI | CS-TD | CS-ETAS-Uniform | CS-ETAS |
-|-----|-----|-----|-----|-----|
-| **CS-TI** | ![Plot](resources/one_week_poe_0.01g_cs_ti.png) | ![Plot](resources/one_week_poe_0.01g_cs_td_ti_diff.png) | ![Plot](resources/one_week_poe_0.01g_cs_etas_uni_ti_diff.png) | ![Plot](resources/one_week_poe_0.01g_cs_etas_ti_diff.png) |
-| **CS-TD** | ![Plot](resources/one_week_poe_0.01g_cs_td_ti_gain.png) | ![Plot](resources/one_week_poe_0.01g_cs_td.png) | ![Plot](resources/one_week_poe_0.01g_cs_etas_uni_td_diff.png) | ![Plot](resources/one_week_poe_0.01g_cs_etas_td_diff.png) |
-| **CS-ETAS (Uniform)** | ![Plot](resources/one_week_poe_0.01g_cs_etas_uni_ti_gain.png) | ![Plot](resources/one_week_poe_0.01g_cs_etas_uni_td_tain.png) | ![Plot](resources/one_week_poe_0.01g_cs_etas_uni.png) | ![Plot](resources/one_week_poe_0.01g_cs_etas_uni_diff.png) |
-| **CS-ETAS** | ![Plot](resources/one_week_poe_0.01g_cs_etas_ti_gain.png) | ![Plot](resources/one_week_poe_0.01g_cs_etas_td_tain.png) | ![Plot](resources/one_week_poe_0.01g_cs_etas_uni_gain.png) | ![Plot](resources/one_week_poe_0.01g_cs_etas.png) |
-
-##### One Week POE 0.01 (g) 3 SA, GMPE Maps
-*[(top)](#table-of-contents)*
-
-|  | GMPE-TI | GMPE-TD | GMPE-ETAS-Uniform | GMPE-ETAS |
-|-----|-----|-----|-----|-----|
-| **GMPE-TI** | ![Plot](resources/one_week_poe_0.01g_gmpe_ti.png) | ![Plot](resources/one_week_poe_0.01g_gmpe_td_ti_diff.png) | ![Plot](resources/one_week_poe_0.01g_gmpe_etas_uni_ti_diff.png) | ![Plot](resources/one_week_poe_0.01g_gmpe_etas_ti_diff.png) |
-| **GMPE-TD** | ![Plot](resources/one_week_poe_0.01g_gmpe_td_ti_gain.png) | ![Plot](resources/one_week_poe_0.01g_gmpe_td.png) | ![Plot](resources/one_week_poe_0.01g_gmpe_etas_uni_td_diff.png) | ![Plot](resources/one_week_poe_0.01g_gmpe_etas_td_diff.png) |
-| **GMPE-ETAS (Uniform)** | ![Plot](resources/one_week_poe_0.01g_gmpe_etas_uni_ti_gain.png) | ![Plot](resources/one_week_poe_0.01g_gmpe_etas_uni_td_tain.png) | ![Plot](resources/one_week_poe_0.01g_gmpe_etas_uni.png) | ![Plot](resources/one_week_poe_0.01g_gmpe_etas_uni_diff.png) |
-| **GMPE-ETAS** | ![Plot](resources/one_week_poe_0.01g_gmpe_etas_ti_gain.png) | ![Plot](resources/one_week_poe_0.01g_gmpe_etas_td_tain.png) | ![Plot](resources/one_week_poe_0.01g_gmpe_etas_uni_gain.png) | ![Plot](resources/one_week_poe_0.01g_gmpe_etas.png) |
-
-##### One Week POE 0.1 (g) 3 SA, CyberShake Maps
-*[(top)](#table-of-contents)*
-
-|  | CS-TI | CS-TD | CS-ETAS-Uniform | CS-ETAS |
-|-----|-----|-----|-----|-----|
-| **CS-TI** | ![Plot](resources/one_week_poe_0.1g_cs_ti.png) | ![Plot](resources/one_week_poe_0.1g_cs_td_ti_diff.png) | ![Plot](resources/one_week_poe_0.1g_cs_etas_uni_ti_diff.png) | ![Plot](resources/one_week_poe_0.1g_cs_etas_ti_diff.png) |
-| **CS-TD** | ![Plot](resources/one_week_poe_0.1g_cs_td_ti_gain.png) | ![Plot](resources/one_week_poe_0.1g_cs_td.png) | ![Plot](resources/one_week_poe_0.1g_cs_etas_uni_td_diff.png) | ![Plot](resources/one_week_poe_0.1g_cs_etas_td_diff.png) |
-| **CS-ETAS (Uniform)** | ![Plot](resources/one_week_poe_0.1g_cs_etas_uni_ti_gain.png) | ![Plot](resources/one_week_poe_0.1g_cs_etas_uni_td_tain.png) | ![Plot](resources/one_week_poe_0.1g_cs_etas_uni.png) | ![Plot](resources/one_week_poe_0.1g_cs_etas_uni_diff.png) |
-| **CS-ETAS** | ![Plot](resources/one_week_poe_0.1g_cs_etas_ti_gain.png) | ![Plot](resources/one_week_poe_0.1g_cs_etas_td_tain.png) | ![Plot](resources/one_week_poe_0.1g_cs_etas_uni_gain.png) | ![Plot](resources/one_week_poe_0.1g_cs_etas.png) |
-
-##### One Week POE 0.1 (g) 3 SA, GMPE Maps
-*[(top)](#table-of-contents)*
-
-|  | GMPE-TI | GMPE-TD | GMPE-ETAS-Uniform | GMPE-ETAS |
-|-----|-----|-----|-----|-----|
-| **GMPE-TI** | ![Plot](resources/one_week_poe_0.1g_gmpe_ti.png) | ![Plot](resources/one_week_poe_0.1g_gmpe_td_ti_diff.png) | ![Plot](resources/one_week_poe_0.1g_gmpe_etas_uni_ti_diff.png) | ![Plot](resources/one_week_poe_0.1g_gmpe_etas_ti_diff.png) |
-| **GMPE-TD** | ![Plot](resources/one_week_poe_0.1g_gmpe_td_ti_gain.png) | ![Plot](resources/one_week_poe_0.1g_gmpe_td.png) | ![Plot](resources/one_week_poe_0.1g_gmpe_etas_uni_td_diff.png) | ![Plot](resources/one_week_poe_0.1g_gmpe_etas_td_diff.png) |
-| **GMPE-ETAS (Uniform)** | ![Plot](resources/one_week_poe_0.1g_gmpe_etas_uni_ti_gain.png) | ![Plot](resources/one_week_poe_0.1g_gmpe_etas_uni_td_tain.png) | ![Plot](resources/one_week_poe_0.1g_gmpe_etas_uni.png) | ![Plot](resources/one_week_poe_0.1g_gmpe_etas_uni_diff.png) |
-| **GMPE-ETAS** | ![Plot](resources/one_week_poe_0.1g_gmpe_etas_ti_gain.png) | ![Plot](resources/one_week_poe_0.1g_gmpe_etas_td_tain.png) | ![Plot](resources/one_week_poe_0.1g_gmpe_etas_uni_gain.png) | ![Plot](resources/one_week_poe_0.1g_gmpe_etas.png) |
-
-##### One Week POE 0.2 (g) 3 SA, CyberShake Maps
-*[(top)](#table-of-contents)*
-
-|  | CS-TI | CS-TD | CS-ETAS-Uniform | CS-ETAS |
-|-----|-----|-----|-----|-----|
-| **CS-TI** | ![Plot](resources/one_week_poe_0.2g_cs_ti.png) | ![Plot](resources/one_week_poe_0.2g_cs_td_ti_diff.png) | ![Plot](resources/one_week_poe_0.2g_cs_etas_uni_ti_diff.png) | ![Plot](resources/one_week_poe_0.2g_cs_etas_ti_diff.png) |
-| **CS-TD** | ![Plot](resources/one_week_poe_0.2g_cs_td_ti_gain.png) | ![Plot](resources/one_week_poe_0.2g_cs_td.png) | ![Plot](resources/one_week_poe_0.2g_cs_etas_uni_td_diff.png) | ![Plot](resources/one_week_poe_0.2g_cs_etas_td_diff.png) |
-| **CS-ETAS (Uniform)** | ![Plot](resources/one_week_poe_0.2g_cs_etas_uni_ti_gain.png) | ![Plot](resources/one_week_poe_0.2g_cs_etas_uni_td_tain.png) | ![Plot](resources/one_week_poe_0.2g_cs_etas_uni.png) | ![Plot](resources/one_week_poe_0.2g_cs_etas_uni_diff.png) |
-| **CS-ETAS** | ![Plot](resources/one_week_poe_0.2g_cs_etas_ti_gain.png) | ![Plot](resources/one_week_poe_0.2g_cs_etas_td_tain.png) | ![Plot](resources/one_week_poe_0.2g_cs_etas_uni_gain.png) | ![Plot](resources/one_week_poe_0.2g_cs_etas.png) |
-
-##### One Week POE 0.2 (g) 3 SA, GMPE Maps
-*[(top)](#table-of-contents)*
-
-|  | GMPE-TI | GMPE-TD | GMPE-ETAS-Uniform | GMPE-ETAS |
-|-----|-----|-----|-----|-----|
-| **GMPE-TI** | ![Plot](resources/one_week_poe_0.2g_gmpe_ti.png) | ![Plot](resources/one_week_poe_0.2g_gmpe_td_ti_diff.png) | ![Plot](resources/one_week_poe_0.2g_gmpe_etas_uni_ti_diff.png) | ![Plot](resources/one_week_poe_0.2g_gmpe_etas_ti_diff.png) |
-| **GMPE-TD** | ![Plot](resources/one_week_poe_0.2g_gmpe_td_ti_gain.png) | ![Plot](resources/one_week_poe_0.2g_gmpe_td.png) | ![Plot](resources/one_week_poe_0.2g_gmpe_etas_uni_td_diff.png) | ![Plot](resources/one_week_poe_0.2g_gmpe_etas_td_diff.png) |
-| **GMPE-ETAS (Uniform)** | ![Plot](resources/one_week_poe_0.2g_gmpe_etas_uni_ti_gain.png) | ![Plot](resources/one_week_poe_0.2g_gmpe_etas_uni_td_tain.png) | ![Plot](resources/one_week_poe_0.2g_gmpe_etas_uni.png) | ![Plot](resources/one_week_poe_0.2g_gmpe_etas_uni_diff.png) |
-| **GMPE-ETAS** | ![Plot](resources/one_week_poe_0.2g_gmpe_etas_ti_gain.png) | ![Plot](resources/one_week_poe_0.2g_gmpe_etas_td_tain.png) | ![Plot](resources/one_week_poe_0.2g_gmpe_etas_uni_gain.png) | ![Plot](resources/one_week_poe_0.2g_gmpe_etas.png) |
-
-#### 5 One Week Hazard Maps
-*[(top)](#table-of-contents)*
-
-##### One Week 5 Sa (g) with POE=1.0E-4, CyberShake Maps
+##### One Week 3s Sa (g) with POE=1.0E-4, CyberShake Maps
 *[(top)](#table-of-contents)*
 
 |  | CS-TI | CS-TD | CS-ETAS-Uniform | CS-ETAS |
 |-----|-----|-----|-----|-----|
 | **CS-TI** | ![Plot](resources/one_week_iml_with_poe_1.0E-4_cs_ti.png) | ![Plot](resources/one_week_iml_with_poe_1.0E-4_cs_td_ti_diff.png) | ![Plot](resources/one_week_iml_with_poe_1.0E-4_cs_etas_uni_ti_diff.png) | ![Plot](resources/one_week_iml_with_poe_1.0E-4_cs_etas_ti_diff.png) |
 | **CS-TD** | ![Plot](resources/one_week_iml_with_poe_1.0E-4_cs_td_ti_gain.png) | ![Plot](resources/one_week_iml_with_poe_1.0E-4_cs_td.png) | ![Plot](resources/one_week_iml_with_poe_1.0E-4_cs_etas_uni_td_diff.png) | ![Plot](resources/one_week_iml_with_poe_1.0E-4_cs_etas_td_diff.png) |
-| **CS-ETAS (Uniform)** | ![Plot](resources/one_week_iml_with_poe_1.0E-4_cs_etas_uni_ti_gain.png) | ![Plot](resources/one_week_iml_with_poe_1.0E-4_cs_etas_uni_td_tain.png) | ![Plot](resources/one_week_iml_with_poe_1.0E-4_cs_etas_uni.png) | ![Plot](resources/one_week_iml_with_poe_1.0E-4_cs_etas_uni_diff.png) |
-| **CS-ETAS** | ![Plot](resources/one_week_iml_with_poe_1.0E-4_cs_etas_ti_gain.png) | ![Plot](resources/one_week_iml_with_poe_1.0E-4_cs_etas_td_tain.png) | ![Plot](resources/one_week_iml_with_poe_1.0E-4_cs_etas_uni_gain.png) | ![Plot](resources/one_week_iml_with_poe_1.0E-4_cs_etas.png) |
+| **CS-ETAS (Uniform)** | ![Plot](resources/one_week_iml_with_poe_1.0E-4_cs_etas_uni_ti_gain.png) | ![Plot](resources/one_week_iml_with_poe_1.0E-4_cs_etas_uni_td_gain.png) | ![Plot](resources/one_week_iml_with_poe_1.0E-4_cs_etas_uni.png) | ![Plot](resources/one_week_iml_with_poe_1.0E-4_cs_etas_uni_diff.png) |
+| **CS-ETAS** | ![Plot](resources/one_week_iml_with_poe_1.0E-4_cs_etas_ti_gain.png) | ![Plot](resources/one_week_iml_with_poe_1.0E-4_cs_etas_td_gain.png) | ![Plot](resources/one_week_iml_with_poe_1.0E-4_cs_etas_uni_gain.png) | ![Plot](resources/one_week_iml_with_poe_1.0E-4_cs_etas.png) |
 
-##### One Week 5 Sa (g) with POE=1.0E-4, GMPE Maps
+##### One Week 3s Sa (g) with POE=1.0E-4, GMPE Maps
 *[(top)](#table-of-contents)*
 
 |  | GMPE-TI | GMPE-TD | GMPE-ETAS-Uniform | GMPE-ETAS |
 |-----|-----|-----|-----|-----|
 | **GMPE-TI** | ![Plot](resources/one_week_iml_with_poe_1.0E-4_gmpe_ti.png) | ![Plot](resources/one_week_iml_with_poe_1.0E-4_gmpe_td_ti_diff.png) | ![Plot](resources/one_week_iml_with_poe_1.0E-4_gmpe_etas_uni_ti_diff.png) | ![Plot](resources/one_week_iml_with_poe_1.0E-4_gmpe_etas_ti_diff.png) |
 | **GMPE-TD** | ![Plot](resources/one_week_iml_with_poe_1.0E-4_gmpe_td_ti_gain.png) | ![Plot](resources/one_week_iml_with_poe_1.0E-4_gmpe_td.png) | ![Plot](resources/one_week_iml_with_poe_1.0E-4_gmpe_etas_uni_td_diff.png) | ![Plot](resources/one_week_iml_with_poe_1.0E-4_gmpe_etas_td_diff.png) |
-| **GMPE-ETAS (Uniform)** | ![Plot](resources/one_week_iml_with_poe_1.0E-4_gmpe_etas_uni_ti_gain.png) | ![Plot](resources/one_week_iml_with_poe_1.0E-4_gmpe_etas_uni_td_tain.png) | ![Plot](resources/one_week_iml_with_poe_1.0E-4_gmpe_etas_uni.png) | ![Plot](resources/one_week_iml_with_poe_1.0E-4_gmpe_etas_uni_diff.png) |
-| **GMPE-ETAS** | ![Plot](resources/one_week_iml_with_poe_1.0E-4_gmpe_etas_ti_gain.png) | ![Plot](resources/one_week_iml_with_poe_1.0E-4_gmpe_etas_td_tain.png) | ![Plot](resources/one_week_iml_with_poe_1.0E-4_gmpe_etas_uni_gain.png) | ![Plot](resources/one_week_iml_with_poe_1.0E-4_gmpe_etas.png) |
+| **GMPE-ETAS (Uniform)** | ![Plot](resources/one_week_iml_with_poe_1.0E-4_gmpe_etas_uni_ti_gain.png) | ![Plot](resources/one_week_iml_with_poe_1.0E-4_gmpe_etas_uni_td_gain.png) | ![Plot](resources/one_week_iml_with_poe_1.0E-4_gmpe_etas_uni.png) | ![Plot](resources/one_week_iml_with_poe_1.0E-4_gmpe_etas_uni_diff.png) |
+| **GMPE-ETAS** | ![Plot](resources/one_week_iml_with_poe_1.0E-4_gmpe_etas_ti_gain.png) | ![Plot](resources/one_week_iml_with_poe_1.0E-4_gmpe_etas_td_gain.png) | ![Plot](resources/one_week_iml_with_poe_1.0E-4_gmpe_etas_uni_gain.png) | ![Plot](resources/one_week_iml_with_poe_1.0E-4_gmpe_etas.png) |
 
-##### One Week 5 Sa (g) with POE=0.001, CyberShake Maps
+##### One Week 3s Sa (g) with POE=0.001, CyberShake Maps
 *[(top)](#table-of-contents)*
 
 |  | CS-TI | CS-TD | CS-ETAS-Uniform | CS-ETAS |
 |-----|-----|-----|-----|-----|
 | **CS-TI** | ![Plot](resources/one_week_iml_with_poe_0.001_cs_ti.png) | ![Plot](resources/one_week_iml_with_poe_0.001_cs_td_ti_diff.png) | ![Plot](resources/one_week_iml_with_poe_0.001_cs_etas_uni_ti_diff.png) | ![Plot](resources/one_week_iml_with_poe_0.001_cs_etas_ti_diff.png) |
 | **CS-TD** | ![Plot](resources/one_week_iml_with_poe_0.001_cs_td_ti_gain.png) | ![Plot](resources/one_week_iml_with_poe_0.001_cs_td.png) | ![Plot](resources/one_week_iml_with_poe_0.001_cs_etas_uni_td_diff.png) | ![Plot](resources/one_week_iml_with_poe_0.001_cs_etas_td_diff.png) |
-| **CS-ETAS (Uniform)** | ![Plot](resources/one_week_iml_with_poe_0.001_cs_etas_uni_ti_gain.png) | ![Plot](resources/one_week_iml_with_poe_0.001_cs_etas_uni_td_tain.png) | ![Plot](resources/one_week_iml_with_poe_0.001_cs_etas_uni.png) | ![Plot](resources/one_week_iml_with_poe_0.001_cs_etas_uni_diff.png) |
-| **CS-ETAS** | ![Plot](resources/one_week_iml_with_poe_0.001_cs_etas_ti_gain.png) | ![Plot](resources/one_week_iml_with_poe_0.001_cs_etas_td_tain.png) | ![Plot](resources/one_week_iml_with_poe_0.001_cs_etas_uni_gain.png) | ![Plot](resources/one_week_iml_with_poe_0.001_cs_etas.png) |
+| **CS-ETAS (Uniform)** | ![Plot](resources/one_week_iml_with_poe_0.001_cs_etas_uni_ti_gain.png) | ![Plot](resources/one_week_iml_with_poe_0.001_cs_etas_uni_td_gain.png) | ![Plot](resources/one_week_iml_with_poe_0.001_cs_etas_uni.png) | ![Plot](resources/one_week_iml_with_poe_0.001_cs_etas_uni_diff.png) |
+| **CS-ETAS** | ![Plot](resources/one_week_iml_with_poe_0.001_cs_etas_ti_gain.png) | ![Plot](resources/one_week_iml_with_poe_0.001_cs_etas_td_gain.png) | ![Plot](resources/one_week_iml_with_poe_0.001_cs_etas_uni_gain.png) | ![Plot](resources/one_week_iml_with_poe_0.001_cs_etas.png) |
 
-##### One Week 5 Sa (g) with POE=0.001, GMPE Maps
+##### One Week 3s Sa (g) with POE=0.001, GMPE Maps
 *[(top)](#table-of-contents)*
 
 |  | GMPE-TI | GMPE-TD | GMPE-ETAS-Uniform | GMPE-ETAS |
 |-----|-----|-----|-----|-----|
 | **GMPE-TI** | ![Plot](resources/one_week_iml_with_poe_0.001_gmpe_ti.png) | ![Plot](resources/one_week_iml_with_poe_0.001_gmpe_td_ti_diff.png) | ![Plot](resources/one_week_iml_with_poe_0.001_gmpe_etas_uni_ti_diff.png) | ![Plot](resources/one_week_iml_with_poe_0.001_gmpe_etas_ti_diff.png) |
 | **GMPE-TD** | ![Plot](resources/one_week_iml_with_poe_0.001_gmpe_td_ti_gain.png) | ![Plot](resources/one_week_iml_with_poe_0.001_gmpe_td.png) | ![Plot](resources/one_week_iml_with_poe_0.001_gmpe_etas_uni_td_diff.png) | ![Plot](resources/one_week_iml_with_poe_0.001_gmpe_etas_td_diff.png) |
-| **GMPE-ETAS (Uniform)** | ![Plot](resources/one_week_iml_with_poe_0.001_gmpe_etas_uni_ti_gain.png) | ![Plot](resources/one_week_iml_with_poe_0.001_gmpe_etas_uni_td_tain.png) | ![Plot](resources/one_week_iml_with_poe_0.001_gmpe_etas_uni.png) | ![Plot](resources/one_week_iml_with_poe_0.001_gmpe_etas_uni_diff.png) |
-| **GMPE-ETAS** | ![Plot](resources/one_week_iml_with_poe_0.001_gmpe_etas_ti_gain.png) | ![Plot](resources/one_week_iml_with_poe_0.001_gmpe_etas_td_tain.png) | ![Plot](resources/one_week_iml_with_poe_0.001_gmpe_etas_uni_gain.png) | ![Plot](resources/one_week_iml_with_poe_0.001_gmpe_etas.png) |
+| **GMPE-ETAS (Uniform)** | ![Plot](resources/one_week_iml_with_poe_0.001_gmpe_etas_uni_ti_gain.png) | ![Plot](resources/one_week_iml_with_poe_0.001_gmpe_etas_uni_td_gain.png) | ![Plot](resources/one_week_iml_with_poe_0.001_gmpe_etas_uni.png) | ![Plot](resources/one_week_iml_with_poe_0.001_gmpe_etas_uni_diff.png) |
+| **GMPE-ETAS** | ![Plot](resources/one_week_iml_with_poe_0.001_gmpe_etas_ti_gain.png) | ![Plot](resources/one_week_iml_with_poe_0.001_gmpe_etas_td_gain.png) | ![Plot](resources/one_week_iml_with_poe_0.001_gmpe_etas_uni_gain.png) | ![Plot](resources/one_week_iml_with_poe_0.001_gmpe_etas.png) |
 
-##### One Week 5 Sa (g) with POE=0.01, CyberShake Maps
+##### One Week 3s Sa (g) with POE=0.01, CyberShake Maps
 *[(top)](#table-of-contents)*
 
 |  | CS-TI | CS-TD | CS-ETAS-Uniform | CS-ETAS |
 |-----|-----|-----|-----|-----|
 | **CS-TI** | ![Plot](resources/one_week_iml_with_poe_0.01_cs_ti.png) | ![Plot](resources/one_week_iml_with_poe_0.01_cs_td_ti_diff.png) | ![Plot](resources/one_week_iml_with_poe_0.01_cs_etas_uni_ti_diff.png) | ![Plot](resources/one_week_iml_with_poe_0.01_cs_etas_ti_diff.png) |
 | **CS-TD** | ![Plot](resources/one_week_iml_with_poe_0.01_cs_td_ti_gain.png) | ![Plot](resources/one_week_iml_with_poe_0.01_cs_td.png) | ![Plot](resources/one_week_iml_with_poe_0.01_cs_etas_uni_td_diff.png) | ![Plot](resources/one_week_iml_with_poe_0.01_cs_etas_td_diff.png) |
-| **CS-ETAS (Uniform)** | ![Plot](resources/one_week_iml_with_poe_0.01_cs_etas_uni_ti_gain.png) | ![Plot](resources/one_week_iml_with_poe_0.01_cs_etas_uni_td_tain.png) | ![Plot](resources/one_week_iml_with_poe_0.01_cs_etas_uni.png) | ![Plot](resources/one_week_iml_with_poe_0.01_cs_etas_uni_diff.png) |
-| **CS-ETAS** | ![Plot](resources/one_week_iml_with_poe_0.01_cs_etas_ti_gain.png) | ![Plot](resources/one_week_iml_with_poe_0.01_cs_etas_td_tain.png) | ![Plot](resources/one_week_iml_with_poe_0.01_cs_etas_uni_gain.png) | ![Plot](resources/one_week_iml_with_poe_0.01_cs_etas.png) |
+| **CS-ETAS (Uniform)** | ![Plot](resources/one_week_iml_with_poe_0.01_cs_etas_uni_ti_gain.png) | ![Plot](resources/one_week_iml_with_poe_0.01_cs_etas_uni_td_gain.png) | ![Plot](resources/one_week_iml_with_poe_0.01_cs_etas_uni.png) | ![Plot](resources/one_week_iml_with_poe_0.01_cs_etas_uni_diff.png) |
+| **CS-ETAS** | ![Plot](resources/one_week_iml_with_poe_0.01_cs_etas_ti_gain.png) | ![Plot](resources/one_week_iml_with_poe_0.01_cs_etas_td_gain.png) | ![Plot](resources/one_week_iml_with_poe_0.01_cs_etas_uni_gain.png) | ![Plot](resources/one_week_iml_with_poe_0.01_cs_etas.png) |
 
-##### One Week 5 Sa (g) with POE=0.01, GMPE Maps
+##### One Week 3s Sa (g) with POE=0.01, GMPE Maps
 *[(top)](#table-of-contents)*
 
 |  | GMPE-TI | GMPE-TD | GMPE-ETAS-Uniform | GMPE-ETAS |
 |-----|-----|-----|-----|-----|
 | **GMPE-TI** | ![Plot](resources/one_week_iml_with_poe_0.01_gmpe_ti.png) | ![Plot](resources/one_week_iml_with_poe_0.01_gmpe_td_ti_diff.png) | ![Plot](resources/one_week_iml_with_poe_0.01_gmpe_etas_uni_ti_diff.png) | ![Plot](resources/one_week_iml_with_poe_0.01_gmpe_etas_ti_diff.png) |
 | **GMPE-TD** | ![Plot](resources/one_week_iml_with_poe_0.01_gmpe_td_ti_gain.png) | ![Plot](resources/one_week_iml_with_poe_0.01_gmpe_td.png) | ![Plot](resources/one_week_iml_with_poe_0.01_gmpe_etas_uni_td_diff.png) | ![Plot](resources/one_week_iml_with_poe_0.01_gmpe_etas_td_diff.png) |
-| **GMPE-ETAS (Uniform)** | ![Plot](resources/one_week_iml_with_poe_0.01_gmpe_etas_uni_ti_gain.png) | ![Plot](resources/one_week_iml_with_poe_0.01_gmpe_etas_uni_td_tain.png) | ![Plot](resources/one_week_iml_with_poe_0.01_gmpe_etas_uni.png) | ![Plot](resources/one_week_iml_with_poe_0.01_gmpe_etas_uni_diff.png) |
-| **GMPE-ETAS** | ![Plot](resources/one_week_iml_with_poe_0.01_gmpe_etas_ti_gain.png) | ![Plot](resources/one_week_iml_with_poe_0.01_gmpe_etas_td_tain.png) | ![Plot](resources/one_week_iml_with_poe_0.01_gmpe_etas_uni_gain.png) | ![Plot](resources/one_week_iml_with_poe_0.01_gmpe_etas.png) |
+| **GMPE-ETAS (Uniform)** | ![Plot](resources/one_week_iml_with_poe_0.01_gmpe_etas_uni_ti_gain.png) | ![Plot](resources/one_week_iml_with_poe_0.01_gmpe_etas_uni_td_gain.png) | ![Plot](resources/one_week_iml_with_poe_0.01_gmpe_etas_uni.png) | ![Plot](resources/one_week_iml_with_poe_0.01_gmpe_etas_uni_diff.png) |
+| **GMPE-ETAS** | ![Plot](resources/one_week_iml_with_poe_0.01_gmpe_etas_ti_gain.png) | ![Plot](resources/one_week_iml_with_poe_0.01_gmpe_etas_td_gain.png) | ![Plot](resources/one_week_iml_with_poe_0.01_gmpe_etas_uni_gain.png) | ![Plot](resources/one_week_iml_with_poe_0.01_gmpe_etas.png) |
 
-##### One Week 5 Sa (g) with POE=0.1, CyberShake Maps
+##### One Week 3s Sa (g) with POE=0.1, CyberShake Maps
 *[(top)](#table-of-contents)*
 
 |  | CS-TI | CS-TD | CS-ETAS-Uniform | CS-ETAS |
 |-----|-----|-----|-----|-----|
 | **CS-TI** | ![Plot](resources/one_week_iml_with_poe_0.1_cs_ti.png) | ![Plot](resources/one_week_iml_with_poe_0.1_cs_td_ti_diff.png) | ![Plot](resources/one_week_iml_with_poe_0.1_cs_etas_uni_ti_diff.png) | ![Plot](resources/one_week_iml_with_poe_0.1_cs_etas_ti_diff.png) |
 | **CS-TD** | ![Plot](resources/one_week_iml_with_poe_0.1_cs_td_ti_gain.png) | ![Plot](resources/one_week_iml_with_poe_0.1_cs_td.png) | ![Plot](resources/one_week_iml_with_poe_0.1_cs_etas_uni_td_diff.png) | ![Plot](resources/one_week_iml_with_poe_0.1_cs_etas_td_diff.png) |
-| **CS-ETAS (Uniform)** | ![Plot](resources/one_week_iml_with_poe_0.1_cs_etas_uni_ti_gain.png) | ![Plot](resources/one_week_iml_with_poe_0.1_cs_etas_uni_td_tain.png) | ![Plot](resources/one_week_iml_with_poe_0.1_cs_etas_uni.png) | ![Plot](resources/one_week_iml_with_poe_0.1_cs_etas_uni_diff.png) |
-| **CS-ETAS** | ![Plot](resources/one_week_iml_with_poe_0.1_cs_etas_ti_gain.png) | ![Plot](resources/one_week_iml_with_poe_0.1_cs_etas_td_tain.png) | ![Plot](resources/one_week_iml_with_poe_0.1_cs_etas_uni_gain.png) | ![Plot](resources/one_week_iml_with_poe_0.1_cs_etas.png) |
+| **CS-ETAS (Uniform)** | ![Plot](resources/one_week_iml_with_poe_0.1_cs_etas_uni_ti_gain.png) | ![Plot](resources/one_week_iml_with_poe_0.1_cs_etas_uni_td_gain.png) | ![Plot](resources/one_week_iml_with_poe_0.1_cs_etas_uni.png) | ![Plot](resources/one_week_iml_with_poe_0.1_cs_etas_uni_diff.png) |
+| **CS-ETAS** | ![Plot](resources/one_week_iml_with_poe_0.1_cs_etas_ti_gain.png) | ![Plot](resources/one_week_iml_with_poe_0.1_cs_etas_td_gain.png) | ![Plot](resources/one_week_iml_with_poe_0.1_cs_etas_uni_gain.png) | ![Plot](resources/one_week_iml_with_poe_0.1_cs_etas.png) |
 
-##### One Week 5 Sa (g) with POE=0.1, GMPE Maps
+##### One Week 3s Sa (g) with POE=0.1, GMPE Maps
 *[(top)](#table-of-contents)*
 
 |  | GMPE-TI | GMPE-TD | GMPE-ETAS-Uniform | GMPE-ETAS |
 |-----|-----|-----|-----|-----|
 | **GMPE-TI** | ![Plot](resources/one_week_iml_with_poe_0.1_gmpe_ti.png) | ![Plot](resources/one_week_iml_with_poe_0.1_gmpe_td_ti_diff.png) | ![Plot](resources/one_week_iml_with_poe_0.1_gmpe_etas_uni_ti_diff.png) | ![Plot](resources/one_week_iml_with_poe_0.1_gmpe_etas_ti_diff.png) |
 | **GMPE-TD** | ![Plot](resources/one_week_iml_with_poe_0.1_gmpe_td_ti_gain.png) | ![Plot](resources/one_week_iml_with_poe_0.1_gmpe_td.png) | ![Plot](resources/one_week_iml_with_poe_0.1_gmpe_etas_uni_td_diff.png) | ![Plot](resources/one_week_iml_with_poe_0.1_gmpe_etas_td_diff.png) |
-| **GMPE-ETAS (Uniform)** | ![Plot](resources/one_week_iml_with_poe_0.1_gmpe_etas_uni_ti_gain.png) | ![Plot](resources/one_week_iml_with_poe_0.1_gmpe_etas_uni_td_tain.png) | ![Plot](resources/one_week_iml_with_poe_0.1_gmpe_etas_uni.png) | ![Plot](resources/one_week_iml_with_poe_0.1_gmpe_etas_uni_diff.png) |
-| **GMPE-ETAS** | ![Plot](resources/one_week_iml_with_poe_0.1_gmpe_etas_ti_gain.png) | ![Plot](resources/one_week_iml_with_poe_0.1_gmpe_etas_td_tain.png) | ![Plot](resources/one_week_iml_with_poe_0.1_gmpe_etas_uni_gain.png) | ![Plot](resources/one_week_iml_with_poe_0.1_gmpe_etas.png) |
+| **GMPE-ETAS (Uniform)** | ![Plot](resources/one_week_iml_with_poe_0.1_gmpe_etas_uni_ti_gain.png) | ![Plot](resources/one_week_iml_with_poe_0.1_gmpe_etas_uni_td_gain.png) | ![Plot](resources/one_week_iml_with_poe_0.1_gmpe_etas_uni.png) | ![Plot](resources/one_week_iml_with_poe_0.1_gmpe_etas_uni_diff.png) |
+| **GMPE-ETAS** | ![Plot](resources/one_week_iml_with_poe_0.1_gmpe_etas_ti_gain.png) | ![Plot](resources/one_week_iml_with_poe_0.1_gmpe_etas_td_gain.png) | ![Plot](resources/one_week_iml_with_poe_0.1_gmpe_etas_uni_gain.png) | ![Plot](resources/one_week_iml_with_poe_0.1_gmpe_etas.png) |
 
-##### One Week POE 0.01 (g) 5 SA, CyberShake Maps
+##### One Week POE 0.01 (g) 3s SA, CyberShake Maps
 *[(top)](#table-of-contents)*
 
 |  | CS-TI | CS-TD | CS-ETAS-Uniform | CS-ETAS |
 |-----|-----|-----|-----|-----|
 | **CS-TI** | ![Plot](resources/one_week_poe_0.01g_cs_ti.png) | ![Plot](resources/one_week_poe_0.01g_cs_td_ti_diff.png) | ![Plot](resources/one_week_poe_0.01g_cs_etas_uni_ti_diff.png) | ![Plot](resources/one_week_poe_0.01g_cs_etas_ti_diff.png) |
 | **CS-TD** | ![Plot](resources/one_week_poe_0.01g_cs_td_ti_gain.png) | ![Plot](resources/one_week_poe_0.01g_cs_td.png) | ![Plot](resources/one_week_poe_0.01g_cs_etas_uni_td_diff.png) | ![Plot](resources/one_week_poe_0.01g_cs_etas_td_diff.png) |
-| **CS-ETAS (Uniform)** | ![Plot](resources/one_week_poe_0.01g_cs_etas_uni_ti_gain.png) | ![Plot](resources/one_week_poe_0.01g_cs_etas_uni_td_tain.png) | ![Plot](resources/one_week_poe_0.01g_cs_etas_uni.png) | ![Plot](resources/one_week_poe_0.01g_cs_etas_uni_diff.png) |
-| **CS-ETAS** | ![Plot](resources/one_week_poe_0.01g_cs_etas_ti_gain.png) | ![Plot](resources/one_week_poe_0.01g_cs_etas_td_tain.png) | ![Plot](resources/one_week_poe_0.01g_cs_etas_uni_gain.png) | ![Plot](resources/one_week_poe_0.01g_cs_etas.png) |
+| **CS-ETAS (Uniform)** | ![Plot](resources/one_week_poe_0.01g_cs_etas_uni_ti_gain.png) | ![Plot](resources/one_week_poe_0.01g_cs_etas_uni_td_gain.png) | ![Plot](resources/one_week_poe_0.01g_cs_etas_uni.png) | ![Plot](resources/one_week_poe_0.01g_cs_etas_uni_diff.png) |
+| **CS-ETAS** | ![Plot](resources/one_week_poe_0.01g_cs_etas_ti_gain.png) | ![Plot](resources/one_week_poe_0.01g_cs_etas_td_gain.png) | ![Plot](resources/one_week_poe_0.01g_cs_etas_uni_gain.png) | ![Plot](resources/one_week_poe_0.01g_cs_etas.png) |
 
-##### One Week POE 0.01 (g) 5 SA, GMPE Maps
+##### One Week POE 0.01 (g) 3s SA, GMPE Maps
 *[(top)](#table-of-contents)*
 
 |  | GMPE-TI | GMPE-TD | GMPE-ETAS-Uniform | GMPE-ETAS |
 |-----|-----|-----|-----|-----|
 | **GMPE-TI** | ![Plot](resources/one_week_poe_0.01g_gmpe_ti.png) | ![Plot](resources/one_week_poe_0.01g_gmpe_td_ti_diff.png) | ![Plot](resources/one_week_poe_0.01g_gmpe_etas_uni_ti_diff.png) | ![Plot](resources/one_week_poe_0.01g_gmpe_etas_ti_diff.png) |
 | **GMPE-TD** | ![Plot](resources/one_week_poe_0.01g_gmpe_td_ti_gain.png) | ![Plot](resources/one_week_poe_0.01g_gmpe_td.png) | ![Plot](resources/one_week_poe_0.01g_gmpe_etas_uni_td_diff.png) | ![Plot](resources/one_week_poe_0.01g_gmpe_etas_td_diff.png) |
-| **GMPE-ETAS (Uniform)** | ![Plot](resources/one_week_poe_0.01g_gmpe_etas_uni_ti_gain.png) | ![Plot](resources/one_week_poe_0.01g_gmpe_etas_uni_td_tain.png) | ![Plot](resources/one_week_poe_0.01g_gmpe_etas_uni.png) | ![Plot](resources/one_week_poe_0.01g_gmpe_etas_uni_diff.png) |
-| **GMPE-ETAS** | ![Plot](resources/one_week_poe_0.01g_gmpe_etas_ti_gain.png) | ![Plot](resources/one_week_poe_0.01g_gmpe_etas_td_tain.png) | ![Plot](resources/one_week_poe_0.01g_gmpe_etas_uni_gain.png) | ![Plot](resources/one_week_poe_0.01g_gmpe_etas.png) |
+| **GMPE-ETAS (Uniform)** | ![Plot](resources/one_week_poe_0.01g_gmpe_etas_uni_ti_gain.png) | ![Plot](resources/one_week_poe_0.01g_gmpe_etas_uni_td_gain.png) | ![Plot](resources/one_week_poe_0.01g_gmpe_etas_uni.png) | ![Plot](resources/one_week_poe_0.01g_gmpe_etas_uni_diff.png) |
+| **GMPE-ETAS** | ![Plot](resources/one_week_poe_0.01g_gmpe_etas_ti_gain.png) | ![Plot](resources/one_week_poe_0.01g_gmpe_etas_td_gain.png) | ![Plot](resources/one_week_poe_0.01g_gmpe_etas_uni_gain.png) | ![Plot](resources/one_week_poe_0.01g_gmpe_etas.png) |
 
-##### One Week POE 0.1 (g) 5 SA, CyberShake Maps
+##### One Week POE 0.1 (g) 3s SA, CyberShake Maps
 *[(top)](#table-of-contents)*
 
 |  | CS-TI | CS-TD | CS-ETAS-Uniform | CS-ETAS |
 |-----|-----|-----|-----|-----|
 | **CS-TI** | ![Plot](resources/one_week_poe_0.1g_cs_ti.png) | ![Plot](resources/one_week_poe_0.1g_cs_td_ti_diff.png) | ![Plot](resources/one_week_poe_0.1g_cs_etas_uni_ti_diff.png) | ![Plot](resources/one_week_poe_0.1g_cs_etas_ti_diff.png) |
 | **CS-TD** | ![Plot](resources/one_week_poe_0.1g_cs_td_ti_gain.png) | ![Plot](resources/one_week_poe_0.1g_cs_td.png) | ![Plot](resources/one_week_poe_0.1g_cs_etas_uni_td_diff.png) | ![Plot](resources/one_week_poe_0.1g_cs_etas_td_diff.png) |
-| **CS-ETAS (Uniform)** | ![Plot](resources/one_week_poe_0.1g_cs_etas_uni_ti_gain.png) | ![Plot](resources/one_week_poe_0.1g_cs_etas_uni_td_tain.png) | ![Plot](resources/one_week_poe_0.1g_cs_etas_uni.png) | ![Plot](resources/one_week_poe_0.1g_cs_etas_uni_diff.png) |
-| **CS-ETAS** | ![Plot](resources/one_week_poe_0.1g_cs_etas_ti_gain.png) | ![Plot](resources/one_week_poe_0.1g_cs_etas_td_tain.png) | ![Plot](resources/one_week_poe_0.1g_cs_etas_uni_gain.png) | ![Plot](resources/one_week_poe_0.1g_cs_etas.png) |
+| **CS-ETAS (Uniform)** | ![Plot](resources/one_week_poe_0.1g_cs_etas_uni_ti_gain.png) | ![Plot](resources/one_week_poe_0.1g_cs_etas_uni_td_gain.png) | ![Plot](resources/one_week_poe_0.1g_cs_etas_uni.png) | ![Plot](resources/one_week_poe_0.1g_cs_etas_uni_diff.png) |
+| **CS-ETAS** | ![Plot](resources/one_week_poe_0.1g_cs_etas_ti_gain.png) | ![Plot](resources/one_week_poe_0.1g_cs_etas_td_gain.png) | ![Plot](resources/one_week_poe_0.1g_cs_etas_uni_gain.png) | ![Plot](resources/one_week_poe_0.1g_cs_etas.png) |
 
-##### One Week POE 0.1 (g) 5 SA, GMPE Maps
+##### One Week POE 0.1 (g) 3s SA, GMPE Maps
 *[(top)](#table-of-contents)*
 
 |  | GMPE-TI | GMPE-TD | GMPE-ETAS-Uniform | GMPE-ETAS |
 |-----|-----|-----|-----|-----|
 | **GMPE-TI** | ![Plot](resources/one_week_poe_0.1g_gmpe_ti.png) | ![Plot](resources/one_week_poe_0.1g_gmpe_td_ti_diff.png) | ![Plot](resources/one_week_poe_0.1g_gmpe_etas_uni_ti_diff.png) | ![Plot](resources/one_week_poe_0.1g_gmpe_etas_ti_diff.png) |
 | **GMPE-TD** | ![Plot](resources/one_week_poe_0.1g_gmpe_td_ti_gain.png) | ![Plot](resources/one_week_poe_0.1g_gmpe_td.png) | ![Plot](resources/one_week_poe_0.1g_gmpe_etas_uni_td_diff.png) | ![Plot](resources/one_week_poe_0.1g_gmpe_etas_td_diff.png) |
-| **GMPE-ETAS (Uniform)** | ![Plot](resources/one_week_poe_0.1g_gmpe_etas_uni_ti_gain.png) | ![Plot](resources/one_week_poe_0.1g_gmpe_etas_uni_td_tain.png) | ![Plot](resources/one_week_poe_0.1g_gmpe_etas_uni.png) | ![Plot](resources/one_week_poe_0.1g_gmpe_etas_uni_diff.png) |
-| **GMPE-ETAS** | ![Plot](resources/one_week_poe_0.1g_gmpe_etas_ti_gain.png) | ![Plot](resources/one_week_poe_0.1g_gmpe_etas_td_tain.png) | ![Plot](resources/one_week_poe_0.1g_gmpe_etas_uni_gain.png) | ![Plot](resources/one_week_poe_0.1g_gmpe_etas.png) |
+| **GMPE-ETAS (Uniform)** | ![Plot](resources/one_week_poe_0.1g_gmpe_etas_uni_ti_gain.png) | ![Plot](resources/one_week_poe_0.1g_gmpe_etas_uni_td_gain.png) | ![Plot](resources/one_week_poe_0.1g_gmpe_etas_uni.png) | ![Plot](resources/one_week_poe_0.1g_gmpe_etas_uni_diff.png) |
+| **GMPE-ETAS** | ![Plot](resources/one_week_poe_0.1g_gmpe_etas_ti_gain.png) | ![Plot](resources/one_week_poe_0.1g_gmpe_etas_td_gain.png) | ![Plot](resources/one_week_poe_0.1g_gmpe_etas_uni_gain.png) | ![Plot](resources/one_week_poe_0.1g_gmpe_etas.png) |
 
-##### One Week POE 0.2 (g) 5 SA, CyberShake Maps
+##### One Week POE 0.2 (g) 3s SA, CyberShake Maps
 *[(top)](#table-of-contents)*
 
 |  | CS-TI | CS-TD | CS-ETAS-Uniform | CS-ETAS |
 |-----|-----|-----|-----|-----|
 | **CS-TI** | ![Plot](resources/one_week_poe_0.2g_cs_ti.png) | ![Plot](resources/one_week_poe_0.2g_cs_td_ti_diff.png) | ![Plot](resources/one_week_poe_0.2g_cs_etas_uni_ti_diff.png) | ![Plot](resources/one_week_poe_0.2g_cs_etas_ti_diff.png) |
 | **CS-TD** | ![Plot](resources/one_week_poe_0.2g_cs_td_ti_gain.png) | ![Plot](resources/one_week_poe_0.2g_cs_td.png) | ![Plot](resources/one_week_poe_0.2g_cs_etas_uni_td_diff.png) | ![Plot](resources/one_week_poe_0.2g_cs_etas_td_diff.png) |
-| **CS-ETAS (Uniform)** | ![Plot](resources/one_week_poe_0.2g_cs_etas_uni_ti_gain.png) | ![Plot](resources/one_week_poe_0.2g_cs_etas_uni_td_tain.png) | ![Plot](resources/one_week_poe_0.2g_cs_etas_uni.png) | ![Plot](resources/one_week_poe_0.2g_cs_etas_uni_diff.png) |
-| **CS-ETAS** | ![Plot](resources/one_week_poe_0.2g_cs_etas_ti_gain.png) | ![Plot](resources/one_week_poe_0.2g_cs_etas_td_tain.png) | ![Plot](resources/one_week_poe_0.2g_cs_etas_uni_gain.png) | ![Plot](resources/one_week_poe_0.2g_cs_etas.png) |
+| **CS-ETAS (Uniform)** | ![Plot](resources/one_week_poe_0.2g_cs_etas_uni_ti_gain.png) | ![Plot](resources/one_week_poe_0.2g_cs_etas_uni_td_gain.png) | ![Plot](resources/one_week_poe_0.2g_cs_etas_uni.png) | ![Plot](resources/one_week_poe_0.2g_cs_etas_uni_diff.png) |
+| **CS-ETAS** | ![Plot](resources/one_week_poe_0.2g_cs_etas_ti_gain.png) | ![Plot](resources/one_week_poe_0.2g_cs_etas_td_gain.png) | ![Plot](resources/one_week_poe_0.2g_cs_etas_uni_gain.png) | ![Plot](resources/one_week_poe_0.2g_cs_etas.png) |
 
-##### One Week POE 0.2 (g) 5 SA, GMPE Maps
+##### One Week POE 0.2 (g) 3s SA, GMPE Maps
 *[(top)](#table-of-contents)*
 
 |  | GMPE-TI | GMPE-TD | GMPE-ETAS-Uniform | GMPE-ETAS |
 |-----|-----|-----|-----|-----|
 | **GMPE-TI** | ![Plot](resources/one_week_poe_0.2g_gmpe_ti.png) | ![Plot](resources/one_week_poe_0.2g_gmpe_td_ti_diff.png) | ![Plot](resources/one_week_poe_0.2g_gmpe_etas_uni_ti_diff.png) | ![Plot](resources/one_week_poe_0.2g_gmpe_etas_ti_diff.png) |
 | **GMPE-TD** | ![Plot](resources/one_week_poe_0.2g_gmpe_td_ti_gain.png) | ![Plot](resources/one_week_poe_0.2g_gmpe_td.png) | ![Plot](resources/one_week_poe_0.2g_gmpe_etas_uni_td_diff.png) | ![Plot](resources/one_week_poe_0.2g_gmpe_etas_td_diff.png) |
-| **GMPE-ETAS (Uniform)** | ![Plot](resources/one_week_poe_0.2g_gmpe_etas_uni_ti_gain.png) | ![Plot](resources/one_week_poe_0.2g_gmpe_etas_uni_td_tain.png) | ![Plot](resources/one_week_poe_0.2g_gmpe_etas_uni.png) | ![Plot](resources/one_week_poe_0.2g_gmpe_etas_uni_diff.png) |
-| **GMPE-ETAS** | ![Plot](resources/one_week_poe_0.2g_gmpe_etas_ti_gain.png) | ![Plot](resources/one_week_poe_0.2g_gmpe_etas_td_tain.png) | ![Plot](resources/one_week_poe_0.2g_gmpe_etas_uni_gain.png) | ![Plot](resources/one_week_poe_0.2g_gmpe_etas.png) |
+| **GMPE-ETAS (Uniform)** | ![Plot](resources/one_week_poe_0.2g_gmpe_etas_uni_ti_gain.png) | ![Plot](resources/one_week_poe_0.2g_gmpe_etas_uni_td_gain.png) | ![Plot](resources/one_week_poe_0.2g_gmpe_etas_uni.png) | ![Plot](resources/one_week_poe_0.2g_gmpe_etas_uni_diff.png) |
+| **GMPE-ETAS** | ![Plot](resources/one_week_poe_0.2g_gmpe_etas_ti_gain.png) | ![Plot](resources/one_week_poe_0.2g_gmpe_etas_td_gain.png) | ![Plot](resources/one_week_poe_0.2g_gmpe_etas_uni_gain.png) | ![Plot](resources/one_week_poe_0.2g_gmpe_etas.png) |
 
-#### 10 One Week Hazard Maps
+#### 5s One Week Hazard Maps
 *[(top)](#table-of-contents)*
 
-##### One Week 10 Sa (g) with POE=1.0E-4, CyberShake Maps
+##### One Week 5s Sa (g) with POE=1.0E-4, CyberShake Maps
 *[(top)](#table-of-contents)*
 
 |  | CS-TI | CS-TD | CS-ETAS-Uniform | CS-ETAS |
 |-----|-----|-----|-----|-----|
 | **CS-TI** | ![Plot](resources/one_week_iml_with_poe_1.0E-4_cs_ti.png) | ![Plot](resources/one_week_iml_with_poe_1.0E-4_cs_td_ti_diff.png) | ![Plot](resources/one_week_iml_with_poe_1.0E-4_cs_etas_uni_ti_diff.png) | ![Plot](resources/one_week_iml_with_poe_1.0E-4_cs_etas_ti_diff.png) |
 | **CS-TD** | ![Plot](resources/one_week_iml_with_poe_1.0E-4_cs_td_ti_gain.png) | ![Plot](resources/one_week_iml_with_poe_1.0E-4_cs_td.png) | ![Plot](resources/one_week_iml_with_poe_1.0E-4_cs_etas_uni_td_diff.png) | ![Plot](resources/one_week_iml_with_poe_1.0E-4_cs_etas_td_diff.png) |
-| **CS-ETAS (Uniform)** | ![Plot](resources/one_week_iml_with_poe_1.0E-4_cs_etas_uni_ti_gain.png) | ![Plot](resources/one_week_iml_with_poe_1.0E-4_cs_etas_uni_td_tain.png) | ![Plot](resources/one_week_iml_with_poe_1.0E-4_cs_etas_uni.png) | ![Plot](resources/one_week_iml_with_poe_1.0E-4_cs_etas_uni_diff.png) |
-| **CS-ETAS** | ![Plot](resources/one_week_iml_with_poe_1.0E-4_cs_etas_ti_gain.png) | ![Plot](resources/one_week_iml_with_poe_1.0E-4_cs_etas_td_tain.png) | ![Plot](resources/one_week_iml_with_poe_1.0E-4_cs_etas_uni_gain.png) | ![Plot](resources/one_week_iml_with_poe_1.0E-4_cs_etas.png) |
+| **CS-ETAS (Uniform)** | ![Plot](resources/one_week_iml_with_poe_1.0E-4_cs_etas_uni_ti_gain.png) | ![Plot](resources/one_week_iml_with_poe_1.0E-4_cs_etas_uni_td_gain.png) | ![Plot](resources/one_week_iml_with_poe_1.0E-4_cs_etas_uni.png) | ![Plot](resources/one_week_iml_with_poe_1.0E-4_cs_etas_uni_diff.png) |
+| **CS-ETAS** | ![Plot](resources/one_week_iml_with_poe_1.0E-4_cs_etas_ti_gain.png) | ![Plot](resources/one_week_iml_with_poe_1.0E-4_cs_etas_td_gain.png) | ![Plot](resources/one_week_iml_with_poe_1.0E-4_cs_etas_uni_gain.png) | ![Plot](resources/one_week_iml_with_poe_1.0E-4_cs_etas.png) |
 
-##### One Week 10 Sa (g) with POE=1.0E-4, GMPE Maps
+##### One Week 5s Sa (g) with POE=1.0E-4, GMPE Maps
 *[(top)](#table-of-contents)*
 
 |  | GMPE-TI | GMPE-TD | GMPE-ETAS-Uniform | GMPE-ETAS |
 |-----|-----|-----|-----|-----|
 | **GMPE-TI** | ![Plot](resources/one_week_iml_with_poe_1.0E-4_gmpe_ti.png) | ![Plot](resources/one_week_iml_with_poe_1.0E-4_gmpe_td_ti_diff.png) | ![Plot](resources/one_week_iml_with_poe_1.0E-4_gmpe_etas_uni_ti_diff.png) | ![Plot](resources/one_week_iml_with_poe_1.0E-4_gmpe_etas_ti_diff.png) |
 | **GMPE-TD** | ![Plot](resources/one_week_iml_with_poe_1.0E-4_gmpe_td_ti_gain.png) | ![Plot](resources/one_week_iml_with_poe_1.0E-4_gmpe_td.png) | ![Plot](resources/one_week_iml_with_poe_1.0E-4_gmpe_etas_uni_td_diff.png) | ![Plot](resources/one_week_iml_with_poe_1.0E-4_gmpe_etas_td_diff.png) |
-| **GMPE-ETAS (Uniform)** | ![Plot](resources/one_week_iml_with_poe_1.0E-4_gmpe_etas_uni_ti_gain.png) | ![Plot](resources/one_week_iml_with_poe_1.0E-4_gmpe_etas_uni_td_tain.png) | ![Plot](resources/one_week_iml_with_poe_1.0E-4_gmpe_etas_uni.png) | ![Plot](resources/one_week_iml_with_poe_1.0E-4_gmpe_etas_uni_diff.png) |
-| **GMPE-ETAS** | ![Plot](resources/one_week_iml_with_poe_1.0E-4_gmpe_etas_ti_gain.png) | ![Plot](resources/one_week_iml_with_poe_1.0E-4_gmpe_etas_td_tain.png) | ![Plot](resources/one_week_iml_with_poe_1.0E-4_gmpe_etas_uni_gain.png) | ![Plot](resources/one_week_iml_with_poe_1.0E-4_gmpe_etas.png) |
+| **GMPE-ETAS (Uniform)** | ![Plot](resources/one_week_iml_with_poe_1.0E-4_gmpe_etas_uni_ti_gain.png) | ![Plot](resources/one_week_iml_with_poe_1.0E-4_gmpe_etas_uni_td_gain.png) | ![Plot](resources/one_week_iml_with_poe_1.0E-4_gmpe_etas_uni.png) | ![Plot](resources/one_week_iml_with_poe_1.0E-4_gmpe_etas_uni_diff.png) |
+| **GMPE-ETAS** | ![Plot](resources/one_week_iml_with_poe_1.0E-4_gmpe_etas_ti_gain.png) | ![Plot](resources/one_week_iml_with_poe_1.0E-4_gmpe_etas_td_gain.png) | ![Plot](resources/one_week_iml_with_poe_1.0E-4_gmpe_etas_uni_gain.png) | ![Plot](resources/one_week_iml_with_poe_1.0E-4_gmpe_etas.png) |
 
-##### One Week 10 Sa (g) with POE=0.001, CyberShake Maps
+##### One Week 5s Sa (g) with POE=0.001, CyberShake Maps
 *[(top)](#table-of-contents)*
 
 |  | CS-TI | CS-TD | CS-ETAS-Uniform | CS-ETAS |
 |-----|-----|-----|-----|-----|
 | **CS-TI** | ![Plot](resources/one_week_iml_with_poe_0.001_cs_ti.png) | ![Plot](resources/one_week_iml_with_poe_0.001_cs_td_ti_diff.png) | ![Plot](resources/one_week_iml_with_poe_0.001_cs_etas_uni_ti_diff.png) | ![Plot](resources/one_week_iml_with_poe_0.001_cs_etas_ti_diff.png) |
 | **CS-TD** | ![Plot](resources/one_week_iml_with_poe_0.001_cs_td_ti_gain.png) | ![Plot](resources/one_week_iml_with_poe_0.001_cs_td.png) | ![Plot](resources/one_week_iml_with_poe_0.001_cs_etas_uni_td_diff.png) | ![Plot](resources/one_week_iml_with_poe_0.001_cs_etas_td_diff.png) |
-| **CS-ETAS (Uniform)** | ![Plot](resources/one_week_iml_with_poe_0.001_cs_etas_uni_ti_gain.png) | ![Plot](resources/one_week_iml_with_poe_0.001_cs_etas_uni_td_tain.png) | ![Plot](resources/one_week_iml_with_poe_0.001_cs_etas_uni.png) | ![Plot](resources/one_week_iml_with_poe_0.001_cs_etas_uni_diff.png) |
-| **CS-ETAS** | ![Plot](resources/one_week_iml_with_poe_0.001_cs_etas_ti_gain.png) | ![Plot](resources/one_week_iml_with_poe_0.001_cs_etas_td_tain.png) | ![Plot](resources/one_week_iml_with_poe_0.001_cs_etas_uni_gain.png) | ![Plot](resources/one_week_iml_with_poe_0.001_cs_etas.png) |
+| **CS-ETAS (Uniform)** | ![Plot](resources/one_week_iml_with_poe_0.001_cs_etas_uni_ti_gain.png) | ![Plot](resources/one_week_iml_with_poe_0.001_cs_etas_uni_td_gain.png) | ![Plot](resources/one_week_iml_with_poe_0.001_cs_etas_uni.png) | ![Plot](resources/one_week_iml_with_poe_0.001_cs_etas_uni_diff.png) |
+| **CS-ETAS** | ![Plot](resources/one_week_iml_with_poe_0.001_cs_etas_ti_gain.png) | ![Plot](resources/one_week_iml_with_poe_0.001_cs_etas_td_gain.png) | ![Plot](resources/one_week_iml_with_poe_0.001_cs_etas_uni_gain.png) | ![Plot](resources/one_week_iml_with_poe_0.001_cs_etas.png) |
 
-##### One Week 10 Sa (g) with POE=0.001, GMPE Maps
+##### One Week 5s Sa (g) with POE=0.001, GMPE Maps
 *[(top)](#table-of-contents)*
 
 |  | GMPE-TI | GMPE-TD | GMPE-ETAS-Uniform | GMPE-ETAS |
 |-----|-----|-----|-----|-----|
 | **GMPE-TI** | ![Plot](resources/one_week_iml_with_poe_0.001_gmpe_ti.png) | ![Plot](resources/one_week_iml_with_poe_0.001_gmpe_td_ti_diff.png) | ![Plot](resources/one_week_iml_with_poe_0.001_gmpe_etas_uni_ti_diff.png) | ![Plot](resources/one_week_iml_with_poe_0.001_gmpe_etas_ti_diff.png) |
 | **GMPE-TD** | ![Plot](resources/one_week_iml_with_poe_0.001_gmpe_td_ti_gain.png) | ![Plot](resources/one_week_iml_with_poe_0.001_gmpe_td.png) | ![Plot](resources/one_week_iml_with_poe_0.001_gmpe_etas_uni_td_diff.png) | ![Plot](resources/one_week_iml_with_poe_0.001_gmpe_etas_td_diff.png) |
-| **GMPE-ETAS (Uniform)** | ![Plot](resources/one_week_iml_with_poe_0.001_gmpe_etas_uni_ti_gain.png) | ![Plot](resources/one_week_iml_with_poe_0.001_gmpe_etas_uni_td_tain.png) | ![Plot](resources/one_week_iml_with_poe_0.001_gmpe_etas_uni.png) | ![Plot](resources/one_week_iml_with_poe_0.001_gmpe_etas_uni_diff.png) |
-| **GMPE-ETAS** | ![Plot](resources/one_week_iml_with_poe_0.001_gmpe_etas_ti_gain.png) | ![Plot](resources/one_week_iml_with_poe_0.001_gmpe_etas_td_tain.png) | ![Plot](resources/one_week_iml_with_poe_0.001_gmpe_etas_uni_gain.png) | ![Plot](resources/one_week_iml_with_poe_0.001_gmpe_etas.png) |
+| **GMPE-ETAS (Uniform)** | ![Plot](resources/one_week_iml_with_poe_0.001_gmpe_etas_uni_ti_gain.png) | ![Plot](resources/one_week_iml_with_poe_0.001_gmpe_etas_uni_td_gain.png) | ![Plot](resources/one_week_iml_with_poe_0.001_gmpe_etas_uni.png) | ![Plot](resources/one_week_iml_with_poe_0.001_gmpe_etas_uni_diff.png) |
+| **GMPE-ETAS** | ![Plot](resources/one_week_iml_with_poe_0.001_gmpe_etas_ti_gain.png) | ![Plot](resources/one_week_iml_with_poe_0.001_gmpe_etas_td_gain.png) | ![Plot](resources/one_week_iml_with_poe_0.001_gmpe_etas_uni_gain.png) | ![Plot](resources/one_week_iml_with_poe_0.001_gmpe_etas.png) |
 
-##### One Week 10 Sa (g) with POE=0.01, CyberShake Maps
+##### One Week 5s Sa (g) with POE=0.01, CyberShake Maps
 *[(top)](#table-of-contents)*
 
 |  | CS-TI | CS-TD | CS-ETAS-Uniform | CS-ETAS |
 |-----|-----|-----|-----|-----|
 | **CS-TI** | ![Plot](resources/one_week_iml_with_poe_0.01_cs_ti.png) | ![Plot](resources/one_week_iml_with_poe_0.01_cs_td_ti_diff.png) | ![Plot](resources/one_week_iml_with_poe_0.01_cs_etas_uni_ti_diff.png) | ![Plot](resources/one_week_iml_with_poe_0.01_cs_etas_ti_diff.png) |
 | **CS-TD** | ![Plot](resources/one_week_iml_with_poe_0.01_cs_td_ti_gain.png) | ![Plot](resources/one_week_iml_with_poe_0.01_cs_td.png) | ![Plot](resources/one_week_iml_with_poe_0.01_cs_etas_uni_td_diff.png) | ![Plot](resources/one_week_iml_with_poe_0.01_cs_etas_td_diff.png) |
-| **CS-ETAS (Uniform)** | ![Plot](resources/one_week_iml_with_poe_0.01_cs_etas_uni_ti_gain.png) | ![Plot](resources/one_week_iml_with_poe_0.01_cs_etas_uni_td_tain.png) | ![Plot](resources/one_week_iml_with_poe_0.01_cs_etas_uni.png) | ![Plot](resources/one_week_iml_with_poe_0.01_cs_etas_uni_diff.png) |
-| **CS-ETAS** | ![Plot](resources/one_week_iml_with_poe_0.01_cs_etas_ti_gain.png) | ![Plot](resources/one_week_iml_with_poe_0.01_cs_etas_td_tain.png) | ![Plot](resources/one_week_iml_with_poe_0.01_cs_etas_uni_gain.png) | ![Plot](resources/one_week_iml_with_poe_0.01_cs_etas.png) |
+| **CS-ETAS (Uniform)** | ![Plot](resources/one_week_iml_with_poe_0.01_cs_etas_uni_ti_gain.png) | ![Plot](resources/one_week_iml_with_poe_0.01_cs_etas_uni_td_gain.png) | ![Plot](resources/one_week_iml_with_poe_0.01_cs_etas_uni.png) | ![Plot](resources/one_week_iml_with_poe_0.01_cs_etas_uni_diff.png) |
+| **CS-ETAS** | ![Plot](resources/one_week_iml_with_poe_0.01_cs_etas_ti_gain.png) | ![Plot](resources/one_week_iml_with_poe_0.01_cs_etas_td_gain.png) | ![Plot](resources/one_week_iml_with_poe_0.01_cs_etas_uni_gain.png) | ![Plot](resources/one_week_iml_with_poe_0.01_cs_etas.png) |
 
-##### One Week 10 Sa (g) with POE=0.01, GMPE Maps
+##### One Week 5s Sa (g) with POE=0.01, GMPE Maps
 *[(top)](#table-of-contents)*
 
 |  | GMPE-TI | GMPE-TD | GMPE-ETAS-Uniform | GMPE-ETAS |
 |-----|-----|-----|-----|-----|
 | **GMPE-TI** | ![Plot](resources/one_week_iml_with_poe_0.01_gmpe_ti.png) | ![Plot](resources/one_week_iml_with_poe_0.01_gmpe_td_ti_diff.png) | ![Plot](resources/one_week_iml_with_poe_0.01_gmpe_etas_uni_ti_diff.png) | ![Plot](resources/one_week_iml_with_poe_0.01_gmpe_etas_ti_diff.png) |
 | **GMPE-TD** | ![Plot](resources/one_week_iml_with_poe_0.01_gmpe_td_ti_gain.png) | ![Plot](resources/one_week_iml_with_poe_0.01_gmpe_td.png) | ![Plot](resources/one_week_iml_with_poe_0.01_gmpe_etas_uni_td_diff.png) | ![Plot](resources/one_week_iml_with_poe_0.01_gmpe_etas_td_diff.png) |
-| **GMPE-ETAS (Uniform)** | ![Plot](resources/one_week_iml_with_poe_0.01_gmpe_etas_uni_ti_gain.png) | ![Plot](resources/one_week_iml_with_poe_0.01_gmpe_etas_uni_td_tain.png) | ![Plot](resources/one_week_iml_with_poe_0.01_gmpe_etas_uni.png) | ![Plot](resources/one_week_iml_with_poe_0.01_gmpe_etas_uni_diff.png) |
-| **GMPE-ETAS** | ![Plot](resources/one_week_iml_with_poe_0.01_gmpe_etas_ti_gain.png) | ![Plot](resources/one_week_iml_with_poe_0.01_gmpe_etas_td_tain.png) | ![Plot](resources/one_week_iml_with_poe_0.01_gmpe_etas_uni_gain.png) | ![Plot](resources/one_week_iml_with_poe_0.01_gmpe_etas.png) |
+| **GMPE-ETAS (Uniform)** | ![Plot](resources/one_week_iml_with_poe_0.01_gmpe_etas_uni_ti_gain.png) | ![Plot](resources/one_week_iml_with_poe_0.01_gmpe_etas_uni_td_gain.png) | ![Plot](resources/one_week_iml_with_poe_0.01_gmpe_etas_uni.png) | ![Plot](resources/one_week_iml_with_poe_0.01_gmpe_etas_uni_diff.png) |
+| **GMPE-ETAS** | ![Plot](resources/one_week_iml_with_poe_0.01_gmpe_etas_ti_gain.png) | ![Plot](resources/one_week_iml_with_poe_0.01_gmpe_etas_td_gain.png) | ![Plot](resources/one_week_iml_with_poe_0.01_gmpe_etas_uni_gain.png) | ![Plot](resources/one_week_iml_with_poe_0.01_gmpe_etas.png) |
 
-##### One Week 10 Sa (g) with POE=0.1, CyberShake Maps
+##### One Week 5s Sa (g) with POE=0.1, CyberShake Maps
 *[(top)](#table-of-contents)*
 
 |  | CS-TI | CS-TD | CS-ETAS-Uniform | CS-ETAS |
 |-----|-----|-----|-----|-----|
 | **CS-TI** | ![Plot](resources/one_week_iml_with_poe_0.1_cs_ti.png) | ![Plot](resources/one_week_iml_with_poe_0.1_cs_td_ti_diff.png) | ![Plot](resources/one_week_iml_with_poe_0.1_cs_etas_uni_ti_diff.png) | ![Plot](resources/one_week_iml_with_poe_0.1_cs_etas_ti_diff.png) |
 | **CS-TD** | ![Plot](resources/one_week_iml_with_poe_0.1_cs_td_ti_gain.png) | ![Plot](resources/one_week_iml_with_poe_0.1_cs_td.png) | ![Plot](resources/one_week_iml_with_poe_0.1_cs_etas_uni_td_diff.png) | ![Plot](resources/one_week_iml_with_poe_0.1_cs_etas_td_diff.png) |
-| **CS-ETAS (Uniform)** | ![Plot](resources/one_week_iml_with_poe_0.1_cs_etas_uni_ti_gain.png) | ![Plot](resources/one_week_iml_with_poe_0.1_cs_etas_uni_td_tain.png) | ![Plot](resources/one_week_iml_with_poe_0.1_cs_etas_uni.png) | ![Plot](resources/one_week_iml_with_poe_0.1_cs_etas_uni_diff.png) |
-| **CS-ETAS** | ![Plot](resources/one_week_iml_with_poe_0.1_cs_etas_ti_gain.png) | ![Plot](resources/one_week_iml_with_poe_0.1_cs_etas_td_tain.png) | ![Plot](resources/one_week_iml_with_poe_0.1_cs_etas_uni_gain.png) | ![Plot](resources/one_week_iml_with_poe_0.1_cs_etas.png) |
+| **CS-ETAS (Uniform)** | ![Plot](resources/one_week_iml_with_poe_0.1_cs_etas_uni_ti_gain.png) | ![Plot](resources/one_week_iml_with_poe_0.1_cs_etas_uni_td_gain.png) | ![Plot](resources/one_week_iml_with_poe_0.1_cs_etas_uni.png) | ![Plot](resources/one_week_iml_with_poe_0.1_cs_etas_uni_diff.png) |
+| **CS-ETAS** | ![Plot](resources/one_week_iml_with_poe_0.1_cs_etas_ti_gain.png) | ![Plot](resources/one_week_iml_with_poe_0.1_cs_etas_td_gain.png) | ![Plot](resources/one_week_iml_with_poe_0.1_cs_etas_uni_gain.png) | ![Plot](resources/one_week_iml_with_poe_0.1_cs_etas.png) |
 
-##### One Week 10 Sa (g) with POE=0.1, GMPE Maps
+##### One Week 5s Sa (g) with POE=0.1, GMPE Maps
 *[(top)](#table-of-contents)*
 
 |  | GMPE-TI | GMPE-TD | GMPE-ETAS-Uniform | GMPE-ETAS |
 |-----|-----|-----|-----|-----|
 | **GMPE-TI** | ![Plot](resources/one_week_iml_with_poe_0.1_gmpe_ti.png) | ![Plot](resources/one_week_iml_with_poe_0.1_gmpe_td_ti_diff.png) | ![Plot](resources/one_week_iml_with_poe_0.1_gmpe_etas_uni_ti_diff.png) | ![Plot](resources/one_week_iml_with_poe_0.1_gmpe_etas_ti_diff.png) |
 | **GMPE-TD** | ![Plot](resources/one_week_iml_with_poe_0.1_gmpe_td_ti_gain.png) | ![Plot](resources/one_week_iml_with_poe_0.1_gmpe_td.png) | ![Plot](resources/one_week_iml_with_poe_0.1_gmpe_etas_uni_td_diff.png) | ![Plot](resources/one_week_iml_with_poe_0.1_gmpe_etas_td_diff.png) |
-| **GMPE-ETAS (Uniform)** | ![Plot](resources/one_week_iml_with_poe_0.1_gmpe_etas_uni_ti_gain.png) | ![Plot](resources/one_week_iml_with_poe_0.1_gmpe_etas_uni_td_tain.png) | ![Plot](resources/one_week_iml_with_poe_0.1_gmpe_etas_uni.png) | ![Plot](resources/one_week_iml_with_poe_0.1_gmpe_etas_uni_diff.png) |
-| **GMPE-ETAS** | ![Plot](resources/one_week_iml_with_poe_0.1_gmpe_etas_ti_gain.png) | ![Plot](resources/one_week_iml_with_poe_0.1_gmpe_etas_td_tain.png) | ![Plot](resources/one_week_iml_with_poe_0.1_gmpe_etas_uni_gain.png) | ![Plot](resources/one_week_iml_with_poe_0.1_gmpe_etas.png) |
+| **GMPE-ETAS (Uniform)** | ![Plot](resources/one_week_iml_with_poe_0.1_gmpe_etas_uni_ti_gain.png) | ![Plot](resources/one_week_iml_with_poe_0.1_gmpe_etas_uni_td_gain.png) | ![Plot](resources/one_week_iml_with_poe_0.1_gmpe_etas_uni.png) | ![Plot](resources/one_week_iml_with_poe_0.1_gmpe_etas_uni_diff.png) |
+| **GMPE-ETAS** | ![Plot](resources/one_week_iml_with_poe_0.1_gmpe_etas_ti_gain.png) | ![Plot](resources/one_week_iml_with_poe_0.1_gmpe_etas_td_gain.png) | ![Plot](resources/one_week_iml_with_poe_0.1_gmpe_etas_uni_gain.png) | ![Plot](resources/one_week_iml_with_poe_0.1_gmpe_etas.png) |
 
-##### One Week POE 0.01 (g) 10 SA, CyberShake Maps
+##### One Week POE 0.01 (g) 5s SA, CyberShake Maps
 *[(top)](#table-of-contents)*
 
 |  | CS-TI | CS-TD | CS-ETAS-Uniform | CS-ETAS |
 |-----|-----|-----|-----|-----|
 | **CS-TI** | ![Plot](resources/one_week_poe_0.01g_cs_ti.png) | ![Plot](resources/one_week_poe_0.01g_cs_td_ti_diff.png) | ![Plot](resources/one_week_poe_0.01g_cs_etas_uni_ti_diff.png) | ![Plot](resources/one_week_poe_0.01g_cs_etas_ti_diff.png) |
 | **CS-TD** | ![Plot](resources/one_week_poe_0.01g_cs_td_ti_gain.png) | ![Plot](resources/one_week_poe_0.01g_cs_td.png) | ![Plot](resources/one_week_poe_0.01g_cs_etas_uni_td_diff.png) | ![Plot](resources/one_week_poe_0.01g_cs_etas_td_diff.png) |
-| **CS-ETAS (Uniform)** | ![Plot](resources/one_week_poe_0.01g_cs_etas_uni_ti_gain.png) | ![Plot](resources/one_week_poe_0.01g_cs_etas_uni_td_tain.png) | ![Plot](resources/one_week_poe_0.01g_cs_etas_uni.png) | ![Plot](resources/one_week_poe_0.01g_cs_etas_uni_diff.png) |
-| **CS-ETAS** | ![Plot](resources/one_week_poe_0.01g_cs_etas_ti_gain.png) | ![Plot](resources/one_week_poe_0.01g_cs_etas_td_tain.png) | ![Plot](resources/one_week_poe_0.01g_cs_etas_uni_gain.png) | ![Plot](resources/one_week_poe_0.01g_cs_etas.png) |
+| **CS-ETAS (Uniform)** | ![Plot](resources/one_week_poe_0.01g_cs_etas_uni_ti_gain.png) | ![Plot](resources/one_week_poe_0.01g_cs_etas_uni_td_gain.png) | ![Plot](resources/one_week_poe_0.01g_cs_etas_uni.png) | ![Plot](resources/one_week_poe_0.01g_cs_etas_uni_diff.png) |
+| **CS-ETAS** | ![Plot](resources/one_week_poe_0.01g_cs_etas_ti_gain.png) | ![Plot](resources/one_week_poe_0.01g_cs_etas_td_gain.png) | ![Plot](resources/one_week_poe_0.01g_cs_etas_uni_gain.png) | ![Plot](resources/one_week_poe_0.01g_cs_etas.png) |
 
-##### One Week POE 0.01 (g) 10 SA, GMPE Maps
+##### One Week POE 0.01 (g) 5s SA, GMPE Maps
 *[(top)](#table-of-contents)*
 
 |  | GMPE-TI | GMPE-TD | GMPE-ETAS-Uniform | GMPE-ETAS |
 |-----|-----|-----|-----|-----|
 | **GMPE-TI** | ![Plot](resources/one_week_poe_0.01g_gmpe_ti.png) | ![Plot](resources/one_week_poe_0.01g_gmpe_td_ti_diff.png) | ![Plot](resources/one_week_poe_0.01g_gmpe_etas_uni_ti_diff.png) | ![Plot](resources/one_week_poe_0.01g_gmpe_etas_ti_diff.png) |
 | **GMPE-TD** | ![Plot](resources/one_week_poe_0.01g_gmpe_td_ti_gain.png) | ![Plot](resources/one_week_poe_0.01g_gmpe_td.png) | ![Plot](resources/one_week_poe_0.01g_gmpe_etas_uni_td_diff.png) | ![Plot](resources/one_week_poe_0.01g_gmpe_etas_td_diff.png) |
-| **GMPE-ETAS (Uniform)** | ![Plot](resources/one_week_poe_0.01g_gmpe_etas_uni_ti_gain.png) | ![Plot](resources/one_week_poe_0.01g_gmpe_etas_uni_td_tain.png) | ![Plot](resources/one_week_poe_0.01g_gmpe_etas_uni.png) | ![Plot](resources/one_week_poe_0.01g_gmpe_etas_uni_diff.png) |
-| **GMPE-ETAS** | ![Plot](resources/one_week_poe_0.01g_gmpe_etas_ti_gain.png) | ![Plot](resources/one_week_poe_0.01g_gmpe_etas_td_tain.png) | ![Plot](resources/one_week_poe_0.01g_gmpe_etas_uni_gain.png) | ![Plot](resources/one_week_poe_0.01g_gmpe_etas.png) |
+| **GMPE-ETAS (Uniform)** | ![Plot](resources/one_week_poe_0.01g_gmpe_etas_uni_ti_gain.png) | ![Plot](resources/one_week_poe_0.01g_gmpe_etas_uni_td_gain.png) | ![Plot](resources/one_week_poe_0.01g_gmpe_etas_uni.png) | ![Plot](resources/one_week_poe_0.01g_gmpe_etas_uni_diff.png) |
+| **GMPE-ETAS** | ![Plot](resources/one_week_poe_0.01g_gmpe_etas_ti_gain.png) | ![Plot](resources/one_week_poe_0.01g_gmpe_etas_td_gain.png) | ![Plot](resources/one_week_poe_0.01g_gmpe_etas_uni_gain.png) | ![Plot](resources/one_week_poe_0.01g_gmpe_etas.png) |
 
-##### One Week POE 0.1 (g) 10 SA, CyberShake Maps
+##### One Week POE 0.1 (g) 5s SA, CyberShake Maps
 *[(top)](#table-of-contents)*
 
 |  | CS-TI | CS-TD | CS-ETAS-Uniform | CS-ETAS |
 |-----|-----|-----|-----|-----|
 | **CS-TI** | ![Plot](resources/one_week_poe_0.1g_cs_ti.png) | ![Plot](resources/one_week_poe_0.1g_cs_td_ti_diff.png) | ![Plot](resources/one_week_poe_0.1g_cs_etas_uni_ti_diff.png) | ![Plot](resources/one_week_poe_0.1g_cs_etas_ti_diff.png) |
 | **CS-TD** | ![Plot](resources/one_week_poe_0.1g_cs_td_ti_gain.png) | ![Plot](resources/one_week_poe_0.1g_cs_td.png) | ![Plot](resources/one_week_poe_0.1g_cs_etas_uni_td_diff.png) | ![Plot](resources/one_week_poe_0.1g_cs_etas_td_diff.png) |
-| **CS-ETAS (Uniform)** | ![Plot](resources/one_week_poe_0.1g_cs_etas_uni_ti_gain.png) | ![Plot](resources/one_week_poe_0.1g_cs_etas_uni_td_tain.png) | ![Plot](resources/one_week_poe_0.1g_cs_etas_uni.png) | ![Plot](resources/one_week_poe_0.1g_cs_etas_uni_diff.png) |
-| **CS-ETAS** | ![Plot](resources/one_week_poe_0.1g_cs_etas_ti_gain.png) | ![Plot](resources/one_week_poe_0.1g_cs_etas_td_tain.png) | ![Plot](resources/one_week_poe_0.1g_cs_etas_uni_gain.png) | ![Plot](resources/one_week_poe_0.1g_cs_etas.png) |
+| **CS-ETAS (Uniform)** | ![Plot](resources/one_week_poe_0.1g_cs_etas_uni_ti_gain.png) | ![Plot](resources/one_week_poe_0.1g_cs_etas_uni_td_gain.png) | ![Plot](resources/one_week_poe_0.1g_cs_etas_uni.png) | ![Plot](resources/one_week_poe_0.1g_cs_etas_uni_diff.png) |
+| **CS-ETAS** | ![Plot](resources/one_week_poe_0.1g_cs_etas_ti_gain.png) | ![Plot](resources/one_week_poe_0.1g_cs_etas_td_gain.png) | ![Plot](resources/one_week_poe_0.1g_cs_etas_uni_gain.png) | ![Plot](resources/one_week_poe_0.1g_cs_etas.png) |
 
-##### One Week POE 0.1 (g) 10 SA, GMPE Maps
+##### One Week POE 0.1 (g) 5s SA, GMPE Maps
 *[(top)](#table-of-contents)*
 
 |  | GMPE-TI | GMPE-TD | GMPE-ETAS-Uniform | GMPE-ETAS |
 |-----|-----|-----|-----|-----|
 | **GMPE-TI** | ![Plot](resources/one_week_poe_0.1g_gmpe_ti.png) | ![Plot](resources/one_week_poe_0.1g_gmpe_td_ti_diff.png) | ![Plot](resources/one_week_poe_0.1g_gmpe_etas_uni_ti_diff.png) | ![Plot](resources/one_week_poe_0.1g_gmpe_etas_ti_diff.png) |
 | **GMPE-TD** | ![Plot](resources/one_week_poe_0.1g_gmpe_td_ti_gain.png) | ![Plot](resources/one_week_poe_0.1g_gmpe_td.png) | ![Plot](resources/one_week_poe_0.1g_gmpe_etas_uni_td_diff.png) | ![Plot](resources/one_week_poe_0.1g_gmpe_etas_td_diff.png) |
-| **GMPE-ETAS (Uniform)** | ![Plot](resources/one_week_poe_0.1g_gmpe_etas_uni_ti_gain.png) | ![Plot](resources/one_week_poe_0.1g_gmpe_etas_uni_td_tain.png) | ![Plot](resources/one_week_poe_0.1g_gmpe_etas_uni.png) | ![Plot](resources/one_week_poe_0.1g_gmpe_etas_uni_diff.png) |
-| **GMPE-ETAS** | ![Plot](resources/one_week_poe_0.1g_gmpe_etas_ti_gain.png) | ![Plot](resources/one_week_poe_0.1g_gmpe_etas_td_tain.png) | ![Plot](resources/one_week_poe_0.1g_gmpe_etas_uni_gain.png) | ![Plot](resources/one_week_poe_0.1g_gmpe_etas.png) |
+| **GMPE-ETAS (Uniform)** | ![Plot](resources/one_week_poe_0.1g_gmpe_etas_uni_ti_gain.png) | ![Plot](resources/one_week_poe_0.1g_gmpe_etas_uni_td_gain.png) | ![Plot](resources/one_week_poe_0.1g_gmpe_etas_uni.png) | ![Plot](resources/one_week_poe_0.1g_gmpe_etas_uni_diff.png) |
+| **GMPE-ETAS** | ![Plot](resources/one_week_poe_0.1g_gmpe_etas_ti_gain.png) | ![Plot](resources/one_week_poe_0.1g_gmpe_etas_td_gain.png) | ![Plot](resources/one_week_poe_0.1g_gmpe_etas_uni_gain.png) | ![Plot](resources/one_week_poe_0.1g_gmpe_etas.png) |
 
-##### One Week POE 0.2 (g) 10 SA, CyberShake Maps
+##### One Week POE 0.2 (g) 5s SA, CyberShake Maps
 *[(top)](#table-of-contents)*
 
 |  | CS-TI | CS-TD | CS-ETAS-Uniform | CS-ETAS |
 |-----|-----|-----|-----|-----|
 | **CS-TI** | ![Plot](resources/one_week_poe_0.2g_cs_ti.png) | ![Plot](resources/one_week_poe_0.2g_cs_td_ti_diff.png) | ![Plot](resources/one_week_poe_0.2g_cs_etas_uni_ti_diff.png) | ![Plot](resources/one_week_poe_0.2g_cs_etas_ti_diff.png) |
 | **CS-TD** | ![Plot](resources/one_week_poe_0.2g_cs_td_ti_gain.png) | ![Plot](resources/one_week_poe_0.2g_cs_td.png) | ![Plot](resources/one_week_poe_0.2g_cs_etas_uni_td_diff.png) | ![Plot](resources/one_week_poe_0.2g_cs_etas_td_diff.png) |
-| **CS-ETAS (Uniform)** | ![Plot](resources/one_week_poe_0.2g_cs_etas_uni_ti_gain.png) | ![Plot](resources/one_week_poe_0.2g_cs_etas_uni_td_tain.png) | ![Plot](resources/one_week_poe_0.2g_cs_etas_uni.png) | ![Plot](resources/one_week_poe_0.2g_cs_etas_uni_diff.png) |
-| **CS-ETAS** | ![Plot](resources/one_week_poe_0.2g_cs_etas_ti_gain.png) | ![Plot](resources/one_week_poe_0.2g_cs_etas_td_tain.png) | ![Plot](resources/one_week_poe_0.2g_cs_etas_uni_gain.png) | ![Plot](resources/one_week_poe_0.2g_cs_etas.png) |
+| **CS-ETAS (Uniform)** | ![Plot](resources/one_week_poe_0.2g_cs_etas_uni_ti_gain.png) | ![Plot](resources/one_week_poe_0.2g_cs_etas_uni_td_gain.png) | ![Plot](resources/one_week_poe_0.2g_cs_etas_uni.png) | ![Plot](resources/one_week_poe_0.2g_cs_etas_uni_diff.png) |
+| **CS-ETAS** | ![Plot](resources/one_week_poe_0.2g_cs_etas_ti_gain.png) | ![Plot](resources/one_week_poe_0.2g_cs_etas_td_gain.png) | ![Plot](resources/one_week_poe_0.2g_cs_etas_uni_gain.png) | ![Plot](resources/one_week_poe_0.2g_cs_etas.png) |
 
-##### One Week POE 0.2 (g) 10 SA, GMPE Maps
+##### One Week POE 0.2 (g) 5s SA, GMPE Maps
 *[(top)](#table-of-contents)*
 
 |  | GMPE-TI | GMPE-TD | GMPE-ETAS-Uniform | GMPE-ETAS |
 |-----|-----|-----|-----|-----|
 | **GMPE-TI** | ![Plot](resources/one_week_poe_0.2g_gmpe_ti.png) | ![Plot](resources/one_week_poe_0.2g_gmpe_td_ti_diff.png) | ![Plot](resources/one_week_poe_0.2g_gmpe_etas_uni_ti_diff.png) | ![Plot](resources/one_week_poe_0.2g_gmpe_etas_ti_diff.png) |
 | **GMPE-TD** | ![Plot](resources/one_week_poe_0.2g_gmpe_td_ti_gain.png) | ![Plot](resources/one_week_poe_0.2g_gmpe_td.png) | ![Plot](resources/one_week_poe_0.2g_gmpe_etas_uni_td_diff.png) | ![Plot](resources/one_week_poe_0.2g_gmpe_etas_td_diff.png) |
-| **GMPE-ETAS (Uniform)** | ![Plot](resources/one_week_poe_0.2g_gmpe_etas_uni_ti_gain.png) | ![Plot](resources/one_week_poe_0.2g_gmpe_etas_uni_td_tain.png) | ![Plot](resources/one_week_poe_0.2g_gmpe_etas_uni.png) | ![Plot](resources/one_week_poe_0.2g_gmpe_etas_uni_diff.png) |
-| **GMPE-ETAS** | ![Plot](resources/one_week_poe_0.2g_gmpe_etas_ti_gain.png) | ![Plot](resources/one_week_poe_0.2g_gmpe_etas_td_tain.png) | ![Plot](resources/one_week_poe_0.2g_gmpe_etas_uni_gain.png) | ![Plot](resources/one_week_poe_0.2g_gmpe_etas.png) |
+| **GMPE-ETAS (Uniform)** | ![Plot](resources/one_week_poe_0.2g_gmpe_etas_uni_ti_gain.png) | ![Plot](resources/one_week_poe_0.2g_gmpe_etas_uni_td_gain.png) | ![Plot](resources/one_week_poe_0.2g_gmpe_etas_uni.png) | ![Plot](resources/one_week_poe_0.2g_gmpe_etas_uni_diff.png) |
+| **GMPE-ETAS** | ![Plot](resources/one_week_poe_0.2g_gmpe_etas_ti_gain.png) | ![Plot](resources/one_week_poe_0.2g_gmpe_etas_td_gain.png) | ![Plot](resources/one_week_poe_0.2g_gmpe_etas_uni_gain.png) | ![Plot](resources/one_week_poe_0.2g_gmpe_etas.png) |
+
+#### 10s One Week Hazard Maps
+*[(top)](#table-of-contents)*
+
+##### One Week 10s Sa (g) with POE=1.0E-4, CyberShake Maps
+*[(top)](#table-of-contents)*
+
+|  | CS-TI | CS-TD | CS-ETAS-Uniform | CS-ETAS |
+|-----|-----|-----|-----|-----|
+| **CS-TI** | ![Plot](resources/one_week_iml_with_poe_1.0E-4_cs_ti.png) | ![Plot](resources/one_week_iml_with_poe_1.0E-4_cs_td_ti_diff.png) | ![Plot](resources/one_week_iml_with_poe_1.0E-4_cs_etas_uni_ti_diff.png) | ![Plot](resources/one_week_iml_with_poe_1.0E-4_cs_etas_ti_diff.png) |
+| **CS-TD** | ![Plot](resources/one_week_iml_with_poe_1.0E-4_cs_td_ti_gain.png) | ![Plot](resources/one_week_iml_with_poe_1.0E-4_cs_td.png) | ![Plot](resources/one_week_iml_with_poe_1.0E-4_cs_etas_uni_td_diff.png) | ![Plot](resources/one_week_iml_with_poe_1.0E-4_cs_etas_td_diff.png) |
+| **CS-ETAS (Uniform)** | ![Plot](resources/one_week_iml_with_poe_1.0E-4_cs_etas_uni_ti_gain.png) | ![Plot](resources/one_week_iml_with_poe_1.0E-4_cs_etas_uni_td_gain.png) | ![Plot](resources/one_week_iml_with_poe_1.0E-4_cs_etas_uni.png) | ![Plot](resources/one_week_iml_with_poe_1.0E-4_cs_etas_uni_diff.png) |
+| **CS-ETAS** | ![Plot](resources/one_week_iml_with_poe_1.0E-4_cs_etas_ti_gain.png) | ![Plot](resources/one_week_iml_with_poe_1.0E-4_cs_etas_td_gain.png) | ![Plot](resources/one_week_iml_with_poe_1.0E-4_cs_etas_uni_gain.png) | ![Plot](resources/one_week_iml_with_poe_1.0E-4_cs_etas.png) |
+
+##### One Week 10s Sa (g) with POE=1.0E-4, GMPE Maps
+*[(top)](#table-of-contents)*
+
+|  | GMPE-TI | GMPE-TD | GMPE-ETAS-Uniform | GMPE-ETAS |
+|-----|-----|-----|-----|-----|
+| **GMPE-TI** | ![Plot](resources/one_week_iml_with_poe_1.0E-4_gmpe_ti.png) | ![Plot](resources/one_week_iml_with_poe_1.0E-4_gmpe_td_ti_diff.png) | ![Plot](resources/one_week_iml_with_poe_1.0E-4_gmpe_etas_uni_ti_diff.png) | ![Plot](resources/one_week_iml_with_poe_1.0E-4_gmpe_etas_ti_diff.png) |
+| **GMPE-TD** | ![Plot](resources/one_week_iml_with_poe_1.0E-4_gmpe_td_ti_gain.png) | ![Plot](resources/one_week_iml_with_poe_1.0E-4_gmpe_td.png) | ![Plot](resources/one_week_iml_with_poe_1.0E-4_gmpe_etas_uni_td_diff.png) | ![Plot](resources/one_week_iml_with_poe_1.0E-4_gmpe_etas_td_diff.png) |
+| **GMPE-ETAS (Uniform)** | ![Plot](resources/one_week_iml_with_poe_1.0E-4_gmpe_etas_uni_ti_gain.png) | ![Plot](resources/one_week_iml_with_poe_1.0E-4_gmpe_etas_uni_td_gain.png) | ![Plot](resources/one_week_iml_with_poe_1.0E-4_gmpe_etas_uni.png) | ![Plot](resources/one_week_iml_with_poe_1.0E-4_gmpe_etas_uni_diff.png) |
+| **GMPE-ETAS** | ![Plot](resources/one_week_iml_with_poe_1.0E-4_gmpe_etas_ti_gain.png) | ![Plot](resources/one_week_iml_with_poe_1.0E-4_gmpe_etas_td_gain.png) | ![Plot](resources/one_week_iml_with_poe_1.0E-4_gmpe_etas_uni_gain.png) | ![Plot](resources/one_week_iml_with_poe_1.0E-4_gmpe_etas.png) |
+
+##### One Week 10s Sa (g) with POE=0.001, CyberShake Maps
+*[(top)](#table-of-contents)*
+
+|  | CS-TI | CS-TD | CS-ETAS-Uniform | CS-ETAS |
+|-----|-----|-----|-----|-----|
+| **CS-TI** | ![Plot](resources/one_week_iml_with_poe_0.001_cs_ti.png) | ![Plot](resources/one_week_iml_with_poe_0.001_cs_td_ti_diff.png) | ![Plot](resources/one_week_iml_with_poe_0.001_cs_etas_uni_ti_diff.png) | ![Plot](resources/one_week_iml_with_poe_0.001_cs_etas_ti_diff.png) |
+| **CS-TD** | ![Plot](resources/one_week_iml_with_poe_0.001_cs_td_ti_gain.png) | ![Plot](resources/one_week_iml_with_poe_0.001_cs_td.png) | ![Plot](resources/one_week_iml_with_poe_0.001_cs_etas_uni_td_diff.png) | ![Plot](resources/one_week_iml_with_poe_0.001_cs_etas_td_diff.png) |
+| **CS-ETAS (Uniform)** | ![Plot](resources/one_week_iml_with_poe_0.001_cs_etas_uni_ti_gain.png) | ![Plot](resources/one_week_iml_with_poe_0.001_cs_etas_uni_td_gain.png) | ![Plot](resources/one_week_iml_with_poe_0.001_cs_etas_uni.png) | ![Plot](resources/one_week_iml_with_poe_0.001_cs_etas_uni_diff.png) |
+| **CS-ETAS** | ![Plot](resources/one_week_iml_with_poe_0.001_cs_etas_ti_gain.png) | ![Plot](resources/one_week_iml_with_poe_0.001_cs_etas_td_gain.png) | ![Plot](resources/one_week_iml_with_poe_0.001_cs_etas_uni_gain.png) | ![Plot](resources/one_week_iml_with_poe_0.001_cs_etas.png) |
+
+##### One Week 10s Sa (g) with POE=0.001, GMPE Maps
+*[(top)](#table-of-contents)*
+
+|  | GMPE-TI | GMPE-TD | GMPE-ETAS-Uniform | GMPE-ETAS |
+|-----|-----|-----|-----|-----|
+| **GMPE-TI** | ![Plot](resources/one_week_iml_with_poe_0.001_gmpe_ti.png) | ![Plot](resources/one_week_iml_with_poe_0.001_gmpe_td_ti_diff.png) | ![Plot](resources/one_week_iml_with_poe_0.001_gmpe_etas_uni_ti_diff.png) | ![Plot](resources/one_week_iml_with_poe_0.001_gmpe_etas_ti_diff.png) |
+| **GMPE-TD** | ![Plot](resources/one_week_iml_with_poe_0.001_gmpe_td_ti_gain.png) | ![Plot](resources/one_week_iml_with_poe_0.001_gmpe_td.png) | ![Plot](resources/one_week_iml_with_poe_0.001_gmpe_etas_uni_td_diff.png) | ![Plot](resources/one_week_iml_with_poe_0.001_gmpe_etas_td_diff.png) |
+| **GMPE-ETAS (Uniform)** | ![Plot](resources/one_week_iml_with_poe_0.001_gmpe_etas_uni_ti_gain.png) | ![Plot](resources/one_week_iml_with_poe_0.001_gmpe_etas_uni_td_gain.png) | ![Plot](resources/one_week_iml_with_poe_0.001_gmpe_etas_uni.png) | ![Plot](resources/one_week_iml_with_poe_0.001_gmpe_etas_uni_diff.png) |
+| **GMPE-ETAS** | ![Plot](resources/one_week_iml_with_poe_0.001_gmpe_etas_ti_gain.png) | ![Plot](resources/one_week_iml_with_poe_0.001_gmpe_etas_td_gain.png) | ![Plot](resources/one_week_iml_with_poe_0.001_gmpe_etas_uni_gain.png) | ![Plot](resources/one_week_iml_with_poe_0.001_gmpe_etas.png) |
+
+##### One Week 10s Sa (g) with POE=0.01, CyberShake Maps
+*[(top)](#table-of-contents)*
+
+|  | CS-TI | CS-TD | CS-ETAS-Uniform | CS-ETAS |
+|-----|-----|-----|-----|-----|
+| **CS-TI** | ![Plot](resources/one_week_iml_with_poe_0.01_cs_ti.png) | ![Plot](resources/one_week_iml_with_poe_0.01_cs_td_ti_diff.png) | ![Plot](resources/one_week_iml_with_poe_0.01_cs_etas_uni_ti_diff.png) | ![Plot](resources/one_week_iml_with_poe_0.01_cs_etas_ti_diff.png) |
+| **CS-TD** | ![Plot](resources/one_week_iml_with_poe_0.01_cs_td_ti_gain.png) | ![Plot](resources/one_week_iml_with_poe_0.01_cs_td.png) | ![Plot](resources/one_week_iml_with_poe_0.01_cs_etas_uni_td_diff.png) | ![Plot](resources/one_week_iml_with_poe_0.01_cs_etas_td_diff.png) |
+| **CS-ETAS (Uniform)** | ![Plot](resources/one_week_iml_with_poe_0.01_cs_etas_uni_ti_gain.png) | ![Plot](resources/one_week_iml_with_poe_0.01_cs_etas_uni_td_gain.png) | ![Plot](resources/one_week_iml_with_poe_0.01_cs_etas_uni.png) | ![Plot](resources/one_week_iml_with_poe_0.01_cs_etas_uni_diff.png) |
+| **CS-ETAS** | ![Plot](resources/one_week_iml_with_poe_0.01_cs_etas_ti_gain.png) | ![Plot](resources/one_week_iml_with_poe_0.01_cs_etas_td_gain.png) | ![Plot](resources/one_week_iml_with_poe_0.01_cs_etas_uni_gain.png) | ![Plot](resources/one_week_iml_with_poe_0.01_cs_etas.png) |
+
+##### One Week 10s Sa (g) with POE=0.01, GMPE Maps
+*[(top)](#table-of-contents)*
+
+|  | GMPE-TI | GMPE-TD | GMPE-ETAS-Uniform | GMPE-ETAS |
+|-----|-----|-----|-----|-----|
+| **GMPE-TI** | ![Plot](resources/one_week_iml_with_poe_0.01_gmpe_ti.png) | ![Plot](resources/one_week_iml_with_poe_0.01_gmpe_td_ti_diff.png) | ![Plot](resources/one_week_iml_with_poe_0.01_gmpe_etas_uni_ti_diff.png) | ![Plot](resources/one_week_iml_with_poe_0.01_gmpe_etas_ti_diff.png) |
+| **GMPE-TD** | ![Plot](resources/one_week_iml_with_poe_0.01_gmpe_td_ti_gain.png) | ![Plot](resources/one_week_iml_with_poe_0.01_gmpe_td.png) | ![Plot](resources/one_week_iml_with_poe_0.01_gmpe_etas_uni_td_diff.png) | ![Plot](resources/one_week_iml_with_poe_0.01_gmpe_etas_td_diff.png) |
+| **GMPE-ETAS (Uniform)** | ![Plot](resources/one_week_iml_with_poe_0.01_gmpe_etas_uni_ti_gain.png) | ![Plot](resources/one_week_iml_with_poe_0.01_gmpe_etas_uni_td_gain.png) | ![Plot](resources/one_week_iml_with_poe_0.01_gmpe_etas_uni.png) | ![Plot](resources/one_week_iml_with_poe_0.01_gmpe_etas_uni_diff.png) |
+| **GMPE-ETAS** | ![Plot](resources/one_week_iml_with_poe_0.01_gmpe_etas_ti_gain.png) | ![Plot](resources/one_week_iml_with_poe_0.01_gmpe_etas_td_gain.png) | ![Plot](resources/one_week_iml_with_poe_0.01_gmpe_etas_uni_gain.png) | ![Plot](resources/one_week_iml_with_poe_0.01_gmpe_etas.png) |
+
+##### One Week 10s Sa (g) with POE=0.1, CyberShake Maps
+*[(top)](#table-of-contents)*
+
+|  | CS-TI | CS-TD | CS-ETAS-Uniform | CS-ETAS |
+|-----|-----|-----|-----|-----|
+| **CS-TI** | ![Plot](resources/one_week_iml_with_poe_0.1_cs_ti.png) | ![Plot](resources/one_week_iml_with_poe_0.1_cs_td_ti_diff.png) | ![Plot](resources/one_week_iml_with_poe_0.1_cs_etas_uni_ti_diff.png) | ![Plot](resources/one_week_iml_with_poe_0.1_cs_etas_ti_diff.png) |
+| **CS-TD** | ![Plot](resources/one_week_iml_with_poe_0.1_cs_td_ti_gain.png) | ![Plot](resources/one_week_iml_with_poe_0.1_cs_td.png) | ![Plot](resources/one_week_iml_with_poe_0.1_cs_etas_uni_td_diff.png) | ![Plot](resources/one_week_iml_with_poe_0.1_cs_etas_td_diff.png) |
+| **CS-ETAS (Uniform)** | ![Plot](resources/one_week_iml_with_poe_0.1_cs_etas_uni_ti_gain.png) | ![Plot](resources/one_week_iml_with_poe_0.1_cs_etas_uni_td_gain.png) | ![Plot](resources/one_week_iml_with_poe_0.1_cs_etas_uni.png) | ![Plot](resources/one_week_iml_with_poe_0.1_cs_etas_uni_diff.png) |
+| **CS-ETAS** | ![Plot](resources/one_week_iml_with_poe_0.1_cs_etas_ti_gain.png) | ![Plot](resources/one_week_iml_with_poe_0.1_cs_etas_td_gain.png) | ![Plot](resources/one_week_iml_with_poe_0.1_cs_etas_uni_gain.png) | ![Plot](resources/one_week_iml_with_poe_0.1_cs_etas.png) |
+
+##### One Week 10s Sa (g) with POE=0.1, GMPE Maps
+*[(top)](#table-of-contents)*
+
+|  | GMPE-TI | GMPE-TD | GMPE-ETAS-Uniform | GMPE-ETAS |
+|-----|-----|-----|-----|-----|
+| **GMPE-TI** | ![Plot](resources/one_week_iml_with_poe_0.1_gmpe_ti.png) | ![Plot](resources/one_week_iml_with_poe_0.1_gmpe_td_ti_diff.png) | ![Plot](resources/one_week_iml_with_poe_0.1_gmpe_etas_uni_ti_diff.png) | ![Plot](resources/one_week_iml_with_poe_0.1_gmpe_etas_ti_diff.png) |
+| **GMPE-TD** | ![Plot](resources/one_week_iml_with_poe_0.1_gmpe_td_ti_gain.png) | ![Plot](resources/one_week_iml_with_poe_0.1_gmpe_td.png) | ![Plot](resources/one_week_iml_with_poe_0.1_gmpe_etas_uni_td_diff.png) | ![Plot](resources/one_week_iml_with_poe_0.1_gmpe_etas_td_diff.png) |
+| **GMPE-ETAS (Uniform)** | ![Plot](resources/one_week_iml_with_poe_0.1_gmpe_etas_uni_ti_gain.png) | ![Plot](resources/one_week_iml_with_poe_0.1_gmpe_etas_uni_td_gain.png) | ![Plot](resources/one_week_iml_with_poe_0.1_gmpe_etas_uni.png) | ![Plot](resources/one_week_iml_with_poe_0.1_gmpe_etas_uni_diff.png) |
+| **GMPE-ETAS** | ![Plot](resources/one_week_iml_with_poe_0.1_gmpe_etas_ti_gain.png) | ![Plot](resources/one_week_iml_with_poe_0.1_gmpe_etas_td_gain.png) | ![Plot](resources/one_week_iml_with_poe_0.1_gmpe_etas_uni_gain.png) | ![Plot](resources/one_week_iml_with_poe_0.1_gmpe_etas.png) |
+
+##### One Week POE 0.01 (g) 10s SA, CyberShake Maps
+*[(top)](#table-of-contents)*
+
+|  | CS-TI | CS-TD | CS-ETAS-Uniform | CS-ETAS |
+|-----|-----|-----|-----|-----|
+| **CS-TI** | ![Plot](resources/one_week_poe_0.01g_cs_ti.png) | ![Plot](resources/one_week_poe_0.01g_cs_td_ti_diff.png) | ![Plot](resources/one_week_poe_0.01g_cs_etas_uni_ti_diff.png) | ![Plot](resources/one_week_poe_0.01g_cs_etas_ti_diff.png) |
+| **CS-TD** | ![Plot](resources/one_week_poe_0.01g_cs_td_ti_gain.png) | ![Plot](resources/one_week_poe_0.01g_cs_td.png) | ![Plot](resources/one_week_poe_0.01g_cs_etas_uni_td_diff.png) | ![Plot](resources/one_week_poe_0.01g_cs_etas_td_diff.png) |
+| **CS-ETAS (Uniform)** | ![Plot](resources/one_week_poe_0.01g_cs_etas_uni_ti_gain.png) | ![Plot](resources/one_week_poe_0.01g_cs_etas_uni_td_gain.png) | ![Plot](resources/one_week_poe_0.01g_cs_etas_uni.png) | ![Plot](resources/one_week_poe_0.01g_cs_etas_uni_diff.png) |
+| **CS-ETAS** | ![Plot](resources/one_week_poe_0.01g_cs_etas_ti_gain.png) | ![Plot](resources/one_week_poe_0.01g_cs_etas_td_gain.png) | ![Plot](resources/one_week_poe_0.01g_cs_etas_uni_gain.png) | ![Plot](resources/one_week_poe_0.01g_cs_etas.png) |
+
+##### One Week POE 0.01 (g) 10s SA, GMPE Maps
+*[(top)](#table-of-contents)*
+
+|  | GMPE-TI | GMPE-TD | GMPE-ETAS-Uniform | GMPE-ETAS |
+|-----|-----|-----|-----|-----|
+| **GMPE-TI** | ![Plot](resources/one_week_poe_0.01g_gmpe_ti.png) | ![Plot](resources/one_week_poe_0.01g_gmpe_td_ti_diff.png) | ![Plot](resources/one_week_poe_0.01g_gmpe_etas_uni_ti_diff.png) | ![Plot](resources/one_week_poe_0.01g_gmpe_etas_ti_diff.png) |
+| **GMPE-TD** | ![Plot](resources/one_week_poe_0.01g_gmpe_td_ti_gain.png) | ![Plot](resources/one_week_poe_0.01g_gmpe_td.png) | ![Plot](resources/one_week_poe_0.01g_gmpe_etas_uni_td_diff.png) | ![Plot](resources/one_week_poe_0.01g_gmpe_etas_td_diff.png) |
+| **GMPE-ETAS (Uniform)** | ![Plot](resources/one_week_poe_0.01g_gmpe_etas_uni_ti_gain.png) | ![Plot](resources/one_week_poe_0.01g_gmpe_etas_uni_td_gain.png) | ![Plot](resources/one_week_poe_0.01g_gmpe_etas_uni.png) | ![Plot](resources/one_week_poe_0.01g_gmpe_etas_uni_diff.png) |
+| **GMPE-ETAS** | ![Plot](resources/one_week_poe_0.01g_gmpe_etas_ti_gain.png) | ![Plot](resources/one_week_poe_0.01g_gmpe_etas_td_gain.png) | ![Plot](resources/one_week_poe_0.01g_gmpe_etas_uni_gain.png) | ![Plot](resources/one_week_poe_0.01g_gmpe_etas.png) |
+
+##### One Week POE 0.1 (g) 10s SA, CyberShake Maps
+*[(top)](#table-of-contents)*
+
+|  | CS-TI | CS-TD | CS-ETAS-Uniform | CS-ETAS |
+|-----|-----|-----|-----|-----|
+| **CS-TI** | ![Plot](resources/one_week_poe_0.1g_cs_ti.png) | ![Plot](resources/one_week_poe_0.1g_cs_td_ti_diff.png) | ![Plot](resources/one_week_poe_0.1g_cs_etas_uni_ti_diff.png) | ![Plot](resources/one_week_poe_0.1g_cs_etas_ti_diff.png) |
+| **CS-TD** | ![Plot](resources/one_week_poe_0.1g_cs_td_ti_gain.png) | ![Plot](resources/one_week_poe_0.1g_cs_td.png) | ![Plot](resources/one_week_poe_0.1g_cs_etas_uni_td_diff.png) | ![Plot](resources/one_week_poe_0.1g_cs_etas_td_diff.png) |
+| **CS-ETAS (Uniform)** | ![Plot](resources/one_week_poe_0.1g_cs_etas_uni_ti_gain.png) | ![Plot](resources/one_week_poe_0.1g_cs_etas_uni_td_gain.png) | ![Plot](resources/one_week_poe_0.1g_cs_etas_uni.png) | ![Plot](resources/one_week_poe_0.1g_cs_etas_uni_diff.png) |
+| **CS-ETAS** | ![Plot](resources/one_week_poe_0.1g_cs_etas_ti_gain.png) | ![Plot](resources/one_week_poe_0.1g_cs_etas_td_gain.png) | ![Plot](resources/one_week_poe_0.1g_cs_etas_uni_gain.png) | ![Plot](resources/one_week_poe_0.1g_cs_etas.png) |
+
+##### One Week POE 0.1 (g) 10s SA, GMPE Maps
+*[(top)](#table-of-contents)*
+
+|  | GMPE-TI | GMPE-TD | GMPE-ETAS-Uniform | GMPE-ETAS |
+|-----|-----|-----|-----|-----|
+| **GMPE-TI** | ![Plot](resources/one_week_poe_0.1g_gmpe_ti.png) | ![Plot](resources/one_week_poe_0.1g_gmpe_td_ti_diff.png) | ![Plot](resources/one_week_poe_0.1g_gmpe_etas_uni_ti_diff.png) | ![Plot](resources/one_week_poe_0.1g_gmpe_etas_ti_diff.png) |
+| **GMPE-TD** | ![Plot](resources/one_week_poe_0.1g_gmpe_td_ti_gain.png) | ![Plot](resources/one_week_poe_0.1g_gmpe_td.png) | ![Plot](resources/one_week_poe_0.1g_gmpe_etas_uni_td_diff.png) | ![Plot](resources/one_week_poe_0.1g_gmpe_etas_td_diff.png) |
+| **GMPE-ETAS (Uniform)** | ![Plot](resources/one_week_poe_0.1g_gmpe_etas_uni_ti_gain.png) | ![Plot](resources/one_week_poe_0.1g_gmpe_etas_uni_td_gain.png) | ![Plot](resources/one_week_poe_0.1g_gmpe_etas_uni.png) | ![Plot](resources/one_week_poe_0.1g_gmpe_etas_uni_diff.png) |
+| **GMPE-ETAS** | ![Plot](resources/one_week_poe_0.1g_gmpe_etas_ti_gain.png) | ![Plot](resources/one_week_poe_0.1g_gmpe_etas_td_gain.png) | ![Plot](resources/one_week_poe_0.1g_gmpe_etas_uni_gain.png) | ![Plot](resources/one_week_poe_0.1g_gmpe_etas.png) |
+
+##### One Week POE 0.2 (g) 10s SA, CyberShake Maps
+*[(top)](#table-of-contents)*
+
+|  | CS-TI | CS-TD | CS-ETAS-Uniform | CS-ETAS |
+|-----|-----|-----|-----|-----|
+| **CS-TI** | ![Plot](resources/one_week_poe_0.2g_cs_ti.png) | ![Plot](resources/one_week_poe_0.2g_cs_td_ti_diff.png) | ![Plot](resources/one_week_poe_0.2g_cs_etas_uni_ti_diff.png) | ![Plot](resources/one_week_poe_0.2g_cs_etas_ti_diff.png) |
+| **CS-TD** | ![Plot](resources/one_week_poe_0.2g_cs_td_ti_gain.png) | ![Plot](resources/one_week_poe_0.2g_cs_td.png) | ![Plot](resources/one_week_poe_0.2g_cs_etas_uni_td_diff.png) | ![Plot](resources/one_week_poe_0.2g_cs_etas_td_diff.png) |
+| **CS-ETAS (Uniform)** | ![Plot](resources/one_week_poe_0.2g_cs_etas_uni_ti_gain.png) | ![Plot](resources/one_week_poe_0.2g_cs_etas_uni_td_gain.png) | ![Plot](resources/one_week_poe_0.2g_cs_etas_uni.png) | ![Plot](resources/one_week_poe_0.2g_cs_etas_uni_diff.png) |
+| **CS-ETAS** | ![Plot](resources/one_week_poe_0.2g_cs_etas_ti_gain.png) | ![Plot](resources/one_week_poe_0.2g_cs_etas_td_gain.png) | ![Plot](resources/one_week_poe_0.2g_cs_etas_uni_gain.png) | ![Plot](resources/one_week_poe_0.2g_cs_etas.png) |
+
+##### One Week POE 0.2 (g) 10s SA, GMPE Maps
+*[(top)](#table-of-contents)*
+
+|  | GMPE-TI | GMPE-TD | GMPE-ETAS-Uniform | GMPE-ETAS |
+|-----|-----|-----|-----|-----|
+| **GMPE-TI** | ![Plot](resources/one_week_poe_0.2g_gmpe_ti.png) | ![Plot](resources/one_week_poe_0.2g_gmpe_td_ti_diff.png) | ![Plot](resources/one_week_poe_0.2g_gmpe_etas_uni_ti_diff.png) | ![Plot](resources/one_week_poe_0.2g_gmpe_etas_ti_diff.png) |
+| **GMPE-TD** | ![Plot](resources/one_week_poe_0.2g_gmpe_td_ti_gain.png) | ![Plot](resources/one_week_poe_0.2g_gmpe_td.png) | ![Plot](resources/one_week_poe_0.2g_gmpe_etas_uni_td_diff.png) | ![Plot](resources/one_week_poe_0.2g_gmpe_etas_td_diff.png) |
+| **GMPE-ETAS (Uniform)** | ![Plot](resources/one_week_poe_0.2g_gmpe_etas_uni_ti_gain.png) | ![Plot](resources/one_week_poe_0.2g_gmpe_etas_uni_td_gain.png) | ![Plot](resources/one_week_poe_0.2g_gmpe_etas_uni.png) | ![Plot](resources/one_week_poe_0.2g_gmpe_etas_uni_diff.png) |
+| **GMPE-ETAS** | ![Plot](resources/one_week_poe_0.2g_gmpe_etas_ti_gain.png) | ![Plot](resources/one_week_poe_0.2g_gmpe_etas_td_gain.png) | ![Plot](resources/one_week_poe_0.2g_gmpe_etas_uni_gain.png) | ![Plot](resources/one_week_poe_0.2g_gmpe_etas.png) |
 
 ### One Year Hazard Maps
 *[(top)](#table-of-contents)*
 
-#### 3 One Year Hazard Maps
+#### 3s One Year Hazard Maps
 *[(top)](#table-of-contents)*
 
-##### One Year 3 Sa (g) with POE=1.0E-4, CyberShake Maps
-*[(top)](#table-of-contents)*
-
-|  | CS-TI | CS-TD | CS-ETAS-Uniform | CS-ETAS |
-|-----|-----|-----|-----|-----|
-| **CS-TI** | ![Plot](resources/one_year_iml_with_poe_1.0E-4_cs_ti.png) | ![Plot](resources/one_year_iml_with_poe_1.0E-4_cs_td_ti_diff.png) | ![Plot](resources/one_year_iml_with_poe_1.0E-4_cs_etas_uni_ti_diff.png) | ![Plot](resources/one_year_iml_with_poe_1.0E-4_cs_etas_ti_diff.png) |
-| **CS-TD** | ![Plot](resources/one_year_iml_with_poe_1.0E-4_cs_td_ti_gain.png) | ![Plot](resources/one_year_iml_with_poe_1.0E-4_cs_td.png) | ![Plot](resources/one_year_iml_with_poe_1.0E-4_cs_etas_uni_td_diff.png) | ![Plot](resources/one_year_iml_with_poe_1.0E-4_cs_etas_td_diff.png) |
-| **CS-ETAS (Uniform)** | ![Plot](resources/one_year_iml_with_poe_1.0E-4_cs_etas_uni_ti_gain.png) | ![Plot](resources/one_year_iml_with_poe_1.0E-4_cs_etas_uni_td_tain.png) | ![Plot](resources/one_year_iml_with_poe_1.0E-4_cs_etas_uni.png) | ![Plot](resources/one_year_iml_with_poe_1.0E-4_cs_etas_uni_diff.png) |
-| **CS-ETAS** | ![Plot](resources/one_year_iml_with_poe_1.0E-4_cs_etas_ti_gain.png) | ![Plot](resources/one_year_iml_with_poe_1.0E-4_cs_etas_td_tain.png) | ![Plot](resources/one_year_iml_with_poe_1.0E-4_cs_etas_uni_gain.png) | ![Plot](resources/one_year_iml_with_poe_1.0E-4_cs_etas.png) |
-
-##### One Year 3 Sa (g) with POE=1.0E-4, GMPE Maps
-*[(top)](#table-of-contents)*
-
-|  | GMPE-TI | GMPE-TD | GMPE-ETAS-Uniform | GMPE-ETAS |
-|-----|-----|-----|-----|-----|
-| **GMPE-TI** | ![Plot](resources/one_year_iml_with_poe_1.0E-4_gmpe_ti.png) | ![Plot](resources/one_year_iml_with_poe_1.0E-4_gmpe_td_ti_diff.png) | ![Plot](resources/one_year_iml_with_poe_1.0E-4_gmpe_etas_uni_ti_diff.png) | ![Plot](resources/one_year_iml_with_poe_1.0E-4_gmpe_etas_ti_diff.png) |
-| **GMPE-TD** | ![Plot](resources/one_year_iml_with_poe_1.0E-4_gmpe_td_ti_gain.png) | ![Plot](resources/one_year_iml_with_poe_1.0E-4_gmpe_td.png) | ![Plot](resources/one_year_iml_with_poe_1.0E-4_gmpe_etas_uni_td_diff.png) | ![Plot](resources/one_year_iml_with_poe_1.0E-4_gmpe_etas_td_diff.png) |
-| **GMPE-ETAS (Uniform)** | ![Plot](resources/one_year_iml_with_poe_1.0E-4_gmpe_etas_uni_ti_gain.png) | ![Plot](resources/one_year_iml_with_poe_1.0E-4_gmpe_etas_uni_td_tain.png) | ![Plot](resources/one_year_iml_with_poe_1.0E-4_gmpe_etas_uni.png) | ![Plot](resources/one_year_iml_with_poe_1.0E-4_gmpe_etas_uni_diff.png) |
-| **GMPE-ETAS** | ![Plot](resources/one_year_iml_with_poe_1.0E-4_gmpe_etas_ti_gain.png) | ![Plot](resources/one_year_iml_with_poe_1.0E-4_gmpe_etas_td_tain.png) | ![Plot](resources/one_year_iml_with_poe_1.0E-4_gmpe_etas_uni_gain.png) | ![Plot](resources/one_year_iml_with_poe_1.0E-4_gmpe_etas.png) |
-
-##### One Year 3 Sa (g) with POE=0.001, CyberShake Maps
-*[(top)](#table-of-contents)*
-
-|  | CS-TI | CS-TD | CS-ETAS-Uniform | CS-ETAS |
-|-----|-----|-----|-----|-----|
-| **CS-TI** | ![Plot](resources/one_year_iml_with_poe_0.001_cs_ti.png) | ![Plot](resources/one_year_iml_with_poe_0.001_cs_td_ti_diff.png) | ![Plot](resources/one_year_iml_with_poe_0.001_cs_etas_uni_ti_diff.png) | ![Plot](resources/one_year_iml_with_poe_0.001_cs_etas_ti_diff.png) |
-| **CS-TD** | ![Plot](resources/one_year_iml_with_poe_0.001_cs_td_ti_gain.png) | ![Plot](resources/one_year_iml_with_poe_0.001_cs_td.png) | ![Plot](resources/one_year_iml_with_poe_0.001_cs_etas_uni_td_diff.png) | ![Plot](resources/one_year_iml_with_poe_0.001_cs_etas_td_diff.png) |
-| **CS-ETAS (Uniform)** | ![Plot](resources/one_year_iml_with_poe_0.001_cs_etas_uni_ti_gain.png) | ![Plot](resources/one_year_iml_with_poe_0.001_cs_etas_uni_td_tain.png) | ![Plot](resources/one_year_iml_with_poe_0.001_cs_etas_uni.png) | ![Plot](resources/one_year_iml_with_poe_0.001_cs_etas_uni_diff.png) |
-| **CS-ETAS** | ![Plot](resources/one_year_iml_with_poe_0.001_cs_etas_ti_gain.png) | ![Plot](resources/one_year_iml_with_poe_0.001_cs_etas_td_tain.png) | ![Plot](resources/one_year_iml_with_poe_0.001_cs_etas_uni_gain.png) | ![Plot](resources/one_year_iml_with_poe_0.001_cs_etas.png) |
-
-##### One Year 3 Sa (g) with POE=0.001, GMPE Maps
-*[(top)](#table-of-contents)*
-
-|  | GMPE-TI | GMPE-TD | GMPE-ETAS-Uniform | GMPE-ETAS |
-|-----|-----|-----|-----|-----|
-| **GMPE-TI** | ![Plot](resources/one_year_iml_with_poe_0.001_gmpe_ti.png) | ![Plot](resources/one_year_iml_with_poe_0.001_gmpe_td_ti_diff.png) | ![Plot](resources/one_year_iml_with_poe_0.001_gmpe_etas_uni_ti_diff.png) | ![Plot](resources/one_year_iml_with_poe_0.001_gmpe_etas_ti_diff.png) |
-| **GMPE-TD** | ![Plot](resources/one_year_iml_with_poe_0.001_gmpe_td_ti_gain.png) | ![Plot](resources/one_year_iml_with_poe_0.001_gmpe_td.png) | ![Plot](resources/one_year_iml_with_poe_0.001_gmpe_etas_uni_td_diff.png) | ![Plot](resources/one_year_iml_with_poe_0.001_gmpe_etas_td_diff.png) |
-| **GMPE-ETAS (Uniform)** | ![Plot](resources/one_year_iml_with_poe_0.001_gmpe_etas_uni_ti_gain.png) | ![Plot](resources/one_year_iml_with_poe_0.001_gmpe_etas_uni_td_tain.png) | ![Plot](resources/one_year_iml_with_poe_0.001_gmpe_etas_uni.png) | ![Plot](resources/one_year_iml_with_poe_0.001_gmpe_etas_uni_diff.png) |
-| **GMPE-ETAS** | ![Plot](resources/one_year_iml_with_poe_0.001_gmpe_etas_ti_gain.png) | ![Plot](resources/one_year_iml_with_poe_0.001_gmpe_etas_td_tain.png) | ![Plot](resources/one_year_iml_with_poe_0.001_gmpe_etas_uni_gain.png) | ![Plot](resources/one_year_iml_with_poe_0.001_gmpe_etas.png) |
-
-##### One Year 3 Sa (g) with POE=0.01, CyberShake Maps
-*[(top)](#table-of-contents)*
-
-|  | CS-TI | CS-TD | CS-ETAS-Uniform | CS-ETAS |
-|-----|-----|-----|-----|-----|
-| **CS-TI** | ![Plot](resources/one_year_iml_with_poe_0.01_cs_ti.png) | ![Plot](resources/one_year_iml_with_poe_0.01_cs_td_ti_diff.png) | ![Plot](resources/one_year_iml_with_poe_0.01_cs_etas_uni_ti_diff.png) | ![Plot](resources/one_year_iml_with_poe_0.01_cs_etas_ti_diff.png) |
-| **CS-TD** | ![Plot](resources/one_year_iml_with_poe_0.01_cs_td_ti_gain.png) | ![Plot](resources/one_year_iml_with_poe_0.01_cs_td.png) | ![Plot](resources/one_year_iml_with_poe_0.01_cs_etas_uni_td_diff.png) | ![Plot](resources/one_year_iml_with_poe_0.01_cs_etas_td_diff.png) |
-| **CS-ETAS (Uniform)** | ![Plot](resources/one_year_iml_with_poe_0.01_cs_etas_uni_ti_gain.png) | ![Plot](resources/one_year_iml_with_poe_0.01_cs_etas_uni_td_tain.png) | ![Plot](resources/one_year_iml_with_poe_0.01_cs_etas_uni.png) | ![Plot](resources/one_year_iml_with_poe_0.01_cs_etas_uni_diff.png) |
-| **CS-ETAS** | ![Plot](resources/one_year_iml_with_poe_0.01_cs_etas_ti_gain.png) | ![Plot](resources/one_year_iml_with_poe_0.01_cs_etas_td_tain.png) | ![Plot](resources/one_year_iml_with_poe_0.01_cs_etas_uni_gain.png) | ![Plot](resources/one_year_iml_with_poe_0.01_cs_etas.png) |
-
-##### One Year 3 Sa (g) with POE=0.01, GMPE Maps
-*[(top)](#table-of-contents)*
-
-|  | GMPE-TI | GMPE-TD | GMPE-ETAS-Uniform | GMPE-ETAS |
-|-----|-----|-----|-----|-----|
-| **GMPE-TI** | ![Plot](resources/one_year_iml_with_poe_0.01_gmpe_ti.png) | ![Plot](resources/one_year_iml_with_poe_0.01_gmpe_td_ti_diff.png) | ![Plot](resources/one_year_iml_with_poe_0.01_gmpe_etas_uni_ti_diff.png) | ![Plot](resources/one_year_iml_with_poe_0.01_gmpe_etas_ti_diff.png) |
-| **GMPE-TD** | ![Plot](resources/one_year_iml_with_poe_0.01_gmpe_td_ti_gain.png) | ![Plot](resources/one_year_iml_with_poe_0.01_gmpe_td.png) | ![Plot](resources/one_year_iml_with_poe_0.01_gmpe_etas_uni_td_diff.png) | ![Plot](resources/one_year_iml_with_poe_0.01_gmpe_etas_td_diff.png) |
-| **GMPE-ETAS (Uniform)** | ![Plot](resources/one_year_iml_with_poe_0.01_gmpe_etas_uni_ti_gain.png) | ![Plot](resources/one_year_iml_with_poe_0.01_gmpe_etas_uni_td_tain.png) | ![Plot](resources/one_year_iml_with_poe_0.01_gmpe_etas_uni.png) | ![Plot](resources/one_year_iml_with_poe_0.01_gmpe_etas_uni_diff.png) |
-| **GMPE-ETAS** | ![Plot](resources/one_year_iml_with_poe_0.01_gmpe_etas_ti_gain.png) | ![Plot](resources/one_year_iml_with_poe_0.01_gmpe_etas_td_tain.png) | ![Plot](resources/one_year_iml_with_poe_0.01_gmpe_etas_uni_gain.png) | ![Plot](resources/one_year_iml_with_poe_0.01_gmpe_etas.png) |
-
-##### One Year 3 Sa (g) with POE=0.1, CyberShake Maps
-*[(top)](#table-of-contents)*
-
-|  | CS-TI | CS-TD | CS-ETAS-Uniform | CS-ETAS |
-|-----|-----|-----|-----|-----|
-| **CS-TI** | ![Plot](resources/one_year_iml_with_poe_0.1_cs_ti.png) | ![Plot](resources/one_year_iml_with_poe_0.1_cs_td_ti_diff.png) | ![Plot](resources/one_year_iml_with_poe_0.1_cs_etas_uni_ti_diff.png) | ![Plot](resources/one_year_iml_with_poe_0.1_cs_etas_ti_diff.png) |
-| **CS-TD** | ![Plot](resources/one_year_iml_with_poe_0.1_cs_td_ti_gain.png) | ![Plot](resources/one_year_iml_with_poe_0.1_cs_td.png) | ![Plot](resources/one_year_iml_with_poe_0.1_cs_etas_uni_td_diff.png) | ![Plot](resources/one_year_iml_with_poe_0.1_cs_etas_td_diff.png) |
-| **CS-ETAS (Uniform)** | ![Plot](resources/one_year_iml_with_poe_0.1_cs_etas_uni_ti_gain.png) | ![Plot](resources/one_year_iml_with_poe_0.1_cs_etas_uni_td_tain.png) | ![Plot](resources/one_year_iml_with_poe_0.1_cs_etas_uni.png) | ![Plot](resources/one_year_iml_with_poe_0.1_cs_etas_uni_diff.png) |
-| **CS-ETAS** | ![Plot](resources/one_year_iml_with_poe_0.1_cs_etas_ti_gain.png) | ![Plot](resources/one_year_iml_with_poe_0.1_cs_etas_td_tain.png) | ![Plot](resources/one_year_iml_with_poe_0.1_cs_etas_uni_gain.png) | ![Plot](resources/one_year_iml_with_poe_0.1_cs_etas.png) |
-
-##### One Year 3 Sa (g) with POE=0.1, GMPE Maps
-*[(top)](#table-of-contents)*
-
-|  | GMPE-TI | GMPE-TD | GMPE-ETAS-Uniform | GMPE-ETAS |
-|-----|-----|-----|-----|-----|
-| **GMPE-TI** | ![Plot](resources/one_year_iml_with_poe_0.1_gmpe_ti.png) | ![Plot](resources/one_year_iml_with_poe_0.1_gmpe_td_ti_diff.png) | ![Plot](resources/one_year_iml_with_poe_0.1_gmpe_etas_uni_ti_diff.png) | ![Plot](resources/one_year_iml_with_poe_0.1_gmpe_etas_ti_diff.png) |
-| **GMPE-TD** | ![Plot](resources/one_year_iml_with_poe_0.1_gmpe_td_ti_gain.png) | ![Plot](resources/one_year_iml_with_poe_0.1_gmpe_td.png) | ![Plot](resources/one_year_iml_with_poe_0.1_gmpe_etas_uni_td_diff.png) | ![Plot](resources/one_year_iml_with_poe_0.1_gmpe_etas_td_diff.png) |
-| **GMPE-ETAS (Uniform)** | ![Plot](resources/one_year_iml_with_poe_0.1_gmpe_etas_uni_ti_gain.png) | ![Plot](resources/one_year_iml_with_poe_0.1_gmpe_etas_uni_td_tain.png) | ![Plot](resources/one_year_iml_with_poe_0.1_gmpe_etas_uni.png) | ![Plot](resources/one_year_iml_with_poe_0.1_gmpe_etas_uni_diff.png) |
-| **GMPE-ETAS** | ![Plot](resources/one_year_iml_with_poe_0.1_gmpe_etas_ti_gain.png) | ![Plot](resources/one_year_iml_with_poe_0.1_gmpe_etas_td_tain.png) | ![Plot](resources/one_year_iml_with_poe_0.1_gmpe_etas_uni_gain.png) | ![Plot](resources/one_year_iml_with_poe_0.1_gmpe_etas.png) |
-
-##### One Year POE 0.01 (g) 3 SA, CyberShake Maps
-*[(top)](#table-of-contents)*
-
-|  | CS-TI | CS-TD | CS-ETAS-Uniform | CS-ETAS |
-|-----|-----|-----|-----|-----|
-| **CS-TI** | ![Plot](resources/one_year_poe_0.01g_cs_ti.png) | ![Plot](resources/one_year_poe_0.01g_cs_td_ti_diff.png) | ![Plot](resources/one_year_poe_0.01g_cs_etas_uni_ti_diff.png) | ![Plot](resources/one_year_poe_0.01g_cs_etas_ti_diff.png) |
-| **CS-TD** | ![Plot](resources/one_year_poe_0.01g_cs_td_ti_gain.png) | ![Plot](resources/one_year_poe_0.01g_cs_td.png) | ![Plot](resources/one_year_poe_0.01g_cs_etas_uni_td_diff.png) | ![Plot](resources/one_year_poe_0.01g_cs_etas_td_diff.png) |
-| **CS-ETAS (Uniform)** | ![Plot](resources/one_year_poe_0.01g_cs_etas_uni_ti_gain.png) | ![Plot](resources/one_year_poe_0.01g_cs_etas_uni_td_tain.png) | ![Plot](resources/one_year_poe_0.01g_cs_etas_uni.png) | ![Plot](resources/one_year_poe_0.01g_cs_etas_uni_diff.png) |
-| **CS-ETAS** | ![Plot](resources/one_year_poe_0.01g_cs_etas_ti_gain.png) | ![Plot](resources/one_year_poe_0.01g_cs_etas_td_tain.png) | ![Plot](resources/one_year_poe_0.01g_cs_etas_uni_gain.png) | ![Plot](resources/one_year_poe_0.01g_cs_etas.png) |
-
-##### One Year POE 0.01 (g) 3 SA, GMPE Maps
-*[(top)](#table-of-contents)*
-
-|  | GMPE-TI | GMPE-TD | GMPE-ETAS-Uniform | GMPE-ETAS |
-|-----|-----|-----|-----|-----|
-| **GMPE-TI** | ![Plot](resources/one_year_poe_0.01g_gmpe_ti.png) | ![Plot](resources/one_year_poe_0.01g_gmpe_td_ti_diff.png) | ![Plot](resources/one_year_poe_0.01g_gmpe_etas_uni_ti_diff.png) | ![Plot](resources/one_year_poe_0.01g_gmpe_etas_ti_diff.png) |
-| **GMPE-TD** | ![Plot](resources/one_year_poe_0.01g_gmpe_td_ti_gain.png) | ![Plot](resources/one_year_poe_0.01g_gmpe_td.png) | ![Plot](resources/one_year_poe_0.01g_gmpe_etas_uni_td_diff.png) | ![Plot](resources/one_year_poe_0.01g_gmpe_etas_td_diff.png) |
-| **GMPE-ETAS (Uniform)** | ![Plot](resources/one_year_poe_0.01g_gmpe_etas_uni_ti_gain.png) | ![Plot](resources/one_year_poe_0.01g_gmpe_etas_uni_td_tain.png) | ![Plot](resources/one_year_poe_0.01g_gmpe_etas_uni.png) | ![Plot](resources/one_year_poe_0.01g_gmpe_etas_uni_diff.png) |
-| **GMPE-ETAS** | ![Plot](resources/one_year_poe_0.01g_gmpe_etas_ti_gain.png) | ![Plot](resources/one_year_poe_0.01g_gmpe_etas_td_tain.png) | ![Plot](resources/one_year_poe_0.01g_gmpe_etas_uni_gain.png) | ![Plot](resources/one_year_poe_0.01g_gmpe_etas.png) |
-
-##### One Year POE 0.1 (g) 3 SA, CyberShake Maps
-*[(top)](#table-of-contents)*
-
-|  | CS-TI | CS-TD | CS-ETAS-Uniform | CS-ETAS |
-|-----|-----|-----|-----|-----|
-| **CS-TI** | ![Plot](resources/one_year_poe_0.1g_cs_ti.png) | ![Plot](resources/one_year_poe_0.1g_cs_td_ti_diff.png) | ![Plot](resources/one_year_poe_0.1g_cs_etas_uni_ti_diff.png) | ![Plot](resources/one_year_poe_0.1g_cs_etas_ti_diff.png) |
-| **CS-TD** | ![Plot](resources/one_year_poe_0.1g_cs_td_ti_gain.png) | ![Plot](resources/one_year_poe_0.1g_cs_td.png) | ![Plot](resources/one_year_poe_0.1g_cs_etas_uni_td_diff.png) | ![Plot](resources/one_year_poe_0.1g_cs_etas_td_diff.png) |
-| **CS-ETAS (Uniform)** | ![Plot](resources/one_year_poe_0.1g_cs_etas_uni_ti_gain.png) | ![Plot](resources/one_year_poe_0.1g_cs_etas_uni_td_tain.png) | ![Plot](resources/one_year_poe_0.1g_cs_etas_uni.png) | ![Plot](resources/one_year_poe_0.1g_cs_etas_uni_diff.png) |
-| **CS-ETAS** | ![Plot](resources/one_year_poe_0.1g_cs_etas_ti_gain.png) | ![Plot](resources/one_year_poe_0.1g_cs_etas_td_tain.png) | ![Plot](resources/one_year_poe_0.1g_cs_etas_uni_gain.png) | ![Plot](resources/one_year_poe_0.1g_cs_etas.png) |
-
-##### One Year POE 0.1 (g) 3 SA, GMPE Maps
-*[(top)](#table-of-contents)*
-
-|  | GMPE-TI | GMPE-TD | GMPE-ETAS-Uniform | GMPE-ETAS |
-|-----|-----|-----|-----|-----|
-| **GMPE-TI** | ![Plot](resources/one_year_poe_0.1g_gmpe_ti.png) | ![Plot](resources/one_year_poe_0.1g_gmpe_td_ti_diff.png) | ![Plot](resources/one_year_poe_0.1g_gmpe_etas_uni_ti_diff.png) | ![Plot](resources/one_year_poe_0.1g_gmpe_etas_ti_diff.png) |
-| **GMPE-TD** | ![Plot](resources/one_year_poe_0.1g_gmpe_td_ti_gain.png) | ![Plot](resources/one_year_poe_0.1g_gmpe_td.png) | ![Plot](resources/one_year_poe_0.1g_gmpe_etas_uni_td_diff.png) | ![Plot](resources/one_year_poe_0.1g_gmpe_etas_td_diff.png) |
-| **GMPE-ETAS (Uniform)** | ![Plot](resources/one_year_poe_0.1g_gmpe_etas_uni_ti_gain.png) | ![Plot](resources/one_year_poe_0.1g_gmpe_etas_uni_td_tain.png) | ![Plot](resources/one_year_poe_0.1g_gmpe_etas_uni.png) | ![Plot](resources/one_year_poe_0.1g_gmpe_etas_uni_diff.png) |
-| **GMPE-ETAS** | ![Plot](resources/one_year_poe_0.1g_gmpe_etas_ti_gain.png) | ![Plot](resources/one_year_poe_0.1g_gmpe_etas_td_tain.png) | ![Plot](resources/one_year_poe_0.1g_gmpe_etas_uni_gain.png) | ![Plot](resources/one_year_poe_0.1g_gmpe_etas.png) |
-
-##### One Year POE 0.2 (g) 3 SA, CyberShake Maps
-*[(top)](#table-of-contents)*
-
-|  | CS-TI | CS-TD | CS-ETAS-Uniform | CS-ETAS |
-|-----|-----|-----|-----|-----|
-| **CS-TI** | ![Plot](resources/one_year_poe_0.2g_cs_ti.png) | ![Plot](resources/one_year_poe_0.2g_cs_td_ti_diff.png) | ![Plot](resources/one_year_poe_0.2g_cs_etas_uni_ti_diff.png) | ![Plot](resources/one_year_poe_0.2g_cs_etas_ti_diff.png) |
-| **CS-TD** | ![Plot](resources/one_year_poe_0.2g_cs_td_ti_gain.png) | ![Plot](resources/one_year_poe_0.2g_cs_td.png) | ![Plot](resources/one_year_poe_0.2g_cs_etas_uni_td_diff.png) | ![Plot](resources/one_year_poe_0.2g_cs_etas_td_diff.png) |
-| **CS-ETAS (Uniform)** | ![Plot](resources/one_year_poe_0.2g_cs_etas_uni_ti_gain.png) | ![Plot](resources/one_year_poe_0.2g_cs_etas_uni_td_tain.png) | ![Plot](resources/one_year_poe_0.2g_cs_etas_uni.png) | ![Plot](resources/one_year_poe_0.2g_cs_etas_uni_diff.png) |
-| **CS-ETAS** | ![Plot](resources/one_year_poe_0.2g_cs_etas_ti_gain.png) | ![Plot](resources/one_year_poe_0.2g_cs_etas_td_tain.png) | ![Plot](resources/one_year_poe_0.2g_cs_etas_uni_gain.png) | ![Plot](resources/one_year_poe_0.2g_cs_etas.png) |
-
-##### One Year POE 0.2 (g) 3 SA, GMPE Maps
-*[(top)](#table-of-contents)*
-
-|  | GMPE-TI | GMPE-TD | GMPE-ETAS-Uniform | GMPE-ETAS |
-|-----|-----|-----|-----|-----|
-| **GMPE-TI** | ![Plot](resources/one_year_poe_0.2g_gmpe_ti.png) | ![Plot](resources/one_year_poe_0.2g_gmpe_td_ti_diff.png) | ![Plot](resources/one_year_poe_0.2g_gmpe_etas_uni_ti_diff.png) | ![Plot](resources/one_year_poe_0.2g_gmpe_etas_ti_diff.png) |
-| **GMPE-TD** | ![Plot](resources/one_year_poe_0.2g_gmpe_td_ti_gain.png) | ![Plot](resources/one_year_poe_0.2g_gmpe_td.png) | ![Plot](resources/one_year_poe_0.2g_gmpe_etas_uni_td_diff.png) | ![Plot](resources/one_year_poe_0.2g_gmpe_etas_td_diff.png) |
-| **GMPE-ETAS (Uniform)** | ![Plot](resources/one_year_poe_0.2g_gmpe_etas_uni_ti_gain.png) | ![Plot](resources/one_year_poe_0.2g_gmpe_etas_uni_td_tain.png) | ![Plot](resources/one_year_poe_0.2g_gmpe_etas_uni.png) | ![Plot](resources/one_year_poe_0.2g_gmpe_etas_uni_diff.png) |
-| **GMPE-ETAS** | ![Plot](resources/one_year_poe_0.2g_gmpe_etas_ti_gain.png) | ![Plot](resources/one_year_poe_0.2g_gmpe_etas_td_tain.png) | ![Plot](resources/one_year_poe_0.2g_gmpe_etas_uni_gain.png) | ![Plot](resources/one_year_poe_0.2g_gmpe_etas.png) |
-
-#### 5 One Year Hazard Maps
-*[(top)](#table-of-contents)*
-
-##### One Year 5 Sa (g) with POE=1.0E-4, CyberShake Maps
+##### One Year 3s Sa (g) with POE=1.0E-4, CyberShake Maps
 *[(top)](#table-of-contents)*
 
 |  | CS-TI | CS-TD | CS-ETAS-Uniform | CS-ETAS |
 |-----|-----|-----|-----|-----|
 | **CS-TI** | ![Plot](resources/one_year_iml_with_poe_1.0E-4_cs_ti.png) | ![Plot](resources/one_year_iml_with_poe_1.0E-4_cs_td_ti_diff.png) | ![Plot](resources/one_year_iml_with_poe_1.0E-4_cs_etas_uni_ti_diff.png) | ![Plot](resources/one_year_iml_with_poe_1.0E-4_cs_etas_ti_diff.png) |
 | **CS-TD** | ![Plot](resources/one_year_iml_with_poe_1.0E-4_cs_td_ti_gain.png) | ![Plot](resources/one_year_iml_with_poe_1.0E-4_cs_td.png) | ![Plot](resources/one_year_iml_with_poe_1.0E-4_cs_etas_uni_td_diff.png) | ![Plot](resources/one_year_iml_with_poe_1.0E-4_cs_etas_td_diff.png) |
-| **CS-ETAS (Uniform)** | ![Plot](resources/one_year_iml_with_poe_1.0E-4_cs_etas_uni_ti_gain.png) | ![Plot](resources/one_year_iml_with_poe_1.0E-4_cs_etas_uni_td_tain.png) | ![Plot](resources/one_year_iml_with_poe_1.0E-4_cs_etas_uni.png) | ![Plot](resources/one_year_iml_with_poe_1.0E-4_cs_etas_uni_diff.png) |
-| **CS-ETAS** | ![Plot](resources/one_year_iml_with_poe_1.0E-4_cs_etas_ti_gain.png) | ![Plot](resources/one_year_iml_with_poe_1.0E-4_cs_etas_td_tain.png) | ![Plot](resources/one_year_iml_with_poe_1.0E-4_cs_etas_uni_gain.png) | ![Plot](resources/one_year_iml_with_poe_1.0E-4_cs_etas.png) |
+| **CS-ETAS (Uniform)** | ![Plot](resources/one_year_iml_with_poe_1.0E-4_cs_etas_uni_ti_gain.png) | ![Plot](resources/one_year_iml_with_poe_1.0E-4_cs_etas_uni_td_gain.png) | ![Plot](resources/one_year_iml_with_poe_1.0E-4_cs_etas_uni.png) | ![Plot](resources/one_year_iml_with_poe_1.0E-4_cs_etas_uni_diff.png) |
+| **CS-ETAS** | ![Plot](resources/one_year_iml_with_poe_1.0E-4_cs_etas_ti_gain.png) | ![Plot](resources/one_year_iml_with_poe_1.0E-4_cs_etas_td_gain.png) | ![Plot](resources/one_year_iml_with_poe_1.0E-4_cs_etas_uni_gain.png) | ![Plot](resources/one_year_iml_with_poe_1.0E-4_cs_etas.png) |
 
-##### One Year 5 Sa (g) with POE=1.0E-4, GMPE Maps
+##### One Year 3s Sa (g) with POE=1.0E-4, GMPE Maps
 *[(top)](#table-of-contents)*
 
 |  | GMPE-TI | GMPE-TD | GMPE-ETAS-Uniform | GMPE-ETAS |
 |-----|-----|-----|-----|-----|
 | **GMPE-TI** | ![Plot](resources/one_year_iml_with_poe_1.0E-4_gmpe_ti.png) | ![Plot](resources/one_year_iml_with_poe_1.0E-4_gmpe_td_ti_diff.png) | ![Plot](resources/one_year_iml_with_poe_1.0E-4_gmpe_etas_uni_ti_diff.png) | ![Plot](resources/one_year_iml_with_poe_1.0E-4_gmpe_etas_ti_diff.png) |
 | **GMPE-TD** | ![Plot](resources/one_year_iml_with_poe_1.0E-4_gmpe_td_ti_gain.png) | ![Plot](resources/one_year_iml_with_poe_1.0E-4_gmpe_td.png) | ![Plot](resources/one_year_iml_with_poe_1.0E-4_gmpe_etas_uni_td_diff.png) | ![Plot](resources/one_year_iml_with_poe_1.0E-4_gmpe_etas_td_diff.png) |
-| **GMPE-ETAS (Uniform)** | ![Plot](resources/one_year_iml_with_poe_1.0E-4_gmpe_etas_uni_ti_gain.png) | ![Plot](resources/one_year_iml_with_poe_1.0E-4_gmpe_etas_uni_td_tain.png) | ![Plot](resources/one_year_iml_with_poe_1.0E-4_gmpe_etas_uni.png) | ![Plot](resources/one_year_iml_with_poe_1.0E-4_gmpe_etas_uni_diff.png) |
-| **GMPE-ETAS** | ![Plot](resources/one_year_iml_with_poe_1.0E-4_gmpe_etas_ti_gain.png) | ![Plot](resources/one_year_iml_with_poe_1.0E-4_gmpe_etas_td_tain.png) | ![Plot](resources/one_year_iml_with_poe_1.0E-4_gmpe_etas_uni_gain.png) | ![Plot](resources/one_year_iml_with_poe_1.0E-4_gmpe_etas.png) |
+| **GMPE-ETAS (Uniform)** | ![Plot](resources/one_year_iml_with_poe_1.0E-4_gmpe_etas_uni_ti_gain.png) | ![Plot](resources/one_year_iml_with_poe_1.0E-4_gmpe_etas_uni_td_gain.png) | ![Plot](resources/one_year_iml_with_poe_1.0E-4_gmpe_etas_uni.png) | ![Plot](resources/one_year_iml_with_poe_1.0E-4_gmpe_etas_uni_diff.png) |
+| **GMPE-ETAS** | ![Plot](resources/one_year_iml_with_poe_1.0E-4_gmpe_etas_ti_gain.png) | ![Plot](resources/one_year_iml_with_poe_1.0E-4_gmpe_etas_td_gain.png) | ![Plot](resources/one_year_iml_with_poe_1.0E-4_gmpe_etas_uni_gain.png) | ![Plot](resources/one_year_iml_with_poe_1.0E-4_gmpe_etas.png) |
 
-##### One Year 5 Sa (g) with POE=0.001, CyberShake Maps
+##### One Year 3s Sa (g) with POE=0.001, CyberShake Maps
 *[(top)](#table-of-contents)*
 
 |  | CS-TI | CS-TD | CS-ETAS-Uniform | CS-ETAS |
 |-----|-----|-----|-----|-----|
 | **CS-TI** | ![Plot](resources/one_year_iml_with_poe_0.001_cs_ti.png) | ![Plot](resources/one_year_iml_with_poe_0.001_cs_td_ti_diff.png) | ![Plot](resources/one_year_iml_with_poe_0.001_cs_etas_uni_ti_diff.png) | ![Plot](resources/one_year_iml_with_poe_0.001_cs_etas_ti_diff.png) |
 | **CS-TD** | ![Plot](resources/one_year_iml_with_poe_0.001_cs_td_ti_gain.png) | ![Plot](resources/one_year_iml_with_poe_0.001_cs_td.png) | ![Plot](resources/one_year_iml_with_poe_0.001_cs_etas_uni_td_diff.png) | ![Plot](resources/one_year_iml_with_poe_0.001_cs_etas_td_diff.png) |
-| **CS-ETAS (Uniform)** | ![Plot](resources/one_year_iml_with_poe_0.001_cs_etas_uni_ti_gain.png) | ![Plot](resources/one_year_iml_with_poe_0.001_cs_etas_uni_td_tain.png) | ![Plot](resources/one_year_iml_with_poe_0.001_cs_etas_uni.png) | ![Plot](resources/one_year_iml_with_poe_0.001_cs_etas_uni_diff.png) |
-| **CS-ETAS** | ![Plot](resources/one_year_iml_with_poe_0.001_cs_etas_ti_gain.png) | ![Plot](resources/one_year_iml_with_poe_0.001_cs_etas_td_tain.png) | ![Plot](resources/one_year_iml_with_poe_0.001_cs_etas_uni_gain.png) | ![Plot](resources/one_year_iml_with_poe_0.001_cs_etas.png) |
+| **CS-ETAS (Uniform)** | ![Plot](resources/one_year_iml_with_poe_0.001_cs_etas_uni_ti_gain.png) | ![Plot](resources/one_year_iml_with_poe_0.001_cs_etas_uni_td_gain.png) | ![Plot](resources/one_year_iml_with_poe_0.001_cs_etas_uni.png) | ![Plot](resources/one_year_iml_with_poe_0.001_cs_etas_uni_diff.png) |
+| **CS-ETAS** | ![Plot](resources/one_year_iml_with_poe_0.001_cs_etas_ti_gain.png) | ![Plot](resources/one_year_iml_with_poe_0.001_cs_etas_td_gain.png) | ![Plot](resources/one_year_iml_with_poe_0.001_cs_etas_uni_gain.png) | ![Plot](resources/one_year_iml_with_poe_0.001_cs_etas.png) |
 
-##### One Year 5 Sa (g) with POE=0.001, GMPE Maps
+##### One Year 3s Sa (g) with POE=0.001, GMPE Maps
 *[(top)](#table-of-contents)*
 
 |  | GMPE-TI | GMPE-TD | GMPE-ETAS-Uniform | GMPE-ETAS |
 |-----|-----|-----|-----|-----|
 | **GMPE-TI** | ![Plot](resources/one_year_iml_with_poe_0.001_gmpe_ti.png) | ![Plot](resources/one_year_iml_with_poe_0.001_gmpe_td_ti_diff.png) | ![Plot](resources/one_year_iml_with_poe_0.001_gmpe_etas_uni_ti_diff.png) | ![Plot](resources/one_year_iml_with_poe_0.001_gmpe_etas_ti_diff.png) |
 | **GMPE-TD** | ![Plot](resources/one_year_iml_with_poe_0.001_gmpe_td_ti_gain.png) | ![Plot](resources/one_year_iml_with_poe_0.001_gmpe_td.png) | ![Plot](resources/one_year_iml_with_poe_0.001_gmpe_etas_uni_td_diff.png) | ![Plot](resources/one_year_iml_with_poe_0.001_gmpe_etas_td_diff.png) |
-| **GMPE-ETAS (Uniform)** | ![Plot](resources/one_year_iml_with_poe_0.001_gmpe_etas_uni_ti_gain.png) | ![Plot](resources/one_year_iml_with_poe_0.001_gmpe_etas_uni_td_tain.png) | ![Plot](resources/one_year_iml_with_poe_0.001_gmpe_etas_uni.png) | ![Plot](resources/one_year_iml_with_poe_0.001_gmpe_etas_uni_diff.png) |
-| **GMPE-ETAS** | ![Plot](resources/one_year_iml_with_poe_0.001_gmpe_etas_ti_gain.png) | ![Plot](resources/one_year_iml_with_poe_0.001_gmpe_etas_td_tain.png) | ![Plot](resources/one_year_iml_with_poe_0.001_gmpe_etas_uni_gain.png) | ![Plot](resources/one_year_iml_with_poe_0.001_gmpe_etas.png) |
+| **GMPE-ETAS (Uniform)** | ![Plot](resources/one_year_iml_with_poe_0.001_gmpe_etas_uni_ti_gain.png) | ![Plot](resources/one_year_iml_with_poe_0.001_gmpe_etas_uni_td_gain.png) | ![Plot](resources/one_year_iml_with_poe_0.001_gmpe_etas_uni.png) | ![Plot](resources/one_year_iml_with_poe_0.001_gmpe_etas_uni_diff.png) |
+| **GMPE-ETAS** | ![Plot](resources/one_year_iml_with_poe_0.001_gmpe_etas_ti_gain.png) | ![Plot](resources/one_year_iml_with_poe_0.001_gmpe_etas_td_gain.png) | ![Plot](resources/one_year_iml_with_poe_0.001_gmpe_etas_uni_gain.png) | ![Plot](resources/one_year_iml_with_poe_0.001_gmpe_etas.png) |
 
-##### One Year 5 Sa (g) with POE=0.01, CyberShake Maps
+##### One Year 3s Sa (g) with POE=0.01, CyberShake Maps
 *[(top)](#table-of-contents)*
 
 |  | CS-TI | CS-TD | CS-ETAS-Uniform | CS-ETAS |
 |-----|-----|-----|-----|-----|
 | **CS-TI** | ![Plot](resources/one_year_iml_with_poe_0.01_cs_ti.png) | ![Plot](resources/one_year_iml_with_poe_0.01_cs_td_ti_diff.png) | ![Plot](resources/one_year_iml_with_poe_0.01_cs_etas_uni_ti_diff.png) | ![Plot](resources/one_year_iml_with_poe_0.01_cs_etas_ti_diff.png) |
 | **CS-TD** | ![Plot](resources/one_year_iml_with_poe_0.01_cs_td_ti_gain.png) | ![Plot](resources/one_year_iml_with_poe_0.01_cs_td.png) | ![Plot](resources/one_year_iml_with_poe_0.01_cs_etas_uni_td_diff.png) | ![Plot](resources/one_year_iml_with_poe_0.01_cs_etas_td_diff.png) |
-| **CS-ETAS (Uniform)** | ![Plot](resources/one_year_iml_with_poe_0.01_cs_etas_uni_ti_gain.png) | ![Plot](resources/one_year_iml_with_poe_0.01_cs_etas_uni_td_tain.png) | ![Plot](resources/one_year_iml_with_poe_0.01_cs_etas_uni.png) | ![Plot](resources/one_year_iml_with_poe_0.01_cs_etas_uni_diff.png) |
-| **CS-ETAS** | ![Plot](resources/one_year_iml_with_poe_0.01_cs_etas_ti_gain.png) | ![Plot](resources/one_year_iml_with_poe_0.01_cs_etas_td_tain.png) | ![Plot](resources/one_year_iml_with_poe_0.01_cs_etas_uni_gain.png) | ![Plot](resources/one_year_iml_with_poe_0.01_cs_etas.png) |
+| **CS-ETAS (Uniform)** | ![Plot](resources/one_year_iml_with_poe_0.01_cs_etas_uni_ti_gain.png) | ![Plot](resources/one_year_iml_with_poe_0.01_cs_etas_uni_td_gain.png) | ![Plot](resources/one_year_iml_with_poe_0.01_cs_etas_uni.png) | ![Plot](resources/one_year_iml_with_poe_0.01_cs_etas_uni_diff.png) |
+| **CS-ETAS** | ![Plot](resources/one_year_iml_with_poe_0.01_cs_etas_ti_gain.png) | ![Plot](resources/one_year_iml_with_poe_0.01_cs_etas_td_gain.png) | ![Plot](resources/one_year_iml_with_poe_0.01_cs_etas_uni_gain.png) | ![Plot](resources/one_year_iml_with_poe_0.01_cs_etas.png) |
 
-##### One Year 5 Sa (g) with POE=0.01, GMPE Maps
+##### One Year 3s Sa (g) with POE=0.01, GMPE Maps
 *[(top)](#table-of-contents)*
 
 |  | GMPE-TI | GMPE-TD | GMPE-ETAS-Uniform | GMPE-ETAS |
 |-----|-----|-----|-----|-----|
 | **GMPE-TI** | ![Plot](resources/one_year_iml_with_poe_0.01_gmpe_ti.png) | ![Plot](resources/one_year_iml_with_poe_0.01_gmpe_td_ti_diff.png) | ![Plot](resources/one_year_iml_with_poe_0.01_gmpe_etas_uni_ti_diff.png) | ![Plot](resources/one_year_iml_with_poe_0.01_gmpe_etas_ti_diff.png) |
 | **GMPE-TD** | ![Plot](resources/one_year_iml_with_poe_0.01_gmpe_td_ti_gain.png) | ![Plot](resources/one_year_iml_with_poe_0.01_gmpe_td.png) | ![Plot](resources/one_year_iml_with_poe_0.01_gmpe_etas_uni_td_diff.png) | ![Plot](resources/one_year_iml_with_poe_0.01_gmpe_etas_td_diff.png) |
-| **GMPE-ETAS (Uniform)** | ![Plot](resources/one_year_iml_with_poe_0.01_gmpe_etas_uni_ti_gain.png) | ![Plot](resources/one_year_iml_with_poe_0.01_gmpe_etas_uni_td_tain.png) | ![Plot](resources/one_year_iml_with_poe_0.01_gmpe_etas_uni.png) | ![Plot](resources/one_year_iml_with_poe_0.01_gmpe_etas_uni_diff.png) |
-| **GMPE-ETAS** | ![Plot](resources/one_year_iml_with_poe_0.01_gmpe_etas_ti_gain.png) | ![Plot](resources/one_year_iml_with_poe_0.01_gmpe_etas_td_tain.png) | ![Plot](resources/one_year_iml_with_poe_0.01_gmpe_etas_uni_gain.png) | ![Plot](resources/one_year_iml_with_poe_0.01_gmpe_etas.png) |
+| **GMPE-ETAS (Uniform)** | ![Plot](resources/one_year_iml_with_poe_0.01_gmpe_etas_uni_ti_gain.png) | ![Plot](resources/one_year_iml_with_poe_0.01_gmpe_etas_uni_td_gain.png) | ![Plot](resources/one_year_iml_with_poe_0.01_gmpe_etas_uni.png) | ![Plot](resources/one_year_iml_with_poe_0.01_gmpe_etas_uni_diff.png) |
+| **GMPE-ETAS** | ![Plot](resources/one_year_iml_with_poe_0.01_gmpe_etas_ti_gain.png) | ![Plot](resources/one_year_iml_with_poe_0.01_gmpe_etas_td_gain.png) | ![Plot](resources/one_year_iml_with_poe_0.01_gmpe_etas_uni_gain.png) | ![Plot](resources/one_year_iml_with_poe_0.01_gmpe_etas.png) |
 
-##### One Year 5 Sa (g) with POE=0.1, CyberShake Maps
+##### One Year 3s Sa (g) with POE=0.1, CyberShake Maps
 *[(top)](#table-of-contents)*
 
 |  | CS-TI | CS-TD | CS-ETAS-Uniform | CS-ETAS |
 |-----|-----|-----|-----|-----|
 | **CS-TI** | ![Plot](resources/one_year_iml_with_poe_0.1_cs_ti.png) | ![Plot](resources/one_year_iml_with_poe_0.1_cs_td_ti_diff.png) | ![Plot](resources/one_year_iml_with_poe_0.1_cs_etas_uni_ti_diff.png) | ![Plot](resources/one_year_iml_with_poe_0.1_cs_etas_ti_diff.png) |
 | **CS-TD** | ![Plot](resources/one_year_iml_with_poe_0.1_cs_td_ti_gain.png) | ![Plot](resources/one_year_iml_with_poe_0.1_cs_td.png) | ![Plot](resources/one_year_iml_with_poe_0.1_cs_etas_uni_td_diff.png) | ![Plot](resources/one_year_iml_with_poe_0.1_cs_etas_td_diff.png) |
-| **CS-ETAS (Uniform)** | ![Plot](resources/one_year_iml_with_poe_0.1_cs_etas_uni_ti_gain.png) | ![Plot](resources/one_year_iml_with_poe_0.1_cs_etas_uni_td_tain.png) | ![Plot](resources/one_year_iml_with_poe_0.1_cs_etas_uni.png) | ![Plot](resources/one_year_iml_with_poe_0.1_cs_etas_uni_diff.png) |
-| **CS-ETAS** | ![Plot](resources/one_year_iml_with_poe_0.1_cs_etas_ti_gain.png) | ![Plot](resources/one_year_iml_with_poe_0.1_cs_etas_td_tain.png) | ![Plot](resources/one_year_iml_with_poe_0.1_cs_etas_uni_gain.png) | ![Plot](resources/one_year_iml_with_poe_0.1_cs_etas.png) |
+| **CS-ETAS (Uniform)** | ![Plot](resources/one_year_iml_with_poe_0.1_cs_etas_uni_ti_gain.png) | ![Plot](resources/one_year_iml_with_poe_0.1_cs_etas_uni_td_gain.png) | ![Plot](resources/one_year_iml_with_poe_0.1_cs_etas_uni.png) | ![Plot](resources/one_year_iml_with_poe_0.1_cs_etas_uni_diff.png) |
+| **CS-ETAS** | ![Plot](resources/one_year_iml_with_poe_0.1_cs_etas_ti_gain.png) | ![Plot](resources/one_year_iml_with_poe_0.1_cs_etas_td_gain.png) | ![Plot](resources/one_year_iml_with_poe_0.1_cs_etas_uni_gain.png) | ![Plot](resources/one_year_iml_with_poe_0.1_cs_etas.png) |
 
-##### One Year 5 Sa (g) with POE=0.1, GMPE Maps
+##### One Year 3s Sa (g) with POE=0.1, GMPE Maps
 *[(top)](#table-of-contents)*
 
 |  | GMPE-TI | GMPE-TD | GMPE-ETAS-Uniform | GMPE-ETAS |
 |-----|-----|-----|-----|-----|
 | **GMPE-TI** | ![Plot](resources/one_year_iml_with_poe_0.1_gmpe_ti.png) | ![Plot](resources/one_year_iml_with_poe_0.1_gmpe_td_ti_diff.png) | ![Plot](resources/one_year_iml_with_poe_0.1_gmpe_etas_uni_ti_diff.png) | ![Plot](resources/one_year_iml_with_poe_0.1_gmpe_etas_ti_diff.png) |
 | **GMPE-TD** | ![Plot](resources/one_year_iml_with_poe_0.1_gmpe_td_ti_gain.png) | ![Plot](resources/one_year_iml_with_poe_0.1_gmpe_td.png) | ![Plot](resources/one_year_iml_with_poe_0.1_gmpe_etas_uni_td_diff.png) | ![Plot](resources/one_year_iml_with_poe_0.1_gmpe_etas_td_diff.png) |
-| **GMPE-ETAS (Uniform)** | ![Plot](resources/one_year_iml_with_poe_0.1_gmpe_etas_uni_ti_gain.png) | ![Plot](resources/one_year_iml_with_poe_0.1_gmpe_etas_uni_td_tain.png) | ![Plot](resources/one_year_iml_with_poe_0.1_gmpe_etas_uni.png) | ![Plot](resources/one_year_iml_with_poe_0.1_gmpe_etas_uni_diff.png) |
-| **GMPE-ETAS** | ![Plot](resources/one_year_iml_with_poe_0.1_gmpe_etas_ti_gain.png) | ![Plot](resources/one_year_iml_with_poe_0.1_gmpe_etas_td_tain.png) | ![Plot](resources/one_year_iml_with_poe_0.1_gmpe_etas_uni_gain.png) | ![Plot](resources/one_year_iml_with_poe_0.1_gmpe_etas.png) |
+| **GMPE-ETAS (Uniform)** | ![Plot](resources/one_year_iml_with_poe_0.1_gmpe_etas_uni_ti_gain.png) | ![Plot](resources/one_year_iml_with_poe_0.1_gmpe_etas_uni_td_gain.png) | ![Plot](resources/one_year_iml_with_poe_0.1_gmpe_etas_uni.png) | ![Plot](resources/one_year_iml_with_poe_0.1_gmpe_etas_uni_diff.png) |
+| **GMPE-ETAS** | ![Plot](resources/one_year_iml_with_poe_0.1_gmpe_etas_ti_gain.png) | ![Plot](resources/one_year_iml_with_poe_0.1_gmpe_etas_td_gain.png) | ![Plot](resources/one_year_iml_with_poe_0.1_gmpe_etas_uni_gain.png) | ![Plot](resources/one_year_iml_with_poe_0.1_gmpe_etas.png) |
 
-##### One Year POE 0.01 (g) 5 SA, CyberShake Maps
+##### One Year POE 0.01 (g) 3s SA, CyberShake Maps
 *[(top)](#table-of-contents)*
 
 |  | CS-TI | CS-TD | CS-ETAS-Uniform | CS-ETAS |
 |-----|-----|-----|-----|-----|
 | **CS-TI** | ![Plot](resources/one_year_poe_0.01g_cs_ti.png) | ![Plot](resources/one_year_poe_0.01g_cs_td_ti_diff.png) | ![Plot](resources/one_year_poe_0.01g_cs_etas_uni_ti_diff.png) | ![Plot](resources/one_year_poe_0.01g_cs_etas_ti_diff.png) |
 | **CS-TD** | ![Plot](resources/one_year_poe_0.01g_cs_td_ti_gain.png) | ![Plot](resources/one_year_poe_0.01g_cs_td.png) | ![Plot](resources/one_year_poe_0.01g_cs_etas_uni_td_diff.png) | ![Plot](resources/one_year_poe_0.01g_cs_etas_td_diff.png) |
-| **CS-ETAS (Uniform)** | ![Plot](resources/one_year_poe_0.01g_cs_etas_uni_ti_gain.png) | ![Plot](resources/one_year_poe_0.01g_cs_etas_uni_td_tain.png) | ![Plot](resources/one_year_poe_0.01g_cs_etas_uni.png) | ![Plot](resources/one_year_poe_0.01g_cs_etas_uni_diff.png) |
-| **CS-ETAS** | ![Plot](resources/one_year_poe_0.01g_cs_etas_ti_gain.png) | ![Plot](resources/one_year_poe_0.01g_cs_etas_td_tain.png) | ![Plot](resources/one_year_poe_0.01g_cs_etas_uni_gain.png) | ![Plot](resources/one_year_poe_0.01g_cs_etas.png) |
+| **CS-ETAS (Uniform)** | ![Plot](resources/one_year_poe_0.01g_cs_etas_uni_ti_gain.png) | ![Plot](resources/one_year_poe_0.01g_cs_etas_uni_td_gain.png) | ![Plot](resources/one_year_poe_0.01g_cs_etas_uni.png) | ![Plot](resources/one_year_poe_0.01g_cs_etas_uni_diff.png) |
+| **CS-ETAS** | ![Plot](resources/one_year_poe_0.01g_cs_etas_ti_gain.png) | ![Plot](resources/one_year_poe_0.01g_cs_etas_td_gain.png) | ![Plot](resources/one_year_poe_0.01g_cs_etas_uni_gain.png) | ![Plot](resources/one_year_poe_0.01g_cs_etas.png) |
 
-##### One Year POE 0.01 (g) 5 SA, GMPE Maps
+##### One Year POE 0.01 (g) 3s SA, GMPE Maps
 *[(top)](#table-of-contents)*
 
 |  | GMPE-TI | GMPE-TD | GMPE-ETAS-Uniform | GMPE-ETAS |
 |-----|-----|-----|-----|-----|
 | **GMPE-TI** | ![Plot](resources/one_year_poe_0.01g_gmpe_ti.png) | ![Plot](resources/one_year_poe_0.01g_gmpe_td_ti_diff.png) | ![Plot](resources/one_year_poe_0.01g_gmpe_etas_uni_ti_diff.png) | ![Plot](resources/one_year_poe_0.01g_gmpe_etas_ti_diff.png) |
 | **GMPE-TD** | ![Plot](resources/one_year_poe_0.01g_gmpe_td_ti_gain.png) | ![Plot](resources/one_year_poe_0.01g_gmpe_td.png) | ![Plot](resources/one_year_poe_0.01g_gmpe_etas_uni_td_diff.png) | ![Plot](resources/one_year_poe_0.01g_gmpe_etas_td_diff.png) |
-| **GMPE-ETAS (Uniform)** | ![Plot](resources/one_year_poe_0.01g_gmpe_etas_uni_ti_gain.png) | ![Plot](resources/one_year_poe_0.01g_gmpe_etas_uni_td_tain.png) | ![Plot](resources/one_year_poe_0.01g_gmpe_etas_uni.png) | ![Plot](resources/one_year_poe_0.01g_gmpe_etas_uni_diff.png) |
-| **GMPE-ETAS** | ![Plot](resources/one_year_poe_0.01g_gmpe_etas_ti_gain.png) | ![Plot](resources/one_year_poe_0.01g_gmpe_etas_td_tain.png) | ![Plot](resources/one_year_poe_0.01g_gmpe_etas_uni_gain.png) | ![Plot](resources/one_year_poe_0.01g_gmpe_etas.png) |
+| **GMPE-ETAS (Uniform)** | ![Plot](resources/one_year_poe_0.01g_gmpe_etas_uni_ti_gain.png) | ![Plot](resources/one_year_poe_0.01g_gmpe_etas_uni_td_gain.png) | ![Plot](resources/one_year_poe_0.01g_gmpe_etas_uni.png) | ![Plot](resources/one_year_poe_0.01g_gmpe_etas_uni_diff.png) |
+| **GMPE-ETAS** | ![Plot](resources/one_year_poe_0.01g_gmpe_etas_ti_gain.png) | ![Plot](resources/one_year_poe_0.01g_gmpe_etas_td_gain.png) | ![Plot](resources/one_year_poe_0.01g_gmpe_etas_uni_gain.png) | ![Plot](resources/one_year_poe_0.01g_gmpe_etas.png) |
 
-##### One Year POE 0.1 (g) 5 SA, CyberShake Maps
+##### One Year POE 0.1 (g) 3s SA, CyberShake Maps
 *[(top)](#table-of-contents)*
 
 |  | CS-TI | CS-TD | CS-ETAS-Uniform | CS-ETAS |
 |-----|-----|-----|-----|-----|
 | **CS-TI** | ![Plot](resources/one_year_poe_0.1g_cs_ti.png) | ![Plot](resources/one_year_poe_0.1g_cs_td_ti_diff.png) | ![Plot](resources/one_year_poe_0.1g_cs_etas_uni_ti_diff.png) | ![Plot](resources/one_year_poe_0.1g_cs_etas_ti_diff.png) |
 | **CS-TD** | ![Plot](resources/one_year_poe_0.1g_cs_td_ti_gain.png) | ![Plot](resources/one_year_poe_0.1g_cs_td.png) | ![Plot](resources/one_year_poe_0.1g_cs_etas_uni_td_diff.png) | ![Plot](resources/one_year_poe_0.1g_cs_etas_td_diff.png) |
-| **CS-ETAS (Uniform)** | ![Plot](resources/one_year_poe_0.1g_cs_etas_uni_ti_gain.png) | ![Plot](resources/one_year_poe_0.1g_cs_etas_uni_td_tain.png) | ![Plot](resources/one_year_poe_0.1g_cs_etas_uni.png) | ![Plot](resources/one_year_poe_0.1g_cs_etas_uni_diff.png) |
-| **CS-ETAS** | ![Plot](resources/one_year_poe_0.1g_cs_etas_ti_gain.png) | ![Plot](resources/one_year_poe_0.1g_cs_etas_td_tain.png) | ![Plot](resources/one_year_poe_0.1g_cs_etas_uni_gain.png) | ![Plot](resources/one_year_poe_0.1g_cs_etas.png) |
+| **CS-ETAS (Uniform)** | ![Plot](resources/one_year_poe_0.1g_cs_etas_uni_ti_gain.png) | ![Plot](resources/one_year_poe_0.1g_cs_etas_uni_td_gain.png) | ![Plot](resources/one_year_poe_0.1g_cs_etas_uni.png) | ![Plot](resources/one_year_poe_0.1g_cs_etas_uni_diff.png) |
+| **CS-ETAS** | ![Plot](resources/one_year_poe_0.1g_cs_etas_ti_gain.png) | ![Plot](resources/one_year_poe_0.1g_cs_etas_td_gain.png) | ![Plot](resources/one_year_poe_0.1g_cs_etas_uni_gain.png) | ![Plot](resources/one_year_poe_0.1g_cs_etas.png) |
 
-##### One Year POE 0.1 (g) 5 SA, GMPE Maps
+##### One Year POE 0.1 (g) 3s SA, GMPE Maps
 *[(top)](#table-of-contents)*
 
 |  | GMPE-TI | GMPE-TD | GMPE-ETAS-Uniform | GMPE-ETAS |
 |-----|-----|-----|-----|-----|
 | **GMPE-TI** | ![Plot](resources/one_year_poe_0.1g_gmpe_ti.png) | ![Plot](resources/one_year_poe_0.1g_gmpe_td_ti_diff.png) | ![Plot](resources/one_year_poe_0.1g_gmpe_etas_uni_ti_diff.png) | ![Plot](resources/one_year_poe_0.1g_gmpe_etas_ti_diff.png) |
 | **GMPE-TD** | ![Plot](resources/one_year_poe_0.1g_gmpe_td_ti_gain.png) | ![Plot](resources/one_year_poe_0.1g_gmpe_td.png) | ![Plot](resources/one_year_poe_0.1g_gmpe_etas_uni_td_diff.png) | ![Plot](resources/one_year_poe_0.1g_gmpe_etas_td_diff.png) |
-| **GMPE-ETAS (Uniform)** | ![Plot](resources/one_year_poe_0.1g_gmpe_etas_uni_ti_gain.png) | ![Plot](resources/one_year_poe_0.1g_gmpe_etas_uni_td_tain.png) | ![Plot](resources/one_year_poe_0.1g_gmpe_etas_uni.png) | ![Plot](resources/one_year_poe_0.1g_gmpe_etas_uni_diff.png) |
-| **GMPE-ETAS** | ![Plot](resources/one_year_poe_0.1g_gmpe_etas_ti_gain.png) | ![Plot](resources/one_year_poe_0.1g_gmpe_etas_td_tain.png) | ![Plot](resources/one_year_poe_0.1g_gmpe_etas_uni_gain.png) | ![Plot](resources/one_year_poe_0.1g_gmpe_etas.png) |
+| **GMPE-ETAS (Uniform)** | ![Plot](resources/one_year_poe_0.1g_gmpe_etas_uni_ti_gain.png) | ![Plot](resources/one_year_poe_0.1g_gmpe_etas_uni_td_gain.png) | ![Plot](resources/one_year_poe_0.1g_gmpe_etas_uni.png) | ![Plot](resources/one_year_poe_0.1g_gmpe_etas_uni_diff.png) |
+| **GMPE-ETAS** | ![Plot](resources/one_year_poe_0.1g_gmpe_etas_ti_gain.png) | ![Plot](resources/one_year_poe_0.1g_gmpe_etas_td_gain.png) | ![Plot](resources/one_year_poe_0.1g_gmpe_etas_uni_gain.png) | ![Plot](resources/one_year_poe_0.1g_gmpe_etas.png) |
 
-##### One Year POE 0.2 (g) 5 SA, CyberShake Maps
+##### One Year POE 0.2 (g) 3s SA, CyberShake Maps
 *[(top)](#table-of-contents)*
 
 |  | CS-TI | CS-TD | CS-ETAS-Uniform | CS-ETAS |
 |-----|-----|-----|-----|-----|
 | **CS-TI** | ![Plot](resources/one_year_poe_0.2g_cs_ti.png) | ![Plot](resources/one_year_poe_0.2g_cs_td_ti_diff.png) | ![Plot](resources/one_year_poe_0.2g_cs_etas_uni_ti_diff.png) | ![Plot](resources/one_year_poe_0.2g_cs_etas_ti_diff.png) |
 | **CS-TD** | ![Plot](resources/one_year_poe_0.2g_cs_td_ti_gain.png) | ![Plot](resources/one_year_poe_0.2g_cs_td.png) | ![Plot](resources/one_year_poe_0.2g_cs_etas_uni_td_diff.png) | ![Plot](resources/one_year_poe_0.2g_cs_etas_td_diff.png) |
-| **CS-ETAS (Uniform)** | ![Plot](resources/one_year_poe_0.2g_cs_etas_uni_ti_gain.png) | ![Plot](resources/one_year_poe_0.2g_cs_etas_uni_td_tain.png) | ![Plot](resources/one_year_poe_0.2g_cs_etas_uni.png) | ![Plot](resources/one_year_poe_0.2g_cs_etas_uni_diff.png) |
-| **CS-ETAS** | ![Plot](resources/one_year_poe_0.2g_cs_etas_ti_gain.png) | ![Plot](resources/one_year_poe_0.2g_cs_etas_td_tain.png) | ![Plot](resources/one_year_poe_0.2g_cs_etas_uni_gain.png) | ![Plot](resources/one_year_poe_0.2g_cs_etas.png) |
+| **CS-ETAS (Uniform)** | ![Plot](resources/one_year_poe_0.2g_cs_etas_uni_ti_gain.png) | ![Plot](resources/one_year_poe_0.2g_cs_etas_uni_td_gain.png) | ![Plot](resources/one_year_poe_0.2g_cs_etas_uni.png) | ![Plot](resources/one_year_poe_0.2g_cs_etas_uni_diff.png) |
+| **CS-ETAS** | ![Plot](resources/one_year_poe_0.2g_cs_etas_ti_gain.png) | ![Plot](resources/one_year_poe_0.2g_cs_etas_td_gain.png) | ![Plot](resources/one_year_poe_0.2g_cs_etas_uni_gain.png) | ![Plot](resources/one_year_poe_0.2g_cs_etas.png) |
 
-##### One Year POE 0.2 (g) 5 SA, GMPE Maps
+##### One Year POE 0.2 (g) 3s SA, GMPE Maps
 *[(top)](#table-of-contents)*
 
 |  | GMPE-TI | GMPE-TD | GMPE-ETAS-Uniform | GMPE-ETAS |
 |-----|-----|-----|-----|-----|
 | **GMPE-TI** | ![Plot](resources/one_year_poe_0.2g_gmpe_ti.png) | ![Plot](resources/one_year_poe_0.2g_gmpe_td_ti_diff.png) | ![Plot](resources/one_year_poe_0.2g_gmpe_etas_uni_ti_diff.png) | ![Plot](resources/one_year_poe_0.2g_gmpe_etas_ti_diff.png) |
 | **GMPE-TD** | ![Plot](resources/one_year_poe_0.2g_gmpe_td_ti_gain.png) | ![Plot](resources/one_year_poe_0.2g_gmpe_td.png) | ![Plot](resources/one_year_poe_0.2g_gmpe_etas_uni_td_diff.png) | ![Plot](resources/one_year_poe_0.2g_gmpe_etas_td_diff.png) |
-| **GMPE-ETAS (Uniform)** | ![Plot](resources/one_year_poe_0.2g_gmpe_etas_uni_ti_gain.png) | ![Plot](resources/one_year_poe_0.2g_gmpe_etas_uni_td_tain.png) | ![Plot](resources/one_year_poe_0.2g_gmpe_etas_uni.png) | ![Plot](resources/one_year_poe_0.2g_gmpe_etas_uni_diff.png) |
-| **GMPE-ETAS** | ![Plot](resources/one_year_poe_0.2g_gmpe_etas_ti_gain.png) | ![Plot](resources/one_year_poe_0.2g_gmpe_etas_td_tain.png) | ![Plot](resources/one_year_poe_0.2g_gmpe_etas_uni_gain.png) | ![Plot](resources/one_year_poe_0.2g_gmpe_etas.png) |
+| **GMPE-ETAS (Uniform)** | ![Plot](resources/one_year_poe_0.2g_gmpe_etas_uni_ti_gain.png) | ![Plot](resources/one_year_poe_0.2g_gmpe_etas_uni_td_gain.png) | ![Plot](resources/one_year_poe_0.2g_gmpe_etas_uni.png) | ![Plot](resources/one_year_poe_0.2g_gmpe_etas_uni_diff.png) |
+| **GMPE-ETAS** | ![Plot](resources/one_year_poe_0.2g_gmpe_etas_ti_gain.png) | ![Plot](resources/one_year_poe_0.2g_gmpe_etas_td_gain.png) | ![Plot](resources/one_year_poe_0.2g_gmpe_etas_uni_gain.png) | ![Plot](resources/one_year_poe_0.2g_gmpe_etas.png) |
 
-#### 10 One Year Hazard Maps
+#### 5s One Year Hazard Maps
 *[(top)](#table-of-contents)*
 
-##### One Year 10 Sa (g) with POE=1.0E-4, CyberShake Maps
+##### One Year 5s Sa (g) with POE=1.0E-4, CyberShake Maps
 *[(top)](#table-of-contents)*
 
 |  | CS-TI | CS-TD | CS-ETAS-Uniform | CS-ETAS |
 |-----|-----|-----|-----|-----|
 | **CS-TI** | ![Plot](resources/one_year_iml_with_poe_1.0E-4_cs_ti.png) | ![Plot](resources/one_year_iml_with_poe_1.0E-4_cs_td_ti_diff.png) | ![Plot](resources/one_year_iml_with_poe_1.0E-4_cs_etas_uni_ti_diff.png) | ![Plot](resources/one_year_iml_with_poe_1.0E-4_cs_etas_ti_diff.png) |
 | **CS-TD** | ![Plot](resources/one_year_iml_with_poe_1.0E-4_cs_td_ti_gain.png) | ![Plot](resources/one_year_iml_with_poe_1.0E-4_cs_td.png) | ![Plot](resources/one_year_iml_with_poe_1.0E-4_cs_etas_uni_td_diff.png) | ![Plot](resources/one_year_iml_with_poe_1.0E-4_cs_etas_td_diff.png) |
-| **CS-ETAS (Uniform)** | ![Plot](resources/one_year_iml_with_poe_1.0E-4_cs_etas_uni_ti_gain.png) | ![Plot](resources/one_year_iml_with_poe_1.0E-4_cs_etas_uni_td_tain.png) | ![Plot](resources/one_year_iml_with_poe_1.0E-4_cs_etas_uni.png) | ![Plot](resources/one_year_iml_with_poe_1.0E-4_cs_etas_uni_diff.png) |
-| **CS-ETAS** | ![Plot](resources/one_year_iml_with_poe_1.0E-4_cs_etas_ti_gain.png) | ![Plot](resources/one_year_iml_with_poe_1.0E-4_cs_etas_td_tain.png) | ![Plot](resources/one_year_iml_with_poe_1.0E-4_cs_etas_uni_gain.png) | ![Plot](resources/one_year_iml_with_poe_1.0E-4_cs_etas.png) |
+| **CS-ETAS (Uniform)** | ![Plot](resources/one_year_iml_with_poe_1.0E-4_cs_etas_uni_ti_gain.png) | ![Plot](resources/one_year_iml_with_poe_1.0E-4_cs_etas_uni_td_gain.png) | ![Plot](resources/one_year_iml_with_poe_1.0E-4_cs_etas_uni.png) | ![Plot](resources/one_year_iml_with_poe_1.0E-4_cs_etas_uni_diff.png) |
+| **CS-ETAS** | ![Plot](resources/one_year_iml_with_poe_1.0E-4_cs_etas_ti_gain.png) | ![Plot](resources/one_year_iml_with_poe_1.0E-4_cs_etas_td_gain.png) | ![Plot](resources/one_year_iml_with_poe_1.0E-4_cs_etas_uni_gain.png) | ![Plot](resources/one_year_iml_with_poe_1.0E-4_cs_etas.png) |
 
-##### One Year 10 Sa (g) with POE=1.0E-4, GMPE Maps
+##### One Year 5s Sa (g) with POE=1.0E-4, GMPE Maps
 *[(top)](#table-of-contents)*
 
 |  | GMPE-TI | GMPE-TD | GMPE-ETAS-Uniform | GMPE-ETAS |
 |-----|-----|-----|-----|-----|
 | **GMPE-TI** | ![Plot](resources/one_year_iml_with_poe_1.0E-4_gmpe_ti.png) | ![Plot](resources/one_year_iml_with_poe_1.0E-4_gmpe_td_ti_diff.png) | ![Plot](resources/one_year_iml_with_poe_1.0E-4_gmpe_etas_uni_ti_diff.png) | ![Plot](resources/one_year_iml_with_poe_1.0E-4_gmpe_etas_ti_diff.png) |
 | **GMPE-TD** | ![Plot](resources/one_year_iml_with_poe_1.0E-4_gmpe_td_ti_gain.png) | ![Plot](resources/one_year_iml_with_poe_1.0E-4_gmpe_td.png) | ![Plot](resources/one_year_iml_with_poe_1.0E-4_gmpe_etas_uni_td_diff.png) | ![Plot](resources/one_year_iml_with_poe_1.0E-4_gmpe_etas_td_diff.png) |
-| **GMPE-ETAS (Uniform)** | ![Plot](resources/one_year_iml_with_poe_1.0E-4_gmpe_etas_uni_ti_gain.png) | ![Plot](resources/one_year_iml_with_poe_1.0E-4_gmpe_etas_uni_td_tain.png) | ![Plot](resources/one_year_iml_with_poe_1.0E-4_gmpe_etas_uni.png) | ![Plot](resources/one_year_iml_with_poe_1.0E-4_gmpe_etas_uni_diff.png) |
-| **GMPE-ETAS** | ![Plot](resources/one_year_iml_with_poe_1.0E-4_gmpe_etas_ti_gain.png) | ![Plot](resources/one_year_iml_with_poe_1.0E-4_gmpe_etas_td_tain.png) | ![Plot](resources/one_year_iml_with_poe_1.0E-4_gmpe_etas_uni_gain.png) | ![Plot](resources/one_year_iml_with_poe_1.0E-4_gmpe_etas.png) |
+| **GMPE-ETAS (Uniform)** | ![Plot](resources/one_year_iml_with_poe_1.0E-4_gmpe_etas_uni_ti_gain.png) | ![Plot](resources/one_year_iml_with_poe_1.0E-4_gmpe_etas_uni_td_gain.png) | ![Plot](resources/one_year_iml_with_poe_1.0E-4_gmpe_etas_uni.png) | ![Plot](resources/one_year_iml_with_poe_1.0E-4_gmpe_etas_uni_diff.png) |
+| **GMPE-ETAS** | ![Plot](resources/one_year_iml_with_poe_1.0E-4_gmpe_etas_ti_gain.png) | ![Plot](resources/one_year_iml_with_poe_1.0E-4_gmpe_etas_td_gain.png) | ![Plot](resources/one_year_iml_with_poe_1.0E-4_gmpe_etas_uni_gain.png) | ![Plot](resources/one_year_iml_with_poe_1.0E-4_gmpe_etas.png) |
 
-##### One Year 10 Sa (g) with POE=0.001, CyberShake Maps
+##### One Year 5s Sa (g) with POE=0.001, CyberShake Maps
 *[(top)](#table-of-contents)*
 
 |  | CS-TI | CS-TD | CS-ETAS-Uniform | CS-ETAS |
 |-----|-----|-----|-----|-----|
 | **CS-TI** | ![Plot](resources/one_year_iml_with_poe_0.001_cs_ti.png) | ![Plot](resources/one_year_iml_with_poe_0.001_cs_td_ti_diff.png) | ![Plot](resources/one_year_iml_with_poe_0.001_cs_etas_uni_ti_diff.png) | ![Plot](resources/one_year_iml_with_poe_0.001_cs_etas_ti_diff.png) |
 | **CS-TD** | ![Plot](resources/one_year_iml_with_poe_0.001_cs_td_ti_gain.png) | ![Plot](resources/one_year_iml_with_poe_0.001_cs_td.png) | ![Plot](resources/one_year_iml_with_poe_0.001_cs_etas_uni_td_diff.png) | ![Plot](resources/one_year_iml_with_poe_0.001_cs_etas_td_diff.png) |
-| **CS-ETAS (Uniform)** | ![Plot](resources/one_year_iml_with_poe_0.001_cs_etas_uni_ti_gain.png) | ![Plot](resources/one_year_iml_with_poe_0.001_cs_etas_uni_td_tain.png) | ![Plot](resources/one_year_iml_with_poe_0.001_cs_etas_uni.png) | ![Plot](resources/one_year_iml_with_poe_0.001_cs_etas_uni_diff.png) |
-| **CS-ETAS** | ![Plot](resources/one_year_iml_with_poe_0.001_cs_etas_ti_gain.png) | ![Plot](resources/one_year_iml_with_poe_0.001_cs_etas_td_tain.png) | ![Plot](resources/one_year_iml_with_poe_0.001_cs_etas_uni_gain.png) | ![Plot](resources/one_year_iml_with_poe_0.001_cs_etas.png) |
+| **CS-ETAS (Uniform)** | ![Plot](resources/one_year_iml_with_poe_0.001_cs_etas_uni_ti_gain.png) | ![Plot](resources/one_year_iml_with_poe_0.001_cs_etas_uni_td_gain.png) | ![Plot](resources/one_year_iml_with_poe_0.001_cs_etas_uni.png) | ![Plot](resources/one_year_iml_with_poe_0.001_cs_etas_uni_diff.png) |
+| **CS-ETAS** | ![Plot](resources/one_year_iml_with_poe_0.001_cs_etas_ti_gain.png) | ![Plot](resources/one_year_iml_with_poe_0.001_cs_etas_td_gain.png) | ![Plot](resources/one_year_iml_with_poe_0.001_cs_etas_uni_gain.png) | ![Plot](resources/one_year_iml_with_poe_0.001_cs_etas.png) |
 
-##### One Year 10 Sa (g) with POE=0.001, GMPE Maps
+##### One Year 5s Sa (g) with POE=0.001, GMPE Maps
 *[(top)](#table-of-contents)*
 
 |  | GMPE-TI | GMPE-TD | GMPE-ETAS-Uniform | GMPE-ETAS |
 |-----|-----|-----|-----|-----|
 | **GMPE-TI** | ![Plot](resources/one_year_iml_with_poe_0.001_gmpe_ti.png) | ![Plot](resources/one_year_iml_with_poe_0.001_gmpe_td_ti_diff.png) | ![Plot](resources/one_year_iml_with_poe_0.001_gmpe_etas_uni_ti_diff.png) | ![Plot](resources/one_year_iml_with_poe_0.001_gmpe_etas_ti_diff.png) |
 | **GMPE-TD** | ![Plot](resources/one_year_iml_with_poe_0.001_gmpe_td_ti_gain.png) | ![Plot](resources/one_year_iml_with_poe_0.001_gmpe_td.png) | ![Plot](resources/one_year_iml_with_poe_0.001_gmpe_etas_uni_td_diff.png) | ![Plot](resources/one_year_iml_with_poe_0.001_gmpe_etas_td_diff.png) |
-| **GMPE-ETAS (Uniform)** | ![Plot](resources/one_year_iml_with_poe_0.001_gmpe_etas_uni_ti_gain.png) | ![Plot](resources/one_year_iml_with_poe_0.001_gmpe_etas_uni_td_tain.png) | ![Plot](resources/one_year_iml_with_poe_0.001_gmpe_etas_uni.png) | ![Plot](resources/one_year_iml_with_poe_0.001_gmpe_etas_uni_diff.png) |
-| **GMPE-ETAS** | ![Plot](resources/one_year_iml_with_poe_0.001_gmpe_etas_ti_gain.png) | ![Plot](resources/one_year_iml_with_poe_0.001_gmpe_etas_td_tain.png) | ![Plot](resources/one_year_iml_with_poe_0.001_gmpe_etas_uni_gain.png) | ![Plot](resources/one_year_iml_with_poe_0.001_gmpe_etas.png) |
+| **GMPE-ETAS (Uniform)** | ![Plot](resources/one_year_iml_with_poe_0.001_gmpe_etas_uni_ti_gain.png) | ![Plot](resources/one_year_iml_with_poe_0.001_gmpe_etas_uni_td_gain.png) | ![Plot](resources/one_year_iml_with_poe_0.001_gmpe_etas_uni.png) | ![Plot](resources/one_year_iml_with_poe_0.001_gmpe_etas_uni_diff.png) |
+| **GMPE-ETAS** | ![Plot](resources/one_year_iml_with_poe_0.001_gmpe_etas_ti_gain.png) | ![Plot](resources/one_year_iml_with_poe_0.001_gmpe_etas_td_gain.png) | ![Plot](resources/one_year_iml_with_poe_0.001_gmpe_etas_uni_gain.png) | ![Plot](resources/one_year_iml_with_poe_0.001_gmpe_etas.png) |
 
-##### One Year 10 Sa (g) with POE=0.01, CyberShake Maps
+##### One Year 5s Sa (g) with POE=0.01, CyberShake Maps
 *[(top)](#table-of-contents)*
 
 |  | CS-TI | CS-TD | CS-ETAS-Uniform | CS-ETAS |
 |-----|-----|-----|-----|-----|
 | **CS-TI** | ![Plot](resources/one_year_iml_with_poe_0.01_cs_ti.png) | ![Plot](resources/one_year_iml_with_poe_0.01_cs_td_ti_diff.png) | ![Plot](resources/one_year_iml_with_poe_0.01_cs_etas_uni_ti_diff.png) | ![Plot](resources/one_year_iml_with_poe_0.01_cs_etas_ti_diff.png) |
 | **CS-TD** | ![Plot](resources/one_year_iml_with_poe_0.01_cs_td_ti_gain.png) | ![Plot](resources/one_year_iml_with_poe_0.01_cs_td.png) | ![Plot](resources/one_year_iml_with_poe_0.01_cs_etas_uni_td_diff.png) | ![Plot](resources/one_year_iml_with_poe_0.01_cs_etas_td_diff.png) |
-| **CS-ETAS (Uniform)** | ![Plot](resources/one_year_iml_with_poe_0.01_cs_etas_uni_ti_gain.png) | ![Plot](resources/one_year_iml_with_poe_0.01_cs_etas_uni_td_tain.png) | ![Plot](resources/one_year_iml_with_poe_0.01_cs_etas_uni.png) | ![Plot](resources/one_year_iml_with_poe_0.01_cs_etas_uni_diff.png) |
-| **CS-ETAS** | ![Plot](resources/one_year_iml_with_poe_0.01_cs_etas_ti_gain.png) | ![Plot](resources/one_year_iml_with_poe_0.01_cs_etas_td_tain.png) | ![Plot](resources/one_year_iml_with_poe_0.01_cs_etas_uni_gain.png) | ![Plot](resources/one_year_iml_with_poe_0.01_cs_etas.png) |
+| **CS-ETAS (Uniform)** | ![Plot](resources/one_year_iml_with_poe_0.01_cs_etas_uni_ti_gain.png) | ![Plot](resources/one_year_iml_with_poe_0.01_cs_etas_uni_td_gain.png) | ![Plot](resources/one_year_iml_with_poe_0.01_cs_etas_uni.png) | ![Plot](resources/one_year_iml_with_poe_0.01_cs_etas_uni_diff.png) |
+| **CS-ETAS** | ![Plot](resources/one_year_iml_with_poe_0.01_cs_etas_ti_gain.png) | ![Plot](resources/one_year_iml_with_poe_0.01_cs_etas_td_gain.png) | ![Plot](resources/one_year_iml_with_poe_0.01_cs_etas_uni_gain.png) | ![Plot](resources/one_year_iml_with_poe_0.01_cs_etas.png) |
 
-##### One Year 10 Sa (g) with POE=0.01, GMPE Maps
+##### One Year 5s Sa (g) with POE=0.01, GMPE Maps
 *[(top)](#table-of-contents)*
 
 |  | GMPE-TI | GMPE-TD | GMPE-ETAS-Uniform | GMPE-ETAS |
 |-----|-----|-----|-----|-----|
 | **GMPE-TI** | ![Plot](resources/one_year_iml_with_poe_0.01_gmpe_ti.png) | ![Plot](resources/one_year_iml_with_poe_0.01_gmpe_td_ti_diff.png) | ![Plot](resources/one_year_iml_with_poe_0.01_gmpe_etas_uni_ti_diff.png) | ![Plot](resources/one_year_iml_with_poe_0.01_gmpe_etas_ti_diff.png) |
 | **GMPE-TD** | ![Plot](resources/one_year_iml_with_poe_0.01_gmpe_td_ti_gain.png) | ![Plot](resources/one_year_iml_with_poe_0.01_gmpe_td.png) | ![Plot](resources/one_year_iml_with_poe_0.01_gmpe_etas_uni_td_diff.png) | ![Plot](resources/one_year_iml_with_poe_0.01_gmpe_etas_td_diff.png) |
-| **GMPE-ETAS (Uniform)** | ![Plot](resources/one_year_iml_with_poe_0.01_gmpe_etas_uni_ti_gain.png) | ![Plot](resources/one_year_iml_with_poe_0.01_gmpe_etas_uni_td_tain.png) | ![Plot](resources/one_year_iml_with_poe_0.01_gmpe_etas_uni.png) | ![Plot](resources/one_year_iml_with_poe_0.01_gmpe_etas_uni_diff.png) |
-| **GMPE-ETAS** | ![Plot](resources/one_year_iml_with_poe_0.01_gmpe_etas_ti_gain.png) | ![Plot](resources/one_year_iml_with_poe_0.01_gmpe_etas_td_tain.png) | ![Plot](resources/one_year_iml_with_poe_0.01_gmpe_etas_uni_gain.png) | ![Plot](resources/one_year_iml_with_poe_0.01_gmpe_etas.png) |
+| **GMPE-ETAS (Uniform)** | ![Plot](resources/one_year_iml_with_poe_0.01_gmpe_etas_uni_ti_gain.png) | ![Plot](resources/one_year_iml_with_poe_0.01_gmpe_etas_uni_td_gain.png) | ![Plot](resources/one_year_iml_with_poe_0.01_gmpe_etas_uni.png) | ![Plot](resources/one_year_iml_with_poe_0.01_gmpe_etas_uni_diff.png) |
+| **GMPE-ETAS** | ![Plot](resources/one_year_iml_with_poe_0.01_gmpe_etas_ti_gain.png) | ![Plot](resources/one_year_iml_with_poe_0.01_gmpe_etas_td_gain.png) | ![Plot](resources/one_year_iml_with_poe_0.01_gmpe_etas_uni_gain.png) | ![Plot](resources/one_year_iml_with_poe_0.01_gmpe_etas.png) |
 
-##### One Year 10 Sa (g) with POE=0.1, CyberShake Maps
+##### One Year 5s Sa (g) with POE=0.1, CyberShake Maps
 *[(top)](#table-of-contents)*
 
 |  | CS-TI | CS-TD | CS-ETAS-Uniform | CS-ETAS |
 |-----|-----|-----|-----|-----|
 | **CS-TI** | ![Plot](resources/one_year_iml_with_poe_0.1_cs_ti.png) | ![Plot](resources/one_year_iml_with_poe_0.1_cs_td_ti_diff.png) | ![Plot](resources/one_year_iml_with_poe_0.1_cs_etas_uni_ti_diff.png) | ![Plot](resources/one_year_iml_with_poe_0.1_cs_etas_ti_diff.png) |
 | **CS-TD** | ![Plot](resources/one_year_iml_with_poe_0.1_cs_td_ti_gain.png) | ![Plot](resources/one_year_iml_with_poe_0.1_cs_td.png) | ![Plot](resources/one_year_iml_with_poe_0.1_cs_etas_uni_td_diff.png) | ![Plot](resources/one_year_iml_with_poe_0.1_cs_etas_td_diff.png) |
-| **CS-ETAS (Uniform)** | ![Plot](resources/one_year_iml_with_poe_0.1_cs_etas_uni_ti_gain.png) | ![Plot](resources/one_year_iml_with_poe_0.1_cs_etas_uni_td_tain.png) | ![Plot](resources/one_year_iml_with_poe_0.1_cs_etas_uni.png) | ![Plot](resources/one_year_iml_with_poe_0.1_cs_etas_uni_diff.png) |
-| **CS-ETAS** | ![Plot](resources/one_year_iml_with_poe_0.1_cs_etas_ti_gain.png) | ![Plot](resources/one_year_iml_with_poe_0.1_cs_etas_td_tain.png) | ![Plot](resources/one_year_iml_with_poe_0.1_cs_etas_uni_gain.png) | ![Plot](resources/one_year_iml_with_poe_0.1_cs_etas.png) |
+| **CS-ETAS (Uniform)** | ![Plot](resources/one_year_iml_with_poe_0.1_cs_etas_uni_ti_gain.png) | ![Plot](resources/one_year_iml_with_poe_0.1_cs_etas_uni_td_gain.png) | ![Plot](resources/one_year_iml_with_poe_0.1_cs_etas_uni.png) | ![Plot](resources/one_year_iml_with_poe_0.1_cs_etas_uni_diff.png) |
+| **CS-ETAS** | ![Plot](resources/one_year_iml_with_poe_0.1_cs_etas_ti_gain.png) | ![Plot](resources/one_year_iml_with_poe_0.1_cs_etas_td_gain.png) | ![Plot](resources/one_year_iml_with_poe_0.1_cs_etas_uni_gain.png) | ![Plot](resources/one_year_iml_with_poe_0.1_cs_etas.png) |
 
-##### One Year 10 Sa (g) with POE=0.1, GMPE Maps
+##### One Year 5s Sa (g) with POE=0.1, GMPE Maps
 *[(top)](#table-of-contents)*
 
 |  | GMPE-TI | GMPE-TD | GMPE-ETAS-Uniform | GMPE-ETAS |
 |-----|-----|-----|-----|-----|
 | **GMPE-TI** | ![Plot](resources/one_year_iml_with_poe_0.1_gmpe_ti.png) | ![Plot](resources/one_year_iml_with_poe_0.1_gmpe_td_ti_diff.png) | ![Plot](resources/one_year_iml_with_poe_0.1_gmpe_etas_uni_ti_diff.png) | ![Plot](resources/one_year_iml_with_poe_0.1_gmpe_etas_ti_diff.png) |
 | **GMPE-TD** | ![Plot](resources/one_year_iml_with_poe_0.1_gmpe_td_ti_gain.png) | ![Plot](resources/one_year_iml_with_poe_0.1_gmpe_td.png) | ![Plot](resources/one_year_iml_with_poe_0.1_gmpe_etas_uni_td_diff.png) | ![Plot](resources/one_year_iml_with_poe_0.1_gmpe_etas_td_diff.png) |
-| **GMPE-ETAS (Uniform)** | ![Plot](resources/one_year_iml_with_poe_0.1_gmpe_etas_uni_ti_gain.png) | ![Plot](resources/one_year_iml_with_poe_0.1_gmpe_etas_uni_td_tain.png) | ![Plot](resources/one_year_iml_with_poe_0.1_gmpe_etas_uni.png) | ![Plot](resources/one_year_iml_with_poe_0.1_gmpe_etas_uni_diff.png) |
-| **GMPE-ETAS** | ![Plot](resources/one_year_iml_with_poe_0.1_gmpe_etas_ti_gain.png) | ![Plot](resources/one_year_iml_with_poe_0.1_gmpe_etas_td_tain.png) | ![Plot](resources/one_year_iml_with_poe_0.1_gmpe_etas_uni_gain.png) | ![Plot](resources/one_year_iml_with_poe_0.1_gmpe_etas.png) |
+| **GMPE-ETAS (Uniform)** | ![Plot](resources/one_year_iml_with_poe_0.1_gmpe_etas_uni_ti_gain.png) | ![Plot](resources/one_year_iml_with_poe_0.1_gmpe_etas_uni_td_gain.png) | ![Plot](resources/one_year_iml_with_poe_0.1_gmpe_etas_uni.png) | ![Plot](resources/one_year_iml_with_poe_0.1_gmpe_etas_uni_diff.png) |
+| **GMPE-ETAS** | ![Plot](resources/one_year_iml_with_poe_0.1_gmpe_etas_ti_gain.png) | ![Plot](resources/one_year_iml_with_poe_0.1_gmpe_etas_td_gain.png) | ![Plot](resources/one_year_iml_with_poe_0.1_gmpe_etas_uni_gain.png) | ![Plot](resources/one_year_iml_with_poe_0.1_gmpe_etas.png) |
 
-##### One Year POE 0.01 (g) 10 SA, CyberShake Maps
+##### One Year POE 0.01 (g) 5s SA, CyberShake Maps
 *[(top)](#table-of-contents)*
 
 |  | CS-TI | CS-TD | CS-ETAS-Uniform | CS-ETAS |
 |-----|-----|-----|-----|-----|
 | **CS-TI** | ![Plot](resources/one_year_poe_0.01g_cs_ti.png) | ![Plot](resources/one_year_poe_0.01g_cs_td_ti_diff.png) | ![Plot](resources/one_year_poe_0.01g_cs_etas_uni_ti_diff.png) | ![Plot](resources/one_year_poe_0.01g_cs_etas_ti_diff.png) |
 | **CS-TD** | ![Plot](resources/one_year_poe_0.01g_cs_td_ti_gain.png) | ![Plot](resources/one_year_poe_0.01g_cs_td.png) | ![Plot](resources/one_year_poe_0.01g_cs_etas_uni_td_diff.png) | ![Plot](resources/one_year_poe_0.01g_cs_etas_td_diff.png) |
-| **CS-ETAS (Uniform)** | ![Plot](resources/one_year_poe_0.01g_cs_etas_uni_ti_gain.png) | ![Plot](resources/one_year_poe_0.01g_cs_etas_uni_td_tain.png) | ![Plot](resources/one_year_poe_0.01g_cs_etas_uni.png) | ![Plot](resources/one_year_poe_0.01g_cs_etas_uni_diff.png) |
-| **CS-ETAS** | ![Plot](resources/one_year_poe_0.01g_cs_etas_ti_gain.png) | ![Plot](resources/one_year_poe_0.01g_cs_etas_td_tain.png) | ![Plot](resources/one_year_poe_0.01g_cs_etas_uni_gain.png) | ![Plot](resources/one_year_poe_0.01g_cs_etas.png) |
+| **CS-ETAS (Uniform)** | ![Plot](resources/one_year_poe_0.01g_cs_etas_uni_ti_gain.png) | ![Plot](resources/one_year_poe_0.01g_cs_etas_uni_td_gain.png) | ![Plot](resources/one_year_poe_0.01g_cs_etas_uni.png) | ![Plot](resources/one_year_poe_0.01g_cs_etas_uni_diff.png) |
+| **CS-ETAS** | ![Plot](resources/one_year_poe_0.01g_cs_etas_ti_gain.png) | ![Plot](resources/one_year_poe_0.01g_cs_etas_td_gain.png) | ![Plot](resources/one_year_poe_0.01g_cs_etas_uni_gain.png) | ![Plot](resources/one_year_poe_0.01g_cs_etas.png) |
 
-##### One Year POE 0.01 (g) 10 SA, GMPE Maps
+##### One Year POE 0.01 (g) 5s SA, GMPE Maps
 *[(top)](#table-of-contents)*
 
 |  | GMPE-TI | GMPE-TD | GMPE-ETAS-Uniform | GMPE-ETAS |
 |-----|-----|-----|-----|-----|
 | **GMPE-TI** | ![Plot](resources/one_year_poe_0.01g_gmpe_ti.png) | ![Plot](resources/one_year_poe_0.01g_gmpe_td_ti_diff.png) | ![Plot](resources/one_year_poe_0.01g_gmpe_etas_uni_ti_diff.png) | ![Plot](resources/one_year_poe_0.01g_gmpe_etas_ti_diff.png) |
 | **GMPE-TD** | ![Plot](resources/one_year_poe_0.01g_gmpe_td_ti_gain.png) | ![Plot](resources/one_year_poe_0.01g_gmpe_td.png) | ![Plot](resources/one_year_poe_0.01g_gmpe_etas_uni_td_diff.png) | ![Plot](resources/one_year_poe_0.01g_gmpe_etas_td_diff.png) |
-| **GMPE-ETAS (Uniform)** | ![Plot](resources/one_year_poe_0.01g_gmpe_etas_uni_ti_gain.png) | ![Plot](resources/one_year_poe_0.01g_gmpe_etas_uni_td_tain.png) | ![Plot](resources/one_year_poe_0.01g_gmpe_etas_uni.png) | ![Plot](resources/one_year_poe_0.01g_gmpe_etas_uni_diff.png) |
-| **GMPE-ETAS** | ![Plot](resources/one_year_poe_0.01g_gmpe_etas_ti_gain.png) | ![Plot](resources/one_year_poe_0.01g_gmpe_etas_td_tain.png) | ![Plot](resources/one_year_poe_0.01g_gmpe_etas_uni_gain.png) | ![Plot](resources/one_year_poe_0.01g_gmpe_etas.png) |
+| **GMPE-ETAS (Uniform)** | ![Plot](resources/one_year_poe_0.01g_gmpe_etas_uni_ti_gain.png) | ![Plot](resources/one_year_poe_0.01g_gmpe_etas_uni_td_gain.png) | ![Plot](resources/one_year_poe_0.01g_gmpe_etas_uni.png) | ![Plot](resources/one_year_poe_0.01g_gmpe_etas_uni_diff.png) |
+| **GMPE-ETAS** | ![Plot](resources/one_year_poe_0.01g_gmpe_etas_ti_gain.png) | ![Plot](resources/one_year_poe_0.01g_gmpe_etas_td_gain.png) | ![Plot](resources/one_year_poe_0.01g_gmpe_etas_uni_gain.png) | ![Plot](resources/one_year_poe_0.01g_gmpe_etas.png) |
 
-##### One Year POE 0.1 (g) 10 SA, CyberShake Maps
+##### One Year POE 0.1 (g) 5s SA, CyberShake Maps
 *[(top)](#table-of-contents)*
 
 |  | CS-TI | CS-TD | CS-ETAS-Uniform | CS-ETAS |
 |-----|-----|-----|-----|-----|
 | **CS-TI** | ![Plot](resources/one_year_poe_0.1g_cs_ti.png) | ![Plot](resources/one_year_poe_0.1g_cs_td_ti_diff.png) | ![Plot](resources/one_year_poe_0.1g_cs_etas_uni_ti_diff.png) | ![Plot](resources/one_year_poe_0.1g_cs_etas_ti_diff.png) |
 | **CS-TD** | ![Plot](resources/one_year_poe_0.1g_cs_td_ti_gain.png) | ![Plot](resources/one_year_poe_0.1g_cs_td.png) | ![Plot](resources/one_year_poe_0.1g_cs_etas_uni_td_diff.png) | ![Plot](resources/one_year_poe_0.1g_cs_etas_td_diff.png) |
-| **CS-ETAS (Uniform)** | ![Plot](resources/one_year_poe_0.1g_cs_etas_uni_ti_gain.png) | ![Plot](resources/one_year_poe_0.1g_cs_etas_uni_td_tain.png) | ![Plot](resources/one_year_poe_0.1g_cs_etas_uni.png) | ![Plot](resources/one_year_poe_0.1g_cs_etas_uni_diff.png) |
-| **CS-ETAS** | ![Plot](resources/one_year_poe_0.1g_cs_etas_ti_gain.png) | ![Plot](resources/one_year_poe_0.1g_cs_etas_td_tain.png) | ![Plot](resources/one_year_poe_0.1g_cs_etas_uni_gain.png) | ![Plot](resources/one_year_poe_0.1g_cs_etas.png) |
+| **CS-ETAS (Uniform)** | ![Plot](resources/one_year_poe_0.1g_cs_etas_uni_ti_gain.png) | ![Plot](resources/one_year_poe_0.1g_cs_etas_uni_td_gain.png) | ![Plot](resources/one_year_poe_0.1g_cs_etas_uni.png) | ![Plot](resources/one_year_poe_0.1g_cs_etas_uni_diff.png) |
+| **CS-ETAS** | ![Plot](resources/one_year_poe_0.1g_cs_etas_ti_gain.png) | ![Plot](resources/one_year_poe_0.1g_cs_etas_td_gain.png) | ![Plot](resources/one_year_poe_0.1g_cs_etas_uni_gain.png) | ![Plot](resources/one_year_poe_0.1g_cs_etas.png) |
 
-##### One Year POE 0.1 (g) 10 SA, GMPE Maps
+##### One Year POE 0.1 (g) 5s SA, GMPE Maps
 *[(top)](#table-of-contents)*
 
 |  | GMPE-TI | GMPE-TD | GMPE-ETAS-Uniform | GMPE-ETAS |
 |-----|-----|-----|-----|-----|
 | **GMPE-TI** | ![Plot](resources/one_year_poe_0.1g_gmpe_ti.png) | ![Plot](resources/one_year_poe_0.1g_gmpe_td_ti_diff.png) | ![Plot](resources/one_year_poe_0.1g_gmpe_etas_uni_ti_diff.png) | ![Plot](resources/one_year_poe_0.1g_gmpe_etas_ti_diff.png) |
 | **GMPE-TD** | ![Plot](resources/one_year_poe_0.1g_gmpe_td_ti_gain.png) | ![Plot](resources/one_year_poe_0.1g_gmpe_td.png) | ![Plot](resources/one_year_poe_0.1g_gmpe_etas_uni_td_diff.png) | ![Plot](resources/one_year_poe_0.1g_gmpe_etas_td_diff.png) |
-| **GMPE-ETAS (Uniform)** | ![Plot](resources/one_year_poe_0.1g_gmpe_etas_uni_ti_gain.png) | ![Plot](resources/one_year_poe_0.1g_gmpe_etas_uni_td_tain.png) | ![Plot](resources/one_year_poe_0.1g_gmpe_etas_uni.png) | ![Plot](resources/one_year_poe_0.1g_gmpe_etas_uni_diff.png) |
-| **GMPE-ETAS** | ![Plot](resources/one_year_poe_0.1g_gmpe_etas_ti_gain.png) | ![Plot](resources/one_year_poe_0.1g_gmpe_etas_td_tain.png) | ![Plot](resources/one_year_poe_0.1g_gmpe_etas_uni_gain.png) | ![Plot](resources/one_year_poe_0.1g_gmpe_etas.png) |
+| **GMPE-ETAS (Uniform)** | ![Plot](resources/one_year_poe_0.1g_gmpe_etas_uni_ti_gain.png) | ![Plot](resources/one_year_poe_0.1g_gmpe_etas_uni_td_gain.png) | ![Plot](resources/one_year_poe_0.1g_gmpe_etas_uni.png) | ![Plot](resources/one_year_poe_0.1g_gmpe_etas_uni_diff.png) |
+| **GMPE-ETAS** | ![Plot](resources/one_year_poe_0.1g_gmpe_etas_ti_gain.png) | ![Plot](resources/one_year_poe_0.1g_gmpe_etas_td_gain.png) | ![Plot](resources/one_year_poe_0.1g_gmpe_etas_uni_gain.png) | ![Plot](resources/one_year_poe_0.1g_gmpe_etas.png) |
 
-##### One Year POE 0.2 (g) 10 SA, CyberShake Maps
+##### One Year POE 0.2 (g) 5s SA, CyberShake Maps
 *[(top)](#table-of-contents)*
 
 |  | CS-TI | CS-TD | CS-ETAS-Uniform | CS-ETAS |
 |-----|-----|-----|-----|-----|
 | **CS-TI** | ![Plot](resources/one_year_poe_0.2g_cs_ti.png) | ![Plot](resources/one_year_poe_0.2g_cs_td_ti_diff.png) | ![Plot](resources/one_year_poe_0.2g_cs_etas_uni_ti_diff.png) | ![Plot](resources/one_year_poe_0.2g_cs_etas_ti_diff.png) |
 | **CS-TD** | ![Plot](resources/one_year_poe_0.2g_cs_td_ti_gain.png) | ![Plot](resources/one_year_poe_0.2g_cs_td.png) | ![Plot](resources/one_year_poe_0.2g_cs_etas_uni_td_diff.png) | ![Plot](resources/one_year_poe_0.2g_cs_etas_td_diff.png) |
-| **CS-ETAS (Uniform)** | ![Plot](resources/one_year_poe_0.2g_cs_etas_uni_ti_gain.png) | ![Plot](resources/one_year_poe_0.2g_cs_etas_uni_td_tain.png) | ![Plot](resources/one_year_poe_0.2g_cs_etas_uni.png) | ![Plot](resources/one_year_poe_0.2g_cs_etas_uni_diff.png) |
-| **CS-ETAS** | ![Plot](resources/one_year_poe_0.2g_cs_etas_ti_gain.png) | ![Plot](resources/one_year_poe_0.2g_cs_etas_td_tain.png) | ![Plot](resources/one_year_poe_0.2g_cs_etas_uni_gain.png) | ![Plot](resources/one_year_poe_0.2g_cs_etas.png) |
+| **CS-ETAS (Uniform)** | ![Plot](resources/one_year_poe_0.2g_cs_etas_uni_ti_gain.png) | ![Plot](resources/one_year_poe_0.2g_cs_etas_uni_td_gain.png) | ![Plot](resources/one_year_poe_0.2g_cs_etas_uni.png) | ![Plot](resources/one_year_poe_0.2g_cs_etas_uni_diff.png) |
+| **CS-ETAS** | ![Plot](resources/one_year_poe_0.2g_cs_etas_ti_gain.png) | ![Plot](resources/one_year_poe_0.2g_cs_etas_td_gain.png) | ![Plot](resources/one_year_poe_0.2g_cs_etas_uni_gain.png) | ![Plot](resources/one_year_poe_0.2g_cs_etas.png) |
 
-##### One Year POE 0.2 (g) 10 SA, GMPE Maps
+##### One Year POE 0.2 (g) 5s SA, GMPE Maps
 *[(top)](#table-of-contents)*
 
 |  | GMPE-TI | GMPE-TD | GMPE-ETAS-Uniform | GMPE-ETAS |
 |-----|-----|-----|-----|-----|
 | **GMPE-TI** | ![Plot](resources/one_year_poe_0.2g_gmpe_ti.png) | ![Plot](resources/one_year_poe_0.2g_gmpe_td_ti_diff.png) | ![Plot](resources/one_year_poe_0.2g_gmpe_etas_uni_ti_diff.png) | ![Plot](resources/one_year_poe_0.2g_gmpe_etas_ti_diff.png) |
 | **GMPE-TD** | ![Plot](resources/one_year_poe_0.2g_gmpe_td_ti_gain.png) | ![Plot](resources/one_year_poe_0.2g_gmpe_td.png) | ![Plot](resources/one_year_poe_0.2g_gmpe_etas_uni_td_diff.png) | ![Plot](resources/one_year_poe_0.2g_gmpe_etas_td_diff.png) |
-| **GMPE-ETAS (Uniform)** | ![Plot](resources/one_year_poe_0.2g_gmpe_etas_uni_ti_gain.png) | ![Plot](resources/one_year_poe_0.2g_gmpe_etas_uni_td_tain.png) | ![Plot](resources/one_year_poe_0.2g_gmpe_etas_uni.png) | ![Plot](resources/one_year_poe_0.2g_gmpe_etas_uni_diff.png) |
-| **GMPE-ETAS** | ![Plot](resources/one_year_poe_0.2g_gmpe_etas_ti_gain.png) | ![Plot](resources/one_year_poe_0.2g_gmpe_etas_td_tain.png) | ![Plot](resources/one_year_poe_0.2g_gmpe_etas_uni_gain.png) | ![Plot](resources/one_year_poe_0.2g_gmpe_etas.png) |
+| **GMPE-ETAS (Uniform)** | ![Plot](resources/one_year_poe_0.2g_gmpe_etas_uni_ti_gain.png) | ![Plot](resources/one_year_poe_0.2g_gmpe_etas_uni_td_gain.png) | ![Plot](resources/one_year_poe_0.2g_gmpe_etas_uni.png) | ![Plot](resources/one_year_poe_0.2g_gmpe_etas_uni_diff.png) |
+| **GMPE-ETAS** | ![Plot](resources/one_year_poe_0.2g_gmpe_etas_ti_gain.png) | ![Plot](resources/one_year_poe_0.2g_gmpe_etas_td_gain.png) | ![Plot](resources/one_year_poe_0.2g_gmpe_etas_uni_gain.png) | ![Plot](resources/one_year_poe_0.2g_gmpe_etas.png) |
+
+#### 10s One Year Hazard Maps
+*[(top)](#table-of-contents)*
+
+##### One Year 10s Sa (g) with POE=1.0E-4, CyberShake Maps
+*[(top)](#table-of-contents)*
+
+|  | CS-TI | CS-TD | CS-ETAS-Uniform | CS-ETAS |
+|-----|-----|-----|-----|-----|
+| **CS-TI** | ![Plot](resources/one_year_iml_with_poe_1.0E-4_cs_ti.png) | ![Plot](resources/one_year_iml_with_poe_1.0E-4_cs_td_ti_diff.png) | ![Plot](resources/one_year_iml_with_poe_1.0E-4_cs_etas_uni_ti_diff.png) | ![Plot](resources/one_year_iml_with_poe_1.0E-4_cs_etas_ti_diff.png) |
+| **CS-TD** | ![Plot](resources/one_year_iml_with_poe_1.0E-4_cs_td_ti_gain.png) | ![Plot](resources/one_year_iml_with_poe_1.0E-4_cs_td.png) | ![Plot](resources/one_year_iml_with_poe_1.0E-4_cs_etas_uni_td_diff.png) | ![Plot](resources/one_year_iml_with_poe_1.0E-4_cs_etas_td_diff.png) |
+| **CS-ETAS (Uniform)** | ![Plot](resources/one_year_iml_with_poe_1.0E-4_cs_etas_uni_ti_gain.png) | ![Plot](resources/one_year_iml_with_poe_1.0E-4_cs_etas_uni_td_gain.png) | ![Plot](resources/one_year_iml_with_poe_1.0E-4_cs_etas_uni.png) | ![Plot](resources/one_year_iml_with_poe_1.0E-4_cs_etas_uni_diff.png) |
+| **CS-ETAS** | ![Plot](resources/one_year_iml_with_poe_1.0E-4_cs_etas_ti_gain.png) | ![Plot](resources/one_year_iml_with_poe_1.0E-4_cs_etas_td_gain.png) | ![Plot](resources/one_year_iml_with_poe_1.0E-4_cs_etas_uni_gain.png) | ![Plot](resources/one_year_iml_with_poe_1.0E-4_cs_etas.png) |
+
+##### One Year 10s Sa (g) with POE=1.0E-4, GMPE Maps
+*[(top)](#table-of-contents)*
+
+|  | GMPE-TI | GMPE-TD | GMPE-ETAS-Uniform | GMPE-ETAS |
+|-----|-----|-----|-----|-----|
+| **GMPE-TI** | ![Plot](resources/one_year_iml_with_poe_1.0E-4_gmpe_ti.png) | ![Plot](resources/one_year_iml_with_poe_1.0E-4_gmpe_td_ti_diff.png) | ![Plot](resources/one_year_iml_with_poe_1.0E-4_gmpe_etas_uni_ti_diff.png) | ![Plot](resources/one_year_iml_with_poe_1.0E-4_gmpe_etas_ti_diff.png) |
+| **GMPE-TD** | ![Plot](resources/one_year_iml_with_poe_1.0E-4_gmpe_td_ti_gain.png) | ![Plot](resources/one_year_iml_with_poe_1.0E-4_gmpe_td.png) | ![Plot](resources/one_year_iml_with_poe_1.0E-4_gmpe_etas_uni_td_diff.png) | ![Plot](resources/one_year_iml_with_poe_1.0E-4_gmpe_etas_td_diff.png) |
+| **GMPE-ETAS (Uniform)** | ![Plot](resources/one_year_iml_with_poe_1.0E-4_gmpe_etas_uni_ti_gain.png) | ![Plot](resources/one_year_iml_with_poe_1.0E-4_gmpe_etas_uni_td_gain.png) | ![Plot](resources/one_year_iml_with_poe_1.0E-4_gmpe_etas_uni.png) | ![Plot](resources/one_year_iml_with_poe_1.0E-4_gmpe_etas_uni_diff.png) |
+| **GMPE-ETAS** | ![Plot](resources/one_year_iml_with_poe_1.0E-4_gmpe_etas_ti_gain.png) | ![Plot](resources/one_year_iml_with_poe_1.0E-4_gmpe_etas_td_gain.png) | ![Plot](resources/one_year_iml_with_poe_1.0E-4_gmpe_etas_uni_gain.png) | ![Plot](resources/one_year_iml_with_poe_1.0E-4_gmpe_etas.png) |
+
+##### One Year 10s Sa (g) with POE=0.001, CyberShake Maps
+*[(top)](#table-of-contents)*
+
+|  | CS-TI | CS-TD | CS-ETAS-Uniform | CS-ETAS |
+|-----|-----|-----|-----|-----|
+| **CS-TI** | ![Plot](resources/one_year_iml_with_poe_0.001_cs_ti.png) | ![Plot](resources/one_year_iml_with_poe_0.001_cs_td_ti_diff.png) | ![Plot](resources/one_year_iml_with_poe_0.001_cs_etas_uni_ti_diff.png) | ![Plot](resources/one_year_iml_with_poe_0.001_cs_etas_ti_diff.png) |
+| **CS-TD** | ![Plot](resources/one_year_iml_with_poe_0.001_cs_td_ti_gain.png) | ![Plot](resources/one_year_iml_with_poe_0.001_cs_td.png) | ![Plot](resources/one_year_iml_with_poe_0.001_cs_etas_uni_td_diff.png) | ![Plot](resources/one_year_iml_with_poe_0.001_cs_etas_td_diff.png) |
+| **CS-ETAS (Uniform)** | ![Plot](resources/one_year_iml_with_poe_0.001_cs_etas_uni_ti_gain.png) | ![Plot](resources/one_year_iml_with_poe_0.001_cs_etas_uni_td_gain.png) | ![Plot](resources/one_year_iml_with_poe_0.001_cs_etas_uni.png) | ![Plot](resources/one_year_iml_with_poe_0.001_cs_etas_uni_diff.png) |
+| **CS-ETAS** | ![Plot](resources/one_year_iml_with_poe_0.001_cs_etas_ti_gain.png) | ![Plot](resources/one_year_iml_with_poe_0.001_cs_etas_td_gain.png) | ![Plot](resources/one_year_iml_with_poe_0.001_cs_etas_uni_gain.png) | ![Plot](resources/one_year_iml_with_poe_0.001_cs_etas.png) |
+
+##### One Year 10s Sa (g) with POE=0.001, GMPE Maps
+*[(top)](#table-of-contents)*
+
+|  | GMPE-TI | GMPE-TD | GMPE-ETAS-Uniform | GMPE-ETAS |
+|-----|-----|-----|-----|-----|
+| **GMPE-TI** | ![Plot](resources/one_year_iml_with_poe_0.001_gmpe_ti.png) | ![Plot](resources/one_year_iml_with_poe_0.001_gmpe_td_ti_diff.png) | ![Plot](resources/one_year_iml_with_poe_0.001_gmpe_etas_uni_ti_diff.png) | ![Plot](resources/one_year_iml_with_poe_0.001_gmpe_etas_ti_diff.png) |
+| **GMPE-TD** | ![Plot](resources/one_year_iml_with_poe_0.001_gmpe_td_ti_gain.png) | ![Plot](resources/one_year_iml_with_poe_0.001_gmpe_td.png) | ![Plot](resources/one_year_iml_with_poe_0.001_gmpe_etas_uni_td_diff.png) | ![Plot](resources/one_year_iml_with_poe_0.001_gmpe_etas_td_diff.png) |
+| **GMPE-ETAS (Uniform)** | ![Plot](resources/one_year_iml_with_poe_0.001_gmpe_etas_uni_ti_gain.png) | ![Plot](resources/one_year_iml_with_poe_0.001_gmpe_etas_uni_td_gain.png) | ![Plot](resources/one_year_iml_with_poe_0.001_gmpe_etas_uni.png) | ![Plot](resources/one_year_iml_with_poe_0.001_gmpe_etas_uni_diff.png) |
+| **GMPE-ETAS** | ![Plot](resources/one_year_iml_with_poe_0.001_gmpe_etas_ti_gain.png) | ![Plot](resources/one_year_iml_with_poe_0.001_gmpe_etas_td_gain.png) | ![Plot](resources/one_year_iml_with_poe_0.001_gmpe_etas_uni_gain.png) | ![Plot](resources/one_year_iml_with_poe_0.001_gmpe_etas.png) |
+
+##### One Year 10s Sa (g) with POE=0.01, CyberShake Maps
+*[(top)](#table-of-contents)*
+
+|  | CS-TI | CS-TD | CS-ETAS-Uniform | CS-ETAS |
+|-----|-----|-----|-----|-----|
+| **CS-TI** | ![Plot](resources/one_year_iml_with_poe_0.01_cs_ti.png) | ![Plot](resources/one_year_iml_with_poe_0.01_cs_td_ti_diff.png) | ![Plot](resources/one_year_iml_with_poe_0.01_cs_etas_uni_ti_diff.png) | ![Plot](resources/one_year_iml_with_poe_0.01_cs_etas_ti_diff.png) |
+| **CS-TD** | ![Plot](resources/one_year_iml_with_poe_0.01_cs_td_ti_gain.png) | ![Plot](resources/one_year_iml_with_poe_0.01_cs_td.png) | ![Plot](resources/one_year_iml_with_poe_0.01_cs_etas_uni_td_diff.png) | ![Plot](resources/one_year_iml_with_poe_0.01_cs_etas_td_diff.png) |
+| **CS-ETAS (Uniform)** | ![Plot](resources/one_year_iml_with_poe_0.01_cs_etas_uni_ti_gain.png) | ![Plot](resources/one_year_iml_with_poe_0.01_cs_etas_uni_td_gain.png) | ![Plot](resources/one_year_iml_with_poe_0.01_cs_etas_uni.png) | ![Plot](resources/one_year_iml_with_poe_0.01_cs_etas_uni_diff.png) |
+| **CS-ETAS** | ![Plot](resources/one_year_iml_with_poe_0.01_cs_etas_ti_gain.png) | ![Plot](resources/one_year_iml_with_poe_0.01_cs_etas_td_gain.png) | ![Plot](resources/one_year_iml_with_poe_0.01_cs_etas_uni_gain.png) | ![Plot](resources/one_year_iml_with_poe_0.01_cs_etas.png) |
+
+##### One Year 10s Sa (g) with POE=0.01, GMPE Maps
+*[(top)](#table-of-contents)*
+
+|  | GMPE-TI | GMPE-TD | GMPE-ETAS-Uniform | GMPE-ETAS |
+|-----|-----|-----|-----|-----|
+| **GMPE-TI** | ![Plot](resources/one_year_iml_with_poe_0.01_gmpe_ti.png) | ![Plot](resources/one_year_iml_with_poe_0.01_gmpe_td_ti_diff.png) | ![Plot](resources/one_year_iml_with_poe_0.01_gmpe_etas_uni_ti_diff.png) | ![Plot](resources/one_year_iml_with_poe_0.01_gmpe_etas_ti_diff.png) |
+| **GMPE-TD** | ![Plot](resources/one_year_iml_with_poe_0.01_gmpe_td_ti_gain.png) | ![Plot](resources/one_year_iml_with_poe_0.01_gmpe_td.png) | ![Plot](resources/one_year_iml_with_poe_0.01_gmpe_etas_uni_td_diff.png) | ![Plot](resources/one_year_iml_with_poe_0.01_gmpe_etas_td_diff.png) |
+| **GMPE-ETAS (Uniform)** | ![Plot](resources/one_year_iml_with_poe_0.01_gmpe_etas_uni_ti_gain.png) | ![Plot](resources/one_year_iml_with_poe_0.01_gmpe_etas_uni_td_gain.png) | ![Plot](resources/one_year_iml_with_poe_0.01_gmpe_etas_uni.png) | ![Plot](resources/one_year_iml_with_poe_0.01_gmpe_etas_uni_diff.png) |
+| **GMPE-ETAS** | ![Plot](resources/one_year_iml_with_poe_0.01_gmpe_etas_ti_gain.png) | ![Plot](resources/one_year_iml_with_poe_0.01_gmpe_etas_td_gain.png) | ![Plot](resources/one_year_iml_with_poe_0.01_gmpe_etas_uni_gain.png) | ![Plot](resources/one_year_iml_with_poe_0.01_gmpe_etas.png) |
+
+##### One Year 10s Sa (g) with POE=0.1, CyberShake Maps
+*[(top)](#table-of-contents)*
+
+|  | CS-TI | CS-TD | CS-ETAS-Uniform | CS-ETAS |
+|-----|-----|-----|-----|-----|
+| **CS-TI** | ![Plot](resources/one_year_iml_with_poe_0.1_cs_ti.png) | ![Plot](resources/one_year_iml_with_poe_0.1_cs_td_ti_diff.png) | ![Plot](resources/one_year_iml_with_poe_0.1_cs_etas_uni_ti_diff.png) | ![Plot](resources/one_year_iml_with_poe_0.1_cs_etas_ti_diff.png) |
+| **CS-TD** | ![Plot](resources/one_year_iml_with_poe_0.1_cs_td_ti_gain.png) | ![Plot](resources/one_year_iml_with_poe_0.1_cs_td.png) | ![Plot](resources/one_year_iml_with_poe_0.1_cs_etas_uni_td_diff.png) | ![Plot](resources/one_year_iml_with_poe_0.1_cs_etas_td_diff.png) |
+| **CS-ETAS (Uniform)** | ![Plot](resources/one_year_iml_with_poe_0.1_cs_etas_uni_ti_gain.png) | ![Plot](resources/one_year_iml_with_poe_0.1_cs_etas_uni_td_gain.png) | ![Plot](resources/one_year_iml_with_poe_0.1_cs_etas_uni.png) | ![Plot](resources/one_year_iml_with_poe_0.1_cs_etas_uni_diff.png) |
+| **CS-ETAS** | ![Plot](resources/one_year_iml_with_poe_0.1_cs_etas_ti_gain.png) | ![Plot](resources/one_year_iml_with_poe_0.1_cs_etas_td_gain.png) | ![Plot](resources/one_year_iml_with_poe_0.1_cs_etas_uni_gain.png) | ![Plot](resources/one_year_iml_with_poe_0.1_cs_etas.png) |
+
+##### One Year 10s Sa (g) with POE=0.1, GMPE Maps
+*[(top)](#table-of-contents)*
+
+|  | GMPE-TI | GMPE-TD | GMPE-ETAS-Uniform | GMPE-ETAS |
+|-----|-----|-----|-----|-----|
+| **GMPE-TI** | ![Plot](resources/one_year_iml_with_poe_0.1_gmpe_ti.png) | ![Plot](resources/one_year_iml_with_poe_0.1_gmpe_td_ti_diff.png) | ![Plot](resources/one_year_iml_with_poe_0.1_gmpe_etas_uni_ti_diff.png) | ![Plot](resources/one_year_iml_with_poe_0.1_gmpe_etas_ti_diff.png) |
+| **GMPE-TD** | ![Plot](resources/one_year_iml_with_poe_0.1_gmpe_td_ti_gain.png) | ![Plot](resources/one_year_iml_with_poe_0.1_gmpe_td.png) | ![Plot](resources/one_year_iml_with_poe_0.1_gmpe_etas_uni_td_diff.png) | ![Plot](resources/one_year_iml_with_poe_0.1_gmpe_etas_td_diff.png) |
+| **GMPE-ETAS (Uniform)** | ![Plot](resources/one_year_iml_with_poe_0.1_gmpe_etas_uni_ti_gain.png) | ![Plot](resources/one_year_iml_with_poe_0.1_gmpe_etas_uni_td_gain.png) | ![Plot](resources/one_year_iml_with_poe_0.1_gmpe_etas_uni.png) | ![Plot](resources/one_year_iml_with_poe_0.1_gmpe_etas_uni_diff.png) |
+| **GMPE-ETAS** | ![Plot](resources/one_year_iml_with_poe_0.1_gmpe_etas_ti_gain.png) | ![Plot](resources/one_year_iml_with_poe_0.1_gmpe_etas_td_gain.png) | ![Plot](resources/one_year_iml_with_poe_0.1_gmpe_etas_uni_gain.png) | ![Plot](resources/one_year_iml_with_poe_0.1_gmpe_etas.png) |
+
+##### One Year POE 0.01 (g) 10s SA, CyberShake Maps
+*[(top)](#table-of-contents)*
+
+|  | CS-TI | CS-TD | CS-ETAS-Uniform | CS-ETAS |
+|-----|-----|-----|-----|-----|
+| **CS-TI** | ![Plot](resources/one_year_poe_0.01g_cs_ti.png) | ![Plot](resources/one_year_poe_0.01g_cs_td_ti_diff.png) | ![Plot](resources/one_year_poe_0.01g_cs_etas_uni_ti_diff.png) | ![Plot](resources/one_year_poe_0.01g_cs_etas_ti_diff.png) |
+| **CS-TD** | ![Plot](resources/one_year_poe_0.01g_cs_td_ti_gain.png) | ![Plot](resources/one_year_poe_0.01g_cs_td.png) | ![Plot](resources/one_year_poe_0.01g_cs_etas_uni_td_diff.png) | ![Plot](resources/one_year_poe_0.01g_cs_etas_td_diff.png) |
+| **CS-ETAS (Uniform)** | ![Plot](resources/one_year_poe_0.01g_cs_etas_uni_ti_gain.png) | ![Plot](resources/one_year_poe_0.01g_cs_etas_uni_td_gain.png) | ![Plot](resources/one_year_poe_0.01g_cs_etas_uni.png) | ![Plot](resources/one_year_poe_0.01g_cs_etas_uni_diff.png) |
+| **CS-ETAS** | ![Plot](resources/one_year_poe_0.01g_cs_etas_ti_gain.png) | ![Plot](resources/one_year_poe_0.01g_cs_etas_td_gain.png) | ![Plot](resources/one_year_poe_0.01g_cs_etas_uni_gain.png) | ![Plot](resources/one_year_poe_0.01g_cs_etas.png) |
+
+##### One Year POE 0.01 (g) 10s SA, GMPE Maps
+*[(top)](#table-of-contents)*
+
+|  | GMPE-TI | GMPE-TD | GMPE-ETAS-Uniform | GMPE-ETAS |
+|-----|-----|-----|-----|-----|
+| **GMPE-TI** | ![Plot](resources/one_year_poe_0.01g_gmpe_ti.png) | ![Plot](resources/one_year_poe_0.01g_gmpe_td_ti_diff.png) | ![Plot](resources/one_year_poe_0.01g_gmpe_etas_uni_ti_diff.png) | ![Plot](resources/one_year_poe_0.01g_gmpe_etas_ti_diff.png) |
+| **GMPE-TD** | ![Plot](resources/one_year_poe_0.01g_gmpe_td_ti_gain.png) | ![Plot](resources/one_year_poe_0.01g_gmpe_td.png) | ![Plot](resources/one_year_poe_0.01g_gmpe_etas_uni_td_diff.png) | ![Plot](resources/one_year_poe_0.01g_gmpe_etas_td_diff.png) |
+| **GMPE-ETAS (Uniform)** | ![Plot](resources/one_year_poe_0.01g_gmpe_etas_uni_ti_gain.png) | ![Plot](resources/one_year_poe_0.01g_gmpe_etas_uni_td_gain.png) | ![Plot](resources/one_year_poe_0.01g_gmpe_etas_uni.png) | ![Plot](resources/one_year_poe_0.01g_gmpe_etas_uni_diff.png) |
+| **GMPE-ETAS** | ![Plot](resources/one_year_poe_0.01g_gmpe_etas_ti_gain.png) | ![Plot](resources/one_year_poe_0.01g_gmpe_etas_td_gain.png) | ![Plot](resources/one_year_poe_0.01g_gmpe_etas_uni_gain.png) | ![Plot](resources/one_year_poe_0.01g_gmpe_etas.png) |
+
+##### One Year POE 0.1 (g) 10s SA, CyberShake Maps
+*[(top)](#table-of-contents)*
+
+|  | CS-TI | CS-TD | CS-ETAS-Uniform | CS-ETAS |
+|-----|-----|-----|-----|-----|
+| **CS-TI** | ![Plot](resources/one_year_poe_0.1g_cs_ti.png) | ![Plot](resources/one_year_poe_0.1g_cs_td_ti_diff.png) | ![Plot](resources/one_year_poe_0.1g_cs_etas_uni_ti_diff.png) | ![Plot](resources/one_year_poe_0.1g_cs_etas_ti_diff.png) |
+| **CS-TD** | ![Plot](resources/one_year_poe_0.1g_cs_td_ti_gain.png) | ![Plot](resources/one_year_poe_0.1g_cs_td.png) | ![Plot](resources/one_year_poe_0.1g_cs_etas_uni_td_diff.png) | ![Plot](resources/one_year_poe_0.1g_cs_etas_td_diff.png) |
+| **CS-ETAS (Uniform)** | ![Plot](resources/one_year_poe_0.1g_cs_etas_uni_ti_gain.png) | ![Plot](resources/one_year_poe_0.1g_cs_etas_uni_td_gain.png) | ![Plot](resources/one_year_poe_0.1g_cs_etas_uni.png) | ![Plot](resources/one_year_poe_0.1g_cs_etas_uni_diff.png) |
+| **CS-ETAS** | ![Plot](resources/one_year_poe_0.1g_cs_etas_ti_gain.png) | ![Plot](resources/one_year_poe_0.1g_cs_etas_td_gain.png) | ![Plot](resources/one_year_poe_0.1g_cs_etas_uni_gain.png) | ![Plot](resources/one_year_poe_0.1g_cs_etas.png) |
+
+##### One Year POE 0.1 (g) 10s SA, GMPE Maps
+*[(top)](#table-of-contents)*
+
+|  | GMPE-TI | GMPE-TD | GMPE-ETAS-Uniform | GMPE-ETAS |
+|-----|-----|-----|-----|-----|
+| **GMPE-TI** | ![Plot](resources/one_year_poe_0.1g_gmpe_ti.png) | ![Plot](resources/one_year_poe_0.1g_gmpe_td_ti_diff.png) | ![Plot](resources/one_year_poe_0.1g_gmpe_etas_uni_ti_diff.png) | ![Plot](resources/one_year_poe_0.1g_gmpe_etas_ti_diff.png) |
+| **GMPE-TD** | ![Plot](resources/one_year_poe_0.1g_gmpe_td_ti_gain.png) | ![Plot](resources/one_year_poe_0.1g_gmpe_td.png) | ![Plot](resources/one_year_poe_0.1g_gmpe_etas_uni_td_diff.png) | ![Plot](resources/one_year_poe_0.1g_gmpe_etas_td_diff.png) |
+| **GMPE-ETAS (Uniform)** | ![Plot](resources/one_year_poe_0.1g_gmpe_etas_uni_ti_gain.png) | ![Plot](resources/one_year_poe_0.1g_gmpe_etas_uni_td_gain.png) | ![Plot](resources/one_year_poe_0.1g_gmpe_etas_uni.png) | ![Plot](resources/one_year_poe_0.1g_gmpe_etas_uni_diff.png) |
+| **GMPE-ETAS** | ![Plot](resources/one_year_poe_0.1g_gmpe_etas_ti_gain.png) | ![Plot](resources/one_year_poe_0.1g_gmpe_etas_td_gain.png) | ![Plot](resources/one_year_poe_0.1g_gmpe_etas_uni_gain.png) | ![Plot](resources/one_year_poe_0.1g_gmpe_etas.png) |
+
+##### One Year POE 0.2 (g) 10s SA, CyberShake Maps
+*[(top)](#table-of-contents)*
+
+|  | CS-TI | CS-TD | CS-ETAS-Uniform | CS-ETAS |
+|-----|-----|-----|-----|-----|
+| **CS-TI** | ![Plot](resources/one_year_poe_0.2g_cs_ti.png) | ![Plot](resources/one_year_poe_0.2g_cs_td_ti_diff.png) | ![Plot](resources/one_year_poe_0.2g_cs_etas_uni_ti_diff.png) | ![Plot](resources/one_year_poe_0.2g_cs_etas_ti_diff.png) |
+| **CS-TD** | ![Plot](resources/one_year_poe_0.2g_cs_td_ti_gain.png) | ![Plot](resources/one_year_poe_0.2g_cs_td.png) | ![Plot](resources/one_year_poe_0.2g_cs_etas_uni_td_diff.png) | ![Plot](resources/one_year_poe_0.2g_cs_etas_td_diff.png) |
+| **CS-ETAS (Uniform)** | ![Plot](resources/one_year_poe_0.2g_cs_etas_uni_ti_gain.png) | ![Plot](resources/one_year_poe_0.2g_cs_etas_uni_td_gain.png) | ![Plot](resources/one_year_poe_0.2g_cs_etas_uni.png) | ![Plot](resources/one_year_poe_0.2g_cs_etas_uni_diff.png) |
+| **CS-ETAS** | ![Plot](resources/one_year_poe_0.2g_cs_etas_ti_gain.png) | ![Plot](resources/one_year_poe_0.2g_cs_etas_td_gain.png) | ![Plot](resources/one_year_poe_0.2g_cs_etas_uni_gain.png) | ![Plot](resources/one_year_poe_0.2g_cs_etas.png) |
+
+##### One Year POE 0.2 (g) 10s SA, GMPE Maps
+*[(top)](#table-of-contents)*
+
+|  | GMPE-TI | GMPE-TD | GMPE-ETAS-Uniform | GMPE-ETAS |
+|-----|-----|-----|-----|-----|
+| **GMPE-TI** | ![Plot](resources/one_year_poe_0.2g_gmpe_ti.png) | ![Plot](resources/one_year_poe_0.2g_gmpe_td_ti_diff.png) | ![Plot](resources/one_year_poe_0.2g_gmpe_etas_uni_ti_diff.png) | ![Plot](resources/one_year_poe_0.2g_gmpe_etas_ti_diff.png) |
+| **GMPE-TD** | ![Plot](resources/one_year_poe_0.2g_gmpe_td_ti_gain.png) | ![Plot](resources/one_year_poe_0.2g_gmpe_td.png) | ![Plot](resources/one_year_poe_0.2g_gmpe_etas_uni_td_diff.png) | ![Plot](resources/one_year_poe_0.2g_gmpe_etas_td_diff.png) |
+| **GMPE-ETAS (Uniform)** | ![Plot](resources/one_year_poe_0.2g_gmpe_etas_uni_ti_gain.png) | ![Plot](resources/one_year_poe_0.2g_gmpe_etas_uni_td_gain.png) | ![Plot](resources/one_year_poe_0.2g_gmpe_etas_uni.png) | ![Plot](resources/one_year_poe_0.2g_gmpe_etas_uni_diff.png) |
+| **GMPE-ETAS** | ![Plot](resources/one_year_poe_0.2g_gmpe_etas_ti_gain.png) | ![Plot](resources/one_year_poe_0.2g_gmpe_etas_td_gain.png) | ![Plot](resources/one_year_poe_0.2g_gmpe_etas_uni_gain.png) | ![Plot](resources/one_year_poe_0.2g_gmpe_etas.png) |
 
