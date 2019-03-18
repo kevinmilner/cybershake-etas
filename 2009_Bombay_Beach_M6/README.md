@@ -5,6 +5,7 @@
 CyberShake Study: Study 15.4 with 336 sites
 
 ## Table Of Contents
+* [Mapping Information](#mapping-information)
 * [Hazard Curves](#hazard-curves)
   * [SBSM Hazard Curves](#sbsm-hazard-curves)
     * [CyberShake SBSM Hazard Curves](#cybershake-sbsm-hazard-curves)
@@ -91,6 +92,16 @@ CyberShake Study: Study 15.4 with 336 sites
       * [One Year POE 0.5 (g) 5s SA, CyberShake Maps](#one-year-poe-05-g-5s-sa-cybershake-maps)
       * [One Year POE 0.5 (g) 5s SA, GMPE Maps](#one-year-poe-05-g-5s-sa-gmpe-maps)
   * [5s One Year EATS Gains Table](#5s-one-year-eats-gains-table)
+## Mapping Information
+
+| Num Catalogs | 500000 |
+|-----|-----|
+| Mapped Ruptures | 21376 |
+| Mean variations per ruptures | 6.80436 |
+| Median variations per ruptures | 7.0 |
+| Min variations per ruptures | 1.0 |
+| Max variations per ruptures | 23.0 |
+
 ## Hazard Curves
 *[(top)](#table-of-contents)*
 
