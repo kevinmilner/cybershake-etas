@@ -22,6 +22,11 @@ CyberShake Study: Study 15.4 with 336 sites
     * [CyberShake STNI 5s Hazard Gain Table](#cybershake-stni-5s-hazard-gain-table)
     * [GMPE STNI Hazard Curves](#gmpe-stni-hazard-curves)
     * [GMPE STNI 5s Hazard Gain Table](#gmpe-stni-5s-hazard-gain-table)
+  * [PDU Hazard Curves](#pdu-hazard-curves)
+    * [CyberShake PDU Hazard Curves](#cybershake-pdu-hazard-curves)
+    * [CyberShake PDU 5s Hazard Gain Table](#cybershake-pdu-5s-hazard-gain-table)
+    * [GMPE PDU Hazard Curves](#gmpe-pdu-hazard-curves)
+    * [GMPE PDU 5s Hazard Gain Table](#gmpe-pdu-5s-hazard-gain-table)
 * [Hazard Maps](#hazard-maps)
   * [5s One Day Hazard Maps](#5s-one-day-hazard-maps)
     * [One Day 5s Sa (g) with POE=1.0E-4, Maps](#one-day-5s-sa-g-with-poe10e-4-maps)
@@ -239,6 +244,51 @@ CyberShake Study: Study 15.4 with 336 sites
 | ASK2014, ETAS | ASK2014, TD | 6.819 at 7.943 g | 42.121 at 0.010 g | 1.944 at 10.000 g | 9.705 at 0.010 g | 1.024 at 10.000 g | 1.285 at 0.010 g |
 | ASK2014+BS13 Directivity, ETAS | ASK2014, TD | 30.260 at 0.032 g | 62.451 at 0.631 g | 7.302 at 0.032 g | 13.759 at 0.631 g | 1.214 at 0.032 g | 1.412 at 0.631 g |
 | ASK2014+BS13 Directivity, ETAS | ASK2014, ETAS | 1.002 at 0.010 g | 7.703 at 10.000 g | 1.001 at 0.010 g | 4.810 at 10.000 g | 1.000 at 0.010 g | 1.263 at 1.259 g |
+
+### PDU Hazard Curves
+*[(top)](#table-of-contents)*
+
+| Site Location Map |
+|-----|
+| ![site map](resources/PDU_location_map.png) |
+
+#### CyberShake PDU Hazard Curves
+*[(top)](#table-of-contents)*
+
+| Time Span | 3s | 5s | 10s |
+|-----|-----|-----|-----|
+| One Day | ![plot](resources/hazard_curves_cs_PDU_3s_one_day.png) | ![plot](resources/hazard_curves_cs_PDU_5s_one_day.png) | ![plot](resources/hazard_curves_cs_PDU_10s_one_day.png) |
+| One Week | ![plot](resources/hazard_curves_cs_PDU_3s_one_week.png) | ![plot](resources/hazard_curves_cs_PDU_5s_one_week.png) | ![plot](resources/hazard_curves_cs_PDU_10s_one_week.png) |
+| One Year | ![plot](resources/hazard_curves_cs_PDU_3s_one_year.png) | ![plot](resources/hazard_curves_cs_PDU_5s_one_year.png) | ![plot](resources/hazard_curves_cs_PDU_10s_one_year.png) |
+
+#### CyberShake PDU 5s Hazard Gain Table
+*[(top)](#table-of-contents)*
+
+| Dividend | Divisor | One Day Min | One Day Max | One Week Min | One Week Max | One Year Min | One Year Max |
+|-----|-----|-----|-----|-----|-----|-----|-----|
+| CyberShake, TD | CyberShake, TI | 1.193 at 0.010 g | 1.663 at 0.316 g | 1.193 at 0.010 g | 1.663 at 0.316 g | 1.188 at 0.010 g | 1.663 at 0.316 g |
+| CyberShake, Uniform ETAS | CyberShake, TD | 0.788 at 0.376 g | 71.770 at 0.071 g | 0.788 at 0.376 g | 16.014 at 0.071 g | 0.788 at 0.376 g | 1.506 at 0.071 g |
+| CyberShake, ETAS | CyberShake, TD | 0.788 at 0.376 g | 198.411 at 0.168 g | 0.788 at 0.376 g | 41.094 at 0.168 g | 0.788 at 0.376 g | 2.278 at 0.168 g |
+| CyberShake, ETAS | CyberShake, Uniform ETAS | 0.073 at 0.211 g | 9.307 at 0.168 g | 0.279 at 0.178 g | 7.870 at 0.168 g | 0.916 at 0.178 g | 1.947 at 0.168 g |
+
+#### GMPE PDU Hazard Curves
+*[(top)](#table-of-contents)*
+
+| Time Span | 3s | 5s | 10s |
+|-----|-----|-----|-----|
+| One Day | ![plot](resources/hazard_curves_gmpe_PDU_3s_one_day.png) | ![plot](resources/hazard_curves_gmpe_PDU_5s_one_day.png) | ![plot](resources/hazard_curves_gmpe_PDU_10s_one_day.png) |
+| One Week | ![plot](resources/hazard_curves_gmpe_PDU_3s_one_week.png) | ![plot](resources/hazard_curves_gmpe_PDU_5s_one_week.png) | ![plot](resources/hazard_curves_gmpe_PDU_10s_one_week.png) |
+| One Year | ![plot](resources/hazard_curves_gmpe_PDU_3s_one_year.png) | ![plot](resources/hazard_curves_gmpe_PDU_5s_one_year.png) | ![plot](resources/hazard_curves_gmpe_PDU_10s_one_year.png) |
+
+#### GMPE PDU 5s Hazard Gain Table
+*[(top)](#table-of-contents)*
+
+| Dividend | Divisor | One Day Min | One Day Max | One Week Min | One Week Max | One Year Min | One Year Max |
+|-----|-----|-----|-----|-----|-----|-----|-----|
+| ASK2014, TD | ASK2014, TI | 1.135 at 0.010 g | 1.550 at 6.310 g | 1.135 at 0.010 g | 1.550 at 7.943 g | 1.131 at 0.010 g | 1.317 at 10.000 g |
+| ASK2014, ETAS | ASK2014, TD | 34.355 at 0.025 g | 66.613 at 6.310 g | 8.499 at 0.025 g | 15.129 at 7.943 g | 1.274 at 0.020 g | 1.361 at 10.000 g |
+| ASK2014+BS13 Directivity, ETAS | ASK2014, TD | 37.237 at 0.020 g | 641.226 at 6.310 g | 9.048 at 0.020 g | 143.355 at 7.943 g | 1.288 at 0.016 g | 4.321 at 7.943 g |
+| ASK2014+BS13 Directivity, ETAS | ASK2014, ETAS | 1.016 at 0.010 g | 10.218 at 7.943 g | 1.014 at 0.010 g | 9.475 at 7.943 g | 1.003 at 0.010 g | 3.219 at 7.943 g |
 
 ## Hazard Maps
 *[(top)](#table-of-contents)*
