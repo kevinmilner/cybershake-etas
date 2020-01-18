@@ -2,6 +2,12 @@
 <html>
 <head>
 <style>
+table {
+	border-collapse: collapse
+}
+table, th, td {
+	border: 1px solid black
+}
 body {
 	max-width:1000px;
 	margin: auto;
@@ -19,7 +25,7 @@ img {
 <tr><th></th><th>Mojave Point M6</th></tr>
 </thead>
 <tbody>
-<tr><td>Num Simulations</td><td>500000</td></tr>
+<tr><td>Num Simulations</td><td>1000000</td></tr>
 <tr><td>Start Time</td><td>2019/01/01 00:00:00 UTC</td></tr>
 <tr><td>Start Time Epoch Milliseconds</td><td>1546300800000</td></tr>
 <tr><td>Duration</td><td>10 Years</td></tr>
@@ -55,13 +61,13 @@ img {
 <p><em><a href="#table-of-contents">(top)</a></em></p>
 <p><strong>Legend</strong></p>
 <ul>
-<li><strong>Mean</strong> (thick black line): mean expected number across all 500000 catalogs</li>
-<li><strong>2.5%,97.5%</strong> (thin black lines): expected number percentiles across all 500000 catalogs</li>
-<li><strong>Median</strong> (thin blue line): median expected number across all 500000 catalogs</li>
-<li><strong>Mode</strong> (thin cyan line): modal expected number across all 500000 catalogs</li>
+<li><strong>Mean</strong> (thick black line): mean expected number across all 1000000 catalogs</li>
+<li><strong>2.5%,97.5%</strong> (thin black lines): expected number percentiles across all 1000000 catalogs</li>
+<li><strong>Median</strong> (thin blue line): median expected number across all 1000000 catalogs</li>
+<li><strong>Mode</strong> (thin cyan line): modal expected number across all 1000000 catalogs</li>
 <li><strong>10 yr Probability</strong> (thin red line): 10 year probability calculated as the fraction of catalogs with at least 1 occurrence</li>
 <li><strong>95% Conf</strong> (light red shaded region): binomial 95% confidence bounds on probability</li>
-<li><strong>Primary</strong> (thin green line): mean expected number from primary triggered aftershocks only (no secondary, tertiary, etc...) across all 500000 catalogs</li>
+<li><strong>Primary</strong> (thin green line): mean expected number from primary triggered aftershocks only (no secondary, tertiary, etc...) across all 1000000 catalogs</li>
 </ul>
 <p><img src="plots/mag_num_cumulative_triggered.png" alt="MFD Plot" /></p>
 <table>
@@ -69,38 +75,38 @@ img {
 <tr><th>Mag</th><th>Mean</th><th>2.5 %ile</th><th>97.5 %ile</th><th>Median</th><th>Mode</th><th>10 yr Probability</th><th>Primary Aftershocks Mean</th></tr>
 </thead>
 <tbody>
-<tr><td><strong>M≥5</strong></td><td>4.608</td><td>0.000</td><td>67.000</td><td>1.000</td><td>0.000</td><td>0.532</td><td>0.528</td></tr>
-<tr><td><strong>M≥5.1</strong></td><td>3.630</td><td>0.000</td><td>53.000</td><td>0.000</td><td>0.000</td><td>0.460</td><td>0.420</td></tr>
-<tr><td><strong>M≥5.2</strong></td><td>2.851</td><td>0.000</td><td>41.000</td><td>0.000</td><td>0.000</td><td>0.393</td><td>0.334</td></tr>
-<tr><td><strong>M≥5.3</strong></td><td>2.235</td><td>0.000</td><td>32.000</td><td>0.000</td><td>0.000</td><td>0.333</td><td>0.265</td></tr>
-<tr><td><strong>M≥5.4</strong></td><td>1.745</td><td>0.000</td><td>25.000</td><td>0.000</td><td>0.000</td><td>0.281</td><td>0.211</td></tr>
-<tr><td><strong>M≥5.5</strong></td><td>1.355</td><td>0.000</td><td>19.000</td><td>0.000</td><td>0.000</td><td>0.236</td><td>0.168</td></tr>
-<tr><td><strong>M≥5.6</strong></td><td>1.045</td><td>0.000</td><td>15.000</td><td>0.000</td><td>0.000</td><td>0.197</td><td>0.134</td></tr>
-<tr><td><strong>M≥5.7</strong></td><td>0.800</td><td>0.000</td><td>11.000</td><td>0.000</td><td>0.000</td><td>0.165</td><td>0.107</td></tr>
-<tr><td><strong>M≥5.8</strong></td><td>0.604</td><td>0.000</td><td>9.000</td><td>0.000</td><td>0.000</td><td>0.137</td><td>0.085</td></tr>
-<tr><td><strong>M≥5.9</strong></td><td>0.449</td><td>0.000</td><td>6.000</td><td>0.000</td><td>0.000</td><td>0.114</td><td>0.068</td></tr>
-<tr><td><strong>M≥6</strong></td><td>0.330</td><td>0.000</td><td>5.000</td><td>0.000</td><td>0.000</td><td>0.095</td><td>0.054</td></tr>
-<tr><td><strong>M≥6.1</strong></td><td>0.242</td><td>0.000</td><td>4.000</td><td>0.000</td><td>0.000</td><td>0.079</td><td>0.043</td></tr>
-<tr><td><strong>M≥6.2</strong></td><td>0.196</td><td>0.000</td><td>3.000</td><td>0.000</td><td>0.000</td><td>0.074</td><td>0.040</td></tr>
-<tr><td><strong>M≥6.3</strong></td><td>0.170</td><td>0.000</td><td>3.000</td><td>0.000</td><td>0.000</td><td>0.069</td><td>0.037</td></tr>
-<tr><td><strong>M≥6.4</strong></td><td>0.160</td><td>0.000</td><td>2.000</td><td>0.000</td><td>0.000</td><td>0.069</td><td>0.037</td></tr>
-<tr><td><strong>M≥6.5</strong></td><td>0.157</td><td>0.000</td><td>2.000</td><td>0.000</td><td>0.000</td><td>0.069</td><td>0.037</td></tr>
-<tr><td><strong>M≥6.6</strong></td><td>0.120</td><td>0.000</td><td>2.000</td><td>0.000</td><td>0.000</td><td>0.065</td><td>0.035</td></tr>
-<tr><td><strong>M≥6.7</strong></td><td>0.112</td><td>0.000</td><td>2.000</td><td>0.000</td><td>0.000</td><td>0.064</td><td>0.034</td></tr>
-<tr><td><strong>M≥6.8</strong></td><td>0.095</td><td>0.000</td><td>1.000</td><td>0.000</td><td>0.000</td><td>0.063</td><td>0.034</td></tr>
-<tr><td><strong>M≥6.9</strong></td><td>0.092</td><td>0.000</td><td>1.000</td><td>0.000</td><td>0.000</td><td>0.062</td><td>0.034</td></tr>
-<tr><td><strong>M≥7</strong></td><td>0.087</td><td>0.000</td><td>1.000</td><td>0.000</td><td>0.000</td><td>0.062</td><td>0.034</td></tr>
-<tr><td><strong>M≥7.1</strong></td><td>0.073</td><td>0.000</td><td>1.000</td><td>0.000</td><td>0.000</td><td>0.061</td><td>0.033</td></tr>
-<tr><td><strong>M≥7.2</strong></td><td>0.067</td><td>0.000</td><td>1.000</td><td>0.000</td><td>0.000</td><td>0.061</td><td>0.033</td></tr>
-<tr><td><strong>M≥7.3</strong></td><td>0.058</td><td>0.000</td><td>1.000</td><td>0.000</td><td>0.000</td><td>0.053</td><td>0.029</td></tr>
-<tr><td><strong>M≥7.4</strong></td><td>0.055</td><td>0.000</td><td>1.000</td><td>0.000</td><td>0.000</td><td>0.053</td><td>0.029</td></tr>
-<tr><td><strong>M≥7.5</strong></td><td>0.043</td><td>0.000</td><td>1.000</td><td>0.000</td><td>0.000</td><td>0.041</td><td>0.022</td></tr>
-<tr><td><strong>M≥7.6</strong></td><td>0.037</td><td>0.000</td><td>1.000</td><td>0.000</td><td>0.000</td><td>0.035</td><td>0.019</td></tr>
-<tr><td><strong>M≥7.7</strong></td><td>0.032</td><td>0.000</td><td>1.000</td><td>0.000</td><td>0.000</td><td>0.032</td><td>0.017</td></tr>
-<tr><td><strong>M≥7.8</strong></td><td>0.026</td><td>0.000</td><td>1.000</td><td>0.000</td><td>0.000</td><td>0.026</td><td>0.014</td></tr>
-<tr><td><strong>M≥7.9</strong></td><td>8.01E-3</td><td>0.000</td><td>0.000</td><td>0.000</td><td>0.000</td><td>8.01E-3</td><td>4.30E-3</td></tr>
-<tr><td><strong>M≥8</strong></td><td>2.00E-3</td><td>0.000</td><td>0.000</td><td>0.000</td><td>0.000</td><td>2.00E-3</td><td>1.06E-3</td></tr>
-<tr><td><strong>M≥8.1</strong></td><td>6.56E-4</td><td>0.000</td><td>0.000</td><td>0.000</td><td>0.000</td><td>6.56E-4</td><td>3.32E-4</td></tr>
+<tr><td><strong>M≥5</strong></td><td>4.367</td><td>0.000</td><td>64.000</td><td>1.000</td><td>0.000</td><td>0.532</td><td>0.527</td></tr>
+<tr><td><strong>M≥5.1</strong></td><td>3.438</td><td>0.000</td><td>50.000</td><td>0.000</td><td>0.000</td><td>0.460</td><td>0.419</td></tr>
+<tr><td><strong>M≥5.2</strong></td><td>2.698</td><td>0.000</td><td>39.000</td><td>0.000</td><td>0.000</td><td>0.393</td><td>0.333</td></tr>
+<tr><td><strong>M≥5.3</strong></td><td>2.111</td><td>0.000</td><td>30.000</td><td>0.000</td><td>0.000</td><td>0.333</td><td>0.265</td></tr>
+<tr><td><strong>M≥5.4</strong></td><td>1.645</td><td>0.000</td><td>23.000</td><td>0.000</td><td>0.000</td><td>0.281</td><td>0.211</td></tr>
+<tr><td><strong>M≥5.5</strong></td><td>1.274</td><td>0.000</td><td>18.000</td><td>0.000</td><td>0.000</td><td>0.236</td><td>0.168</td></tr>
+<tr><td><strong>M≥5.6</strong></td><td>0.980</td><td>0.000</td><td>14.000</td><td>0.000</td><td>0.000</td><td>0.197</td><td>0.134</td></tr>
+<tr><td><strong>M≥5.7</strong></td><td>0.746</td><td>0.000</td><td>11.000</td><td>0.000</td><td>0.000</td><td>0.164</td><td>0.107</td></tr>
+<tr><td><strong>M≥5.8</strong></td><td>0.560</td><td>0.000</td><td>8.000</td><td>0.000</td><td>0.000</td><td>0.137</td><td>0.085</td></tr>
+<tr><td><strong>M≥5.9</strong></td><td>0.414</td><td>0.000</td><td>6.000</td><td>0.000</td><td>0.000</td><td>0.114</td><td>0.067</td></tr>
+<tr><td><strong>M≥6</strong></td><td>0.301</td><td>0.000</td><td>4.000</td><td>0.000</td><td>0.000</td><td>0.094</td><td>0.054</td></tr>
+<tr><td><strong>M≥6.1</strong></td><td>0.217</td><td>0.000</td><td>3.000</td><td>0.000</td><td>0.000</td><td>0.079</td><td>0.043</td></tr>
+<tr><td><strong>M≥6.2</strong></td><td>0.173</td><td>0.000</td><td>3.000</td><td>0.000</td><td>0.000</td><td>0.073</td><td>0.039</td></tr>
+<tr><td><strong>M≥6.3</strong></td><td>0.149</td><td>0.000</td><td>2.000</td><td>0.000</td><td>0.000</td><td>0.069</td><td>0.036</td></tr>
+<tr><td><strong>M≥6.4</strong></td><td>0.139</td><td>0.000</td><td>2.000</td><td>0.000</td><td>0.000</td><td>0.068</td><td>0.036</td></tr>
+<tr><td><strong>M≥6.5</strong></td><td>0.136</td><td>0.000</td><td>2.000</td><td>0.000</td><td>0.000</td><td>0.068</td><td>0.036</td></tr>
+<tr><td><strong>M≥6.6</strong></td><td>0.108</td><td>0.000</td><td>2.000</td><td>0.000</td><td>0.000</td><td>0.064</td><td>0.034</td></tr>
+<tr><td><strong>M≥6.7</strong></td><td>0.100</td><td>0.000</td><td>1.000</td><td>0.000</td><td>0.000</td><td>0.063</td><td>0.034</td></tr>
+<tr><td><strong>M≥6.8</strong></td><td>0.088</td><td>0.000</td><td>1.000</td><td>0.000</td><td>0.000</td><td>0.062</td><td>0.034</td></tr>
+<tr><td><strong>M≥6.9</strong></td><td>0.085</td><td>0.000</td><td>1.000</td><td>0.000</td><td>0.000</td><td>0.062</td><td>0.033</td></tr>
+<tr><td><strong>M≥7</strong></td><td>0.081</td><td>0.000</td><td>1.000</td><td>0.000</td><td>0.000</td><td>0.061</td><td>0.033</td></tr>
+<tr><td><strong>M≥7.1</strong></td><td>0.070</td><td>0.000</td><td>1.000</td><td>0.000</td><td>0.000</td><td>0.061</td><td>0.033</td></tr>
+<tr><td><strong>M≥7.2</strong></td><td>0.065</td><td>0.000</td><td>1.000</td><td>0.000</td><td>0.000</td><td>0.060</td><td>0.033</td></tr>
+<tr><td><strong>M≥7.3</strong></td><td>0.056</td><td>0.000</td><td>1.000</td><td>0.000</td><td>0.000</td><td>0.052</td><td>0.028</td></tr>
+<tr><td><strong>M≥7.4</strong></td><td>0.054</td><td>0.000</td><td>1.000</td><td>0.000</td><td>0.000</td><td>0.052</td><td>0.028</td></tr>
+<tr><td><strong>M≥7.5</strong></td><td>0.041</td><td>0.000</td><td>1.000</td><td>0.000</td><td>0.000</td><td>0.039</td><td>0.021</td></tr>
+<tr><td><strong>M≥7.6</strong></td><td>0.035</td><td>0.000</td><td>1.000</td><td>0.000</td><td>0.000</td><td>0.034</td><td>0.018</td></tr>
+<tr><td><strong>M≥7.7</strong></td><td>0.031</td><td>0.000</td><td>1.000</td><td>0.000</td><td>0.000</td><td>0.030</td><td>0.016</td></tr>
+<tr><td><strong>M≥7.8</strong></td><td>0.025</td><td>0.000</td><td>0.000</td><td>0.000</td><td>0.000</td><td>0.025</td><td>0.014</td></tr>
+<tr><td><strong>M≥7.9</strong></td><td>7.45E-3</td><td>0.000</td><td>0.000</td><td>0.000</td><td>0.000</td><td>7.45E-3</td><td>4.03E-3</td></tr>
+<tr><td><strong>M≥8</strong></td><td>1.80E-3</td><td>0.000</td><td>0.000</td><td>0.000</td><td>0.000</td><td>1.80E-3</td><td>9.65E-4</td></tr>
+<tr><td><strong>M≥8.1</strong></td><td>5.44E-4</td><td>0.000</td><td>0.000</td><td>0.000</td><td>0.000</td><td>5.44E-4</td><td>2.88E-4</td></tr>
 <tr><td><strong>M≥8.2</strong></td><td>0.000</td><td>0.000</td><td>0.000</td><td>0.000</td><td>0.000</td><td>0.000</td><td>0.000</td></tr>
 <tr><td><strong>M≥8.3</strong></td><td>0.000</td><td>0.000</td><td>0.000</td><td>0.000</td><td>0.000</td><td>0.000</td><td>0.000</td></tr>
 <tr><td><strong>M≥8.4</strong></td><td>0.000</td><td>0.000</td><td>0.000</td><td>0.000</td><td>0.000</td><td>0.000</td><td>0.000</td></tr>
@@ -123,11 +129,11 @@ img {
 <tr><th>Forecast Duration</th><th>UCERF3-ETAS [95% Conf]</th><th>UCERF3-ETAS Triggered Only</th><th>UCERF3-TD</th><th>UCERF3-TI</th></tr>
 </thead>
 <tbody>
-<tr><td>1 Hour</td><td>0.113 [0.113 - 0.114]</td><td>0.113</td><td>8.84E-5</td><td>8.54E-5</td></tr>
-<tr><td>1 Day</td><td>0.262 [0.261 - 0.263]</td><td>0.261</td><td>2.12E-3</td><td>2.05E-3</td></tr>
-<tr><td>1 Week</td><td>0.350 [0.348 - 0.351]</td><td>0.340</td><td>0.015</td><td>0.014</td></tr>
-<tr><td>1 Month</td><td>0.429 [0.428 - 0.431]</td><td>0.392</td><td>0.062</td><td>0.060</td></tr>
-<tr><td>1 Year</td><td>0.756 [0.755 - 0.756]</td><td>0.469</td><td>0.539</td><td>0.527</td></tr>
+<tr><td>1 Hour</td><td>0.113 [0.112 - 0.113]</td><td>0.113</td><td>8.84E-5</td><td>8.54E-5</td></tr>
+<tr><td>1 Day</td><td>0.262 [0.261 - 0.263]</td><td>0.260</td><td>2.12E-3</td><td>2.05E-3</td></tr>
+<tr><td>1 Week</td><td>0.349 [0.348 - 0.350]</td><td>0.339</td><td>0.015</td><td>0.014</td></tr>
+<tr><td>1 Month</td><td>0.429 [0.428 - 0.430]</td><td>0.392</td><td>0.062</td><td>0.060</td></tr>
+<tr><td>1 Year</td><td>0.756 [0.755 - 0.756]</td><td>0.470</td><td>0.539</td><td>0.527</td></tr>
 <tr><td>10 Years</td><td>1.000 [1.000 - 1.000]</td><td>0.529</td><td>1.000</td><td>0.999</td></tr>
 <tr><td>30 Years</td><td>1.000 [1.000 - 1.000] *</td><td>*</td><td>1.000</td><td>1.000</td></tr>
 <tr><td>100 Years</td><td>1.000 [1.000 - 1.000] *</td><td>*</td><td>1.000</td><td>1.000</td></tr>
@@ -142,11 +148,11 @@ img {
 <tr><th>Forecast Duration</th><th>UCERF3-ETAS [95% Conf]</th><th>UCERF3-ETAS Triggered Only</th><th>UCERF3-TD</th><th>UCERF3-TI</th></tr>
 </thead>
 <tbody>
-<tr><td>1 Hour</td><td>0.013 [0.012 - 0.013]</td><td>0.013</td><td>1.69E-5</td><td>1.39E-5</td></tr>
-<tr><td>1 Day</td><td>0.034 [0.034 - 0.035]</td><td>0.034</td><td>4.06E-4</td><td>3.33E-4</td></tr>
-<tr><td>1 Week</td><td>0.050 [0.050 - 0.051]</td><td>0.048</td><td>2.84E-3</td><td>2.33E-3</td></tr>
-<tr><td>1 Month</td><td>0.070 [0.069 - 0.071]</td><td>0.059</td><td>0.012</td><td>9.95E-3</td></tr>
-<tr><td>1 Year</td><td>0.204 [0.204 - 0.205]</td><td>0.077</td><td>0.138</td><td>0.115</td></tr>
+<tr><td>1 Hour</td><td>0.013 [0.012 - 0.013]</td><td>0.012</td><td>1.69E-5</td><td>1.39E-5</td></tr>
+<tr><td>1 Day</td><td>0.034 [0.033 - 0.034]</td><td>0.033</td><td>4.06E-4</td><td>3.33E-4</td></tr>
+<tr><td>1 Week</td><td>0.050 [0.049 - 0.050]</td><td>0.047</td><td>2.84E-3</td><td>2.33E-3</td></tr>
+<tr><td>1 Month</td><td>0.069 [0.069 - 0.070]</td><td>0.058</td><td>0.012</td><td>9.95E-3</td></tr>
+<tr><td>1 Year</td><td>0.204 [0.204 - 0.204]</td><td>0.077</td><td>0.138</td><td>0.115</td></tr>
 <tr><td>10 Years</td><td>0.792 [0.791 - 0.792]</td><td>0.094</td><td>0.770</td><td>0.704</td></tr>
 <tr><td>30 Years</td><td>0.987 [0.987 - 0.987] *</td><td>*</td><td>0.986</td><td>0.974</td></tr>
 <tr><td>100 Years</td><td>1.000 [1.000 - 1.000] *</td><td>*</td><td>1.000</td><td>1.000</td></tr>
@@ -161,13 +167,13 @@ img {
 <tr><th>Forecast Duration</th><th>UCERF3-ETAS [95% Conf]</th><th>UCERF3-ETAS Triggered Only</th><th>UCERF3-TD</th><th>UCERF3-TI</th></tr>
 </thead>
 <tbody>
-<tr><td>1 Hour</td><td>8.02E-3 [7.78E-3 - 8.27E-3]</td><td>8.01E-3</td><td>7.08E-6</td><td>6.07E-6</td></tr>
-<tr><td>1 Day</td><td>0.022 [0.021 - 0.022]</td><td>0.022</td><td>1.70E-4</td><td>1.46E-4</td></tr>
-<tr><td>1 Week</td><td>0.032 [0.031 - 0.032]</td><td>0.031</td><td>1.19E-3</td><td>1.02E-3</td></tr>
-<tr><td>1 Month</td><td>0.043 [0.042 - 0.043]</td><td>0.038</td><td>5.09E-3</td><td>4.36E-3</td></tr>
-<tr><td>1 Year</td><td>0.107 [0.107 - 0.108]</td><td>0.050</td><td>0.060</td><td>0.052</td></tr>
-<tr><td>10 Years</td><td>0.489 [0.488 - 0.489]</td><td>0.062</td><td>0.455</td><td>0.412</td></tr>
-<tr><td>30 Years</td><td>0.826 [0.826 - 0.827] *</td><td>*</td><td>0.815</td><td>0.797</td></tr>
+<tr><td>1 Hour</td><td>7.86E-3 [7.69E-3 - 8.04E-3]</td><td>7.85E-3</td><td>7.08E-6</td><td>6.07E-6</td></tr>
+<tr><td>1 Day</td><td>0.021 [0.021 - 0.022]</td><td>0.021</td><td>1.70E-4</td><td>1.46E-4</td></tr>
+<tr><td>1 Week</td><td>0.031 [0.031 - 0.032]</td><td>0.030</td><td>1.19E-3</td><td>1.02E-3</td></tr>
+<tr><td>1 Month</td><td>0.042 [0.042 - 0.042]</td><td>0.037</td><td>5.09E-3</td><td>4.36E-3</td></tr>
+<tr><td>1 Year</td><td>0.107 [0.106 - 0.107]</td><td>0.049</td><td>0.060</td><td>0.052</td></tr>
+<tr><td>10 Years</td><td>0.488 [0.488 - 0.488]</td><td>0.061</td><td>0.455</td><td>0.412</td></tr>
+<tr><td>30 Years</td><td>0.826 [0.826 - 0.826] *</td><td>*</td><td>0.815</td><td>0.797</td></tr>
 <tr><td>100 Years</td><td>0.986 [0.986 - 0.986] *</td><td>*</td><td>0.986</td><td>0.995</td></tr>
 </tbody>
 </table>
@@ -180,14 +186,14 @@ img {
 <tr><th>Forecast Duration</th><th>UCERF3-ETAS [95% Conf]</th><th>UCERF3-ETAS Triggered Only</th><th>UCERF3-TD</th><th>UCERF3-TI</th></tr>
 </thead>
 <tbody>
-<tr><td>1 Hour</td><td>2.44E-4 [2.04E-4 - 2.93E-4]</td><td>2.44E-4</td><td>1.85E-7</td><td>1.76E-7</td></tr>
-<tr><td>1 Day</td><td>6.98E-4 [6.28E-4 - 7.76E-4]</td><td>6.94E-4</td><td>4.45E-6</td><td>4.21E-6</td></tr>
-<tr><td>1 Week</td><td>1.07E-3 [9.81E-4 - 1.16E-3]</td><td>1.04E-3</td><td>3.12E-5</td><td>2.95E-5</td></tr>
-<tr><td>1 Month</td><td>1.37E-3 [1.28E-3 - 1.47E-3]</td><td>1.24E-3</td><td>1.34E-4</td><td>1.26E-4</td></tr>
-<tr><td>1 Year</td><td>3.23E-3 [3.12E-3 - 3.35E-3]</td><td>1.61E-3</td><td>1.62E-3</td><td>1.54E-3</td></tr>
-<tr><td>10 Years</td><td>0.017 [0.017 - 0.017]</td><td>2.00E-3</td><td>0.015</td><td>0.015</td></tr>
-<tr><td>30 Years</td><td>0.038 [0.038 - 0.039] *</td><td>*</td><td>0.036</td><td>0.045</td></tr>
-<tr><td>100 Years</td><td>0.060 [0.059 - 0.060] *</td><td>*</td><td>0.058</td><td>0.143</td></tr>
+<tr><td>1 Hour</td><td>2.32E-4 [2.04E-4 - 2.65E-4]</td><td>2.32E-4</td><td>1.85E-7</td><td>1.76E-7</td></tr>
+<tr><td>1 Day</td><td>6.36E-4 [5.89E-4 - 6.88E-4]</td><td>6.32E-4</td><td>4.45E-6</td><td>4.21E-6</td></tr>
+<tr><td>1 Week</td><td>9.52E-4 [8.94E-4 - 1.01E-3]</td><td>9.21E-4</td><td>3.12E-5</td><td>2.95E-5</td></tr>
+<tr><td>1 Month</td><td>1.24E-3 [1.18E-3 - 1.31E-3]</td><td>1.11E-3</td><td>1.34E-4</td><td>1.26E-4</td></tr>
+<tr><td>1 Year</td><td>3.08E-3 [3.00E-3 - 3.15E-3]</td><td>1.45E-3</td><td>1.62E-3</td><td>1.54E-3</td></tr>
+<tr><td>10 Years</td><td>0.017 [0.017 - 0.017]</td><td>1.80E-3</td><td>0.015</td><td>0.015</td></tr>
+<tr><td>30 Years</td><td>0.038 [0.038 - 0.038] *</td><td>*</td><td>0.036</td><td>0.045</td></tr>
+<tr><td>100 Years</td><td>0.059 [0.059 - 0.059] *</td><td>*</td><td>0.058</td><td>0.143</td></tr>
 </tbody>
 </table>
 <p>* <em>forecast duration is longer than simulation length, only ETAS ruptures from the first 10 years are included</em></p>
@@ -209,82 +215,82 @@ img {
 </table>
 <h3 id="supra-seismogenic-parent-sections-table">Supra-Seismogenic Parent Sections Table</h3>
 <p><em><a href="#table-of-contents">(top)</a></em></p>
+<p><em>First 10 of 148 with matching ruptures shown</em></p>
+<table>
+<thead>
+<tr><th>Parent Name</th><th>Triggered Mean Count</th><th>Triggered 10 Year Prob</th><th>Triggered Primary Mean Count</th></tr>
+</thead>
+<tbody>
+<tr><td>San Andreas (Mojave S)</td><td>0.060964</td><td>0.060659</td><td>0.033147</td></tr>
+<tr><td>San Andreas (San Bernardino N)</td><td>0.033554</td><td>0.033412</td><td>0.017255</td></tr>
+<tr><td>San Andreas (Mojave N)</td><td>0.033093</td><td>0.033059</td><td>0.017896</td></tr>
+<tr><td>San Andreas (Big Bend)</td><td>0.02623</td><td>0.026213</td><td>0.014157</td></tr>
+<tr><td>San Andreas (Carrizo) rev</td><td>0.023077</td><td>0.023048</td><td>0.012481</td></tr>
+<tr><td>San Andreas (Cholame) rev</td><td>0.018872</td><td>0.018848</td><td>0.010097</td></tr>
+<tr><td>San Andreas (San Bernardino S)</td><td>0.018105</td><td>0.018072</td><td>0.0094</td></tr>
+<tr><td>Cucamonga</td><td>0.016579</td><td>0.016579</td><td>9.78E-4</td></tr>
+<tr><td>San Andreas (Parkfield)</td><td>0.015083</td><td>0.015043</td><td>0.007627</td></tr>
+<tr><td>Cleghorn</td><td>0.010051</td><td>0.010003</td><td>1.15E-4</td></tr>
+</tbody>
+</table>
+<h3 id="m65-parent-sections-table">M≥6.5 Parent Sections Table</h3>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
 <p><em>First 10 of 139 with matching ruptures shown</em></p>
 <table>
 <thead>
 <tr><th>Parent Name</th><th>Triggered Mean Count</th><th>Triggered 10 Year Prob</th><th>Triggered Primary Mean Count</th></tr>
 </thead>
 <tbody>
-<tr><td>San Andreas (Mojave S)</td><td>0.061852</td><td>0.061414</td><td>0.033618</td></tr>
-<tr><td>San Andreas (San Bernardino N)</td><td>0.035566</td><td>0.035358</td><td>0.01787</td></tr>
-<tr><td>San Andreas (Mojave N)</td><td>0.033688</td><td>0.033638</td><td>0.018282</td></tr>
-<tr><td>San Andreas (Big Bend)</td><td>0.026778</td><td>0.02676</td><td>0.014516</td></tr>
-<tr><td>San Andreas (Carrizo) rev</td><td>0.023552</td><td>0.02353</td><td>0.01277</td></tr>
-<tr><td>Cucamonga</td><td>0.02272</td><td>0.02272</td><td>0.001004</td></tr>
-<tr><td>San Andreas (San Bernardino S)</td><td>0.019954</td><td>0.019902</td><td>0.010192</td></tr>
-<tr><td>San Andreas (Cholame) rev</td><td>0.019414</td><td>0.019404</td><td>0.010344</td></tr>
-<tr><td>San Andreas (Parkfield)</td><td>0.015806</td><td>0.015774</td><td>0.007892</td></tr>
-<tr><td>Cleghorn</td><td>0.014186</td><td>0.014118</td><td>1.24E-4</td></tr>
-</tbody>
-</table>
-<h3 id="m65-parent-sections-table">M≥6.5 Parent Sections Table</h3>
-<p><em><a href="#table-of-contents">(top)</a></em></p>
-<p><em>First 10 of 131 with matching ruptures shown</em></p>
-<table>
-<thead>
-<tr><th>Parent Name</th><th>Triggered Mean Count</th><th>Triggered 10 Year Prob</th><th>Triggered Primary Mean Count</th></tr>
-</thead>
-<tbody>
-<tr><td>San Andreas (Mojave S)</td><td>0.061852</td><td>0.061414</td><td>0.033618</td></tr>
-<tr><td>San Andreas (San Bernardino N)</td><td>0.035566</td><td>0.035358</td><td>0.01787</td></tr>
-<tr><td>San Andreas (Mojave N)</td><td>0.033688</td><td>0.033638</td><td>0.018282</td></tr>
-<tr><td>San Andreas (Big Bend)</td><td>0.026778</td><td>0.02676</td><td>0.014516</td></tr>
-<tr><td>San Andreas (Carrizo) rev</td><td>0.023552</td><td>0.02353</td><td>0.01277</td></tr>
-<tr><td>Cucamonga</td><td>0.02272</td><td>0.02272</td><td>0.001004</td></tr>
-<tr><td>San Andreas (San Bernardino S)</td><td>0.019954</td><td>0.019902</td><td>0.010192</td></tr>
-<tr><td>San Andreas (Cholame) rev</td><td>0.019414</td><td>0.019404</td><td>0.010344</td></tr>
-<tr><td>San Andreas (Parkfield)</td><td>0.014982</td><td>0.014982</td><td>0.007892</td></tr>
-<tr><td>Cleghorn</td><td>0.014186</td><td>0.014118</td><td>1.24E-4</td></tr>
+<tr><td>San Andreas (Mojave S)</td><td>0.060964</td><td>0.060659</td><td>0.033147</td></tr>
+<tr><td>San Andreas (San Bernardino N)</td><td>0.033554</td><td>0.033412</td><td>0.017255</td></tr>
+<tr><td>San Andreas (Mojave N)</td><td>0.033093</td><td>0.033059</td><td>0.017896</td></tr>
+<tr><td>San Andreas (Big Bend)</td><td>0.02623</td><td>0.026213</td><td>0.014157</td></tr>
+<tr><td>San Andreas (Carrizo) rev</td><td>0.023077</td><td>0.023048</td><td>0.012481</td></tr>
+<tr><td>San Andreas (Cholame) rev</td><td>0.018872</td><td>0.018848</td><td>0.010097</td></tr>
+<tr><td>San Andreas (San Bernardino S)</td><td>0.018105</td><td>0.018072</td><td>0.0094</td></tr>
+<tr><td>Cucamonga</td><td>0.016579</td><td>0.016579</td><td>9.78E-4</td></tr>
+<tr><td>San Andreas (Parkfield)</td><td>0.014333</td><td>0.014333</td><td>0.007626</td></tr>
+<tr><td>Cleghorn</td><td>0.010051</td><td>0.010003</td><td>1.15E-4</td></tr>
 </tbody>
 </table>
 <h3 id="m7-parent-sections-table">M≥7 Parent Sections Table</h3>
 <p><em><a href="#table-of-contents">(top)</a></em></p>
-<p><em>First 10 of 74 with matching ruptures shown</em></p>
+<p><em>First 10 of 81 with matching ruptures shown</em></p>
 <table>
 <thead>
 <tr><th>Parent Name</th><th>Triggered Mean Count</th><th>Triggered 10 Year Prob</th><th>Triggered Primary Mean Count</th></tr>
 </thead>
 <tbody>
-<tr><td>San Andreas (Mojave S)</td><td>0.060818</td><td>0.060458</td><td>0.033106</td></tr>
-<tr><td>San Andreas (San Bernardino N)</td><td>0.034044</td><td>0.033892</td><td>0.017752</td></tr>
-<tr><td>San Andreas (Mojave N)</td><td>0.033586</td><td>0.033536</td><td>0.018278</td></tr>
-<tr><td>San Andreas (Big Bend)</td><td>0.026774</td><td>0.026756</td><td>0.014516</td></tr>
-<tr><td>San Andreas (Carrizo) rev</td><td>0.02355</td><td>0.023528</td><td>0.01277</td></tr>
-<tr><td>San Andreas (San Bernardino S)</td><td>0.019924</td><td>0.019874</td><td>0.010192</td></tr>
-<tr><td>San Andreas (Cholame) rev</td><td>0.019412</td><td>0.019402</td><td>0.010344</td></tr>
-<tr><td>San Andreas (Parkfield)</td><td>0.014982</td><td>0.014982</td><td>0.007892</td></tr>
-<tr><td>San Andreas (San Gorgonio Pass-Garnet HIll)</td><td>0.010654</td><td>0.010604</td><td>0.00547</td></tr>
-<tr><td>San Jacinto (San Bernardino)</td><td>0.008434</td><td>0.008388</td><td>3.4E-5</td></tr>
+<tr><td>San Andreas (Mojave S)</td><td>0.059937</td><td>0.059686</td><td>0.032634</td></tr>
+<tr><td>San Andreas (Mojave N)</td><td>0.033012</td><td>0.032978</td><td>0.017893</td></tr>
+<tr><td>San Andreas (San Bernardino N)</td><td>0.032355</td><td>0.032248</td><td>0.017117</td></tr>
+<tr><td>San Andreas (Big Bend)</td><td>0.026228</td><td>0.026211</td><td>0.014157</td></tr>
+<tr><td>San Andreas (Carrizo) rev</td><td>0.023075</td><td>0.023047</td><td>0.012481</td></tr>
+<tr><td>San Andreas (Cholame) rev</td><td>0.01887</td><td>0.018846</td><td>0.010097</td></tr>
+<tr><td>San Andreas (San Bernardino S)</td><td>0.018084</td><td>0.018052</td><td>0.0094</td></tr>
+<tr><td>San Andreas (Parkfield)</td><td>0.014333</td><td>0.014333</td><td>0.007626</td></tr>
+<tr><td>San Andreas (San Gorgonio Pass-Garnet HIll)</td><td>0.009294</td><td>0.009266</td><td>0.004873</td></tr>
+<tr><td>San Jacinto (San Bernardino)</td><td>0.006244</td><td>0.006211</td><td>3.5E-5</td></tr>
 </tbody>
 </table>
 <h3 id="m75-parent-sections-table">M≥7.5 Parent Sections Table</h3>
 <p><em><a href="#table-of-contents">(top)</a></em></p>
-<p><em>First 10 of 36 with matching ruptures shown</em></p>
+<p><em>First 10 of 37 with matching ruptures shown</em></p>
 <table>
 <thead>
 <tr><th>Parent Name</th><th>Triggered Mean Count</th><th>Triggered 10 Year Prob</th><th>Triggered Primary Mean Count</th></tr>
 </thead>
 <tbody>
-<tr><td>San Andreas (Mojave S)</td><td>0.040328</td><td>0.040198</td><td>0.021992</td></tr>
-<tr><td>San Andreas (Mojave N)</td><td>0.02994</td><td>0.029916</td><td>0.016268</td></tr>
-<tr><td>San Andreas (Big Bend)</td><td>0.026606</td><td>0.026592</td><td>0.014468</td></tr>
-<tr><td>San Andreas (San Bernardino N)</td><td>0.023572</td><td>0.023542</td><td>0.012674</td></tr>
-<tr><td>San Andreas (Carrizo) rev</td><td>0.023482</td><td>0.02348</td><td>0.01277</td></tr>
-<tr><td>San Andreas (Cholame) rev</td><td>0.019082</td><td>0.019082</td><td>0.01034</td></tr>
-<tr><td>San Andreas (San Bernardino S)</td><td>0.018354</td><td>0.018338</td><td>0.009842</td></tr>
-<tr><td>San Andreas (Parkfield)</td><td>0.014688</td><td>0.014688</td><td>0.007888</td></tr>
-<tr><td>San Andreas (San Gorgonio Pass-Garnet HIll)</td><td>0.010152</td><td>0.010142</td><td>0.005382</td></tr>
-<tr><td>San Andreas (Coachella) rev</td><td>0.005916</td><td>0.005916</td><td>0.003006</td></tr>
+<tr><td>San Andreas (Mojave S)</td><td>0.03874</td><td>0.038656</td><td>0.021082</td></tr>
+<tr><td>San Andreas (Mojave N)</td><td>0.029199</td><td>0.029182</td><td>0.015829</td></tr>
+<tr><td>San Andreas (Big Bend)</td><td>0.026083</td><td>0.02607</td><td>0.014111</td></tr>
+<tr><td>San Andreas (Carrizo) rev</td><td>0.023016</td><td>0.023013</td><td>0.01248</td></tr>
+<tr><td>San Andreas (San Bernardino N)</td><td>0.02191</td><td>0.021889</td><td>0.011834</td></tr>
+<tr><td>San Andreas (Cholame) rev</td><td>0.018616</td><td>0.018616</td><td>0.010094</td></tr>
+<tr><td>San Andreas (San Bernardino S)</td><td>0.016814</td><td>0.016805</td><td>0.00906</td></tr>
+<tr><td>San Andreas (Parkfield)</td><td>0.014112</td><td>0.014112</td><td>0.007623</td></tr>
+<tr><td>San Andreas (San Gorgonio Pass-Garnet HIll)</td><td>0.008915</td><td>0.00891</td><td>0.004794</td></tr>
+<tr><td>San Andreas (Coachella) rev</td><td>0.005152</td><td>0.005152</td><td>0.002707</td></tr>
 </tbody>
 </table>
 <h3 id="m8-parent-sections-table">M≥8 Parent Sections Table</h3>
@@ -294,16 +300,16 @@ img {
 <tr><th>Parent Name</th><th>Triggered Mean Count</th><th>Triggered 10 Year Prob</th><th>Triggered Primary Mean Count</th></tr>
 </thead>
 <tbody>
-<tr><td>San Andreas (Big Bend)</td><td>0.002002</td><td>0.002002</td><td>0.001058</td></tr>
-<tr><td>San Andreas (Carrizo) rev</td><td>0.002002</td><td>0.002002</td><td>0.001058</td></tr>
-<tr><td>San Andreas (Mojave N)</td><td>0.002002</td><td>0.002002</td><td>0.001058</td></tr>
-<tr><td>San Andreas (Mojave S)</td><td>0.002002</td><td>0.002002</td><td>0.001058</td></tr>
-<tr><td>San Andreas (San Bernardino N)</td><td>0.002002</td><td>0.002002</td><td>0.001058</td></tr>
-<tr><td>San Andreas (San Bernardino S)</td><td>0.002002</td><td>0.002002</td><td>0.001058</td></tr>
-<tr><td>San Andreas (Cholame) rev</td><td>0.00173</td><td>0.00173</td><td>8.96E-4</td></tr>
-<tr><td>San Andreas (Parkfield)</td><td>0.001616</td><td>0.001616</td><td>8.46E-4</td></tr>
-<tr><td>San Andreas (San Gorgonio Pass-Garnet HIll)</td><td>0.001332</td><td>0.001332</td><td>7.04E-4</td></tr>
-<tr><td>San Andreas (Coachella) rev</td><td>8.84E-4</td><td>8.84E-4</td><td>4.54E-4</td></tr>
+<tr><td>San Andreas (Big Bend)</td><td>0.001801</td><td>0.001801</td><td>9.65E-4</td></tr>
+<tr><td>San Andreas (Carrizo) rev</td><td>0.001801</td><td>0.001801</td><td>9.65E-4</td></tr>
+<tr><td>San Andreas (Mojave N)</td><td>0.001801</td><td>0.001801</td><td>9.65E-4</td></tr>
+<tr><td>San Andreas (Mojave S)</td><td>0.001801</td><td>0.001801</td><td>9.65E-4</td></tr>
+<tr><td>San Andreas (San Bernardino N)</td><td>0.001801</td><td>0.001801</td><td>9.65E-4</td></tr>
+<tr><td>San Andreas (San Bernardino S)</td><td>0.001801</td><td>0.001801</td><td>9.65E-4</td></tr>
+<tr><td>San Andreas (Cholame) rev</td><td>0.001549</td><td>0.001549</td><td>8.27E-4</td></tr>
+<tr><td>San Andreas (Parkfield)</td><td>0.001426</td><td>0.001426</td><td>7.69E-4</td></tr>
+<tr><td>San Andreas (San Gorgonio Pass-Garnet HIll)</td><td>0.001184</td><td>0.001184</td><td>6.27E-4</td></tr>
+<tr><td>San Andreas (Coachella) rev</td><td>7.82E-4</td><td>7.82E-4</td><td>4.12E-4</td></tr>
 </tbody>
 </table>
 <h2 id="gridded-nucleation">Gridded Nucleation</h2>
@@ -321,11 +327,11 @@ img {
 <h2 id="json-input-file">JSON Input File</h2>
 <p><em><a href="#table-of-contents">(top)</a></em></p>
 <pre><code>{
-  &quot;numSimulations&quot;: 500000,
+  &quot;numSimulations&quot;: 1000000,
   &quot;duration&quot;: 10.0,
   &quot;startYear&quot;: 2019,
   &quot;includeSpontaneous&quot;: false,
-  &quot;randomSeed&quot;: 123456789,
+  &quot;randomSeed&quot;: 987654321,
   &quot;binaryOutput&quot;: true,
   &quot;binaryOutputFilters&quot;: [
     {
@@ -340,9 +346,10 @@ img {
     }
   ],
   &quot;forceRecalc&quot;: false,
+  &quot;reuseERFs&quot;: false,
   &quot;simulationName&quot;: &quot;Mojave Point M6&quot;,
   &quot;numRetries&quot;: 3,
-  &quot;outputDir&quot;: &quot;${ETAS_SIM_DIR}/2019_01_11-MojavePointM6-u2mapped-noSpont-10yr-8threads&quot;,
+  &quot;outputDir&quot;: &quot;${ETAS_SIM_DIR}/2019_04_25-MojavePointM6-u2mapped-noSpont-10yr&quot;,
   &quot;triggerRuptures&quot;: [
     {
       &quot;mag&quot;: 6.0,

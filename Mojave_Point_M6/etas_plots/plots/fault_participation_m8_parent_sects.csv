@@ -223,21 +223,21 @@ Parent ID,Parent Name,Triggered Mean Count,Triggered 10 Year Prob,Triggered Prim
 123,Rose Canyon,0.0,0.0,0.0
 42,Round Valley,0.0,0.0,0.0
 690,Russ 2011 CFM,0.0,0.0,0.0
-287,San Andreas (Big Bend),0.002002,0.002002,0.001058
-300,San Andreas (Carrizo) rev,0.002002,0.002002,0.001058
-285,San Andreas (Cholame) rev,0.00173,0.00173,8.96E-4
-295,San Andreas (Coachella) rev,8.84E-4,8.84E-4,4.54E-4
+287,San Andreas (Big Bend),0.001801,0.001801,9.65E-4
+300,San Andreas (Carrizo) rev,0.001801,0.001801,9.65E-4
+285,San Andreas (Cholame) rev,0.001549,0.001549,8.27E-4
+295,San Andreas (Coachella) rev,7.82E-4,7.82E-4,4.12E-4
 658,San Andreas (Creeping Section) 2011 CFM,0.0,0.0,0.0
-286,San Andreas (Mojave N),0.002002,0.002002,0.001058
-301,San Andreas (Mojave S),0.002002,0.002002,0.001058
+286,San Andreas (Mojave N),0.001801,0.001801,9.65E-4
+301,San Andreas (Mojave S),0.001801,0.001801,9.65E-4
 294,San Andreas (North Branch Mill Creek),0.0,0.0,0.0
 654,San Andreas (North Coast) 2011 CFM,0.0,0.0,0.0
 653,San Andreas (Offshore) 2011 CFM,0.0,0.0,0.0
-32,San Andreas (Parkfield),0.001616,0.001616,8.46E-4
+32,San Andreas (Parkfield),0.001426,0.001426,7.69E-4
 655,San Andreas (Peninsula) 2011 CFM,0.0,0.0,0.0
-282,San Andreas (San Bernardino N),0.002002,0.002002,0.001058
-283,San Andreas (San Bernardino S),0.002002,0.002002,0.001058
-284,San Andreas (San Gorgonio Pass-Garnet HIll),0.001332,0.001332,7.04E-4
+282,San Andreas (San Bernardino N),0.001801,0.001801,9.65E-4
+283,San Andreas (San Bernardino S),0.001801,0.001801,9.65E-4
+284,San Andreas (San Gorgonio Pass-Garnet HIll),0.001184,0.001184,6.27E-4
 657,San Andreas (Santa Cruz Mts) 2011 CFM,0.0,0.0,0.0
 80,San Cayetano,0.0,0.0,0.0
 178,San Clemente,0.0,0.0,0.0

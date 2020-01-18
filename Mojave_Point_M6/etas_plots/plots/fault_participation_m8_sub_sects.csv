@@ -1771,45 +1771,45 @@ Subsection Index,Subsection Name,Triggered Mean Count,Triggered 10 Year Prob,Tri
 1769,"Russ 2011 CFM, Subsection 6",0.0,0.0,0.0
 1770,"Russ 2011 CFM, Subsection 7",0.0,0.0,0.0
 1771,"Russ 2011 CFM, Subsection 8",0.0,0.0,0.0
-1772,"San Andreas (Big Bend), Subsection 0",0.002002,0.002002,0.001058
-1773,"San Andreas (Big Bend), Subsection 1",0.002002,0.002002,0.001058
-1774,"San Andreas (Big Bend), Subsection 2",0.002002,0.002002,0.001058
-1775,"San Andreas (Big Bend), Subsection 3",0.002002,0.002002,0.001058
-1776,"San Andreas (Big Bend), Subsection 4",0.002002,0.002002,0.001058
-1777,"San Andreas (Big Bend), Subsection 5",0.002002,0.002002,0.001058
-1778,"San Andreas (Big Bend), Subsection 6",0.002002,0.002002,0.001058
-1779,"San Andreas (Carrizo) rev, Subsection 0",0.002002,0.002002,0.001058
-1780,"San Andreas (Carrizo) rev, Subsection 1",0.002002,0.002002,0.001058
-1781,"San Andreas (Carrizo) rev, Subsection 2",0.002002,0.002002,0.001058
-1782,"San Andreas (Carrizo) rev, Subsection 3",0.002002,0.002002,0.001058
-1783,"San Andreas (Carrizo) rev, Subsection 4",0.002002,0.002002,0.001058
-1784,"San Andreas (Carrizo) rev, Subsection 5",0.002002,0.002002,0.001058
-1785,"San Andreas (Carrizo) rev, Subsection 6",0.002002,0.002002,0.001058
-1786,"San Andreas (Carrizo) rev, Subsection 7",0.002002,0.002002,0.001058
-1787,"San Andreas (Cholame) rev, Subsection 0",0.00173,0.00173,8.96E-4
-1788,"San Andreas (Cholame) rev, Subsection 1",0.00173,0.00173,8.96E-4
-1789,"San Andreas (Cholame) rev, Subsection 2",0.00173,0.00173,8.96E-4
-1790,"San Andreas (Cholame) rev, Subsection 3",0.00173,0.00173,8.96E-4
-1791,"San Andreas (Cholame) rev, Subsection 4",0.00173,0.00173,8.96E-4
-1792,"San Andreas (Cholame) rev, Subsection 5",0.00173,0.00173,8.96E-4
-1793,"San Andreas (Cholame) rev, Subsection 6",0.001716,0.001716,8.9E-4
-1794,"San Andreas (Cholame) rev, Subsection 7",0.001686,0.001686,8.7E-4
-1795,"San Andreas (Cholame) rev, Subsection 8",0.001672,0.001672,8.66E-4
-1796,"San Andreas (Cholame) rev, Subsection 9",0.001658,0.001658,8.62E-4
-1797,"San Andreas (Cholame) rev, Subsection 10",0.001634,0.001634,8.54E-4
-1798,"San Andreas (Coachella) rev, Subsection 0",8.84E-4,8.84E-4,4.54E-4
-1799,"San Andreas (Coachella) rev, Subsection 1",8.84E-4,8.84E-4,4.54E-4
-1800,"San Andreas (Coachella) rev, Subsection 2",8.72E-4,8.72E-4,4.5E-4
-1801,"San Andreas (Coachella) rev, Subsection 3",8.66E-4,8.66E-4,4.48E-4
-1802,"San Andreas (Coachella) rev, Subsection 4",8.58E-4,8.58E-4,4.42E-4
-1803,"San Andreas (Coachella) rev, Subsection 5",8.42E-4,8.42E-4,4.3E-4
-1804,"San Andreas (Coachella) rev, Subsection 6",8.18E-4,8.18E-4,4.12E-4
-1805,"San Andreas (Coachella) rev, Subsection 7",8.1E-4,8.1E-4,4.06E-4
-1806,"San Andreas (Coachella) rev, Subsection 8",7.86E-4,7.86E-4,3.98E-4
-1807,"San Andreas (Coachella) rev, Subsection 9",7.72E-4,7.72E-4,3.94E-4
-1808,"San Andreas (Coachella) rev, Subsection 10",7.58E-4,7.58E-4,3.9E-4
-1809,"San Andreas (Coachella) rev, Subsection 11",7.4E-4,7.4E-4,3.76E-4
-1810,"San Andreas (Coachella) rev, Subsection 12",7.28E-4,7.28E-4,3.7E-4
+1772,"San Andreas (Big Bend), Subsection 0",0.001801,0.001801,9.65E-4
+1773,"San Andreas (Big Bend), Subsection 1",0.001801,0.001801,9.65E-4
+1774,"San Andreas (Big Bend), Subsection 2",0.001801,0.001801,9.65E-4
+1775,"San Andreas (Big Bend), Subsection 3",0.001801,0.001801,9.65E-4
+1776,"San Andreas (Big Bend), Subsection 4",0.001801,0.001801,9.65E-4
+1777,"San Andreas (Big Bend), Subsection 5",0.001801,0.001801,9.65E-4
+1778,"San Andreas (Big Bend), Subsection 6",0.001801,0.001801,9.65E-4
+1779,"San Andreas (Carrizo) rev, Subsection 0",0.001801,0.001801,9.65E-4
+1780,"San Andreas (Carrizo) rev, Subsection 1",0.001801,0.001801,9.65E-4
+1781,"San Andreas (Carrizo) rev, Subsection 2",0.001801,0.001801,9.65E-4
+1782,"San Andreas (Carrizo) rev, Subsection 3",0.001801,0.001801,9.65E-4
+1783,"San Andreas (Carrizo) rev, Subsection 4",0.001801,0.001801,9.65E-4
+1784,"San Andreas (Carrizo) rev, Subsection 5",0.001801,0.001801,9.65E-4
+1785,"San Andreas (Carrizo) rev, Subsection 6",0.001801,0.001801,9.65E-4
+1786,"San Andreas (Carrizo) rev, Subsection 7",0.001801,0.001801,9.65E-4
+1787,"San Andreas (Cholame) rev, Subsection 0",0.001549,0.001549,8.27E-4
+1788,"San Andreas (Cholame) rev, Subsection 1",0.001549,0.001549,8.27E-4
+1789,"San Andreas (Cholame) rev, Subsection 2",0.001549,0.001549,8.27E-4
+1790,"San Andreas (Cholame) rev, Subsection 3",0.001549,0.001549,8.27E-4
+1791,"San Andreas (Cholame) rev, Subsection 4",0.001549,0.001549,8.27E-4
+1792,"San Andreas (Cholame) rev, Subsection 5",0.001549,0.001549,8.27E-4
+1793,"San Andreas (Cholame) rev, Subsection 6",0.001533,0.001533,8.19E-4
+1794,"San Andreas (Cholame) rev, Subsection 7",0.0015,0.0015,8.0E-4
+1795,"San Andreas (Cholame) rev, Subsection 8",0.001479,0.001479,7.93E-4
+1796,"San Andreas (Cholame) rev, Subsection 9",0.001467,0.001467,7.88E-4
+1797,"San Andreas (Cholame) rev, Subsection 10",0.001447,0.001447,7.8E-4
+1798,"San Andreas (Coachella) rev, Subsection 0",7.82E-4,7.82E-4,4.12E-4
+1799,"San Andreas (Coachella) rev, Subsection 1",7.82E-4,7.82E-4,4.12E-4
+1800,"San Andreas (Coachella) rev, Subsection 2",7.68E-4,7.68E-4,4.06E-4
+1801,"San Andreas (Coachella) rev, Subsection 3",7.55E-4,7.55E-4,3.99E-4
+1802,"San Andreas (Coachella) rev, Subsection 4",7.46E-4,7.46E-4,3.94E-4
+1803,"San Andreas (Coachella) rev, Subsection 5",7.28E-4,7.28E-4,3.81E-4
+1804,"San Andreas (Coachella) rev, Subsection 6",7.09E-4,7.09E-4,3.69E-4
+1805,"San Andreas (Coachella) rev, Subsection 7",6.97E-4,6.97E-4,3.61E-4
+1806,"San Andreas (Coachella) rev, Subsection 8",6.77E-4,6.77E-4,3.53E-4
+1807,"San Andreas (Coachella) rev, Subsection 9",6.65E-4,6.65E-4,3.48E-4
+1808,"San Andreas (Coachella) rev, Subsection 10",6.44E-4,6.44E-4,3.41E-4
+1809,"San Andreas (Coachella) rev, Subsection 11",6.25E-4,6.25E-4,3.29E-4
+1810,"San Andreas (Coachella) rev, Subsection 12",6.11E-4,6.11E-4,3.22E-4
 1811,"San Andreas (Creeping Section) 2011 CFM, Subsection 0",0.0,0.0,0.0
 1812,"San Andreas (Creeping Section) 2011 CFM, Subsection 1",0.0,0.0,0.0
 1813,"San Andreas (Creeping Section) 2011 CFM, Subsection 2",0.0,0.0,0.0
@@ -1831,26 +1831,26 @@ Subsection Index,Subsection Name,Triggered Mean Count,Triggered 10 Year Prob,Tri
 1829,"San Andreas (Creeping Section) 2011 CFM, Subsection 18",0.0,0.0,0.0
 1830,"San Andreas (Creeping Section) 2011 CFM, Subsection 19",0.0,0.0,0.0
 1831,"San Andreas (Creeping Section) 2011 CFM, Subsection 20",0.0,0.0,0.0
-1832,"San Andreas (Mojave N), Subsection 0",0.002002,0.002002,0.001058
-1833,"San Andreas (Mojave N), Subsection 1",0.002002,0.002002,0.001058
-1834,"San Andreas (Mojave N), Subsection 2",0.002002,0.002002,0.001058
-1835,"San Andreas (Mojave N), Subsection 3",0.002002,0.002002,0.001058
-1836,"San Andreas (Mojave N), Subsection 4",0.002002,0.002002,0.001058
-1837,"San Andreas (Mojave S), Subsection 0",0.002002,0.002002,0.001058
-1838,"San Andreas (Mojave S), Subsection 1",0.002002,0.002002,0.001058
-1839,"San Andreas (Mojave S), Subsection 2",0.002002,0.002002,0.001058
-1840,"San Andreas (Mojave S), Subsection 3",0.002002,0.002002,0.001058
-1841,"San Andreas (Mojave S), Subsection 4",0.002002,0.002002,0.001058
-1842,"San Andreas (Mojave S), Subsection 5",0.002002,0.002002,0.001058
-1843,"San Andreas (Mojave S), Subsection 6",0.002002,0.002002,0.001058
-1844,"San Andreas (Mojave S), Subsection 7",0.002002,0.002002,0.001058
-1845,"San Andreas (Mojave S), Subsection 8",0.002002,0.002002,0.001058
-1846,"San Andreas (Mojave S), Subsection 9",0.002002,0.002002,0.001058
-1847,"San Andreas (Mojave S), Subsection 10",0.002002,0.002002,0.001058
-1848,"San Andreas (Mojave S), Subsection 11",0.002002,0.002002,0.001058
-1849,"San Andreas (Mojave S), Subsection 12",0.002002,0.002002,0.001058
-1850,"San Andreas (Mojave S), Subsection 13",0.002002,0.002002,0.001058
-1851,"San Andreas (Mojave S), Subsection 14",0.002002,0.002002,0.001058
+1832,"San Andreas (Mojave N), Subsection 0",0.001801,0.001801,9.65E-4
+1833,"San Andreas (Mojave N), Subsection 1",0.001801,0.001801,9.65E-4
+1834,"San Andreas (Mojave N), Subsection 2",0.001801,0.001801,9.65E-4
+1835,"San Andreas (Mojave N), Subsection 3",0.001801,0.001801,9.65E-4
+1836,"San Andreas (Mojave N), Subsection 4",0.001801,0.001801,9.65E-4
+1837,"San Andreas (Mojave S), Subsection 0",0.001801,0.001801,9.65E-4
+1838,"San Andreas (Mojave S), Subsection 1",0.001801,0.001801,9.65E-4
+1839,"San Andreas (Mojave S), Subsection 2",0.001801,0.001801,9.65E-4
+1840,"San Andreas (Mojave S), Subsection 3",0.001801,0.001801,9.65E-4
+1841,"San Andreas (Mojave S), Subsection 4",0.001801,0.001801,9.65E-4
+1842,"San Andreas (Mojave S), Subsection 5",0.001801,0.001801,9.65E-4
+1843,"San Andreas (Mojave S), Subsection 6",0.001801,0.001801,9.65E-4
+1844,"San Andreas (Mojave S), Subsection 7",0.001801,0.001801,9.65E-4
+1845,"San Andreas (Mojave S), Subsection 8",0.001801,0.001801,9.65E-4
+1846,"San Andreas (Mojave S), Subsection 9",0.001801,0.001801,9.65E-4
+1847,"San Andreas (Mojave S), Subsection 10",0.001801,0.001801,9.65E-4
+1848,"San Andreas (Mojave S), Subsection 11",0.001801,0.001801,9.65E-4
+1849,"San Andreas (Mojave S), Subsection 12",0.001801,0.001801,9.65E-4
+1850,"San Andreas (Mojave S), Subsection 13",0.001801,0.001801,9.65E-4
+1851,"San Andreas (Mojave S), Subsection 14",0.001801,0.001801,9.65E-4
 1852,"San Andreas (North Branch Mill Creek), Subsection 0",0.0,0.0,0.0
 1853,"San Andreas (North Branch Mill Creek), Subsection 1",0.0,0.0,0.0
 1854,"San Andreas (North Branch Mill Creek), Subsection 2",0.0,0.0,0.0
@@ -1919,14 +1919,14 @@ Subsection Index,Subsection Name,Triggered Mean Count,Triggered 10 Year Prob,Tri
 1917,"San Andreas (Offshore) 2011 CFM, Subsection 21",0.0,0.0,0.0
 1918,"San Andreas (Offshore) 2011 CFM, Subsection 22",0.0,0.0,0.0
 1919,"San Andreas (Offshore) 2011 CFM, Subsection 23",0.0,0.0,0.0
-1920,"San Andreas (Parkfield), Subsection 0",0.001616,0.001616,8.46E-4
-1921,"San Andreas (Parkfield), Subsection 1",0.001616,0.001616,8.46E-4
-1922,"San Andreas (Parkfield), Subsection 2",0.001592,0.001592,8.28E-4
-1923,"San Andreas (Parkfield), Subsection 3",0.001576,0.001576,8.16E-4
-1924,"San Andreas (Parkfield), Subsection 4",0.001568,0.001568,8.1E-4
-1925,"San Andreas (Parkfield), Subsection 5",0.001562,0.001562,8.08E-4
-1926,"San Andreas (Parkfield), Subsection 6",0.001562,0.001562,8.08E-4
-1927,"San Andreas (Parkfield), Subsection 7",0.00155,0.00155,8.04E-4
+1920,"San Andreas (Parkfield), Subsection 0",0.001426,0.001426,7.69E-4
+1921,"San Andreas (Parkfield), Subsection 1",0.001426,0.001426,7.69E-4
+1922,"San Andreas (Parkfield), Subsection 2",0.001407,0.001407,7.57E-4
+1923,"San Andreas (Parkfield), Subsection 3",0.001389,0.001389,7.44E-4
+1924,"San Andreas (Parkfield), Subsection 4",0.00138,0.00138,7.39E-4
+1925,"San Andreas (Parkfield), Subsection 5",0.001367,0.001367,7.32E-4
+1926,"San Andreas (Parkfield), Subsection 6",0.001367,0.001367,7.32E-4
+1927,"San Andreas (Parkfield), Subsection 7",0.001353,0.001353,7.26E-4
 1928,"San Andreas (Peninsula) 2011 CFM, Subsection 0",0.0,0.0,0.0
 1929,"San Andreas (Peninsula) 2011 CFM, Subsection 1",0.0,0.0,0.0
 1930,"San Andreas (Peninsula) 2011 CFM, Subsection 2",0.0,0.0,0.0
@@ -1943,27 +1943,27 @@ Subsection Index,Subsection Name,Triggered Mean Count,Triggered 10 Year Prob,Tri
 1941,"San Andreas (Peninsula) 2011 CFM, Subsection 13",0.0,0.0,0.0
 1942,"San Andreas (Peninsula) 2011 CFM, Subsection 14",0.0,0.0,0.0
 1943,"San Andreas (Peninsula) 2011 CFM, Subsection 15",0.0,0.0,0.0
-1944,"San Andreas (San Bernardino N), Subsection 0",0.002002,0.002002,0.001058
-1945,"San Andreas (San Bernardino N), Subsection 1",0.002002,0.002002,0.001058
-1946,"San Andreas (San Bernardino N), Subsection 2",0.002002,0.002002,0.001058
-1947,"San Andreas (San Bernardino N), Subsection 3",0.002002,0.002002,0.001058
-1948,"San Andreas (San Bernardino N), Subsection 4",0.002002,0.002002,0.001058
-1949,"San Andreas (San Bernardino N), Subsection 5",0.002002,0.002002,0.001058
-1950,"San Andreas (San Bernardino S), Subsection 0",0.002002,0.002002,0.001058
-1951,"San Andreas (San Bernardino S), Subsection 1",0.002002,0.002002,0.001058
-1952,"San Andreas (San Bernardino S), Subsection 2",0.002002,0.002002,0.001058
-1953,"San Andreas (San Bernardino S), Subsection 3",0.002002,0.002002,0.001058
-1954,"San Andreas (San Bernardino S), Subsection 4",0.002002,0.002002,0.001058
-1955,"San Andreas (San Bernardino S), Subsection 5",0.002002,0.002002,0.001058
-1956,"San Andreas (San Bernardino S), Subsection 6",0.002002,0.002002,0.001058
-1957,"San Andreas (San Gorgonio Pass-Garnet HIll), Subsection 0",0.001332,0.001332,7.04E-4
-1958,"San Andreas (San Gorgonio Pass-Garnet HIll), Subsection 1",0.001332,0.001332,7.04E-4
-1959,"San Andreas (San Gorgonio Pass-Garnet HIll), Subsection 2",0.001332,0.001332,7.04E-4
-1960,"San Andreas (San Gorgonio Pass-Garnet HIll), Subsection 3",0.001332,0.001332,7.04E-4
-1961,"San Andreas (San Gorgonio Pass-Garnet HIll), Subsection 4",0.001332,0.001332,7.04E-4
-1962,"San Andreas (San Gorgonio Pass-Garnet HIll), Subsection 5",0.001332,0.001332,7.04E-4
-1963,"San Andreas (San Gorgonio Pass-Garnet HIll), Subsection 6",0.001332,0.001332,7.04E-4
-1964,"San Andreas (San Gorgonio Pass-Garnet HIll), Subsection 7",0.001332,0.001332,7.04E-4
+1944,"San Andreas (San Bernardino N), Subsection 0",0.001801,0.001801,9.65E-4
+1945,"San Andreas (San Bernardino N), Subsection 1",0.001801,0.001801,9.65E-4
+1946,"San Andreas (San Bernardino N), Subsection 2",0.001801,0.001801,9.65E-4
+1947,"San Andreas (San Bernardino N), Subsection 3",0.001801,0.001801,9.65E-4
+1948,"San Andreas (San Bernardino N), Subsection 4",0.001801,0.001801,9.65E-4
+1949,"San Andreas (San Bernardino N), Subsection 5",0.001801,0.001801,9.65E-4
+1950,"San Andreas (San Bernardino S), Subsection 0",0.001801,0.001801,9.65E-4
+1951,"San Andreas (San Bernardino S), Subsection 1",0.001801,0.001801,9.65E-4
+1952,"San Andreas (San Bernardino S), Subsection 2",0.001801,0.001801,9.65E-4
+1953,"San Andreas (San Bernardino S), Subsection 3",0.001801,0.001801,9.65E-4
+1954,"San Andreas (San Bernardino S), Subsection 4",0.001801,0.001801,9.65E-4
+1955,"San Andreas (San Bernardino S), Subsection 5",0.001801,0.001801,9.65E-4
+1956,"San Andreas (San Bernardino S), Subsection 6",0.001801,0.001801,9.65E-4
+1957,"San Andreas (San Gorgonio Pass-Garnet HIll), Subsection 0",0.001184,0.001184,6.27E-4
+1958,"San Andreas (San Gorgonio Pass-Garnet HIll), Subsection 1",0.001184,0.001184,6.27E-4
+1959,"San Andreas (San Gorgonio Pass-Garnet HIll), Subsection 2",0.001184,0.001184,6.27E-4
+1960,"San Andreas (San Gorgonio Pass-Garnet HIll), Subsection 3",0.001184,0.001184,6.27E-4
+1961,"San Andreas (San Gorgonio Pass-Garnet HIll), Subsection 4",0.001184,0.001184,6.27E-4
+1962,"San Andreas (San Gorgonio Pass-Garnet HIll), Subsection 5",0.001184,0.001184,6.27E-4
+1963,"San Andreas (San Gorgonio Pass-Garnet HIll), Subsection 6",0.001184,0.001184,6.27E-4
+1964,"San Andreas (San Gorgonio Pass-Garnet HIll), Subsection 7",0.001184,0.001184,6.27E-4
 1965,"San Andreas (Santa Cruz Mts) 2011 CFM, Subsection 0",0.0,0.0,0.0
 1966,"San Andreas (Santa Cruz Mts) 2011 CFM, Subsection 1",0.0,0.0,0.0
 1967,"San Andreas (Santa Cruz Mts) 2011 CFM, Subsection 2",0.0,0.0,0.0

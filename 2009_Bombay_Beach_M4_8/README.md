@@ -105,13 +105,13 @@ CyberShake Study: Study 15.4 with 336 sites
   * [5s One Year EATS Gains Table](#5s-one-year-eats-gains-table)
 ## Mapping Information
 
-| Num Catalogs | 500000 |
+| Num Catalogs | 1000000 |
 |-----|-----|
-| Mapped Ruptures | 1760 |
-| Mean variations per ruptures | 6.291477 |
+| Mapped Ruptures | 3176 |
+| Mean variations per ruptures | 6.3060455 |
 | Median variations per ruptures | 6.0 |
 | Min variations per ruptures | 1.0 |
-| Max variations per ruptures | 17.0 |
+| Max variations per ruptures | 20.0 |
 
 ## Conditional Hypocenter Distributions
 *[(top)](#table-of-contents)*
@@ -176,9 +176,9 @@ CyberShake Study: Study 15.4 with 336 sites
 | Dividend | Divisor | One Day Min | One Day Max | One Week Min | One Week Max | One Year Min | One Year Max |
 |-----|-----|-----|-----|-----|-----|-----|-----|
 | CyberShake, TD | CyberShake, TI | 1.088 at 1.585 g | 1.445 at 0.158 g | 1.088 at 1.585 g | 1.445 at 0.158 g | 1.088 at 1.585 g | 1.443 at 0.158 g |
-| CyberShake, Uniform ETAS | CyberShake, TD | 0.393 at 1.059 g | 10.982 at 0.211 g | 0.393 at 1.059 g | 10.285 at 1.496 g | 0.393 at 1.059 g | 10.285 at 1.496 g |
-| CyberShake, ETAS | CyberShake, TD | 0.393 at 1.059 g | 76.372 at 0.531 g | 0.393 at 1.059 g | 16.254 at 0.531 g | 0.393 at 1.059 g | 10.285 at 1.496 g |
-| CyberShake, ETAS | CyberShake, Uniform ETAS | 0.226 at 0.631 g | 14.326 at 0.531 g | 0.553 at 0.631 g | 7.893 at 0.531 g | 0.973 at 0.631 g | 1.453 at 0.531 g |
+| CyberShake, Uniform ETAS | CyberShake, TD | 0.393 at 1.059 g | 10.285 at 1.496 g | 0.393 at 1.059 g | 10.285 at 1.496 g | 0.393 at 1.059 g | 10.285 at 1.496 g |
+| CyberShake, ETAS | CyberShake, TD | 0.393 at 1.059 g | 59.228 at 0.531 g | 0.393 at 1.059 g | 12.083 at 0.531 g | 0.393 at 1.059 g | 10.285 at 1.496 g |
+| CyberShake, ETAS | CyberShake, Uniform ETAS | 0.270 at 0.631 g | 13.244 at 0.531 g | 0.637 at 0.631 g | 6.858 at 0.531 g | 0.980 at 0.631 g | 1.349 at 0.531 g |
 
 #### GMPE SBSM Hazard Curves
 *[(top)](#table-of-contents)*
@@ -195,9 +195,9 @@ CyberShake Study: Study 15.4 with 336 sites
 | Dividend | Divisor | One Day Min | One Day Max | One Week Min | One Week Max | One Year Min | One Year Max |
 |-----|-----|-----|-----|-----|-----|-----|-----|
 | ASK2014, TD | ASK2014, TI | 1.159 at 0.010 g | 1.348 at 0.100 g | 1.159 at 0.010 g | 1.348 at 0.100 g | 1.154 at 0.010 g | 1.346 at 0.100 g |
-| ASK2014, ETAS | ASK2014, TD | 2.245 at 10.000 g | 5.155 at 0.010 g | 1.322 at 10.000 g | 1.918 at 0.010 g | 1.012 at 10.000 g | 1.032 at 0.010 g |
-| ASK2014+BS13 Directivity, ETAS | ASK2014, TD | 4.701 at 0.025 g | 8.275 at 0.794 g | 1.809 at 0.032 g | 2.602 at 0.794 g | 1.029 at 0.025 g | 1.058 at 0.794 g |
-| ASK2014+BS13 Directivity, ETAS | ASK2014, ETAS | 1.006 at 0.010 g | 2.971 at 10.000 g | 1.003 at 0.010 g | 1.718 at 3.162 g | 1.000 at 0.010 g | 1.036 at 2.512 g |
+| ASK2014, ETAS | ASK2014, TD | 2.019 at 10.000 g | 4.796 at 0.010 g | 1.233 at 10.000 g | 1.811 at 0.010 g | 1.010 at 10.000 g | 1.027 at 0.010 g |
+| ASK2014+BS13 Directivity, ETAS | ASK2014, TD | 4.084 at 0.032 g | 6.704 at 0.794 g | 1.658 at 0.032 g | 2.182 at 0.794 g | 1.023 at 0.032 g | 1.044 at 1.000 g |
+| ASK2014+BS13 Directivity, ETAS | ASK2014, ETAS | 1.005 at 0.010 g | 2.629 at 10.000 g | 1.003 at 0.010 g | 1.555 at 2.512 g | 1.000 at 0.010 g | 1.027 at 2.512 g |
 
 ### MRSD Hazard Curves
 *[(top)](#table-of-contents)*
@@ -221,9 +221,9 @@ CyberShake Study: Study 15.4 with 336 sites
 | Dividend | Divisor | One Day Min | One Day Max | One Week Min | One Week Max | One Year Min | One Year Max |
 |-----|-----|-----|-----|-----|-----|-----|-----|
 | CyberShake, TD | CyberShake, TI | 0.988 at 0.316 g | 1.494 at 0.100 g | 0.988 at 0.316 g | 1.494 at 0.100 g | 0.988 at 0.316 g | 1.494 at 0.100 g |
-| CyberShake, Uniform ETAS | CyberShake, TD | 0.740 at 0.299 g | 7.201 at 0.060 g | 0.740 at 0.299 g | 2.405 at 0.060 g | 0.740 at 0.299 g | 1.122 at 0.266 g |
-| CyberShake, ETAS | CyberShake, TD | 0.740 at 0.299 g | 21.905 at 0.141 g | 0.740 at 0.299 g | 6.147 at 0.141 g | 0.740 at 0.299 g | 1.210 at 0.141 g |
-| CyberShake, ETAS | CyberShake, Uniform ETAS | 0.502 at 0.150 g | 8.265 at 0.141 g | 0.898 at 0.067 g | 4.284 at 0.141 g | 0.994 at 0.067 g | 1.155 at 0.141 g |
+| CyberShake, Uniform ETAS | CyberShake, TD | 0.740 at 0.299 g | 6.065 at 0.060 g | 0.740 at 0.299 g | 2.080 at 0.038 g | 0.740 at 0.299 g | 1.122 at 0.266 g |
+| CyberShake, ETAS | CyberShake, TD | 0.740 at 0.299 g | 20.036 at 0.141 g | 0.740 at 0.299 g | 5.044 at 0.141 g | 0.740 at 0.299 g | 1.174 at 0.141 g |
+| CyberShake, ETAS | CyberShake, Uniform ETAS | 0.634 at 0.158 g | 8.586 at 0.141 g | 0.921 at 0.071 g | 3.817 at 0.141 g | 0.996 at 0.067 g | 1.125 at 0.141 g |
 
 #### GMPE MRSD Hazard Curves
 *[(top)](#table-of-contents)*
@@ -240,9 +240,9 @@ CyberShake Study: Study 15.4 with 336 sites
 | Dividend | Divisor | One Day Min | One Day Max | One Week Min | One Week Max | One Year Min | One Year Max |
 |-----|-----|-----|-----|-----|-----|-----|-----|
 | ASK2014, TD | ASK2014, TI | 0.833 at 5.012 g | 1.276 at 0.063 g | 0.821 at 6.310 g | 1.276 at 0.063 g | 0.872 at 7.943 g | 1.276 at 0.063 g |
-| ASK2014, ETAS | ASK2014, TD | 1.000 at 6.310 g | 3.835 at 0.079 g | 1.389 at 3.981 g | 2.000 at 7.943 g | 1.000 at 10.000 g | 1.024 at 0.100 g |
-| ASK2014+BS13 Directivity, ETAS | ASK2014, TD | 3.500 at 6.310 g | 8.420 at 0.398 g | 1.500 at 7.943 g | 2.810 at 0.501 g | 1.000 at 10.000 g | 1.061 at 0.501 g |
-| ASK2014+BS13 Directivity, ETAS | ASK2014, ETAS | 1.029 at 0.010 g | 4.690 at 5.012 g | 0.750 at 7.943 g | 1.815 at 0.794 g | 1.000 at 10.000 g | 1.042 at 0.631 g |
+| ASK2014, ETAS | ASK2014, TD | 1.000 at 6.310 g | 3.259 at 0.079 g | 1.307 at 3.981 g | 1.503 at 0.126 g | 1.000 at 10.000 g | 1.018 at 0.100 g |
+| ASK2014+BS13 Directivity, ETAS | ASK2014, TD | 3.135 at 0.013 g | 6.922 at 0.398 g | 1.000 at 7.943 g | 2.334 at 0.501 g | 1.000 at 10.000 g | 1.046 at 0.501 g |
+| ASK2014+BS13 Directivity, ETAS | ASK2014, ETAS | 1.028 at 0.010 g | 4.250 at 5.012 g | 0.667 at 7.943 g | 1.658 at 0.794 g | 0.995 at 7.943 g | 1.032 at 0.631 g |
 
 ### STNI Hazard Curves
 *[(top)](#table-of-contents)*
@@ -266,9 +266,9 @@ CyberShake Study: Study 15.4 with 336 sites
 | Dividend | Divisor | One Day Min | One Day Max | One Week Min | One Week Max | One Year Min | One Year Max |
 |-----|-----|-----|-----|-----|-----|-----|-----|
 | CyberShake, TD | CyberShake, TI | 0.887 at 1.000 g | 1.266 at 0.126 g | 0.887 at 1.000 g | 1.266 at 0.126 g | 0.887 at 1.000 g | 1.265 at 0.126 g |
-| CyberShake, Uniform ETAS | CyberShake, TD | 0.957 at 0.708 g | 5.338 at 0.188 g | 0.957 at 0.708 g | 2.440 at 1.189 g | 0.957 at 0.708 g | 2.440 at 1.189 g |
-| CyberShake, ETAS | CyberShake, TD | 0.957 at 0.708 g | 24.545 at 0.376 g | 0.957 at 0.708 g | 6.627 at 0.376 g | 0.957 at 0.708 g | 2.440 at 1.189 g |
-| CyberShake, ETAS | CyberShake, Uniform ETAS | 0.684 at 0.422 g | 8.702 at 0.376 g | 0.923 at 0.473 g | 4.548 at 0.376 g | 0.997 at 0.473 g | 1.172 at 0.376 g |
+| CyberShake, Uniform ETAS | CyberShake, TD | 0.957 at 0.708 g | 4.471 at 0.188 g | 0.957 at 0.708 g | 2.440 at 1.189 g | 0.957 at 0.708 g | 2.440 at 1.189 g |
+| CyberShake, ETAS | CyberShake, TD | 0.957 at 0.708 g | 21.615 at 0.376 g | 0.957 at 0.708 g | 5.361 at 0.376 g | 0.957 at 0.708 g | 2.440 at 1.189 g |
+| CyberShake, ETAS | CyberShake, Uniform ETAS | 0.645 at 0.422 g | 8.860 at 0.376 g | 0.949 at 0.473 g | 4.017 at 0.376 g | 0.998 at 0.473 g | 1.136 at 0.376 g |
 
 #### GMPE STNI Hazard Curves
 *[(top)](#table-of-contents)*
@@ -285,9 +285,9 @@ CyberShake Study: Study 15.4 with 336 sites
 | Dividend | Divisor | One Day Min | One Day Max | One Week Min | One Week Max | One Year Min | One Year Max |
 |-----|-----|-----|-----|-----|-----|-----|-----|
 | ASK2014, TD | ASK2014, TI | 0.897 at 7.943 g | 1.226 at 0.126 g | 0.899 at 10.000 g | 1.226 at 0.126 g | 0.910 at 10.000 g | 1.226 at 0.126 g |
-| ASK2014, ETAS | ASK2014, TD | 1.238 at 7.943 g | 4.204 at 0.010 g | 1.049 at 10.000 g | 1.713 at 0.010 g | 1.001 at 10.000 g | 1.024 at 0.010 g |
-| ASK2014+BS13 Directivity, ETAS | ASK2014, TD | 3.137 at 7.943 g | 5.492 at 0.631 g | 1.455 at 7.943 g | 2.006 at 0.631 g | 1.014 at 10.000 g | 1.034 at 0.631 g |
-| ASK2014+BS13 Directivity, ETAS | ASK2014, ETAS | 1.001 at 0.010 g | 2.972 at 10.000 g | 1.001 at 0.010 g | 1.568 at 1.259 g | 1.000 at 0.010 g | 1.024 at 1.000 g |
+| ASK2014, ETAS | ASK2014, TD | 1.194 at 7.943 g | 3.936 at 0.010 g | 1.037 at 7.943 g | 1.629 at 0.010 g | 1.001 at 10.000 g | 1.021 at 0.010 g |
+| ASK2014+BS13 Directivity, ETAS | ASK2014, TD | 2.345 at 10.000 g | 4.604 at 0.631 g | 1.201 at 10.000 g | 1.733 at 0.501 g | 1.007 at 10.000 g | 1.026 at 0.631 g |
+| ASK2014+BS13 Directivity, ETAS | ASK2014, ETAS | 1.001 at 0.010 g | 2.488 at 1.995 g | 1.001 at 0.010 g | 1.434 at 1.259 g | 1.000 at 0.010 g | 1.018 at 1.000 g |
 
 ### PDU Hazard Curves
 *[(top)](#table-of-contents)*
@@ -311,9 +311,9 @@ CyberShake Study: Study 15.4 with 336 sites
 | Dividend | Divisor | One Day Min | One Day Max | One Week Min | One Week Max | One Year Min | One Year Max |
 |-----|-----|-----|-----|-----|-----|-----|-----|
 | CyberShake, TD | CyberShake, TI | 1.193 at 0.010 g | 1.663 at 0.316 g | 1.193 at 0.010 g | 1.663 at 0.316 g | 1.188 at 0.010 g | 1.663 at 0.316 g |
-| CyberShake, Uniform ETAS | CyberShake, TD | 0.788 at 0.376 g | 6.660 at 0.071 g | 0.788 at 0.376 g | 2.273 at 0.071 g | 0.788 at 0.376 g | 1.353 at 0.335 g |
-| CyberShake, ETAS | CyberShake, TD | 0.788 at 0.376 g | 15.023 at 0.168 g | 0.788 at 0.376 g | 4.334 at 0.168 g | 0.788 at 0.376 g | 1.353 at 0.335 g |
-| CyberShake, ETAS | CyberShake, Uniform ETAS | 0.476 at 0.178 g | 6.123 at 0.168 g | 0.785 at 0.178 g | 3.134 at 0.168 g | 0.991 at 0.178 g | 1.099 at 0.168 g |
+| CyberShake, Uniform ETAS | CyberShake, TD | 0.788 at 0.376 g | 5.642 at 0.071 g | 0.788 at 0.376 g | 1.977 at 0.071 g | 0.788 at 0.376 g | 1.353 at 0.335 g |
+| CyberShake, ETAS | CyberShake, TD | 0.788 at 0.376 g | 13.632 at 0.168 g | 0.788 at 0.376 g | 3.638 at 0.168 g | 0.788 at 0.376 g | 1.353 at 0.335 g |
+| CyberShake, ETAS | CyberShake, Uniform ETAS | 0.532 at 0.178 g | 6.294 at 0.168 g | 0.844 at 0.178 g | 2.858 at 0.168 g | 0.993 at 0.178 g | 1.080 at 0.168 g |
 
 #### GMPE PDU Hazard Curves
 *[(top)](#table-of-contents)*
@@ -330,9 +330,9 @@ CyberShake Study: Study 15.4 with 336 sites
 | Dividend | Divisor | One Day Min | One Day Max | One Week Min | One Week Max | One Year Min | One Year Max |
 |-----|-----|-----|-----|-----|-----|-----|-----|
 | ASK2014, TD | ASK2014, TI | 1.135 at 0.010 g | 1.550 at 6.310 g | 1.135 at 0.010 g | 1.550 at 7.943 g | 1.131 at 0.010 g | 1.317 at 10.000 g |
-| ASK2014, ETAS | ASK2014, TD | 3.813 at 0.025 g | 5.935 at 6.310 g | 1.619 at 0.025 g | 2.129 at 7.943 g | 1.024 at 0.020 g | 1.031 at 10.000 g |
-| ASK2014+BS13 Directivity, ETAS | ASK2014, TD | 4.011 at 0.020 g | 49.194 at 6.310 g | 1.664 at 0.020 g | 12.548 at 7.943 g | 1.025 at 0.016 g | 1.280 at 7.943 g |
-| ASK2014+BS13 Directivity, ETAS | ASK2014, ETAS | 1.012 at 0.010 g | 10.000 at 10.000 g | 1.007 at 0.010 g | 7.500 at 10.000 g | 1.000 at 0.010 g | 1.244 at 7.943 g |
+| ASK2014, ETAS | ASK2014, TD | 3.304 at 0.032 g | 4.968 at 6.310 g | 1.493 at 0.032 g | 1.839 at 7.943 g | 1.019 at 0.025 g | 1.023 at 0.501 g |
+| ASK2014+BS13 Directivity, ETAS | ASK2014, TD | 3.512 at 0.020 g | 39.290 at 6.310 g | 1.541 at 0.020 g | 9.097 at 7.943 g | 1.020 at 0.020 g | 1.202 at 7.943 g |
+| ASK2014+BS13 Directivity, ETAS | ASK2014, ETAS | 1.011 at 0.010 g | 9.667 at 7.943 g | 1.006 at 0.010 g | 5.500 at 10.000 g | 1.000 at 0.010 g | 1.176 at 7.943 g |
 
 ## Hazard Maps
 *[(top)](#table-of-contents)*
